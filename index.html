@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marco Papa | AI · CS · Building</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --surface-hover: #1a1a20;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+            --accent-glow: rgba(59, 130, 246, 0.15);
+            --green: #22c55e;
+            --orange: #f59e0b;
+            --red: #ef4444;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* ── Header ── */
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+
+        .logo span { color: var(--accent); }
+
+        nav {
+            display: flex;
+            gap: 0;
+        }
+
+        .tab {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--text-dim);
+            background: none;
+            border: none;
+            padding: 20px 20px;
+            cursor: pointer;
+            position: relative;
+            transition: color 0.2s;
+        }
+
+        .tab:hover { color: var(--text); }
+
+        .tab.active {
+            color: var(--accent);
+        }
+
+        .tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 20px;
+            right: 20px;
+            height: 2px;
+            background: var(--accent);
+            border-radius: 2px 2px 0 0;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+        }
+
+        .social-links a {
+            color: var(--text-dim);
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-family: 'Space Mono', monospace;
+            transition: color 0.2s;
+        }
+
+        .social-links a:hover { color: var(--accent); }
+
+        /* ── Main ── */
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .page { display: none; }
+        .page.active { display: block; }
+
+        /* ── Home Page ── */
+        .hero {
+            padding: 2rem 0 3rem;
+        }
+
+        .hero-tag {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .hero-tag .dot {
+            width: 6px;
+            height: 6px;
+            background: var(--green);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 1.5rem;
+            letter-spacing: -1px;
+        }
+
+        .hero h1 .highlight {
+            background: linear-gradient(135deg, var(--accent), #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-desc {
+            font-size: 1.15rem;
+            color: var(--text-dim);
+            max-width: 600px;
+            line-height: 1.7;
+            margin-bottom: 2rem;
+        }
+
+        .hero-links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .hero-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.82rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .hero-link:hover {
+            border-color: var(--accent);
+            background: var(--accent-glow);
+        }
+
+        .hero-link .arrow { color: var(--accent); margin-left: 6px; }
+
+        /* ── Stats ── */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 3rem 0;
+        }
+
+        .stat {
+            background: var(--surface);
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--accent);
+        }
+
+        .stat-label {
+            font-size: 0.82rem;
+            color: var(--text-dim);
+            margin-top: 4px;
+        }
+
+        /* ── Current Section ── */
+        .section-title {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1.2rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .courses {
+            display: grid;
+            gap: 12px;
+            margin-bottom: 3rem;
+        }
+
+        .course {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.2rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: border-color 0.2s;
+        }
+
+        .course:hover { border-color: var(--accent); }
+
+        .course-code {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        .course-name {
+            font-size: 0.95rem;
+            color: var(--text);
+            margin-left: 12px;
+        }
+
+        .course-tag {
+            font-size: 0.75rem;
+            font-family: 'Space Mono', monospace;
+            color: var(--text-dim);
+            background: var(--bg);
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+
+        /* ── About Page ── */
+        .about-content {
+            max-width: 700px;
+        }
+
+        .about-content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .about-content p {
+            color: var(--text-dim);
+            margin-bottom: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .about-content a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .about-content a:hover { text-decoration: underline; }
+
+        .about-section {
+            margin-bottom: 2.5rem;
+        }
+
+        .about-section h3 {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        /* ── Briefings Page ── */
+        .briefings-header {
+            margin-bottom: 2rem;
+        }
+
+        .briefings-header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+
+        .briefings-header p {
+            color: var(--text-dim);
+            font-size: 1rem;
+        }
+
+        .briefing-list {
+            display: grid;
+            gap: 8px;
+        }
+
+        .briefing-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.2rem 1.5rem;
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s;
+        }
+
+        .briefing-item:hover {
+            border-color: var(--accent);
+            background: var(--surface-hover);
+        }
+
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.9rem;
+            color: var(--accent);
+            font-weight: 700;
+            min-width: 130px;
+        }
+
+        .briefing-title {
+            font-size: 0.95rem;
+            color: var(--text);
+            flex: 1;
+            margin-left: 16px;
+        }
+
+        .briefing-count {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+
+        .briefing-empty {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-dim);
+        }
+
+        .briefing-empty .emoji {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* ── Footer ── */
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+
+        footer a {
+            color: var(--text-dim);
+            text-decoration: none;
+        }
+
+        footer a:hover { color: var(--accent); }
+
+        /* ── Responsive ── */
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 2rem; }
+            .stats { grid-template-columns: 1fr; }
+            .header-inner { flex-wrap: wrap; height: auto; padding: 12px 0; }
+            nav { width: 100%; justify-content: center; }
+            .social-links { display: none; }
+            .course { flex-direction: column; align-items: flex-start; gap: 8px; }
+            .briefing-item { flex-direction: column; align-items: flex-start; gap: 8px; }
+            footer { flex-direction: column; gap: 8px; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="#" class="logo" onclick="showPage('home')">marco<span>.ai</span></a>
+            <nav>
+                <button class="tab active" onclick="showPage('home')">Home</button>
+                <button class="tab" onclick="showPage('about')">About</button>
+                <button class="tab" onclick="showPage('briefings')">Briefings</button>
+            </nav>
+            <div class="social-links">
+                <a href="https://x.com/marcopapa99" target="_blank">@X</a>
+                <a href="https://sites.usc.edu/marcopapa/" target="_blank">USC</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ── HOME ── -->
+        <div id="page-home" class="page active">
+            <div class="hero">
+                <div class="hero-tag">
+                    <span class="dot"></span>
+                    CS Faculty · USC Viterbi · Building with AI daily
+                </div>
+                <h1>Marco Papa<br><span class="highlight">AI &amp; Computer Science</span></h1>
+                <p class="hero-desc">
+                    Senior Lecturer at USC Viterbi School of Engineering with 22+ years teaching 
+                    computer science. Pioneer of AI-assisted development in CS education. 
+                    Teaching 1,000+ students annually across software development, web technologies, 
+                    and agentic AI.
+                </p>
+                <div class="hero-links">
+                    <a href="https://sites.usc.edu/marcopapa/" target="_blank" class="hero-link">
+                        USC Homepage <span class="arrow">→</span>
+                    </a>
+                    <a href="https://x.com/marcopapa99" target="_blank" class="hero-link">
+                        @marcopapa99 <span class="arrow">→</span>
+                    </a>
+                    <a href="#" onclick="showPage('briefings')" class="hero-link">
+                        AI Briefings <span class="arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value">22+</div>
+                    <div class="stat-label">Years at USC</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">1,000+</div>
+                    <div class="stat-label">Students / Year</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">3</div>
+                    <div class="stat-label">Courses</div>
+                </div>
+            </div>
+
+            <div class="section-title">Current Courses — Spring 2026</div>
+            <div class="courses">
+                <div class="course">
+                    <div>
+                        <span class="course-code">CSCI 201</span>
+                        <span class="course-name">Principles of Software Development</span>
+                    </div>
+                    <span class="course-tag">Java</span>
+                </div>
+                <div class="course">
+                    <div>
+                        <span class="course-code">CSCI 571</span>
+                        <span class="course-name">Web Technologies</span>
+                    </div>
+                    <span class="course-tag">Full Stack</span>
+                </div>
+                <div class="course">
+                    <div>
+                        <span class="course-code">CSCI 599</span>
+                        <span class="course-name">Agentic AI</span>
+                    </div>
+                    <span class="course-tag">New · Fall 2026</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── ABOUT ── -->
+        <div id="page-about" class="page">
+            <div class="about-content">
+                <h2>About</h2>
+
+                <div class="about-section">
+                    <h3>Background</h3>
+                    <p>
+                        Marco Papa is a Senior Lecturer in Computer Science at the 
+                        <a href="https://viterbi.usc.edu/" target="_blank">Viterbi School of Engineering</a>, 
+                        University of Southern California. His expertise spans web technologies, 
+                        programming languages, and AI-assisted software development.
+                    </p>
+                    <p>
+                        Before USC, Marco held leadership roles as CTO at CareerBuilder and Luckman Interactive, 
+                        VP of Technology at US Interactive, and Director of Technology at Xceed — building 
+                        websites for CBS, Hilton, and Universal Studios. He also served as Chief Technologist 
+                        at the Superior Court of California, County of Los Angeles — the largest court system in the world.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3>Education</h3>
+                    <p>
+                        Ph.D. in Computer Science from USC, specializing in Computer Graphics (1988). 
+                        B.S. in Electrical Engineering from the University of Bologna, Italy — Summa Cum Laude.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3>AI in Education</h3>
+                    <p>
+                        Marco is a pioneer of "vibe coding" — AI-assisted development methodology integrated 
+                        across his courses. He publicly advocates that teaching AI-assisted coding is an 
+                        obligation for CS educators: "resistance is futile." His upcoming CSCI 599 course on 
+                        Agentic AI covers LangGraph, OpenAI Agents SDK, Google ADK, MCP, and the A2A protocol.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3>Personal</h3>
+                    <p>
+                        Originally from Bologna, Italy, Marco has lived in the Los Angeles area for more than 
+                        four decades. He lives in the South Bay with his wife, Kerry, and their two cats, 
+                        Franco and Luca. He's an active stock investor with interests in AI infrastructure plays 
+                        and enjoys home automation projects.
+                    </p>
+                </div>
+
+                <div class="about-section">
+                    <h3>Links</h3>
+                    <p>
+                        <a href="https://sites.usc.edu/marcopapa/" target="_blank">USC Homepage</a> · 
+                        <a href="https://viterbi.usc.edu/directory/faculty/Papa/Marco" target="_blank">Viterbi Directory</a> · 
+                        <a href="https://x.com/marcopapa99" target="_blank">X / Twitter</a> · 
+                        <a href="mailto:papa@usc.edu">papa@usc.edu</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ── BRIEFINGS ── -->
+        <div id="page-briefings" class="page">
+            <div class="briefings-header">
+                <h2>🤖 AI Briefings</h2>
+                <p>Daily AI news with opinionated hot takes. Curated from X and the web, posted to <a href="https://x.com/marcopapa99" target="_blank" style="color:var(--accent)">@marcopapa99</a>.</p>
+            </div>
+
+            <div class="briefing-list" id="briefing-list">
+                <!-- Briefings will be listed here -->
+                <!-- Each briefing is a link to /briefings/YYYY-MM-DD.html -->
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Marco Papa</p>
+        <p>
+            <a href="https://sites.usc.edu/marcopapa/" target="_blank">USC</a> · 
+            <a href="https://x.com/marcopapa99" target="_blank">X</a>
+        </p>
+    </footer>
+
+    <script>
+        function showPage(page) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.getElementById('page-' + page).classList.add('active');
+            document.querySelectorAll('.tab').forEach(t => {
+                if (t.textContent.toLowerCase() === page) t.classList.add('active');
+            });
+            window.scrollTo(0, 0);
+            if (page === 'briefings') loadBriefings();
+        }
+
+        // Load briefings index
+        function loadBriefings() {
+            const list = document.getElementById('briefing-list');
+            
+            fetch('briefings/index.json')
+                .then(r => r.json())
+                .then(data => {
+                    if (!data.briefings || data.briefings.length === 0) {
+                        showEmptyState();
+                        return;
+                    }
+                    list.innerHTML = data.briefings.map(b => `
+                        <a href="briefings/${b.file}" class="briefing-item">
+                            <span class="briefing-date">${b.date}</span>
+                            <span class="briefing-title">${b.title}</span>
+                            <span class="briefing-count">${b.stories} stories</span>
+                        </a>
+                    `).join('');
+                })
+                .catch(() => {
+                    showEmptyState();
+                });
+        }
+
+        function showEmptyState() {
+            const list = document.getElementById('briefing-list');
+            list.innerHTML = `
+                <div class="briefing-empty">
+                    <div class="emoji">🤖</div>
+                    <p>No briefings yet. Check back tomorrow morning.</p>
+                    <p style="margin-top:8px;font-size:0.85rem;">Follow <a href="https://x.com/marcopapa99" target="_blank" style="color:var(--accent)">@marcopapa99</a> for daily AI briefings on X.</p>
+                </div>
+            `;
+        }
+
+        // Handle hash navigation
+        if (window.location.hash) {
+            const page = window.location.hash.slice(1);
+            if (['home', 'about', 'briefings'].includes(page)) {
+                showPage(page);
+            }
+        }
+    </script>
+</body>
+</html>

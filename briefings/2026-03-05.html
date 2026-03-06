@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — March 5, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marco<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">March 5, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            5 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🍎</span>
+            <h3>MacBook Neo drops at 8GB RAM</h3>
+            <p>Shipping 8GB RAM in 2026 is criminal for anyone touching local LLMs. As @steipete noted, it's just "rough"—great for browsing, dead on arrival for builders. Stop buying toys.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2029204229416435819" target="_blank">Source: x.com/steipete →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🎓</span>
+            <h3>OpenAI's Learning Measurement</h3>
+            <p>New suite to track AI's impact on longitudinal learning progress. Finally, we move past testing the AI's knowledge to measuring how it actually changes a student's cognitive growth.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/understanding-ai-and-learning-outcomes/" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛠️</span>
+            <h3>The kids are alright (and building)</h3>
+            <p>A team of 19-year-olds in SF just built a 30PB storage cluster for ~$500k as a side quest. If you're wondering what "high agency" looks like, this is it—they didn't wait for AWS, they built the infra themselves.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2029391960159740003" target="_blank">Source: x.com/deedydas →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🚀</span>
+            <h3>Gemini 3.1 Pro's ARC-AGI Leap</h3>
+            <p>Scoring 77.1% on ARC-AGI-2, this model isn't just scaling; it's finally reasoning. Seeing it debug code live is a reality check—the barrier to production-ready agentic workflows just got much lower.</p>
+            <div class="story-source">
+                <a href="https://x.com/geminicli/status/2029280787565019163" target="_blank">Source: x.com/geminicli →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏗️</span>
+            <h3>Infrastructure is the Only Game</h3>
+            <p>Forget the SaaS fluff; the real story is AMD and Meta's $100B infra play. Compute is the new sovereign oil—whoever controls the data centers controls the agents.</p>
+            <div class="story-source">
+                <a href="https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-march-2026" target="_blank">Source: datacenterknowledge.com →</a>
+            </div>
+        </div>
+
+        <a href="https://x.com/marcopapa99/status/2029475400443936819" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
