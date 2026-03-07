@@ -1,9 +1,15 @@
 {
   "briefings": [
     {
-      "date": "March 5th, 2026",
+      "date": "March 07, 2026",
+      "file": "2026-03-07.html",
+      "title": "Claude Finds Firefox Flaws, OpenAI\u2019s $730B Valuation, Block\u2019s AI Pivot",
+      "stories": 5
+    },
+    {
+      "date": "March 6, 2026",
       "file": "2026-03-06.html",
-      "title": "**GPT-5.4 is here:** OpenAI just dropped, **Math just got crushed:** GPT-5.4 hit 3, **The Agentic Shift:** 40% of mid-market",
+      "title": "GPT-5.4 is here: OpenAI just dropped, Math just got crushed: GPT-5.4 hit 3, The Agentic Shift: 40% of mid-market",
       "stories": 5
     },
     {
