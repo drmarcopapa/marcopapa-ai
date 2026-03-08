@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 8, 2026",
+      "file": "2026-03-08.html",
+      "title": "Karpathy\u2019s \u201cAutoresearch\u201d Repo, Sama\u2019s \u201cGPT-5.4\u201d Personality Pivot, The \u201cPro-Human Declaration\u201d",
+      "stories": 5
+    },
+    {
       "date": "March 7, 2026",
       "file": "2026-03-07.html",
       "title": "Claude Finds Firefox Flaws, OpenAI\u2019s $730B Valuation, Block\u2019s AI Pivot",
