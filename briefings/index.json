@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 12, 2026",
+      "file": "2026-03-12.html",
+      "title": "GPT-5.5's Reasoning Leap, Anthropic's Red-Teaming Agent, Gemini's Global Edge",
+      "stories": 5
+    },
+    {
       "date": "March 11, 2026",
       "file": "2026-03-11.html",
       "title": "Gemini 3 Pro Active Memory, Murati x Nvidia, The Enterprise \"Messy Middle\"",
