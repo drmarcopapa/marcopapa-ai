@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 13, 2026",
+      "file": "2026-03-13.html",
+      "title": "The \"Junior Developer\" Reskilling Crisis, JAX for LLMs, Anthropic's Red-Teaming Agent",
+      "stories": 5
+    },
+    {
       "date": "March 12, 2026",
       "file": "2026-03-12.html",
       "title": "The IDE is dead, long live the agent IDE, USC study exposes autonomous propaganda , Meta betting big on custom silicon",
