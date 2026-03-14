@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 14, 2026",
+      "file": "2026-03-14.html",
+      "title": "Opus 4.6 Default, Yann LeCun's AMI Labs, The Lobster Sees All",
+      "stories": 5
+    },
+    {
       "date": "March 13, 2026",
       "file": "2026-03-13.html",
       "title": "LeCun\u2019s AMI Labs Hits $1.03B Seed, OpenAI Gobbles Up Promptfoo, Google\u2019s Aletheia",
