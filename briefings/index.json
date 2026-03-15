@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 15, 2026",
+      "file": "2026-03-15.html",
+      "title": "Claude Usage Shifts, OpenClaw Memory Plugins, GPT-5.4 Arrives",
+      "stories": 5
+    },
+    {
       "date": "March 14, 2026",
       "file": "2026-03-14.html",
       "title": "Opus 4.6 Default, Yann LeCun's AMI Labs, The Lobster Sees All",
