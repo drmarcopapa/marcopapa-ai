@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 16, 2026",
+      "file": "2026-03-16.html",
+      "title": "NVIDIA GTC 2026 Kicks Off, OpenAI Drops GPT-5.4, Steipete\u2019s Mention-Blocker",
+      "stories": 5
+    },
+    {
       "date": "March 15, 2026",
       "file": "2026-03-15.html",
       "title": "Claude Usage Shifts, OpenClaw Memory Plugins, GPT-5.4 Arrives",
