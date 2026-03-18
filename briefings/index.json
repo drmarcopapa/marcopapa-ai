@@ -2,6 +2,12 @@
   "briefings": [
     {
       "date": "March 17, 2026",
+      "file": "2026-03-18.html",
+      "title": "Codex usage exploding, NVIDIA Dynamo 1.0 hits production, Context Hub momentum",
+      "stories": 5
+    },
+    {
+      "date": "March 17, 2026",
       "file": "2026-03-17.html",
       "title": "Codex usage exploding, NVIDIA Dynamo 1.0 hits production, Context Hub momentum",
       "stories": 5
