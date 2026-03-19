@@ -1,7 +1,13 @@
 {
   "briefings": [
     {
-      "date": "March 17, 2026",
+      "date": "March 19, 2026",
+      "file": "2026-03-19.html",
+      "title": "Karpathy\u2019s New Toy, Claude\u2019s Qualitative Scale, Seeing Through Walls",
+      "stories": 5
+    },
+    {
+      "date": "March 18, 2026",
       "file": "2026-03-18.html",
       "title": "Samsung & AMD Team Up, Google\u2019s Personal Intelligence, Acalvio\u2019s Cyber Deception",
       "stories": 5
