@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 20, 2026",
+      "file": "2026-03-20.html",
+      "title": "Nvidia\u2019s Data Factory, Google\u2019s Stitch Revamp, State-Level AI Regulation",
+      "stories": 5
+    },
+    {
       "date": "March 19, 2026",
       "file": "2026-03-19.html",
       "title": "Karpathy\u2019s New Toy, Claude\u2019s Qualitative Scale, Seeing Through Walls",
