@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 21, 2026",
+      "file": "2026-03-21.html",
+      "title": "The \"No Coding\" Era is officially here, NVIDIA keeps pushing the ceiling, ClawHub optimizations are paying off",
+      "stories": 5
+    },
+    {
       "date": "March 20, 2026",
       "file": "2026-03-20.html",
       "title": "Nvidia\u2019s Data Factory, Google\u2019s Stitch Revamp, State-Level AI Regulation",
