@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 23, 2026",
+      "file": "2026-03-23.html",
+      "title": "OpenAI x AWS, Adaptive Thinking, Humanoid Deployment",
+      "stories": 5
+    },
+    {
       "date": "March 22, 2026",
       "file": "2026-03-22.html",
       "title": "Elon\u2019s \"Terafab\" in Space, CrowdStrike x Nebius Cloud, SCE & ThinkLabs Physics AI",
