@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 24, 2026",
+      "file": "2026-03-24.html",
+      "title": "Anthropic's tiny Labs team shipped the w, Anthropic drew a line in the sand with t, OpenClaw just dropped two massive releas",
+      "stories": 5
+    },
+    {
       "date": "March 23, 2026",
       "file": "2026-03-23.html",
       "title": "AI De-anonymization, Musk's $20B Terafab, OpenAI Expansion",
