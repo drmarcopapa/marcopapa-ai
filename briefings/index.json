@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 25, 2026",
+      "file": "2026-03-25.html",
+      "title": "LiteLLM Supply Chain Attack, OpenAI Pulls Plug on Sora, Washington State AI Law",
+      "stories": 5
+    },
+    {
       "date": "March 24, 2026",
       "file": "2026-03-24.html",
       "title": "Anthropic's tiny Labs team shipped the w, Anthropic drew a line in the sand with t, OpenClaw just dropped two massive releas",
