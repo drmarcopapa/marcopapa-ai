@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 26, 2026",
+      "file": "2026-03-26.html",
+      "title": "OpenAI Pulls the Plug on Sora, Arm Enters the AI Chip Wars, Washington\u2019s AI Policy Tussle",
+      "stories": 5
+    },
+    {
       "date": "March 25, 2026",
       "file": "2026-03-25.html",
       "title": "LiteLLM Supply Chain Attack, OpenAI Pulls Plug on Sora, Washington State AI Law",
