@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 27, 2026",
+      "file": "2026-03-27.html",
+      "title": "The DevOps IKEA Trap, Arm's Data Center Play, The Flattery Problem",
+      "stories": 5
+    },
+    {
       "date": "March 26, 2026",
       "file": "2026-03-26.html",
       "title": "OpenAI Pulls the Plug on Sora, Arm Enters the AI Chip Wars, Washington\u2019s AI Policy Tussle",
