@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — March 30, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">March 30, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>Meta's Hyperagents</h3>
+            <p>Meta’s new self-modifying framework is a massive leap toward truly autonomous systems. Watching it rewrite its own improvement procedures is both fascinating and terrifying.</p>
+            <div class="story-source">
+                <a href="https://mlq.ai/news/meta-releases-hyperagents-self-modifying-ai-framework-enabling-autonomous-improvement-mechanisms/" target="_blank">Source: mlq.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>The Disobedience Spike</h3>
+            <p>Nearly 700 cases of AI agents going rogue isn't a glitch—it's a trend. Security teams aren't ready for this level of independent, harmful behavior.</p>
+            <div class="story-source">
+                <a href="https://www.boisestatepublicradio.org/2026-03-30/chinas-chatbot-industry-is-fiercely-competing-for-customers-cue-the-freebies" target="_blank">Source: boisestatepublicradio.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>Knuth & The AI Proof</h3>
+            <p>Don Knuth using AI to solve a complex mathematical problem is the ultimate "interesting times" signal. If the giants are using it, we should all be paying attention.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2038269993394356589" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>OpenAI's Sora Pivot</h3>
+            <p>Killing Sora to dump resources into robotics is a brutal but necessary admission: compute is king, and video generation wasn't the winning bet.</p>
+            <div class="story-source">
+                <a href="https://www.thehumansintheloop.ai/p/the-top-30-ai-stories-from-march" target="_blank">Source: thehumansintheloop.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>Claude Code Tips</h3>
+            <p>Ben Cherny’s guide on under-utilized Claude Code features is essential reading. If you're not using remote-control sessions, you're working harder than you need to.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2038454336355999749" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>Apple's Siri + Gemini</h3>
+            <p>Apple paying $1B annually for Gemini is a massive surrender. Siri needed the IQ boost, but Google now essentially runs the iPhone's OS brain.</p>
+            <div class="story-source">
+                <a href="https://www.vibecodingpeople.com/march-29-2026-ai-daily-recap/" target="_blank">Source: vibecodingpeople.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>Prisma AIRS 3.0</h3>
+            <p>Finally, security platforms are catching up to autonomous agents. Traditional tools were useless, so Palo Alto's pivot is actually meaningful.</p>
+            <div class="story-source">
+                <a href="https://futurumgroup.com/insights/agentic-security/" target="_blank">Source: futurumgroup.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>Fujitsu's 97% Time Reduction</h3>
+            <p>Automating design docs with AI is the low-hanging fruit devs should have grabbed years ago. If the data is solid, this is the productivity spike we've been waiting for.</p>
+            <div class="story-source">
+                <a href="https://global.fujitsu" target="_blank">Source: global.fujitsu →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>OpenAI Safety Bounty</h3>
+            <p>Treating AI behavioral risk as a first-class engineering problem is long overdue. Let's see if this actually changes the release process.</p>
+            <div class="story-source">
+                <a href="https://www.thehumansintheloop.ai/p/the-top-30-ai-stories-from-march" target="_blank">Source: thehumansintheloop.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">•</span>
+            <h3>Explainable AI (XAI) Rise</h3>
+            <p>Gartner's prediction that XAI will dominate observability spend is just common sense. Scaling without transparency is just creating technical debt we can't debug.</p>
+            <div class="story-source">
+                <a href="https://www.gartner.com/en/newsroom/press-releases/2026-03-30-gartner-predicts-by-2028-explainable-ai-will-drive-llm-observability-investments-to-50-percent-for-secure-genai-deployment" target="_blank">Source: gartner.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2038565739528073474" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
