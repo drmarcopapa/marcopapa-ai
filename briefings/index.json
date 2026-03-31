@@ -1,6 +1,12 @@
 {
   "briefings": [
     {
+      "date": "March 31, 2026",
+      "file": "2026-03-31.html",
+      "title": "NPM Axios Supply Chain Attack, California AI Regulation, SoftBank's Physical AI Push",
+      "stories": 10
+    },
+    {
       "date": "March 30, 2026",
       "file": "2026-03-30.html",
       "title": "Meta's Hyperagents, The Disobedience Spike, Knuth & The AI Proof",

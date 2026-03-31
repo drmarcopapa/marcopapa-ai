@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — March 31, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">March 31, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚠️</span>
+            <h3>NPM Axios Supply Chain Attack</h3>
+            <p>The dependency madness continues. When even Karpathy is playing Russian roulette with npm install, the "vibecoding" dream of not needing to understand your code becomes a security nightmare.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2038849654423798197" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚖️</span>
+            <h3>California AI Regulation</h3>
+            <p>Governor Newsom’s new executive order is a shot across the bow for AI companies. Forcing safety policies to do business in CA is inevitable, and the rest of the country will likely follow suit—get used to it.</p>
+            <div class="story-source">
+                <a href="https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/" target="_blank">Source: gov.ca.gov →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🤖</span>
+            <h3>SoftBank's Physical AI Push</h3>
+            <p>Robots need more than just software updates; they need to synthesize sensor data in real-time. SoftBank is betting the farm on Physical AI, bridging the gap between digital models and the messy real world.</p>
+            <div class="story-source">
+                <a href="https://www.softbank.jp/en/sbnews/entry/20260331_01" target="_blank">Source: softbank.jp →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📉</span>
+            <h3>Distrust in AI Usage</h3>
+            <p>51% of Americans now use AI tools, yet two-thirds don't trust the output. We are stuck in a massive productivity boom that nobody actually believes in.</p>
+            <div class="story-source">
+                <a href="https://www.courthousenews.com/ai-usage-rises-across-us-despite-concerns-over-data-centers-job-impacts/" target="_blank">Source: courthousenews.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>Criminal Justice AI Framework</h3>
+            <p>Finally, a structured way to assess AI in law enforcement. Ethical AI in criminal justice isn't a "nice-to-have"—it's a requirement to prevent automated, algorithmic injustice.</p>
+            <div class="story-source">
+                <a href="https://counciloncj.org/national-task-force-releases-new-framework-to-help-criminal-justice-agencies-assess-ai-tools/" target="_blank">Source: counciloncj.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏗️</span>
+            <h3>Claude Code Updates</h3>
+            <p>Claude Code is growing too fast, straining services. Significant performance fixes are landing, but the growth pains are real. If you're building with agents, update your CLI now.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2038654766742729131" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🌍</span>
+            <h3>USTDA Pilot in Thailand</h3>
+            <p>The U.S. is aggressively pushing democratic AI solutions in Southeast Asia to counter surveillance-heavy models. This is geopolitical maneuvering via generative AI, and it’s smarter than most realize.</p>
+            <div class="story-source">
+                <a href="https://th.usembassy.gov/ustda-advances-us-ai-leadership/" target="_blank">Source: th.usembassy.gov →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💼</span>
+            <h3>Extreme Vision’s B2B Scale</h3>
+            <p>While everyone chases LLM hype, B2B computer vision is actually becoming profitable. Extreme Vision is proving that bridging the "B2B chasm" is where the real revenue sits, not just chat wrappers.</p>
+            <div class="story-source">
+                <a href="https://www.acnnewswire.com/press-release/english/106055/from-fragmentation-to-scale:-extreme-vision-bridges-the-b2b-ai-chasm-with-platform--ecosystem" target="_blank">Source: acnnewswire.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🎓</span>
+            <h3>Tyler Cowen on Higher Ed</h3>
+            <p>Cowen is spot on: stop banning AI in the classroom and start forcing students to use it to learn. The workplace of tomorrow won't care if you wrote the essay; they'll care if you can orchestrate an agent to do it better.</p>
+            <div class="story-source">
+                <a href="https://www.hoover.org/publications/hoover-daily-report/monday-march-30-2026" target="_blank">Source: hoover.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🎙️</span>
+            <h3>ChatGPT vs Claude Biases</h3>
+            <p>The user experience of models is diverging fast: ChatGPT keeps the banter alive, Claude wants to end the conversation. Your choice of model now changes the personality of your agent workflow.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2038653783392280898" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2038914241328218280" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
