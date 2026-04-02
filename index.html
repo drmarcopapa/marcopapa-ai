@@ -342,14 +342,69 @@
 
         .briefing-list {
             display: grid;
+            gap: 16px;
+        }
+
+        .month-group {
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .month-header {
+            background: var(--surface);
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: background 0.2s;
+            user-select: none;
+        }
+
+        .month-header:hover {
+            background: var(--surface-hover);
+        }
+
+        .month-label {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .month-meta {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            display: flex;
+            align-items: center;
             gap: 8px;
         }
 
+        .month-chevron {
+            transition: transform 0.2s;
+            color: var(--text-dim);
+        }
+
+        .month-group.collapsed .month-chevron {
+            transform: rotate(-90deg);
+        }
+
+        .month-group.collapsed .month-items {
+            display: none;
+        }
+
+        .month-items {
+            display: grid;
+            gap: 0;
+        }
+
         .briefing-item {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 1.2rem 1.5rem;
+            background: var(--bg);
+            border-top: 1px solid var(--border);
+            border-radius: 0;
+            padding: 1rem 1.5rem;
             text-decoration: none;
             display: flex;
             justify-content: space-between;
@@ -358,29 +413,33 @@
         }
 
         .briefing-item:hover {
-            border-color: var(--accent);
             background: var(--surface-hover);
         }
 
         .briefing-date {
             font-family: 'Space Mono', monospace;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             color: var(--accent);
             font-weight: 700;
-            min-width: 130px;
+            min-width: 120px;
         }
 
         .briefing-title {
-            font-size: 0.95rem;
+            font-size: 0.9rem;
             color: var(--text);
             flex: 1;
             margin-left: 16px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .briefing-count {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             color: var(--text-dim);
             font-family: 'Space Mono', monospace;
+            margin-left: 12px;
+            white-space: nowrap;
         }
 
         .briefing-empty {
@@ -618,21 +677,41 @@
             fetch('briefings/index.json')
                 .then(r => r.json())
                 .then(data => {
-                    if (!data.briefings || data.briefings.length === 0) {
+                    // Support both old flat format and new month-grouped format
+                    const months = data.months || [{label: 'All', briefings: data.briefings}];
+                    if (!months || months.length === 0) {
                         showEmptyState();
                         return;
                     }
-                    list.innerHTML = data.briefings.map(b => `
-                        <a href="briefings/${b.file}" class="briefing-item">
-                            <span class="briefing-date">${b.date}</span>
-                            <span class="briefing-title">${b.title}</span>
-                            <span class="briefing-count">${b.stories} stories</span>
-                        </a>
+                    list.innerHTML = months.map((month, i) => `
+                        <div class="month-group${i > 0 ? ' collapsed' : ''}" onclick="toggleMonth(event, this)">
+                            <div class="month-header">
+                                <span class="month-label">${month.label}</span>
+                                <span class="month-meta">
+                                    ${month.briefings.length} briefing${month.briefings.length !== 1 ? 's' : ''}
+                                    <span class="month-chevron">▼</span>
+                                </span>
+                            </div>
+                            <div class="month-items">
+                                ${month.briefings.map(b => `
+                                    <a href="briefings/${b.file}" class="briefing-item" onclick="event.stopPropagation()">
+                                        <span class="briefing-date">${b.date}</span>
+                                        <span class="briefing-title">${b.title}</span>
+                                        <span class="briefing-count">${b.stories} stories</span>
+                                    </a>
+                                `).join('')}
+                            </div>
+                        </div>
                     `).join('');
                 })
                 .catch(() => {
                     showEmptyState();
                 });
+        }
+
+        function toggleMonth(e, el) {
+            if (e.target.closest('.briefing-item')) return;
+            el.classList.toggle('collapsed');
         }
 
         function showEmptyState() {

@@ -1,172 +1,194 @@
 {
-  "briefings": [
+  "months": [
     {
-      "date": "March 31, 2026",
-      "file": "2026-03-31.html",
-      "title": "NPM Axios Supply Chain Attack, California AI Regulation, SoftBank's Physical AI Push",
-      "stories": 10
+      "label": "April 2026",
+      "briefings": [
+        {
+          "date": "April 2, 2026",
+          "file": "2026-04-02.html",
+          "title": "Claude Code gets a new renderer. No more, Gartner, Recruitment by ChatGPT. Startups are ask",
+          "stories": 10
+        },
+        {
+          "date": "April 1, 2026",
+          "file": "2026-04-01.html",
+          "title": "Agent OS Arrives, OpenClaw 2026.3.31 Released, Nvidia and Marvell's AI Alliance, End of SaaS",
+          "stories": 10
+        }
+      ]
     },
     {
-      "date": "March 30, 2026",
-      "file": "2026-03-30.html",
-      "title": "Meta's Hyperagents, The Disobedience Spike, Knuth & The AI Proof",
-      "stories": 10
-    },
-    {
-      "date": "March 29, 2026",
-      "file": "2026-03-29.html",
-      "title": "Anthropic's \"Mythos\" Standoff, SoftBank Bets $40B on OpenAI IPO, Meta\u2019s AI-or-Else Mandate",
-      "stories": 10
-    },
-    {
-      "date": "March 28, 2026",
-      "file": "2026-03-28.html",
-      "title": "Sama\u2019s Stargate rises, Google\u2019s Memory Breakthrough, Apple + Distilled Gemini",
-      "stories": 10
-    },
-    {
-      "date": "March 27, 2026",
-      "file": "2026-03-27.html",
-      "title": "The DevOps IKEA Trap, Arm's Data Center Play, The Flattery Problem",
-      "stories": 5
-    },
-    {
-      "date": "March 26, 2026",
-      "file": "2026-03-26.html",
-      "title": "OpenAI Pulls the Plug on Sora, Arm Enters the AI Chip Wars, Washington\u2019s AI Policy Tussle",
-      "stories": 5
-    },
-    {
-      "date": "March 25, 2026",
-      "file": "2026-03-25.html",
-      "title": "LiteLLM Supply Chain Attack, OpenAI Pulls Plug on Sora, Washington State AI Law",
-      "stories": 5
-    },
-    {
-      "date": "March 24, 2026",
-      "file": "2026-03-24.html",
-      "title": "Anthropic's tiny Labs team shipped the w, Anthropic drew a line in the sand with t, OpenClaw just dropped two massive releas",
-      "stories": 5
-    },
-    {
-      "date": "March 23, 2026",
-      "file": "2026-03-23.html",
-      "title": "AI De-anonymization, Musk's $20B Terafab, OpenAI Expansion",
-      "stories": 5
-    },
-    {
-      "date": "March 22, 2026",
-      "file": "2026-03-22.html",
-      "title": "Elon\u2019s \"Terafab\" in Space, CrowdStrike x Nebius Cloud, SCE & ThinkLabs Physics AI",
-      "stories": 5
-    },
-    {
-      "date": "March 21, 2026",
-      "file": "2026-03-21.html",
-      "title": "The \"No Coding\" Era is officially here, NVIDIA keeps pushing the ceiling, ClawHub optimizations are paying off",
-      "stories": 5
-    },
-    {
-      "date": "March 20, 2026",
-      "file": "2026-03-20.html",
-      "title": "Nvidia\u2019s Data Factory, Google\u2019s Stitch Revamp, State-Level AI Regulation",
-      "stories": 5
-    },
-    {
-      "date": "March 19, 2026",
-      "file": "2026-03-19.html",
-      "title": "Karpathy\u2019s New Toy, Claude\u2019s Qualitative Scale, Seeing Through Walls",
-      "stories": 5
-    },
-    {
-      "date": "March 18, 2026",
-      "file": "2026-03-18.html",
-      "title": "Samsung & AMD Team Up, Google\u2019s Personal Intelligence, Acalvio\u2019s Cyber Deception",
-      "stories": 5
-    },
-    {
-      "date": "March 17, 2026",
-      "file": "2026-03-17.html",
-      "title": "Codex usage exploding, NVIDIA Dynamo 1.0 hits production, Context Hub momentum",
-      "stories": 5
-    },
-    {
-      "date": "March 16, 2026",
-      "file": "2026-03-16.html",
-      "title": "NVIDIA GTC 2026 Kicks Off, OpenAI Drops GPT-5.4, Steipete\u2019s Mention-Blocker",
-      "stories": 5
-    },
-    {
-      "date": "March 15, 2026",
-      "file": "2026-03-15.html",
-      "title": "Claude Usage Shifts, OpenClaw Memory Plugins, GPT-5.4 Arrives",
-      "stories": 5
-    },
-    {
-      "date": "March 14, 2026",
-      "file": "2026-03-14.html",
-      "title": "Opus 4.6 Default, Yann LeCun's AMI Labs, The Lobster Sees All",
-      "stories": 5
-    },
-    {
-      "date": "March 13, 2026",
-      "file": "2026-03-13.html",
-      "title": "LeCun\u2019s AMI Labs Hits $1.03B Seed, OpenAI Gobbles Up Promptfoo, Google\u2019s Aletheia",
-      "stories": 5
-    },
-    {
-      "date": "March 12, 2026",
-      "file": "2026-03-12.html",
-      "title": "The IDE is dead, long live the agent IDE, USC study exposes autonomous propaganda , Meta betting big on custom silicon",
-      "stories": 5
-    },
-    {
-      "date": "March 11, 2026",
-      "file": "2026-03-11.html",
-      "title": "Gemini 3 Pro Active Memory, Murati x Nvidia, The Enterprise \"Messy Middle\"",
-      "stories": 5
-    },
-    {
-      "date": "March 10, 2026",
-      "file": "2026-03-10.html",
-      "title": "OpenAI\u2019s GPT-5.4 Lands, Anthropic\u2019s Code Review Agent, Karpathy\u2019s Autoresearch Breakthrough",
-      "stories": 5
-    },
-    {
-      "date": "March 9, 2026",
-      "file": "2026-03-09.html",
-      "title": "Karpathy's Vision for Collaborative Agen, Apple Finally Gets Serious with Gemini, Oracle's Desperate AI Pivot",
-      "stories": 5
-    },
-    {
-      "date": "March 8, 2026",
-      "file": "2026-03-08.html",
-      "title": "Karpathy\u2019s \u201cAutoresearch\u201d Repo, Sama\u2019s \u201cGPT-5.4\u201d Personality Pivot, The \u201cPro-Human Declaration\u201d",
-      "stories": 5
-    },
-    {
-      "date": "March 7, 2026",
-      "file": "2026-03-07.html",
-      "title": "Claude Finds Firefox Flaws, OpenAI\u2019s $730B Valuation, Block\u2019s AI Pivot",
-      "stories": 5
-    },
-    {
-      "date": "March 6, 2026",
-      "file": "2026-03-06.html",
-      "title": "GPT-5.4 is here, Math just got crushed, The Agentic Shift",
-      "stories": 5
-    },
-    {
-      "date": "March 5, 2026",
-      "file": "2026-03-05.html",
-      "title": "MacBook Neo RAM, JAX for LLMs, 19-Year-Olds Build 30PB Cluster",
-      "stories": 5
-    },
-    {
-      "date": "March 4, 2026",
-      "file": "2026-03-04.html",
-      "title": "MiniMax M2.5, Chip Shortage Tsunami, Safety Nets Offline",
-      "stories": 3
+      "label": "March 2026",
+      "briefings": [
+        {
+          "date": "March 31, 2026",
+          "file": "2026-03-31.html",
+          "title": "NPM Axios Supply Chain Attack, California AI Regulation, SoftBank's Physical AI Push",
+          "stories": 10
+        },
+        {
+          "date": "March 30, 2026",
+          "file": "2026-03-30.html",
+          "title": "Meta's Hyperagents, The Disobedience Spike, Knuth & The AI Proof",
+          "stories": 10
+        },
+        {
+          "date": "March 29, 2026",
+          "file": "2026-03-29.html",
+          "title": "Anthropic's \"Mythos\" Standoff, SoftBank Bets $40B on OpenAI IPO, Meta\u2019s AI-or-Else Mandate",
+          "stories": 10
+        },
+        {
+          "date": "March 28, 2026",
+          "file": "2026-03-28.html",
+          "title": "Sama\u2019s Stargate rises, Google\u2019s Memory Breakthrough, Apple + Distilled Gemini",
+          "stories": 10
+        },
+        {
+          "date": "March 27, 2026",
+          "file": "2026-03-27.html",
+          "title": "The DevOps IKEA Trap, Arm's Data Center Play, The Flattery Problem",
+          "stories": 5
+        },
+        {
+          "date": "March 26, 2026",
+          "file": "2026-03-26.html",
+          "title": "OpenAI Pulls the Plug on Sora, Arm Enters the AI Chip Wars, Washington\u2019s AI Policy Tussle",
+          "stories": 5
+        },
+        {
+          "date": "March 25, 2026",
+          "file": "2026-03-25.html",
+          "title": "LiteLLM Supply Chain Attack, OpenAI Pulls Plug on Sora, Washington State AI Law",
+          "stories": 5
+        },
+        {
+          "date": "March 24, 2026",
+          "file": "2026-03-24.html",
+          "title": "Anthropic's tiny Labs team shipped the w, Anthropic drew a line in the sand with t, OpenClaw just dropped two massive releas",
+          "stories": 5
+        },
+        {
+          "date": "March 23, 2026",
+          "file": "2026-03-23.html",
+          "title": "AI De-anonymization, Musk's $20B Terafab, OpenAI Expansion",
+          "stories": 5
+        },
+        {
+          "date": "March 22, 2026",
+          "file": "2026-03-22.html",
+          "title": "Elon\u2019s \"Terafab\" in Space, CrowdStrike x Nebius Cloud, SCE & ThinkLabs Physics AI",
+          "stories": 5
+        },
+        {
+          "date": "March 21, 2026",
+          "file": "2026-03-21.html",
+          "title": "The \"No Coding\" Era is officially here, NVIDIA keeps pushing the ceiling, ClawHub optimizations are paying off",
+          "stories": 5
+        },
+        {
+          "date": "March 20, 2026",
+          "file": "2026-03-20.html",
+          "title": "Nvidia\u2019s Data Factory, Google\u2019s Stitch Revamp, State-Level AI Regulation",
+          "stories": 5
+        },
+        {
+          "date": "March 19, 2026",
+          "file": "2026-03-19.html",
+          "title": "Karpathy\u2019s New Toy, Claude\u2019s Qualitative Scale, Seeing Through Walls",
+          "stories": 5
+        },
+        {
+          "date": "March 18, 2026",
+          "file": "2026-03-18.html",
+          "title": "Samsung & AMD Team Up, Google\u2019s Personal Intelligence, Acalvio\u2019s Cyber Deception",
+          "stories": 5
+        },
+        {
+          "date": "March 17, 2026",
+          "file": "2026-03-17.html",
+          "title": "Codex usage exploding, NVIDIA Dynamo 1.0 hits production, Context Hub momentum",
+          "stories": 5
+        },
+        {
+          "date": "March 16, 2026",
+          "file": "2026-03-16.html",
+          "title": "NVIDIA GTC 2026 Kicks Off, OpenAI Drops GPT-5.4, Steipete\u2019s Mention-Blocker",
+          "stories": 5
+        },
+        {
+          "date": "March 15, 2026",
+          "file": "2026-03-15.html",
+          "title": "Claude Usage Shifts, OpenClaw Memory Plugins, GPT-5.4 Arrives",
+          "stories": 5
+        },
+        {
+          "date": "March 14, 2026",
+          "file": "2026-03-14.html",
+          "title": "Opus 4.6 Default, Yann LeCun's AMI Labs, The Lobster Sees All",
+          "stories": 5
+        },
+        {
+          "date": "March 13, 2026",
+          "file": "2026-03-13.html",
+          "title": "LeCun\u2019s AMI Labs Hits $1.03B Seed, OpenAI Gobbles Up Promptfoo, Google\u2019s Aletheia",
+          "stories": 5
+        },
+        {
+          "date": "March 12, 2026",
+          "file": "2026-03-12.html",
+          "title": "The IDE is dead, long live the agent IDE, USC study exposes autonomous propaganda , Meta betting big on custom silicon",
+          "stories": 5
+        },
+        {
+          "date": "March 11, 2026",
+          "file": "2026-03-11.html",
+          "title": "Gemini 3 Pro Active Memory, Murati x Nvidia, The Enterprise \"Messy Middle\"",
+          "stories": 5
+        },
+        {
+          "date": "March 10, 2026",
+          "file": "2026-03-10.html",
+          "title": "OpenAI\u2019s GPT-5.4 Lands, Anthropic\u2019s Code Review Agent, Karpathy\u2019s Autoresearch Breakthrough",
+          "stories": 5
+        },
+        {
+          "date": "March 9, 2026",
+          "file": "2026-03-09.html",
+          "title": "Karpathy's Vision for Collaborative Agen, Apple Finally Gets Serious with Gemini, Oracle's Desperate AI Pivot",
+          "stories": 5
+        },
+        {
+          "date": "March 8, 2026",
+          "file": "2026-03-08.html",
+          "title": "Karpathy\u2019s \u201cAutoresearch\u201d Repo, Sama\u2019s \u201cGPT-5.4\u201d Personality Pivot, The \u201cPro-Human Declaration\u201d",
+          "stories": 5
+        },
+        {
+          "date": "March 7, 2026",
+          "file": "2026-03-07.html",
+          "title": "Claude Finds Firefox Flaws, OpenAI\u2019s $730B Valuation, Block\u2019s AI Pivot",
+          "stories": 5
+        },
+        {
+          "date": "March 6, 2026",
+          "file": "2026-03-06.html",
+          "title": "GPT-5.4 is here, Math just got crushed, The Agentic Shift",
+          "stories": 5
+        },
+        {
+          "date": "March 5, 2026",
+          "file": "2026-03-05.html",
+          "title": "MacBook Neo RAM, JAX for LLMs, 19-Year-Olds Build 30PB Cluster",
+          "stories": 5
+        },
+        {
+          "date": "March 4, 2026",
+          "file": "2026-03-04.html",
+          "title": "MiniMax M2.5, Chip Shortage Tsunami, Safety Nets Offline",
+          "stories": 3
+        }
+      ]
     }
   ]
 }
