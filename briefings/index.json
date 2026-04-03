@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 3rd, 2026",
+          "file": "2026-04-03.html",
+          "title": "Karpathy on Personal KBs, Anthropic's Emotional Models, OpenAI's Mega-Raise",
+          "stories": 10
+        },
+        {
           "date": "April 2, 2026",
           "file": "2026-04-02.html",
           "title": "Claude Code gets a new renderer. No more, Gartner, Recruitment by ChatGPT. Startups are ask",
