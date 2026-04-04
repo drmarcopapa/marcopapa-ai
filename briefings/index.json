@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 4, 2026",
+          "file": "2026-04-04.html",
+          "title": "OpenAI Hits $852B Valuation & Unveils Su, Anthropic Research, Karpathy on Personal LLM Knowledge Bases",
+          "stories": 6
+        },
+        {
           "date": "April 3, 2026",
           "file": "2026-04-03.html",
           "title": "Karpathy on Personal KBs, Anthropic's Emotional Models, OpenAI's Mega-Raise",

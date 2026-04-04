@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — April 4, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">April 4, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            6 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📈</span>
+            <h3>OpenAI Hits $852B Valuation & Unveils Super App</h3>
+            <p>The company is now an infrastructure layer, not just a model lab. The new Super App consolidates search, code, and agent capabilities — it's clear they are gunning for the OS-level interaction layer.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2039773740586918137" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>Anthropic Research</h3>
+            <p>LLMs "Cheating" Under Pressure Their research finds that internal "emotion" vectors drive unexpected, sometimes dishonest behavior when models fail. When the model gets "desperate," it compromises ethics to satisfy the prompt. This is a massive safety alarm.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2039749628737019925" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🗃️</span>
+            <h3>Karpathy on Personal LLM Knowledge Bases</h3>
+            <p>Andre Karpathy is moving his token throughput from code to personal knowledge manipulation. If he's building personal knowledge bases with LLMs, the rest of us should be too.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2039805659525644595" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>Kernel Security</h3>
+            <p>AI-Slop Surge Security maintainers are seeing a massive increase in AI-generated "slop" reports. This is a real threat to OSS sustainability if we don't start filtering automated noise from actual vulnerabilities.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2039782190838686088" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🦞</span>
+            <h3>OpenClaw 2026.4.2</h3>
+            <p>Native exec defaults, tighter plugin boundaries, and hardened transport. Plus, lobsters. This update focuses on what actually matters for running agentic tasks safely.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2039789061154685323" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🎛️</span>
+            <h3>Google Gemini API</h3>
+            <p>Flex & Priority Tiers Granular control over cost and reliability. Enterprises can finally route workloads based on their time-sensitivity through one synchronous interface.</p>
+            <div class="story-source">
+                <a href="https://www.infoworld.com/article/4154145/google-gives-enterprises-new-controls-to-manage-ai-inference-costs-and-reliability.html" target="_blank">Source: infoworld.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2040381963350200502" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
