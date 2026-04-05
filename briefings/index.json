@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 5, 2026",
+          "file": "2026-04-05.html",
+          "title": "Claude Subscriptions Shakeup, OpenAI Leadership Reshuffle, Autonomous Kernel Hacking",
+          "stories": 9
+        },
+        {
           "date": "April 4, 2026",
           "file": "2026-04-04.html",
           "title": "OpenAI Hits $852B Valuation & Unveils Su, Anthropic Research, Karpathy on Personal LLM Knowledge Bases",
