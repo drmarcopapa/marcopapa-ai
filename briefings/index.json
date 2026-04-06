@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 6, 2026",
+          "file": "2026-04-06.html",
+          "title": "The Rise of the \"Idea File\", Farzapedia, Anthropic's New CLI Auth",
+          "stories": 10
+        },
+        {
           "date": "April 5, 2026",
           "file": "2026-04-05.html",
           "title": "Claude Subscriptions Shakeup, OpenAI Leadership Reshuffle, Autonomous Kernel Hacking",

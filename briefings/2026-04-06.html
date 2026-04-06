@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — April 6, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">April 6, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💡</span>
+            <h3>The Rise of the "Idea File"</h3>
+            <p>Andrej Karpathy is shifting the focus from sharing code to sharing raw ideas for LLM agents. This is a crucial pivot for developers: the value isn't the implementation, it's the concept.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2040470801506541998" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>Farzapedia</h3>
+            <p>Explicit Personalization Moving away from "black box" AI memory, Farza’s explicit approach to personal wikis is exactly where we need to go. If the AI can't show its work and context, it's not a real assistant.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2040572272944324650" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔐</span>
+            <h3>Anthropic's New CLI Auth</h3>
+            <p>Simplifying auth is key for agent adoption. A cleaner CLI experience for Anthropic means less friction for developers testing agents.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2040495786438635541" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🇨🇳</span>
+            <h3>DeepSeek V4 Goes Physical</h3>
+            <p>Running V4 on Huawei hardware is a major marker for sovereign AI infrastructure. We are entering an era where model architecture is tied strictly to local chip optimization.</p>
+            <div class="story-source">
+                <a href="https://x.com/reuters/status/2040683749214736531" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💸</span>
+            <h3>OpenAI's Ongoing Funding Spree</h3>
+            <p>The scale of capital entering the market is unsustainable long-term without clear AGI ROI. Watch the next quarter for real integration metrics, not just headline funding numbers.</p>
+            <div class="story-source">
+                <a href="https://x.com/nbcnews/status/2040695029140889753" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔢</span>
+            <h3>Token-Counting Workarounds</h3>
+            <p>Since many APIs (Bedrock, Azure) lack native token-counting, developers are building custom middleware. A messy but necessary step until standard telemetry becomes industry-standard.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2040592763180474564" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🤖</span>
+            <h3>Physical AI Emerges</h3>
+            <p>We are moving beyond LLMs into actual world-model interaction. "Physical AI" is the next massive category shift in the field; it’s no longer just text-in, text-out.</p>
+            <div class="story-source">
+                <a href="https://x.com/ainews/status/2040702410323365922" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚙️</span>
+            <h3>The API Infrastructure Pivot</h3>
+            <p>The shift from general API calls to specialized, over-the-air Claude login support is making tools "less footgunny." Smart architectural hardening.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2040526563876511979" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📊</span>
+            <h3>Alpha in the Noise</h3>
+            <p>Keeping up with AI is a signal-to-noise game; the advice to curate notifications from <50k follower accounts is solid. The best ideas aren't coming from the largest aggregators.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2040612992996516256" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🌊</span>
+            <h3>The Coming Wave</h3>
+            <p>We talk about "agents" constantly, but we’re still in the pre-infrastructure phase. The real agent wave is coming soon; be ready to build against it.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2040492573819904026" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2041079865248776296" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
