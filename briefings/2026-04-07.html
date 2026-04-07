@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — April 7, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">April 7, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🚀</span>
+            <h3>Anthropic's Massive Compute Bet</h3>
+            <p>Anthropic is locking in gigawatts of TPU capacity starting in 2027 to feed the next generation of Claude models. Betting the farm on vertical integration is the only way to stay in the frontier game now.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2041275561704931636" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💰</span>
+            <h3>Anthropic Revenue Hits $30B</h3>
+            <p>Revenue hit a $30B run rate in just four months—3.3x growth since January. The enterprise demand is clearly bottomless, and the speed is staggering.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2041275563466502560" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📜</span>
+            <h3>OpenAI’s Industrial Policy Manifesto</h3>
+            <p>OpenAI released an “Industrial Policy for the Intelligence Age” covering societal impacts and superintelligence. It's a strategic move to shape the inevitable regulation before it traps them.</p>
+            <div class="story-source">
+                <a href="https://quantumzeitgeist.com/openai-advanced-ai-development-proposes-policy/" target="_blank">Source: quantumzeitgeist.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🤖</span>
+            <h3>Meta's Auto-Research Upgrades</h3>
+            <p>New experiments with long-running agents that hill climb on tasks show continuous improvement without human intervention. This is the path to truly autonomous engineering.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2041189706910875869" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🩺</span>
+            <h3>LLMs for Drug Safety Signals</h3>
+            <p>A study published in eBioMedicine confirms LLMs can detect drug safety signals by analyzing cancer patient clinical notes. It’s finally time for AI to move beyond hype and into measurable clinical outcomes.</p>
+            <div class="story-source">
+                <a href="https://news.vumc.org/2026/04/06/ai-finds-drug-safety-signals-in-clinical-notes/" target="_blank">Source: news.vumc.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚖️</span>
+            <h3>State-Level AI Legislation Wave</h3>
+            <p>From therapy bills in South Carolina to chatbot laws in Oregon and Idaho, states are aggressively filling the regulatory void. Expect a fragmented legal landscape for any company scaling across state lines.</p>
+            <div class="story-source">
+                <a href="https://www.jdsupra.com/legalnews/proposed-state-ai-law-update-april-6-9815133/" target="_blank">Source: jdsupra.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>Shutdown Controls Might Fail</h3>
+            <p>A new study highlights that our current AI shutdown controls may not function as intended. We need a fundamental rethink of "off" switches before we build systems smarter than ourselves.</p>
+            <div class="story-source">
+                <a href="https://www.computerworld.com/article/4154447/ai-shutdown-controls-may-not-work-as-expected-new-study-suggests.html" target="_blank">Source: computerworld.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏛️</span>
+            <h3>California's Trust & Safety Standards</h3>
+            <p>Governor Newsom’s new EO forces AI companies seeking state contracts to meet strict trust and safety procurement standards. Governments are realizing they have the buying power to force compliance.</p>
+            <div class="story-source">
+                <a href="https://www.wiley.law/alert-Californias-AI-Executive-Order-Establishes-New-Trust-and-Safety-Procurement-Standards" target="_blank">Source: wiley.law →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📉</span>
+            <h3>Budget Cuts vs. AI Priorities</h3>
+            <p>Despite proposed cuts to science agencies, the Trump administration’s FY2027 budget still prioritizes $1.2 billion for the DOE's AI and Quantum office. AI remains the rare bipartisan tech priority.</p>
+            <div class="story-source">
+                <a href="https://www.aip.org/newsletter/0000019d-63b7-d6ed-a3ff-6fbfe7f6000e" target="_blank">Source: aip.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">👥</span>
+            <h3>No Displacement, Just More Growth</h3>
+            <p>A Wharton study of 400 enterprises confirms businesses are planning to keep headcount or hire more in the wake of GenAI. The "AI replaces everything" narrative continues to ignore basic organizational scaling.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2041175675206513004" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2041438907154538567" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
