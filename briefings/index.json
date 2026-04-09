@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 9, 2026",
+          "file": "2026-04-09.html",
+          "title": "Anthropic's Glasswing Cybersecurity, Anthropic's Managed Agents, OpenClaw 2026.4.9 Dreams",
+          "stories": 10
+        },
+        {
           "date": "April 8, 2026",
           "file": "2026-04-08.html",
           "title": "Anthropic's Gigawatt Bet, OpenAI's $122B War Chest, Dimon's $725B Spending Spree",

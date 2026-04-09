@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — April 9, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">April 9, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>Anthropic's Glasswing Cybersecurity</h3>
+            <p>Claude Mythos is hunting real-world OS vulnerabilities before humans even patch them. If this isn't the ultimate proof that frontier models have shifted from content creation to critical security infrastructure, I don't know what is.</p>
+            <div class="story-source">
+                <a href="https://futurumgroup.com/insights/anthropic-glasswing-ai-vulnerability-detection-has-crossed-a-threshold/" target="_blank">Source: futurumgroup.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏗️</span>
+            <h3>Anthropic's Managed Agents</h3>
+            <p>Finally, a system design approach for "programs as yet unthought of." Anthropic is signaling that the era of ephemeral API calls is ending; long-running, stateful agent services are the new reality.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2041929199976640948" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔮</span>
+            <h3>OpenClaw 2026.4.9 Dreams</h3>
+            <p>Your agent now backfills memories and dreams about you. Terrifying or genius? Given the new SSRF hardening, I'll take the risk—the diary timeline UI is a game changer for agentic context retention.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2042072722902077938" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚡</span>
+            <h3>TurboQuant Inference</h3>
+            <p>Steipete's integration of inferrs TurboQuant into OpenClaw is the efficiency we've been starving for. Stop bloating your stack—if you aren't running local inference on efficient servers, you're lighting money on fire.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2041935840935371034" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>DeepLearningAI SGLang</h3>
+            <p>SGLang with KV cache is the standard for anyone serious about reducing inference redundancy. Don't complain about LLM costs if you haven't mastered RadixAttention yet.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2041901657114423338" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">✨</span>
+            <h3>Meta's Muse Spark</h3>
+            <p>Zuckerberg is doubling down on "personal" AI. By integrating visual and shopping intelligence directly into the Meta stack, they're aiming to own the everyday human experience, not just the chatbot interface.</p>
+            <div class="story-source">
+                <a href="https://sea.mashable.com/tech/44073/mark-zuckerberg-announces-spark-the-first-ai-model-from-meta-superintelligence-labs" target="_blank">Source: sea.mashable.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔗</span>
+            <h3>A2A Protocol Standardization</h3>
+            <p>150+ organizations adopting A2A confirms the obvious: we are moving past isolated agent silos. Interoperability is the only way this ecosystem survives the upcoming wave of autonomous agents.</p>
+            <div class="story-source">
+                <a href="https://www.morningstar.com/news/pr-newswire/20260409dc30444/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year" target="_blank">Source: morningstar.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📉</span>
+            <h3>The AI Power Bottleneck</h3>
+            <p>Knight Frank says $1.6 trillion needed for infrastructure, but power is the true cap. We can print capital, but we can't magic up grid capacity. Expect AI development to move where the power is, not where the talent is.</p>
+            <div class="story-source">
+                <a href="https://technode.global/2026/04/09/ai-boom-to-demand-1-6-trillion-by-2030-with-power-shortages-a-critical-bottleneck-knight-frank/" target="_blank">Source: technode.global →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏢</span>
+            <h3>OpenAI Enterprise Shift</h3>
+            <p>Projecting enterprise revenue to match consumer by year-end is massive. The "AI hobbyist" phase is dead; OpenAI is pivoting hard to be the backbone of corporate infrastructure.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/next-phase-of-enterprise-ai/" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔍</span>
+            <h3>NotebookLM to Gemini</h3>
+            <p>Google is consolidating its best consumer product into Gemini. It’s about time—Gemini’s search interface has felt fragmented, but the underlying tech has finally caught up to user expectations.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2041984001959924154" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2042178564259557490" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
