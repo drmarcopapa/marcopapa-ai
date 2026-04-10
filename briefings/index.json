@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 10, 2026",
+          "file": "2026-04-10.html",
+          "title": "OpenClaw 2026.4.9, Anthropic Project Glasswing, Norton AI Agent Protection",
+          "stories": 10
+        },
+        {
           "date": "April 9, 2026",
           "file": "2026-04-09.html",
           "title": "Anthropic's Glasswing Cybersecurity, Anthropic's Managed Agents, OpenClaw 2026.4.9 Dreams",

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — April 10, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">April 10, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🦎</span>
+            <h3>OpenClaw 2026.4.9</h3>
+            <p>The new "dreaming" feature backfilling memories is either the most intimate or dystopian agent upgrade yet. If your agent is romanticizing your past, it’s time for a reality check.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2042072722902077938" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>Anthropic Project Glasswing</h3>
+            <p>Using the unreleased Claude Mythos to find vulnerabilities is a bold move to put offensive power into the hands of defenders first. We’re finally seeing frontier models move from chat toys to frontline cybersecurity assets.</p>
+            <div class="story-source">
+                <a href="https://newsroom.ibm.com/2026-04-09-Open-Source,-After-Mythos" target="_blank">Source: newsroom.ibm.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔒</span>
+            <h3>Norton AI Agent Protection</h3>
+            <p>As agents start doing things for us, we need a safety layer between decision and execution. Norton’s real-time oversight for autonomous agents is a mandatory evolution of antivirus for the agentic era.</p>
+            <div class="story-source">
+                <a href="https://newsroom.gendigital.com/2026-04-09-Norton-Launches-AI-Agent-Protection-in-Norton-360,-Securing-Autonomous-AI-in-Real-Time" target="_blank">Source: newsroom.gendigital.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">☁️</span>
+            <h3>Intel & Google AI Infrastructure</h3>
+            <p>Intel Xeons + Google’s custom ASIC-based IPUs is a massive bet on optimizing the cloud for efficiency rather than just raw scale. Expect the cost of compute to take another dive this year.</p>
+            <div class="story-source">
+                <a href="https://newsroom.intel.com/data-center/intel-google-deepen-collaboration-to-advance-ai-infrastructure" target="_blank">Source: newsroom.intel.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>Anthropic on Managed Agents</h3>
+            <p>Designing systems for "programs as yet unthought of" is exactly the mindset we need for long-running agents. Anthropic is thinking way past simple chat completion.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2041929199976640948" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚡</span>
+            <h3>SGLang Inference Optimization</h3>
+            <p>If you’re still not using KV caching and RadixAttention to trim inference costs, you’re just lighting capital on fire. DeepLearningAI’s new course is a must for any dev working at scale.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2041901657114423338" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧪</span>
+            <h3>AI Molecule Engineering</h3>
+            <p>Brookhaven researchers using AI to engineer molecules by embracing model uncertainty is exactly how we accelerate material science. This is the real-world utility that makes the agent hype seem trivial.</p>
+            <div class="story-source">
+                <a href="https://www.bnl.gov/newsroom/news.php?a=222882" target="_blank">Source: bnl.gov →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💎</span>
+            <h3>Gemini NotebookLM Integration</h3>
+            <p>Google finally moving NotebookLM tech into Gemini is a win, even if their UI consistency remains a complete disaster. The underlying model is crushing it, but the product experience is still lagging.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2041984001959924154" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🐢</span>
+            <h3>TurboQuant Inference</h3>
+            <p>steipete’s new inferrs support is proving local models are becoming incredibly efficient. We’re nearing a world where local inference is the default, not the enthusiast fallback.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2041935840935371034" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏥</span>
+            <h3>UNC SHIRE Platform</h3>
+            <p>Secure clinical data environments are the only way to build healthcare AI that doesn’t get bogged down in privacy bureaucracy. This is how you actually move the needle in medicine.</p>
+            <div class="story-source">
+                <a href="https://www.unc.edu/posts/2026/04/08/university-unc-health-unveil-shire-health-care-innovation-platform/" target="_blank">Source: unc.edu →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2042540935524028474" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
