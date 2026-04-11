@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 11, 2026",
+          "file": "2026-04-11.html",
+          "title": "OpenAI's Cyber Ambitions, xAI Challenges Colorado, Alibaba's Happy Horse",
+          "stories": 8
+        },
+        {
           "date": "April 10, 2026",
           "file": "2026-04-10.html",
           "title": "OpenClaw 2026.4.9, Anthropic Project Glasswing, Norton AI Agent Protection",
