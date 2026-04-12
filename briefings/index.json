@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 12, 2026",
+          "file": "2026-04-12.html",
+          "title": "Anthropic's \"Mythos\" Preview, Sama\u2019s Latest Dispatch, OpenClaw 2026.4.10",
+          "stories": 10
+        },
+        {
           "date": "April 11, 2026",
           "file": "2026-04-11.html",
           "title": "OpenAI's Cyber Ambitions, xAI Challenges Colorado, Alibaba's Happy Horse",
