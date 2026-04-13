@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 13, 2026",
+          "file": "2026-04-13.html",
+          "title": "OpenClaw 2026.4.11 Released, OpenClaw Experiments, OpenAI\u2019s Liability Bill",
+          "stories": 10
+        },
+        {
           "date": "April 12, 2026",
           "file": "2026-04-12.html",
           "title": "Anthropic's \"Mythos\" Preview, Sama\u2019s Latest Dispatch, OpenClaw 2026.4.10",
