@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 15, 2026",
+          "file": "2026-04-15.html",
+          "title": "OpenClaw 2026.4.14, Trump Blacklists Anthropic, Stanford AI Index 2026",
+          "stories": 10
+        },
+        {
           "date": "April 14, 2026",
           "file": "2026-04-14.html",
           "title": "MIT's Lean AI Breakthrough, 100x Efficiency Leap, The Age of Agentic AI",
