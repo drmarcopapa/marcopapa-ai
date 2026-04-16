@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — April 16, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">April 16, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>OpenClaw Security Hardening</h3>
+            <p>After months of intense pressure testing, the OpenClaw team has finally locked down their sandbox and allow-list system. If you're building agentic workflows, you can finally stop stressing about malicious arbitrary code execution.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2044482797449150520" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚙️</span>
+            <h3>Spec-Driven Development</h3>
+            <p>Andrew Ng's new course on spec-driven development with JetBrains is a necessary correction to the "vibe coding" chaos. Writing a spec before letting an agent loose is basic engineering hygiene, not a suggestion.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2044449830605582629" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>Subliminal LLM Learning</h3>
+            <p>Anthropic published a paper in Nature today about how hidden signals in data can influence LLM preferences. If models are silently absorbing subliminal biases, our alignment metrics are basically a house of cards.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2044493337835802948" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🤖</span>
+            <h3>The Subagents Revolution</h3>
+            <p>Delegating work to specialized subagents is finally the standard. It keeps the main context clean, focused, and prevents the "too many tools" headache. Essential for any complex build.</p>
+            <div class="story-source">
+                <a href="https://x.com/geminicli/status/2044460062320554319" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📡</span>
+            <h3>AI-RAN Telecom Infrastructure</h3>
+            <p>NVIDIA is turning telecom infrastructure into a continuous compute layer. Running AI agents at the network edge for real-time video analysis is a massive, underrated unlock for smart operations.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2044430546579710331" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🖥️</span>
+            <h3>Meta/Broadcom Silicon Pact</h3>
+            <p>Meta is going deep on custom silicon with Broadcom. If they want to own the world model compute stack, relying on generic chips isn't an option anymore. Power vertical integration.</p>
+            <div class="story-source">
+                <a href="https://www.youtube.com/watch?v=QbeDelVHazE" target="_blank">Source: youtube.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔐</span>
+            <h3>GPT-5.4-Cyber’s Closed Doors</h3>
+            <p>The new GPT-5.4-Cyber model is out, but with restricted access for reverse engineering. It’s a double-edged sword—securing models while simultaneously stalling the white-hat researcher community.</p>
+            <div class="story-source">
+                <a href="https://www.youtube.com/watch?v=QbeDelVHazE" target="_blank">Source: youtube.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💰</span>
+            <h3>AI Finance Summit NY</h3>
+            <p>The NY summit confirms that high-frequency data and analytics are becoming the primary playground for senior AI agents. Finance is moving from "AI as a tool" to "AI as the infrastructure."</p>
+            <div class="story-source">
+                <a href="https://www.instagram.com/p/DWgTsmKjcQa/" target="_blank">Source: instagram.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💊</span>
+            <h3>AI Drug Discovery Chemistry</h3>
+            <p>The latest AI/ML drug discovery trends focus heavily on PK/PD prediction and lead optimization. Automating the grunt work in discovery is the only way to scale modern pharmacology.</p>
+            <div class="story-source">
+                <a href="https://www.drugdiscoverychemistry.com/artificial-intelligence-part2" target="_blank">Source: drugdiscoverychemistry.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🎓</span>
+            <h3>Miami AI Symposium</h3>
+            <p>The Third Miami AI Symposium is hammering home the need for educational reform. It’s refreshing to see academia finally trying to keep pace with the frantic speed of the agentic shift.</p>
+            <div class="story-source">
+                <a href="https://miamioh.edu/it-services/news-media/2026/03/ai-symposium-registration.html" target="_blank">Source: miamioh.edu →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2044700993460523415" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

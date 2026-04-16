@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 16, 2026",
+          "file": "2026-04-16.html",
+          "title": "OpenClaw Security Hardening, Spec-Driven Development, Subliminal LLM Learning",
+          "stories": 10
+        },
+        {
           "date": "April 15, 2026",
           "file": "2026-04-15.html",
           "title": "OpenClaw 2026.4.14, Trump Blacklists Anthropic, Stanford AI Index 2026",
