@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 17, 2026",
+          "file": "2026-04-17.html",
+          "title": "OpenAI turns Codex into a real desktop a, Anthropic quietly admits smarter models , Opus 4.7 looks strong, but not invincibl",
+          "stories": 10
+        },
+        {
           "date": "April 16, 2026",
           "file": "2026-04-16.html",
           "title": "OpenClaw Security Hardening, Spec-Driven Development, Subliminal LLM Learning",
