@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 20, 2026",
+          "file": "2026-04-20.html",
+          "title": "Stanford says the US-China AI gap is bas, OpenAI is productizing agent safety, not, Anthropic dropped Claude Opus 4.7 and re",
+          "stories": 10
+        },
+        {
           "date": "April 19, 2026",
           "file": "2026-04-19.html",
           "title": "Claude Opus 4.7 is Anthropic\u2019s \u201csafe\u201d fl, OpenAI just turned Codex into a real des, OpenAI\u2019s cyber play is pure distribution",
