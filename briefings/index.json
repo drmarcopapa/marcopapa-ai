@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 21, 2026",
+          "file": "2026-04-21.html",
+          "title": "Anthropic locks in 5GW with Amazon, \"Telepathy\" is OpenAI\u2019s new product vibe, Anthropic is recruiting STEM Fellows",
+          "stories": 10
+        },
+        {
           "date": "April 20, 2026",
           "file": "2026-04-20.html",
           "title": "Stanford says the US-China AI gap is bas, OpenAI is productizing agent safety, not, Anthropic dropped Claude Opus 4.7 and re",
