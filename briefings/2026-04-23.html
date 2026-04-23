@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — April 23, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">April 23, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>Google drops TPU 8t and 8i for the agentic era — This is the real AI arms race now</h3>
+            <p>training chip on one side, inference chip on the other. Google isn’t chasing headlines anymore; it’s building the toll road.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏭</span>
+            <h3>NVIDIA + Google Cloud are pitching AI factories, not just models — The stack is moving from “cool demo” to industrial deployment</h3>
+            <p>agents, robots, digital twins, secure infra. If you still think AI is a chatbot market, you’re watching the warm-up.</p>
+            <div class="story-source">
+                <a href="https://blogs.nvidia.com/blog/google-cloud-agentic-physical-ai-factories/" target="_blank">Source: blogs.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🖼️</span>
+            <h3>OpenAI’s GPT Image push is getting uncomfortably practical — Better charts, diagrams, text rendering, structured visuals</h3>
+            <p>this is less “make me art” and more “replace half the design busywork.” That’s a much bigger market.</p>
+            <div class="story-source">
+                <a href="https://developers.openai.com/cookbook/examples/multimodal/image-gen-models-prompting-guide" target="_blank">Source: developers.openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🤖</span>
+            <h3>Microsoft puts hosted agents into public preview — Everyone wants agents; very few want to run agent infrastructure at enterprise scale. Microsoft’s bet is simple</h3>
+            <p>developers will gladly rent the headache.</p>
+            <div class="story-source">
+                <a href="https://devblogs.microsoft.com/foundry/introducing-the-new-hosted-agents-in-foundry-agent-service-secure-scalable-compute-built-for-agents/" target="_blank">Source: devblogs.microsoft.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧵</span>
+            <h3>Meta is training fiber technicians for the AI buildout</h3>
+            <p>Good reminder that AI infrastructure is not just chips and GPUs. The bottleneck is now people who can physically build the beast.</p>
+            <div class="story-source">
+                <a href="https://about.fb.com/news/2026/04/meta-cbre-invest-in-american-jobs-new-fiber-technician-training-program/" target="_blank">Source: about.fb.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📊</span>
+            <h3>Anthropic says 81,000 people want upside from AI—but fear the bill coming due — The public mood is getting sharper</h3>
+            <p>optimism on growth, anxiety on displacement. That’s the real policy story, not the benchmark leaderboard.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2047006548149289017" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💻</span>
+            <h3>Google reportedly went from 0% to 75% AI-written code in ~2 years</h3>
+            <p>If that number is even directionally true, software engineering already changed and most orgs are still pretending it’s an experiment. The workflow flipped before the culture did.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2046986776439660997" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📄</span>
+            <h3>GPT Image 2 is turning research papers into posters</h3>
+            <p>That sounds niche until you realize every academic, analyst, and product team needs dense information turned into something humans can actually scan. Ugly slides may finally be in trouble.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2047182797241196728" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏆</span>
+            <h3>Claude Code won a Webby</h3>
+            <p>Small story, useful signal. Coding agents are crossing from “power-user toy” into mainstream product category faster than most incumbents are comfortable admitting.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2047004804283773321" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🌍</span>
+            <h3>NVIDIA is showcasing AI for climate, conservation, recycling, and tsunami warnings — Good counterweight to the doom loop</h3>
+            <p>AI is at its best when it disappears into real systems and does boring, useful work at scale.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2046977238839558411" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2047245731996860825" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
