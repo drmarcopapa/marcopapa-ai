@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 24, 2026",
+          "file": "2026-04-24.html",
+          "title": "GPT-5.5 is finally here, The GPT-5.5 coding victory lap already h, OpenAI opened a bio bug bounty for GPT-5",
+          "stories": 10
+        },
+        {
           "date": "April 23, 2026",
           "file": "2026-04-23.html",
           "title": "Google drops TPU 8t and 8i for the agent, NVIDIA + Google Cloud are pitching AI fa, OpenAI\u2019s GPT Image push is getting uncom",

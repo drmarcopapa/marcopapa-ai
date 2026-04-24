@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — April 24, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">April 24, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>GPT-5.5 is finally here</h3>
+            <p>OpenAI’s pitch is simple: same latency, more autonomy, fewer retries. If that holds up, the frontier just shifted from “answer my prompt” to “finish my task.”</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/introducing-gpt-5-5/" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📉</span>
+            <h3>The GPT-5.5 coding victory lap already has pushback</h3>
+            <p>Deedy called out the missing SWE-Bench receipts, and he’s right to. In 2026, benchmark footnotes are marketing territory; if you’re SOTA, say it cleanly.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2047380540664492219" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧪</span>
+            <h3>OpenAI opened a bio bug bounty for GPT-5.5</h3>
+            <p>This is what grown-up frontier deployment looks like: ship the model, then pay experts to try to break the safety layer. Serious labs are moving from safety slogans to adversarial process.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/gpt-5-5-bio-bug-bounty/" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛠️</span>
+            <h3>Anthropic admitted Claude Code got worse</h3>
+            <p>Rare and refreshing: an actual postmortem instead of vague PR fog. The lesson is brutal for every lab—small product tweaks can quietly wreck model quality faster than a new checkpoint can save it.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/engineering/april-23-postmortem" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💰</span>
+            <h3>Amazon just doubled down on Anthropic, hard</h3>
+            <p>Another $5B now, up to $20B more later, plus a monster AWS commitment. This is no longer “partnering with a lab”; hyperscalers are building their future around owning the AI supply chain.</p>
+            <div class="story-source">
+                <a href="https://www.aboutamazon.com/news/company-news/amazon-invests-additional-5-billion-anthropic-ai" target="_blank">Source: aboutamazon.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚙️</span>
+            <h3>Google rolled out TPU 8t and 8i</h3>
+            <p>Two chips, two jobs: train bigger, serve faster. The agent era is turning AI infra into a specialization race, and generic compute is starting to look like yesterday’s luxury sedan.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧩</span>
+            <h3>Google is turning Gemini Enterprise into an agent mall</h3>
+            <p>Partner-built agents inside a governed enterprise shell is a smart move. The winners in enterprise AI won’t be the flashiest demos—they’ll be the ones legal and IT can actually approve.</p>
+            <div class="story-source">
+                <a href="https://cloud.google.com/blog/products/ai-machine-learning/partner-built-agents-available-in-gemini-enterprise" target="_blank">Source: cloud.google.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🚀</span>
+            <h3>DeepSeek V4 Preview went open with 1M context</h3>
+            <p>Open models are not playing catch-up anymore—they’re attacking on price, context, and agent workflows at once. If this performs anywhere near the claims, closed labs just got cheaper competition with teeth.</p>
+            <div class="story-source">
+                <a href="https://api-docs.deepseek.com/news/news260424" target="_blank">Source: api-docs.deepseek.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔬</span>
+            <h3>TSMC is already mapping the post-2nm AI era</h3>
+            <p>A13 is slated for 2029, which sounds far away until you remember chip roadmaps decide AI ceilings years before consumers feel them. Model wars get headlines; foundry roadmaps decide who can actually ship.</p>
+            <div class="story-source">
+                <a href="https://pr.tsmc.com/english/news/3302" target="_blank">Source: pr.tsmc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🪶</span>
+            <h3>OpenClaw shipped a quietly loaded release</h3>
+            <p>Tencent Hy3, Grok image and voice tools, local TUI, plugin auto-install—this is the kind of product velocity that compounds while bigger players are still polishing launch videos. Small release notes, big intent.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2047338834648555793" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2047604266618261721" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
