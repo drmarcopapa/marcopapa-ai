@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — April 27, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">April 27, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🖥️</span>
+            <h3>Altman says the OS is obsolete for agents</h3>
+            <p>The next platform war won’t be app vs. app; it’ll be agent-native UI vs. everything that still assumes a human is clicking around. He’s not hinting anymore.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2048428561481265539" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">😴</span>
+            <h3>GPT-5.5 Codex has reached “skip sleep” hype</h3>
+            <p>Joking about polyphasic sleep is silly, but the signal is real: coding agents are crossing from toy to addiction-grade utility. The productivity ceiling is starting to look embarrassingly human.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2048426122854228141" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧹</span>
+            <h3>Agents are now doing janitor work at brutal scale</h3>
+            <p>27k issues and 30k PRs closed since December is not a cute demo. It’s a preview of every bloated backlog getting eaten by software that never gets bored.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2048478136824738181" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛒</span>
+            <h3>The AI-run store is no longer a sci-fi prop</h3>
+            <p>A Claude-managed shop with Gemini voice checkout sounds gimmicky until you realize retail is full of repetitive workflows begging to be automated. Ugly first versions still win if they work.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2048530727202160726" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📜</span>
+            <h3>OpenAI just rewrote its principles for the power era</h3>
+            <p>The new language is less “AGI sermon,” more “we’re in the arena now.” Translation: the safety story is being rewritten around deployment, infrastructure, and keeping control without sounding like control.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/our-principles/" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🐉</span>
+            <h3>DeepSeek V4 goes open with 1M context and cheap agent economics</h3>
+            <p>This is the real pressure on the US labs: not just quality, but quality that lands with open weights and lower cost. “Premium closed model” is getting less comfortable by the week.</p>
+            <div class="story-source">
+                <a href="https://api-docs.deepseek.com/news/news260424" target="_blank">Source: api-docs.deepseek.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>Anthropic ships Opus 4.7 while treating cyber like live ammo</h3>
+            <p>Better coding, better long runs, tighter safeguards. The subtext is louder than the launch: frontier labs now know their best models can become security events.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/news/claude-opus-4-7" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏢</span>
+            <h3>Google finally productized the agent platform pitch</h3>
+            <p>Gemini Enterprise Agent Platform is Google saying: enough demos, here’s the control plane. The winner in enterprise AI may be whoever makes agents governable, not just impressive.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-enterprise-agent-platform/" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔬</span>
+            <h3>Google’s Deep Research Max is turning research into an agent workflow</h3>
+            <p>MCP support plus native visualizations means this is less chatbot, more junior analyst with stamina. Research is being unbundled into reproducible machine labor.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⛽</span>
+            <h3>GitHub hit the compute wall and had to tap the brakes on Copilot</h3>
+            <p>Pausing sign-ups and tightening limits is the cleanest proof yet that agentic coding burns way more infrastructure than autocomplete ever did. Demand is here; margins are the knife fight.</p>
+            <div class="story-source">
+                <a href="https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/" target="_blank">Source: github.blog →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2048688404070842445" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
