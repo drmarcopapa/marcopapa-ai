@@ -4,6 +4,12 @@
       "label": "April 2026",
       "briefings": [
         {
+          "date": "April 28, 2026",
+          "file": "2026-04-28.html",
+          "title": "OpenAI breaks the golden handcuffs, Google\u2019s TPU 8 push is pure agent-era in, Google and Kaggle are turning \u201cvibe codi",
+          "stories": 10
+        },
+        {
           "date": "April 27, 2026",
           "file": "2026-04-27.html",
           "title": "Altman says the OS is obsolete for agent, GPT-5.5 Codex has reached \u201cskip sleep\u201d h, Agents are now doing janitor work at bru",
