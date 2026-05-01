@@ -1,6 +1,17 @@
 {
   "months": [
     {
+      "label": "May 2026",
+      "briefings": [
+        {
+          "date": "May 1, 2026",
+          "file": "2026-05-01.html",
+          "title": "Codex is getting its ChatGPT moment, OpenAI locks down GPT-5.5 Cyber, Claude takes a swing at real biology wor",
+          "stories": 11
+        }
+      ]
+    },
+    {
       "label": "April 2026",
       "briefings": [
         {
