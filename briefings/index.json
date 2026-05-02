@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 2, 2026",
+          "file": "2026-05-02.html",
+          "title": "OpenAI comes to AWS \u2014 OpenAI models, Cod, GPT-5.4-Cyber gets gated access \u2014 OpenAI, Google\u2019s AI cloud number is the warning ",
+          "stories": 10
+        },
+        {
           "date": "May 1, 2026",
           "file": "2026-05-01.html",
           "title": "Codex is getting its ChatGPT moment, OpenAI locks down GPT-5.5 Cyber, Claude takes a swing at real biology wor",
