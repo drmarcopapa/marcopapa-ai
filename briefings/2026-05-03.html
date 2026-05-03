@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — May 3, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">May 3, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>Smarter still beats cheaper</h3>
+            <p>Sam Altman says he keeps wanting cheaper/faster models, but keeps landing back on “smarter” as the real unlock. Translation: inference cost matters, but frontier capability is still the gravity well everyone builds around.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2050671161915371998" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🦾</span>
+            <h3>OpenClaw ships less drama, more uptime</h3>
+            <p>OpenClaw 2026.5.2 adds Grok 4.3, sturdier plugin installs, faster gateway paths, and fixes across Discord, Slack, Telegram, WhatsApp, TTS, realtime, web search, and voice calls. Agent platforms are entering the boring-infrastructure phase — which is exactly where real adoption starts.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2050735037230801042" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔌</span>
+            <h3>Plugins are the hard part nobody wants to admit</h3>
+            <p>Peter Steinberger says OpenClaw’s npm install issues and slowness were fixed by pushing almost everything into extensions. The lesson is old software truth in AI clothing: extensibility wins, but packaging will still try to kill you.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2050735979477008412" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🎭</span>
+            <h3>Model release vibes are now corporate strategy</h3>
+            <p>One good joke nailed the split: OpenAI launches with whimsy; Anthropic launches like it discovered Skynet in a lab notebook. The packaging matters because trust, fear, and developer enthusiasm are now part of the product surface.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2050592759887900714" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📸</span>
+            <h3>ChatGPT’s accidental selfie canon</h3>
+            <p>People asking ChatGPT for a selfie keep getting the same brown-haired dorm-room guy. Funny, yes — but also a reminder that generative systems don’t just answer prompts; they leak the statistical ghosts of their training and defaults.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2050798141897892212" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💸</span>
+            <h3>OpenAI’s IPO timeline gets colder</h3>
+            <p>Gizmodo reports OpenAI CFO Sarah Friar has privately suggested waiting until 2027 for an IPO after spending pressure and missed targets. The AI story is no longer just “who has the best model?” — it’s “who can survive the compute bill?”</p>
+            <div class="story-source">
+                <a href="https://gizmodo.com/openais-cfo-reportedly-wants-to-delay-the-ipo-from-2026-to-2027-2000753760" target="_blank">Source: gizmodo.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">☁️</span>
+            <h3>Google has $20B reasons to smile</h3>
+            <p>Google’s cloud growth is being driven by Gemini demand, with open models reportedly past 500M downloads. The comeback is real: Google turned “late to ChatGPT” into “owns the stack from TPU to Search.”</p>
+            <div class="story-source">
+                <a href="https://gizmodo.com/google-gives-openai-20-billion-reasons-to-worry-2000752324" target="_blank">Source: gizmodo.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧯</span>
+            <h3>Anthropic’s Mythos is useful enough to scare governments</h3>
+            <p>The Register says Pentagon officials still view Anthropic as a supply-chain risk even as agencies evaluate Mythos for vulnerability discovery. That’s the frontier-model paradox: the more valuable the capability, the harder it is to let inside the perimeter.</p>
+            <div class="story-source">
+                <a href="https://www.theregister.com/2026/05/01/mythos_complicates_anthropic_us_gov_breakup/" target="_blank">Source: theregister.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚡</span>
+            <h3>xAI chooses price/performance warfare</h3>
+            <p>xAI released Grok 4.3 with a 1M-token context, tool use, file generation, and sharply lower prices. It may not top OpenAI or Anthropic on raw benchmarks, but cheap-enough agentic throughput is a very serious wedge.</p>
+            <div class="story-source">
+                <a href="https://the-decoder.com/xai-drops-grok-4-3-with-steep-price-cuts-and-an-imagine-agent-mode-for-creative-projects/" target="_blank">Source: the-decoder.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>Microsoft turns agent sprawl into a security product</h3>
+            <p>Microsoft Agent 365 is now generally available as a control plane to observe, govern, and secure enterprise agents. This is the unglamorous future of AI at work: fewer demos, more permissions, audit logs, and blast-radius control.</p>
+            <div class="story-source">
+                <a href="https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/" target="_blank">Source: microsoft.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2050859619845857745" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
