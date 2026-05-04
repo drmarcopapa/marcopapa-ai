@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 4, 2026",
+          "file": "2026-05-04.html",
+          "title": "Greg Brockman remains OpenAI\u2019s unfair ad, ClawSweeper turns repo maintenance into , OSS maintainers are getting agent relief",
+          "stories": 10
+        },
+        {
           "date": "May 3, 2026",
           "file": "2026-05-03.html",
           "title": "Smarter still beats cheaper, OpenClaw ships less drama, more uptime, Plugins are the hard part nobody wants t",
