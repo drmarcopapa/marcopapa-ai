@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 5, 2026",
+          "file": "2026-05-05.html",
+          "title": "OpenAI keeps turning GPT-5.5 into a cult, Voice is becoming the default AI interfa, OpenClaw ships the unsexy parts agents a",
+          "stories": 10
+        },
+        {
           "date": "May 4, 2026",
           "file": "2026-05-04.html",
           "title": "Greg Brockman remains OpenAI\u2019s unfair ad, ClawSweeper turns repo maintenance into , OSS maintainers are getting agent relief",
