@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 6, 2026",
+          "file": "2026-05-06.html",
+          "title": "GPT-5.5 becomes the ChatGPT default \u2014 Op, Sam Altman teases the model race, ProgramBench makes every LLM look bad",
+          "stories": 10
+        },
+        {
           "date": "May 5, 2026",
           "file": "2026-05-05.html",
           "title": "OpenAI keeps turning GPT-5.5 into a cult, Voice is becoming the default AI interfa, OpenClaw ships the unsexy parts agents a",
