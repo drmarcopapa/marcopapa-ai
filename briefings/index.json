@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 7, 2026",
+          "file": "2026-05-07.html",
+          "title": "Anthropic buys the compute spigot, Claude agents learn to \u201cdream\u201d \u2014 Anthrop, Google makes Gemma faster with speculati",
+          "stories": 10
+        },
+        {
           "date": "May 6, 2026",
           "file": "2026-05-06.html",
           "title": "GPT-5.5 becomes the ChatGPT default \u2014 Op, Sam Altman teases the model race, ProgramBench makes every LLM look bad",

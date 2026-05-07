@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — May 7, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">May 7, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💻</span>
+            <h3>Anthropic buys the compute spigot</h3>
+            <p>Claude limits are going up because Anthropic cut a SpaceX compute deal, on top of Amazon, Google/Broadcom, Microsoft/NVIDIA, and Fluidstack commitments. The real AI moat is no longer just model quality; it is who can keep the GPUs fed without melting the grid.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/news/higher-limits-spacex" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>Claude agents learn to “dream” — Anthropic’s Managed Agents now get scheduled memory review</h3>
+            <p>they look back at work, extract patterns, and update what they remember. Cute branding, but the important part is this: long-running agents need maintenance loops, not just bigger context windows.</p>
+            <div class="story-source">
+                <a href="https://thenewstack.io/anthropic-managed-agents-dreaming-outcomes/" target="_blank">Source: thenewstack.io →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚡</span>
+            <h3>Google makes Gemma faster with speculative decoding — Gemma 4 drafters can deliver up to 3x faster generation without quality loss, according to Google. This is the boring-sounding infrastructure work that actually matters</h3>
+            <p>cheaper local inference beats another chatbot wrapper.</p>
+            <div class="story-source">
+                <a href="https://arstechnica.com/ai/2026/05/googles-gemma-4-open-ai-models-use-speculative-decoding-to-get-up-to-3x-faster/" target="_blank">Source: arstechnica.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🇨🇳</span>
+            <h3>DeepSeek may jump to a $45B valuation — DeepSeek is reportedly eyeing its first outside funding round, potentially led by China’s chip investment fund. Translation</h3>
+            <p>China is turning model labs, Huawei chips, and state capital into one coordinated AI stack.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏢</span>
+            <h3>Coder launches self-hosted coding agents — Coder Agents is pitching the enterprise version of agentic coding</h3>
+            <p>keep orchestration, code, prompts, and model traffic inside your own infrastructure. The next fight in coding agents is not “who writes better code”; it is “who gets past security review.”</p>
+            <div class="story-source">
+                <a href="https://www.globenewswire.com/news-release/2026/05/06/3288916/0/en/coder-sets-a-new-standard-for-ai-coding-with-self-hosted-ai-model-agnostic-coder-agents.html" target="_blank">Source: globenewswire.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🤝</span>
+            <h3>NVIDIA publicly hugs Claude — NVIDIA’s “We 💚 Claude” post is short, but the signal is loud</h3>
+            <p>infrastructure vendors want to be seen next to the developer workflow that is actually growing. In AI, public affection usually follows private demand.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2052082412994383936" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🎤</span>
+            <h3>Code with Claude becomes a platform moment — Boris Cherny’s conference posts show Anthropic treating Claude Code less like a tool and more like a developer ecosystem. That is the right move</h3>
+            <p>coding agents are becoming the new IDE layer.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2052068475900985388" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🚀</span>
+            <h3>TokenSpeed targets agentic inference</h3>
+            <p>NVIDIA highlighted TokenSpeed, an inference engine built for “speed-of-light agentic workloads,” with smarter KV cache handling and scheduling. Everyone talks about agents; the winners will be the people making thousands of tiny model calls feel instant.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2052061195381911806" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧪</span>
+            <h3>The AI “neolab” bubble gets mapped — Deedy Das lists 63 pre-revenue, billion-dollar-ish AI labs chasing long-term breakthroughs. Useful map, but also a warning label</h3>
+            <p>when every lab is a moonshot, gravity eventually invoices somebody.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2052266037979320752" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🖥️</span>
+            <h3>Agents need interfaces, not just text boxes — DeepLearning.AI is pushing generative UI agents that create charts, forms, and interactive components on demand. This is the right direction</h3>
+            <p>plain text is the command line of agents, not the final product.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2052048454440849748" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2052313455957602727" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
