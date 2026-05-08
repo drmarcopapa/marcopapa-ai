@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — May 8, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">May 8, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🗣️</span>
+            <h3>OpenAI makes voice a real API layer</h3>
+            <p>GPT-Realtime-2, Translate, and Whisper push voice from demo candy into infrastructure: talking apps that can reason, translate, transcribe, and act. The next UI war is not chat boxes — it is latency, accents, and trust.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>OpenAI opens GPT-5.5-Cyber to vetted defenders</h3>
+            <p>This is the right move and the scary one: frontier models are now good enough at security work that access control becomes product strategy. Cyber AI is moving from “help me explain CVEs” to “simulate the breach before the attacker does.”</p>
+            <div class="story-source">
+                <a href="https://www.axios.com/2026/05/07/openai-gpt-55-cybersecurity-model" target="_blank">Source: axios.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>Anthropic tries to read Claude’s hidden thoughts</h3>
+            <p>Natural Language Autoencoders translate model activations into readable text. Interpretability is finally getting less mystical — but if the model can narrate its thoughts, the next question is whether it learns to narrate the convenient ones.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2052435436157452769" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💰</span>
+            <h3>Moonshot AI raises $2B at a $20B valuation</h3>
+            <p>China’s open-weight labs are no longer benchmark curiosities; they are becoming capitalized platform companies. Kimi’s rise is the reminder that “open” can still be a brutally serious business model.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🚀</span>
+            <h3>Musk becomes Anthropic’s compute landlord</h3>
+            <p>SpaceX supplying Anthropic compute is peak 2026: ideology yields to GPU scarcity. In AI, yesterday’s enemy becomes today’s data-center vendor if the price per token works.</p>
+            <div class="story-source">
+                <a href="https://www.axios.com/2026/05/07/musk-anthropic-compute-spacex-ai" target="_blank">Source: axios.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔁</span>
+            <h3>Anthropic puts recursive self-improvement on the agenda</h3>
+            <p>The Anthropic Institute is explicitly studying AI-driven R&D and “potential recursive self-improvement.” Good: name the thing. Bad: once labs start planning fire drills for intelligence explosions, maybe stop pretending this is just another SaaS cycle.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/research/anthropic-institute-agenda" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🐞</span>
+            <h3>Anthropic opens its bug bounty to the public</h3>
+            <p>Public HackerOne bounties are table stakes for serious AI platforms now. The attack surface is no longer just web apps — it is prompts, tools, agents, connectors, memory, and every weird edge where software meets language.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2052466175540629965" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧩</span>
+            <h3>Andrew Ng pushes agents with custom UIs</h3>
+            <p>The interesting agent UX is not “chat with a bot forever.” It is agents generating the right interface — charts, forms, whiteboards — at the moment of need. Chat is the command line; UI is the product.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2052422157310083493" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚙️</span>
+            <h3>NVIDIA shows how Perplexity squeezes inference</h3>
+            <p>Everyone talks model quality; winners obsess over inference plumbing. CUTLASS Python stacks are not glamorous, but margins in AI are increasingly hidden in kernels, batching, cache hits, and power bills.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2052495856813981753" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">👨‍💻</span>
+            <h3>Altman says developers should evolve, not be replaced</h3>
+            <p>The “AI replaces engineers” framing is lazy. The real split is between developers who learn to command systems and developers who keep typing like it is 2019. Harsh, but fair.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2052485051812909530" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2052668241403867328" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
