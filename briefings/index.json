@@ -4,10 +4,16 @@
       "label": "May 2026",
       "briefings": [
         {
-          "date": "May 8, 2026",
-          "file": "2026-05-09.html",
-          "title": "OpenAI makes voice a real API layer, OpenAI opens GPT-5.5-Cyber to vetted def, Anthropic tries to read Claude\u2019s hidden ",
+          "date": "May 10, 2026",
+          "file": "2026-05-10.html",
+          "title": "OpenAI is openly fishing for model feedb, Ephemeral agent sandboxes are becoming t, Peekaboo 3.0 shows computer-use agents a",
           "stories": 10
+        },
+        {
+          "date": "May 9, 2026",
+          "file": "2026-05-09.html",
+          "title": "Anthropic says it trained Claude out of blackmail",
+          "stories": 9
         },
         {
           "date": "May 8, 2026",
