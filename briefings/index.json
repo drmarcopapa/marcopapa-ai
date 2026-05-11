@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 11, 2026",
+          "file": "2026-05-11.html",
+          "title": "OpenAI turns limits into a meter \u2014 ChatG, The AI manager ordered 6,000 napkins \u2014 A, Braintrust breach shows the new AI suppl",
+          "stories": 10
+        },
+        {
           "date": "May 10, 2026",
           "file": "2026-05-10.html",
           "title": "OpenAI is openly fishing for model feedb, Ephemeral agent sandboxes are becoming t, Peekaboo 3.0 shows computer-use agents a",
@@ -12,7 +18,7 @@
         {
           "date": "May 9, 2026",
           "file": "2026-05-09.html",
-          "title": "Anthropic says it trained Claude out of blackmail",
+          "title": "Anthropic says it trained Claude out of blackmail. The interesting part is not Claude was fixed.",
           "stories": 9
         },
         {
