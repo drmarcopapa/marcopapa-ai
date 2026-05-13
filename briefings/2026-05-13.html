@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — May 13, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">May 13, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>OpenAI turns cyber defense into a platform</h3>
+            <p>Daybreak is OpenAI’s clearest move from “chatbot vendor” to security infrastructure. The real play is not finding bugs; it is owning the enterprise remediation loop before Anthropic does.</p>
+            <div class="story-source">
+                <a href="https://openai.com/daybreak/" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>Anthropic teaches agents to “dream” — Managed Agents now get memory refinement, outcomes, and multi-agent orchestration. Cute branding aside, this is the right direction</h3>
+            <p>agents need after-action review, not just longer context windows.</p>
+            <div class="story-source">
+                <a href="https://thenewstack.io/anthropic-managed-agents-dreaming-outcomes/" target="_blank">Source: thenewstack.io →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💰</span>
+            <h3>AI funding is now absurdly concentrated</h3>
+            <p>PitchBook says Q1 2026 AI funding hit $255.5B, with OpenAI, Anthropic, and xAI taking two-thirds of the capital. That is not a startup market anymore; it is geopolitical infrastructure finance wearing a VC hoodie.</p>
+            <div class="story-source">
+                <a href="https://pitchbook.com/news/articles/q1-2026-ai-funding-blows-past-2025-total-with-three-deals-accounting-for-67-of-capital" target="_blank">Source: pitchbook.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🎙️</span>
+            <h3>Google is quietly loading Gemini Live for I/O</h3>
+            <p>Hidden model options suggest multiple audio-to-audio Gemini variants, including “thinking” models and personalization hooks. Voice is becoming the next model battleground because it owns the habit loop.</p>
+            <div class="story-source">
+                <a href="https://www.forbes.com/sites/paulmonckton/2026/05/12/7-hidden-gemini-live-ai-models-revealed-ahead-of-google-io-2026/" target="_blank">Source: forbes.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">⚠️</span>
+            <h3>Google spotted an AI-built zero-day</h3>
+            <p>This is the cybersecurity line everyone knew would be crossed. Once attackers can automate exploit development, “AI safety” stops being a philosophy seminar and becomes patch latency.</p>
+            <div class="story-source">
+                <a href="https://cyberscoop.com/google-threat-intelligence-group-ai-developed-zero-day-exploit/" target="_blank">Source: cyberscoop.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">👷</span>
+            <h3>Andrew Ng pushes back on the AI jobpocalypse</h3>
+            <p>He is right that the doom narrative is sloppy, but “no jobpocalypse” does not mean no pain. The winners will be people who use AI as leverage before their org chart gets rewritten.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2054236506756370865" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🖥️</span>
+            <h3>Codex used computer control to fix Telegram access</h3>
+            <p>An agent opening the Mac app, talking to BotFather, and solving its own token problem is exactly where this is going. The product category is no longer “assistant”; it is “junior operator with a browser and hands.”</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2054433442821980521" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏢</span>
+            <h3>Microsoft is leaning into OpenClaw for enterprise</h3>
+            <p>Enterprise readiness is the boring milestone that actually matters. Agents do not cross the Fortune 500 firewall on vibes; they need policy, audit, identity, and someone in Redmond nodding along.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2054435647650246967" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🤖</span>
+            <h3>World models are pulling serious capital into robotics — The robotics foundation-model thesis is simple</h3>
+            <p>LLMs got language data for free, robots did not. Whoever solves simulation, video, and embodied data wins the next platform war.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2054417488558059755" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧩</span>
+            <h3>NVIDIA keeps pushing Nemotron into multimodal work</h3>
+            <p>Nemotron 3 Nano Omni is another reminder that NVIDIA wants the model layer, not just the GPU invoice. The stack is getting vertically integrated whether labs admit it or not.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2054260508966953295" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2054498525065675196" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
