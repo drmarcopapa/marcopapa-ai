@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — May 14, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">May 14, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🏢</span>
+            <h3>Anthropic takes the enterprise lead</h3>
+            <p>Ramp data says more businesses now pay for Anthropic than OpenAI, 34.4% vs. 32.3%. Claude Code is turning into the wedge product OpenAI should have owned by default.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>AI cyber capability just jumped the curve — CyberScoop reports GPT-5.5 and Claude Mythos blew past autonomous cyber benchmarks from AISI and Palo Alto Networks. The uncomfortable part</h3>
+            <p>defenders and attackers are about to get the same productivity upgrade.</p>
+            <div class="story-source">
+                <a href="https://cyberscoop.com/ai-autonomous-cyber-capability-benchmarks-broken-gpt5-claude-mythos/" target="_blank">Source: cyberscoop.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧬</span>
+            <h3>Self-improving AI is now a funded company, not a thought experiment</h3>
+            <p>Recursive Superintelligence launched with $650M and a $4.65B valuation to build models that improve their own code, harnesses, and infrastructure. The pitch is wild; the investor list says the market is taking it seriously.</p>
+            <div class="story-source">
+                <a href="https://siliconangle.com/2026/05/13/recursive-superintelligence-raises-650m-build-self-improving-ai-models/" target="_blank">Source: siliconangle.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧯</span>
+            <h3>Microsoft’s OpenAI dependence looks messier in court</h3>
+            <p>Trial testimony shows Microsoft worried early about becoming too reliant on OpenAI, even while committing staggering infrastructure dollars. The AI stack is becoming multi-model because even Microsoft does not want one throat to choke.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/05/13/microsoft-feared-openai-reliance-musk-altman-trial-testimony-reveals.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧾</span>
+            <h3>Anthropic goes after small business workflows — Claude for Small Business plugs into tools like QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365. Smart move</h3>
+            <p>SMBs do not want “AI strategy”; they want the invoice, payroll, and customer follow-up done.</p>
+            <div class="story-source">
+                <a href="https://www.axios.com/2026/05/13/anthropic-claude-small-business-smb" target="_blank">Source: axios.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧑‍🏭</span>
+            <h3>Andrew Ng pushes back on the AI jobpocalypse narrative — His point is blunt</h3>
+            <p>AI changes jobs, but panic-selling mass unemployment is irresponsible. Correct take; the harder conversation is which jobs get redesigned first and who gets retrained fast enough.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2054236506756370865" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🤖</span>
+            <h3>Agents are crossing into real computer use</h3>
+            <p>A Codex agent reportedly opened Telegram, talked to BotFather, and generated a new token while debugging. This is the shift from “chatbot gives advice” to “software intern uses the machine.”</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2054433442821980521" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🌍</span>
+            <h3>World models are back in the center of the robotics story</h3>
+            <p>Deedy Das highlights a major read on the $10B rush into world models from LeCun, Fei-Fei Li, and others. If LLMs gave us language priors, world models are the bet on physical intuition.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2054417488558059755" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🎨</span>
+            <h3>Krea’s K-2 shows where image models are heading</h3>
+            <p>From one reference image, it generated a moodboard, taste profile, and polished outputs from a one-line prompt. The next frontier is not prettier pixels; it is models that understand style systems.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2054291725569622394" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧠</span>
+            <h3>NVIDIA keeps pushing Nemotron into multimodal territory</h3>
+            <p>Nemotron 3 Nano Omni gets the “Ask the Experts” treatment, which usually means NVIDIA wants developers paying attention. Small, capable, deployable models are where enterprise AI quietly becomes real.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2054260508966953295" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2054844938370826278" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
