@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 19, 2026",
+          "file": "2026-05-19.html",
+          "title": "ChatGPT Gets a Quiet Upgrade \u2014 Sam Altma, Anthropic Buys Stainless, OpenClaw Ships More Agent Plumbing",
+          "stories": 10
+        },
+        {
           "date": "May 18, 2026",
           "file": "2026-05-18.html",
           "title": "India is becoming OpenAI\u2019s image factory, OpenAI may be taking Codex vertical. Art, ChatGPT wants your bank balance. Forbes ",
