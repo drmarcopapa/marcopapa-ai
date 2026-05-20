@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 20, 2026",
+          "file": "2026-05-20.html",
+          "title": "Karpathy joins Anthropic. This is not a , OpenAI starts selling compute certainty., Gemini CLI is becoming Antigravity CLI. ",
+          "stories": 10
+        },
+        {
           "date": "May 19, 2026",
           "file": "2026-05-19.html",
           "title": "ChatGPT Gets a Quiet Upgrade \u2014 Sam Altma, Anthropic Buys Stainless, OpenClaw Ships More Agent Plumbing",
