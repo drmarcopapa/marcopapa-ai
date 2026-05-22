@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 22, 2026",
+          "file": "2026-05-22.html",
+          "title": "OpenAI cracks an 80-year-old Erd\u0151s math , OpenAI reportedly eyes a September IPO, Nvidia posts another absurd AI quarter",
+          "stories": 10
+        },
+        {
           "date": "May 21, 2026",
           "file": "2026-05-21.html",
           "title": "OpenAI model breaks an 80-year-old math , OpenAI is racing toward an IPO, Anthropic says profitability is near",

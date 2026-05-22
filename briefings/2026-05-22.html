@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — May 22, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">May 22, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧮</span>
+            <h3>OpenAI cracks an 80-year-old Erdős math belief — This is the kind of AI milestone that matters</h3>
+            <p>not another chatbot wrapper, but a general reasoning model finding a construction humans missed. Still not “AI solves math,” but the boundary moved.</p>
+            <div class="story-source">
+                <a href="https://www.theguardian.com/technology/2026/may/21/openai-paul-erdos-maths-problem-breakthrough" target="_blank">Source: theguardian.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📈</span>
+            <h3>OpenAI reportedly eyes a September IPO</h3>
+            <p>The frontier labs are racing from science project to public-market monster. If this happens, AI valuations stop being private-market theater and become everyone’s problem.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/video/2026/05/21/openai-plans-to-go-public-as-soon-as-september-source.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💰</span>
+            <h3>Nvidia posts another absurd AI quarter</h3>
+            <p>$81.6B in revenue and investors still yawned. That tells you the market has priced Nvidia like AI infrastructure must keep compounding forever — no pressure, Jensen.</p>
+            <div class="story-source">
+                <a href="https://www.bbc.com/news/articles/c759x9pq3dpo" target="_blank">Source: bbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧬</span>
+            <h3>Claude moves deeper into pharma</h3>
+            <p>BMS is deploying Claude across drug development, manufacturing, regulatory, and commercial workflows. The real AI money is not chat; it is buried inside regulated enterprise pipelines where latency is expensive and mistakes are existential.</p>
+            <div class="story-source">
+                <a href="https://www.biospace.com/deals/lilly-bms-incyte-strike-deals-to-keep-biopharmas-ai-integration-rolling" target="_blank">Source: biospace.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛡️</span>
+            <h3>Google folds CodeMender into its agent platform — Autonomous code repair is being wrapped in identity, gateway, and observability. Translation</h3>
+            <p>enterprises do not want magic agents; they want agents with seatbelts, audit logs, and someone to blame.</p>
+            <div class="story-source">
+                <a href="https://www.csoonline.com/article/4176164/google-folds-codemender-into-agent-ecosystem-amid-push-for-ai-led-appsec.html" target="_blank">Source: csoonline.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧾</span>
+            <h3>Claude Code is getting token usage visibility</h3>
+            <p>Anthropic adding `/usage` for Skills, Agents, MCPs, and Plugins is boring in exactly the right way. Agent stacks will not scale until developers can see where the meter is bleeding.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2057476878110261587" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔐</span>
+            <h3>NVIDIA ships Verified Agent Skills</h3>
+            <p>Skill ecosystems are becoming package managers with security baggage. Verification is not a feature anymore; it is the price of letting agents touch real systems.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2057496919425900834" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🦾</span>
+            <h3>OpenClaw ships more agent plumbing — Discord voice handoff, plaintext-secret checks, and clearer model status are not flashy, but this is what real agent products need</h3>
+            <p>less demo magic, more operational hygiene.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2057587353443619227" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">☁️</span>
+            <h3>Modal gets Menlo backing</h3>
+            <p>The AI infrastructure winners are not only model labs and chip vendors. The boring layer that makes compute easy for builders is where a lot of durable value will hide.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2057569977860047045" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧭</span>
+            <h3>Sam Altman asks what problems AI should solve — A simple prompt, but revealing</h3>
+            <p>OpenAI is fishing for the next narrative after coding, search, and agents. The hard part is turning “solve big problems” into products people trust.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2057614780727480741" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2057767964980789641" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
