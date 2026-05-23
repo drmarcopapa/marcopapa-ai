@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 23, 2026",
+          "file": "2026-05-23.html",
+          "title": "AI immigration self-own, Claude finds the bugs humans missed, Claude Code goes mainstream",
+          "stories": 10
+        },
+        {
           "date": "May 22, 2026",
           "file": "2026-05-22.html",
           "title": "OpenAI cracks an 80-year-old Erd\u0151s math , OpenAI reportedly eyes a September IPO, Nvidia posts another absurd AI quarter",
