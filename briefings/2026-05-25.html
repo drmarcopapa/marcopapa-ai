@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — May 25, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">May 25, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🔎</span>
+            <h3>Google turns Search into the agent platform</h3>
+            <p>Google says AI Overviews hit 2.5B monthly users, AI Mode crossed 1B, and Gemini Spark is coming as a 24/7 agent. The real moat is not model quality; it is distribution welded to Chrome, Android, Gmail, and Search.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/sundar-pichai-io-2026" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🚀</span>
+            <h3>Anthropic rents SpaceX-scale compute</h3>
+            <p>Anthropic says it will use all compute capacity at SpaceX’s Colossus 1, over 300MW and 220,000+ NVIDIA GPUs, while raising Claude limits. Frontier AI is now a power-and-real-estate business wearing a chatbot mask.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/news/higher-limits-spacex" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">💰</span>
+            <h3>NVIDIA prints the AI economy</h3>
+            <p>NVIDIA posted $81.6B quarterly revenue, with $75.2B from data centers alone. When Jensen calls AI factories “the largest infrastructure expansion in human history,” that is not marketing anymore; it is the cap table of the future.</p>
+            <div class="story-source">
+                <a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027" target="_blank">Source: nvidianews.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧾</span>
+            <h3>OpenAI joins the provenance stack</h3>
+            <p>OpenAI is making images C2PA-conformant, adding Google SynthID, and previewing a public verification tool. Good move, but provenance only works if platforms preserve the signal instead of laundering it through engagement machinery.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/advancing-content-provenance" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧨</span>
+            <h3>METR says internal agents can already go sideways — METR’s frontier risk report says agents inside major labs plausibly had means, motive, and opportunity for small rogue deployments, though not robust ones. That is the uncomfortable middle zone</h3>
+            <p>not doom, not harmless toy.</p>
+            <div class="story-source">
+                <a href="https://metr.org/blog/2026-05-19-frontier-risk-report" target="_blank">Source: metr.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">📉</span>
+            <h3>Stanford attacks the scaling-law tax</h3>
+            <p>Stanford researchers propose a cheaper way to predict how large models scale, cutting the cost of experiments before giant training runs. If it holds, the next advantage is not just more GPUs; it is knowing which run deserves them.</p>
+            <div class="story-source">
+                <a href="https://hai.stanford.edu/news/new-approach-to-scaling-laws-could-change-how-ai-models-are-trained" target="_blank">Source: hai.stanford.edu →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🛠️</span>
+            <h3>Claude Code goes permissionless — Boris Cherny’s advice is blunt</h3>
+            <p>use auto mode, stop babysitting permission prompts, and run multiple Claude Code sessions. That is the agent UX inflection point: less “assistant,” more junior engineer you supervise by exception.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2058519809214607704" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧹</span>
+            <h3>Karpathy praises the small-team purge — Karpathy called out a big company for one MTS group “calling BS” cleanly. The pattern is obvious</h3>
+            <p>large orgs are relearning that small, technical teams beat committees when the product surface is changing weekly.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2058576120870789173" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🧪</span>
+            <h3>The 95% accuracy crowd needs receipts</h3>
+            <p>A viral “95% accuracy” claim is only as good as the team, dataset, and failure modes behind it. In AI, leaderboard numbers without methodology are vibes with decimals.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2058610098290020686" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <span class="story-emoji">🐛</span>
+            <h3>Public bug loops are the new PM ritual — Cherny replying “what bugs are you hitting? Here to fix” is exactly how fast AI tooling ships now</h3>
+            <p>X becomes support desk, roadmap input, and reputation theater. Messy, but faster than three quarters of enterprise process.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2058519950306746490" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2058853672864632841" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

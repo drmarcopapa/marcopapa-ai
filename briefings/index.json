@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 25, 2026",
+          "file": "2026-05-25.html",
+          "title": "Google turns Search into the agent platf, Anthropic rents SpaceX-scale compute, NVIDIA prints the AI economy",
+          "stories": 10
+        },
+        {
           "date": "May 24, 2026",
           "file": "2026-05-24.html",
           "title": "Google turns Search into an agent layer, OpenAI is hiring for self-training AI sa, The OpenAI trial exposed the money gravi",
