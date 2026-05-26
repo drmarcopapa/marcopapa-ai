@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 26, 2026",
+          "file": "2026-05-26.html",
+          "title": "Agent skills are becoming the new prompt, Anthropic walks into the Vatican AI deba, The CBSE hack is a reminder",
+          "stories": 10
+        },
+        {
           "date": "May 25, 2026",
           "file": "2026-05-25.html",
           "title": "Google turns Search into the agent platf, Anthropic rents SpaceX-scale compute, NVIDIA prints the AI economy",
