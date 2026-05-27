@@ -4,6 +4,12 @@
       "label": "May 2026",
       "briefings": [
         {
+          "date": "May 27, 2026",
+          "file": "2026-05-27.html",
+          "title": "Anthropic puts agents in a tighter box, OpenRouter hits 1.5 quadrillion tokens/y, Autoreview becomes the new senior engine",
+          "stories": 10
+        },
+        {
           "date": "May 26, 2026",
           "file": "2026-05-26.html",
           "title": "Agent skills are becoming the new prompt, Anthropic walks into the Vatican AI deba, The CBSE hack is a reminder",
