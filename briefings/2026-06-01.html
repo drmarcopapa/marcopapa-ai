@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 1, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 1, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> 𝗔𝗜 𝗠𝗼𝘃𝗲𝘀 𝗜𝗻𝘁𝗼 𝗥𝗼𝗯𝗼𝘁 𝗕𝗼𝗱𝗶𝗲𝘀 — OpenAI Robotics is openly recruiting hardware, ops, systems, and ML engineers. Translation</h3>
+            <p>the frontier labs are done pretending intelligence lives only in chat boxes.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2061117302528188712" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> 𝗕𝗶𝗼𝗱𝗲𝗳𝗲𝗻𝘀𝗲 𝗕𝗲𝗰𝗼𝗺𝗲𝘀 𝗔𝗻 𝗔𝗜 𝗣𝗿𝗼𝗱𝘂𝗰𝘁</h3>
+            <p>Sam Altman is pushing “Rosalind Biodefense,” which is the clearest signal yet that biosecurity is moving from policy paper to product surface. Useful, scary, inevitable.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2061101875303530871" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⏳</span> 𝗡𝗩𝗜𝗗𝗜𝗔 𝗧𝗲𝗮𝘀𝗲𝘀 𝗡𝗲𝗺𝗼𝘁𝗿𝗼𝗻 𝟯 𝗨𝗹𝘁𝗿𝗮 — NVIDIA is turning model launches into platform control</h3>
+            <p>chips, inference, enterprise agents, now frontier-ish open models. The stack is getting very green.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2061305524700758050" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌌</span> 𝗖𝗼𝘀𝗺𝗼𝘀 𝟯 𝗢𝗽𝗲𝗻𝘀 𝗧𝗵𝗲 𝗣𝗵𝘆𝘀𝗶𝗰𝗮𝗹 𝗔𝗜 𝗦𝘁𝗮𝗰𝗸</h3>
+            <p>Cosmos 3 ships as an open physical-AI omnimodel with vision reasoning plus world/action generation. This is NVIDIA trying to own the simulator before robots own the room.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2061308434629132553" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> 𝗔𝗴𝗲𝗻𝘁 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗚𝗲𝘁𝘀 𝗥𝗲𝗮𝗹 — OpenClaw and NVIDIA released security scans for 67,453 ClawHub skills</h3>
+            <p>half flagged as agentic risk, only 0.31% malicious, and scanners barely agree. That screams “we need better threat models,” not better marketing decks.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2061324089432617406" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> 𝗥𝗧𝗫 𝗦𝗽𝗮𝗿𝗸 𝗧𝘂𝗿𝗻𝘀 𝗣𝗖𝘀 𝗜𝗻𝘁𝗼 𝗔𝗴𝗲𝗻𝘁 𝗕𝗼𝘅𝗲𝘀</h3>
+            <p>NVIDIA and Microsoft unveiled RTX Spark PCs for personal AI agents, with OEMs lined up for fall. The PC upgrade cycle finally has a story that is not “slightly better webcam.”</p>
+            <div class="story-source">
+                <a href="https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark" target="_blank">Source: nvidianews.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏦</span> 𝗠𝘆𝘁𝗵𝗼𝘀 𝗛𝗶𝘁𝘀 𝗧𝗵𝗲 𝗕𝗮𝗻𝗸-𝗥𝗲𝗴𝘂𝗹𝗮𝘁𝗼𝗿 𝗪𝗮𝗹𝗹</h3>
+            <p>UK banks still lack access to Anthropic’s Mythos model for cyber-risk testing. If a model can “crack open” cyber risk, regulators need access before criminals get the user manual.</p>
+            <div class="story-source">
+                <a href="https://www.itnews.com.au/news/uk-banks-still-lack-access-to-mythos-ai-model-626292" target="_blank">Source: itnews.com.au →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎖️</span> 𝗧𝗵𝗲 𝗣𝗲𝗻𝘁𝗮𝗴𝗼𝗻 𝗪𝗮𝗻𝘁𝘀 𝗕𝗮𝘁𝘁𝗹𝗲𝗳𝗶𝗲𝗹𝗱 𝗔𝗜 — The U.S. military is accelerating AI adoption while senior leaders keep asking for guardrails. Good</h3>
+            <p>someone remembers that “move fast and break things” is a terrible doctrine when the things are geopolitical.</p>
+            <div class="story-source">
+                <a href="https://www.bozemandailychronicle.com/ap_news/business/as-the-pentagon-pushes-for-battlefield-ai-some-military-leaders-urge-caution/article_30d22fed-11d9-572b-88f3-3a3a150a5255.html" target="_blank">Source: bozemandailychronicle.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦾</span> 𝗘𝗺𝗯𝗼𝗱𝗶𝗲𝗱 𝗔𝗜 𝗜𝘀 𝗧𝗵𝗲 𝗡𝗲𝘄 𝗔𝗿𝗺𝘀 𝗥𝗮𝗰𝗲 — Counterpoint’s Neil Shah frames humanoids, autonomous systems, Korea, sovereign AI, and NVIDIA as one connected wave. He is right</h3>
+            <p>“physical AI” is becoming industrial policy with robot legs.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/video/2026/06/01/the-next-wave-of-ai-analyst-explains-how-embodied-ai-is-taking-shape.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> 𝗧𝗵𝗲 𝗔𝗜 𝗧𝗿𝗮𝗱𝗲 𝗛𝗶𝘁𝘀 𝗢𝘃𝗲𝗿𝗱𝗿𝗶𝘃𝗲</h3>
+            <p>Chip and memory stocks are powering one of the S&P 500’s strongest two-month runs in decades. The market is not buying chatbots anymore; it is buying the entire AI supply chain.</p>
+            <div class="story-source">
+                <a href="https://www.wsj.com/finance/stocks/ai-stocks-trade-e7b19a9f" target="_blank">Source: wsj.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2061375510752768037" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
