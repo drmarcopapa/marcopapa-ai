@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 2, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 2, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰 𝗳𝗶𝗹𝗲𝘀 𝗳𝗼𝗿 𝗜𝗣𝗢</h3>
+            <p>The Claude boom is now headed for Wall Street. If Anthropic opens its books cleanly, the AI bubble debate finally gets numbers instead of vibes.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2061478052257841495" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> 𝗢𝗽𝗲𝗻𝗔𝗜 𝗹𝗲𝗮𝗻𝘀 𝗶𝗻𝘁𝗼 𝗶𝘁𝘀 𝗙𝗼𝘂𝗻𝗱𝗮𝘁𝗶𝗼𝗻 — Sam Altman is reframing AI resilience as infrastructure, not philanthropy. Smart move</h3>
+            <p>the more powerful the company gets, the more legitimacy it needs outside product launches.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2061562575322492937" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💼</span> 𝗔𝗜 𝗙𝗗𝗘𝘀 𝗮𝗿𝗲 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗲𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲 𝗺𝗼𝘁𝗶𝗼𝗻 — Andrew Ng calling out Forward Deployed Engineers says the quiet part out loud</h3>
+            <p>selling AI means embedding people who can turn demos into workflows. SaaS is starting to look like services with better margins.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2061477558693384395" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏭</span> 𝗡𝗩𝗜𝗗𝗜𝗔 𝗯𝗿𝗶𝗻𝗴𝘀 𝗮𝗴𝗲𝗻𝘁𝘀 𝘁𝗼 𝘁𝗵𝗲 𝗳𝗮𝗰𝘁𝗼𝗿𝘆</h3>
+            <p>FOX is a reference design for factory-manager agents that monitor, reason, and coordinate other agents. This is where “agentic AI” stops being a slide and starts touching production lines.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2061594329580224819" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🗣️</span> 𝗖𝗼𝗱𝗲𝘅 𝗶𝘀 𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝘁𝗼 𝗽𝗶𝗻𝗴 𝗵𝘂𝗺𝗮𝗻𝘀</h3>
+            <p>Developers wiring coding agents to interrupt them by voice is a small thing that feels big. The next UX frontier is not chat; it is knowing when the agent should bother you.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2061574752574283858" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> 𝗡𝗩𝗜𝗗𝗜𝗔 𝗮𝗻𝗱 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗽𝘂𝘀𝗵 𝗔𝗜 𝗣𝗖𝘀</h3>
+            <p>RTX Spark is Jensen’s bid to make local personal agents a real hardware category. If the models fit on the desk, cloud AI pricing gets a lot more interesting.</p>
+            <div class="story-source">
+                <a href="https://apnews.com/article/nvidia-microsoft-ai-laptops-jensen-chip-c807f7333b93b9927b62b1240dcf65a1" target="_blank">Source: apnews.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> 𝗡𝗲𝗺𝗼𝘁𝗿𝗼𝗻 𝟯 𝗨𝗹𝘁𝗿𝗮 𝗿𝗮𝗶𝘀𝗲𝘀 𝘁𝗵𝗲 𝗼𝗽𝗲𝗻-𝘄𝗲𝗶𝗴𝗵𝘁 𝗯𝗮𝗿</h3>
+            <p>NVIDIA’s 550B model looks like the strongest U.S. open-weight push yet, but China’s Kimi still leads on intelligence benchmarks. Open models are now geopolitical infrastructure, not hobbyist toys.</p>
+            <div class="story-source">
+                <a href="https://decrypt.co/369689/nvidia-open-ai-model-nemotron-3-ultra" target="_blank">Source: decrypt.co →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> 𝗣𝗵𝘆𝘀𝗶𝗰𝗮𝗹 𝗔𝗜 𝗴𝗲𝘁𝘀 𝗮 𝗿𝗲𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗿𝗼𝗯𝗼𝘁 — NVIDIA’s Isaac GR00T reference humanoid is the right play</h3>
+            <p>standardize the robot stack so researchers stop rebuilding plumbing. Humanoids need boring platforms before they get magical.</p>
+            <div class="story-source">
+                <a href="https://www.therobotreport.com/nvidia-releases-new-updated-tools-physical-ai-gtc-taipei-computex/" target="_blank">Source: therobotreport.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚖️</span> 𝗙𝗹𝗼𝗿𝗶𝗱𝗮 𝘀𝘂𝗲𝘀 𝗢𝗽𝗲𝗻𝗔𝗜</h3>
+            <p>The first state lawsuit framing ChatGPT as an unsafe product is a serious escalation. The regulatory fight is moving from “copyright and bias” to product liability.</p>
+            <div class="story-source">
+                <a href="https://www.wsj.com/tech/ai/openai-sued-by-floridas-attorney-general-over-ai-harms-8a5113a8" target="_blank">Source: wsj.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📰</span> 𝗡𝗬𝗧 𝘄𝗮𝗿𝗻𝘀 𝗔𝗜 𝗰𝗼𝘂𝗹𝗱 𝗵𝗮𝗿𝗺 𝗻𝗲𝘄𝘀 — Sulzberger is right on the tension</h3>
+            <p>newsrooms need AI, but AI companies also need trustworthy news as fuel. The licensing fight is not going away; it is becoming the business model.</p>
+            <div class="story-source">
+                <a href="https://variety.com/2026/biz/news/new-york-times-ai-companies-choices-unnecessary-harm-1236763934/" target="_blank">Source: variety.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2061734208318652867" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
