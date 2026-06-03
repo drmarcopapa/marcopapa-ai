@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 3, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 3, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🪟</span> 𝗢𝗽𝗲𝗻𝗖𝗹𝗮𝘄 𝗴𝗼𝗲𝘀 𝗰𝗼𝗿𝗽𝗼𝗿𝗮𝘁𝗲</h3>
+            <p>The Microsoft/Windows push is the clearest sign desktop agents are moving from hacker toy to IT-governed workplace layer. The winner is whoever makes permissions boring enough for CIOs.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2061869633624580452" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰 𝘀𝗰𝗮𝗹𝗲𝘀 𝗠𝘆𝘁𝗵𝗼𝘀</h3>
+            <p>Project Glasswing expanding to ~150 more organizations across 15+ countries is Anthropic admitting the cyber model is too dangerous for public release but too useful to keep in a lab. Controlled access is the new product category.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2061796327986454883" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> 𝗧𝗵𝗲 𝗪𝗵𝗶𝘁𝗲 𝗛𝗼𝘂𝘀𝗲 𝗽𝗶𝗰𝗸𝘀 𝘃𝗼𝗹𝘂𝗻𝘁𝗮𝗿𝘆 𝗔𝗜 𝗿𝗲𝘃𝗶𝗲𝘄</h3>
+            <p>The new EO asks frontier labs for early access without calling it licensing. That is politically neat, but the real test is whether labs cooperate before the first Mythos-class incident forces something harder.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2061973280655904815" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> 𝗡𝗩𝗜𝗗𝗜𝗔 𝗽𝘂𝘀𝗵𝗲𝘀 𝘀𝗲𝗹𝗳-𝗲𝘃𝗼𝗹𝘃𝗶𝗻𝗴 𝗮𝗴𝗲𝗻𝘁𝘀 — Hermes + NemoClaw + OpenShell is the right direction</h3>
+            <p>agents that remember workflows, but inside a real runtime instead of a vibes-based prompt cage. Enterprise agents need policy, traces, and memory — in that order.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2061858457519575280" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> 𝗠𝗶𝗰𝗿𝗼𝘀𝗼𝗳𝘁 𝗱𝗲𝗯𝘂𝘁𝘀 𝗦𝗰𝗼𝘂𝘁 𝗮𝗻𝗱 𝗠𝗔𝗜-𝗧𝗵𝗶𝗻𝗸𝗶𝗻𝗴-𝟭</h3>
+            <p>Microsoft is finally telling the market it is more than OpenAI’s distribution arm. A cheaper midsized reasoning model plus an Outlook/Teams agent is not glamorous, but it is exactly where enterprise AI budgets live.</p>
+            <div class="story-source">
+                <a href="https://www.axios.com/2026/06/02/microsoft-debuts-scout-agent-homegrown-reasoning-model" target="_blank">Source: axios.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💼</span> 𝗢𝗽𝗲𝗻𝗔𝗜 𝘁𝘂𝗿𝗻𝘀 𝗖𝗼𝗱𝗲𝘅 𝗶𝗻𝘁𝗼 𝗼𝗳𝗳𝗶𝗰𝗲𝘄𝗮𝗿𝗲 — Six role-specific Codex plugins for analytics, sales, design, investing, and banking make the strategy obvious</h3>
+            <p>stop being a dev tool and become the work surface. The SaaS vendors should start sweating quietly.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧮</span> 𝗠𝗮𝘁𝗵𝗲𝗺𝗮𝘁𝗶𝗰𝗶𝗮𝗻𝘀 𝗱𝗿𝗮𝘄 𝗮 𝗹𝗶𝗻𝗲</h3>
+            <p>The Leiden Declaration is not anti-AI; it is anti-press-release-proof. If AI is going to touch mathematics, provenance and review cannot be optional decorations.</p>
+            <div class="story-source">
+                <a href="https://gizmodo.com/a-new-declaration-warns-ai-could-threaten-the-foundations-of-mathematics-2000766375" target="_blank">Source: gizmodo.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> 𝗣𝗲𝗿𝗽𝗹𝗲𝘅𝗶𝘁𝘆 𝗺𝗼𝘃𝗲𝘀 𝗶𝗻𝗳𝗲𝗿𝗲𝗻𝗰𝗲 𝗯𝗮𝗰𝗸 𝘁𝗼 𝘁𝗵𝗲 𝗹𝗮𝗽𝘁𝗼𝗽</h3>
+            <p>Hybrid local/cloud routing is the sane answer to token bills and privacy theater. Not every spreadsheet needs a data center pilgrimage.</p>
+            <div class="story-source">
+                <a href="https://www.cnet.com/tech/services-and-software/perplexity-wants-to-move-more-ai-work-from-the-cloud-to-your-computer/" target="_blank">Source: cnet.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚠️</span> 𝗔𝗴𝗲𝗻𝘁𝘀 𝗮𝗿𝗲 𝘀𝘁𝗶𝗹𝗹 𝗠𝗿. 𝗠𝗮𝗴𝗼𝗼 — Microsoft/NVIDIA-linked research on blind goal-directedness is the reminder everyone needs</h3>
+            <p>today’s agents can pursue the task and miss the context. “Please be safe” is not a safety architecture.</p>
+            <div class="story-source">
+                <a href="https://www.404media.co/nvidia-and-microsoft-researchers-say-ai-agents-dont-care-about-safety-or-reliability/" target="_blank">Source: 404media.co →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> 𝗡𝗩𝗜𝗗𝗜𝗔 𝘄𝗮𝗻𝘁𝘀 𝘁𝗵𝗲 𝗔𝗜 𝗣𝗖 𝘀𝘁𝗮𝗰𝗸</h3>
+            <p>RTX Spark is Jensen’s bid to drag AI from the data center onto the desk and own both ends. If agents run 24/7 locally, “no meter anxiety” becomes a real product feature.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/06/02/nvidias-new-pc-chips-are-ceos-bid-to-own-every-part-of-ai-stack.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2062098556253802988" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
