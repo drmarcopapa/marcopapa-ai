@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 4, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 4, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> 𝗢𝗽𝗲𝗻𝗖𝗹𝗮𝘄 𝗴𝗲𝘁𝘀 𝗮 𝗪𝗶𝗻𝗱𝗼𝘄𝘀 𝗻𝗼𝗱𝗲</h3>
+            <p>OpenClaw 2026.6.1 adds native Windows hosts, Skill Workshop, Workboards, and MiniMax M3. The real story is not Windows; it is agents spreading from “chat app trick” into actual machine orchestration.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2062288421406785710" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰 𝗺𝗮𝗽𝘀 𝗿𝗲𝗮𝗹 𝗔𝗜 𝗰𝘆𝗯𝗲𝗿𝗮𝘁𝘁𝗮𝗰𝗸𝘀 — Anthropic analyzed 832 malicious accounts against MITRE ATT&CK. Good</h3>
+            <p>finally real telemetry. Bad: the attacker playbook is already becoming an AI operations manual.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2062243425580367905" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> 𝗢𝗽𝗲𝗻𝗔𝗜 𝗽𝘂𝘀𝗵𝗲𝘀 𝗚𝗣𝗧-𝗥𝗼𝘀𝗮𝗹𝗶𝗻𝗱</h3>
+            <p>New Rosalind capabilities target life-sciences workflows, not generic chatbot demos. This is where frontier AI quietly becomes expensive vertical software.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📜</span> 𝗢𝗽𝗲𝗻𝗔𝗜 𝘄𝗮𝗻𝘁𝘀 𝘁𝗵𝗲 𝗿𝘂𝗹𝗲𝗯𝗼𝗼𝗸 — Its new public-policy agenda backs frontier safety frameworks while steering the details toward institutions it can work with. Translation</h3>
+            <p>regulation is now product strategy.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/public-policy-agenda" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🪱</span> 𝗦𝗺𝗮𝗹𝗹 𝗺𝗼𝗱𝗲𝗹𝘀 𝗰𝗮𝗻 𝗮𝗹𝘀𝗼 𝗯𝗶𝘁𝗲</h3>
+            <p>University of Toronto researchers reportedly built a self-spreading AI worm using a small/open model. The scary part is not superintelligence; it is cheap autonomy plus sloppy enterprise security.</p>
+            <div class="story-source">
+                <a href="https://www.itnews.com.au/news/researchers-build-self-replicating-worm-with-byo-small-ai-model-626409" target="_blank">Source: itnews.com.au →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💸</span> 𝗟𝗮𝘀𝘀𝗶𝗲 𝘀𝗵𝗼𝘄𝘀 𝘄𝗵𝗲𝗿𝗲 𝗮𝗴𝗲𝗻𝘁𝘀 𝗺𝗮𝗸𝗲 𝗺𝗼𝗻𝗲𝘆 — a16z is leading Lassie’s Series A as the startup automates dental back-office work at serious revenue scale. Boring workflow, high ROI</h3>
+            <p>exactly where AI apps will win first.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2062187983315279962" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📉</span> 𝗠𝗲𝘁𝗮’𝘀 𝗳𝗿𝗼𝗻𝘁𝗶𝗲𝗿 𝗺𝗼𝗱𝗲𝗹 𝘀𝗹𝗶𝗽𝘀</h3>
+            <p>WSJ says Meta keeps delaying its newest AI model for developers. For a company spending like a sovereign wealth fund, “soon” is starting to sound expensive.</p>
+            <div class="story-source">
+                <a href="https://www.wsj.com/tech/ai/meta-keeps-delaying-the-release-of-its-new-ai-model-to-developers-f8569c8c" target="_blank">Source: wsj.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> 𝘃𝗟𝗟𝗠 𝗴𝗼𝗲𝘀 𝗺𝗮𝗶𝗻𝘀𝘁𝗿𝗲𝗮𝗺</h3>
+            <p>DeepLearning.AI and Red Hat launched a short course on fast LLM inference with vLLM. The education market has moved from “prompting” to “serve it cheaply or lose money.”</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2062195395342504178" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏦</span> 𝗢𝗽𝗲𝗻𝗔𝗜’𝘀 𝘃𝗮𝗹𝘂𝗮𝘁𝗶𝗼𝗻 𝗴𝗲𝘁𝘀 𝘁𝗵𝗲 𝗰𝗼𝗹𝗱 𝘀𝗵𝗼𝘄𝗲𝗿</h3>
+            <p>PitchBook argues OpenAI looks expensive versus peers on business quality. The market loves the myth; the spreadsheet is less romantic.</p>
+            <div class="story-source">
+                <a href="https://pitchbook.com/news/articles/openai-business-quality-valuation-analysis" target="_blank">Source: pitchbook.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎤</span> 𝗕𝘂𝗶𝗹𝗱 𝘁𝗵𝗲 𝘁𝗵𝗶𝗻𝗴 𝘁𝗵𝗮𝘁 𝗯𝘂𝗶𝗹𝗱𝘀 𝘁𝗵𝗲 𝘁𝗵𝗶𝗻𝗴 — Peter Steinberger posted his MS Build talk on agentic software creation. The best dev tools story remains brutally simple</h3>
+            <p>less ceremony, more compounding leverage.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2062390654022332691" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2062454122381775103" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
