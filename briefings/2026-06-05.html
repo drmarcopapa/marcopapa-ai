@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 5, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 5, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> Anthropic Warns About Self-Improving AI</h3>
+            <p>— Anthropic is now saying the quiet part out loud: AI is starting to accelerate AI development itself. The real risk is not “chatbots get smarter”; it is labs entering a feedback loop regulators can barely describe, let alone govern.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2062568862479208923" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> ChatGPT Memory Gets a Serious Upgrade</h3>
+            <p>— OpenAI is making memory more persistent and useful, which is the right product move and the obvious lock-in play. Personal AI stops being a tool the moment it remembers enough to become your default interface.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2062660086787613116" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦾</span> NVIDIA Ships Nemotron 3 Ultra</h3>
+            <p>— A 550B open MoE model tuned for long-running agents is NVIDIA planting a flag beyond GPUs: they want to own the agent stack, not just rent shovels to everyone else. Cheaper agentic inference is where the market actually scales.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2062521325076299981" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> Anthropic Claims Engineers Ship 8x More Code</h3>
+            <p>— If even directionally true, this is the productivity number every software org will be forced to benchmark against. The uncomfortable part: coding agents are becoming both product and internal compounding engine.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2062568864240836995" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💬</span> Apple Lets an AI Agent Into Messages for Business</h3>
+            <p>— Poke becoming the first AI agent approved for Apple Messages for Business matters because distribution beats demos. If agents live inside default messaging, “app fatigue” gets bypassed completely.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> CISA Readies a Cyber AI Directive</h3>
+            <p>— Washington is finally moving from AI speeches to operational checklists. Defensive AI in agencies is overdue, but the real test is whether procurement can move faster than attackers using the same models.</p>
+            <div class="story-source">
+                <a href="https://federalnewsnetwork.com/cybersecurity/2026/06/cisa-close-to-issuing-new-cyber-ai-directive/" target="_blank">Source: federalnewsnetwork.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇨🇳</span> Tencent’s New AI Chief Wants China to Build AGI</h3>
+            <p>— A former OpenAI researcher now pushing AGI at Tencent is the talent-war version of export controls leaking around the edges. Chips matter, but people still move the frontier.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/06/05/china-may-move-toward-us-path-on-ai-as-firms-poach-employees.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚖️</span> Congress Drafts a National AI Framework</h3>
+            <p>— The Great American AI Act discussion draft is really about preemption: one federal lane instead of 50 state rulebooks. Big labs will love the clarity; everyone else should read the auditing details twice.</p>
+            <div class="story-source">
+                <a href="https://www.gizmodo.com/new-bipartisan-legislation-takes-a-big-step-forward-in-restricting-state-regulation-of-ai-2000767560" target="_blank">Source: gizmodo.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎛️</span> Warren Calls Jensen Huang to the Hill</h3>
+            <p>— NVIDIA’s China sales are now a national-security hearing topic, which is exactly what happens when one company becomes the choke point for global AI. Jensen can talk ecosystems all day; senators will talk export controls.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/06/04/nvidia-ceo-jensen-huang-warren-senate-hearing-china-ai-chips.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📺</span> OpenAI Goes Retro to Sell the Future</h3>
+            <p>— The new nostalgic ad push is OpenAI trying to make AI feel domestic, cozy, and non-threatening before it becomes infrastructure. Smart marketing, but also a tell: mass adoption now needs emotional permission, not just benchmarks.</p>
+            <div class="story-source">
+                <a href="https://www.mediapost.com/publications/article/415557/openai-embraces-retro-ads-to-humanize-ai-ahead-of.html" target="_blank">Source: mediapost.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2062849579377475716" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
