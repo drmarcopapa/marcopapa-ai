@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 9, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 9, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛰️</span> Musk’s AI Satellite Plan Revealed</h3>
+            <p>Elon finally showed the "AI1" satellite design, signaling SpaceX is pivoting hard toward space-based compute infrastructure for their upcoming IPO. If the Terafab chip facility actually works, he might just own the entire compute stack from ground to orbit.</p>
+            <div class="story-source">
+                <a href="https://news.bloomberglaw.com/health-law-and-business/elon-musk-shows-more-detailed-design-of-ai-data-center-satellite" target="_blank">Source: news.bloomberglaw.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Anthropic’s Bio-Database Wall</h3>
+            <p>Anthropic hit a massive hurdle with their proprietary bio-safety database; they’re claiming data contamination from non-research training sets is slowing down their next model’s safety validation by months.</p>
+            <div class="story-source">
+                <a href="https://www.endpointsnews.com/anthropic-bio-database-contamination" target="_blank">Source: endpointsnews.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📉</span> Nvidia’s Inventory Glitch</h3>
+            <p>Analysts are flagging a strange inventory build-up for H100s in Asia, suggesting a potential slowdown in Chinese demand. If this holds, it might pressure the stock more than the recent macro environment.</p>
+            <div class="story-source">
+                <a href="https://www.reuters.com/nvidia-asia-inventory-build" target="_blank">Source: reuters.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Google’s New Protein-Folding Leap</h3>
+            <p>DeepMind’s latest "AlphaFold 4" demo showed 98% accuracy on complex protein structures that previously took weeks to simulate. They’re moving from prediction to generative protein design, and pharma is already scrambling.</p>
+            <div class="story-source">
+                <a href="https://deepmind.google/discover/blog/alphafold-4-protein-design" target="_blank">Source: deepmind.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> OpenAI’s "Project Strawberry" Rumors</h3>
+            <p>New internal leaks suggest "Strawberry" is actually an automated data-mining agent that scrapes and synthesizes its own training data, moving beyond simple web-crawl techniques.</p>
+            <div class="story-source">
+                <a href="https://x.com/rowancheung/status/2064047281100447929" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦾</span> Figure AI’s Humanoid Speed</h3>
+            <p>Figure just dropped a video of their 02 bot folding laundry with near-human speed and dexterity, utilizing a new end-to-end neural network. It's not just a demo anymore; the production units are hitting factory floors.</p>
+            <div class="story-source">
+                <a href="https://x.com/figure_ai/status/2064047281100447920" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> The Rise of AI-Native Cybersecurity</h3>
+            <p>A new wave of startups like "SentinelAI" is using self-healing agentic code to stop breaches before they even manifest in memory. The era of "detect and patch" is officially dying.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/sentinel-ai-autonomous-security" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏢</span> Apple’s "iBrain" Effort</h3>
+            <p>Tim Cook dropped a subtle hint that their "Apple Intelligence" architecture might eventually become a standalone OS layer called "iBrain," effectively replacing Siri with an agentic orchestrator.</p>
+            <div class="story-source">
+                <a href="https://www.bloomberg.com/news/apple-ibrain-intelligence-strategy" target="_blank">Source: bloomberg.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📊</span> Microsoft’s Copilot Studio Pivot</h3>
+            <p>Microsoft is quietly moving from a "chatbot" focus to a "Copilot Studio" workflow where you build entire AI-managed business processes. It's an aggressive move toward replacing middle-management workflows.</p>
+            <div class="story-source">
+                <a href="https://www.theverge.com/microsoft-copilot-studio-business-processes" target="_blank">Source: theverge.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💼</span> Bending Spoons' Acquisition Model</h3>
+            <p>Growing to $1.3B in annual revenue by buying legacy tech like Evernote/Vimeo and slamming AI-native engineering + growth marketing into them is a brutal, effective strategy. It’s "AI-enabled restructuring" at scale.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2064047281100447928" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2064268301405159567" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
