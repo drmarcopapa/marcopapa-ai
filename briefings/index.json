@@ -4,6 +4,12 @@
       "label": "June 2026",
       "briefings": [
         {
+          "date": "June 11, 2026",
+          "file": "2026-06-11.html",
+          "title": "Anthropic's $200M Policy Play, Nested Subagents Land in Claude Code, Claude Fable 5 Makes Software Engineers ",
+          "stories": 10
+        },
+        {
           "date": "June 10, 2026",
           "file": "2026-06-10.html",
           "title": "Claude Fable 5 Is a Genuinely Scary Leap, Nested Subagents Land in Claude Code \u2014 b, Claude Fable 5 Makes Software Engineers ",
