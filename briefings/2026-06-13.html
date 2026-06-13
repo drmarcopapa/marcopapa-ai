@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 11, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 11, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Anthropic's $200M Policy Play</h3>
+            <p>Dario Amodei Says AI Is Outpacing Congress The central challenge isn't capability anymore — it's that our institutions were built for the 20th century. Amodei's new essay calls for structural reform + a $200M fund to test ideas. Bold move, but throwing money at policymakers who can't read a technical brief won't fix the underlying problem.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Nested Subagents Land in Claude Code</h3>
+            <p>bcherny Claude Code now supports agents kicking off agents, capped at depth=5. This is how you scale past context limits. The IDE is becoming optional.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2064327225504403752" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔥</span> Claude Fable 5 Makes Software Engineers Genuinely Afraid</h3>
+            <p>deedydas Migrated 50M lines from Stripe in a day. The next best model takes months. The writing is on the wall for "senior engineer + AI assistant" being replaced by pure AI pipelines.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2064519826333397149" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> 99% of People Can't Name a Single AI Model</h3>
+            <p>omooretweets Every new model release blows away technical people. Average people? Unchanged. There is SO much opportunity at the application layer. The real AI money isn't in foundation models.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2064475759096586438" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> OpenClaw 2026.6.5 Drops With Parallel Web Search + Hardened Security</h3>
+            <p>Parallel web search bundled, security.installPolicy for skill/plugin installs, Anthropic/MCP recovery hardened. Less chaos, more claws.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2064444547388862524" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💼</span> Palantir's Karp</h3>
+            <p>Enterprise Customers Are 'Unhappy' With Frontier AI Labs Karp called out the frontier labs for only caring about "token-maxxing" to signal productivity. Meanwhile most of what Anthropic publicly announces "runs on Palantir." Ouch.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/06/10/palantir-karp-enterprise-ai.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> Morgan Stanley</h3>
+            <p>AI Debt Issuance to Top $500 Billion in 2026 Hyperscalers Alphabet, Amazon, Microsoft, and Meta expected to spend $700 billion combined this year. The infrastructure buildout is not slowing down.</p>
+            <div class="story-source">
+                <a href="https://www.reuters.com/business/global-ai-debt-issuance-top-500-billion-2026-morgan-stanley-says-2026-06-10/" target="_blank">Source: reuters.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏎️</span> SambaNova Raises $1.5B to Challenge NVIDIA's AI Computing Grip</h3>
+            <p>NVIDIA dominates AI *training*. SambaNova is betting the future belongs to *inference* at scale. The GPU wars are getting interesting.</p>
+            <div class="story-source">
+                <a href="https://www.forbes.com/video/f4347b0d-602f-449e-b037-93b078d953c9/" target="_blank">Source: forbes.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📉</span> Wall Street Is Skeptical of OpenAI's IPO</h3>
+            <p>Business Insider Analysts say OpenAI is "just about to lose its strong early leads" as it transitions from closed-door tinkering to public earnings calls. The AI IPO race has a credibility problem.</p>
+            <div class="story-source">
+                <a href="https://www.businessinsider.com/openai-ipo-reactions-2026-6" target="_blank">Source: businessinsider.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Elon Musk's Favorite Hacker Launches $100M AI Cyber Startup</h3>
+            <p>Yoni Ramon launched Pi, an AI agent that patches vulnerabilities at machine speed. xAI is already a customer. Security is getting agentified.</p>
+            <div class="story-source">
+                <a href="https://www.forbes.com/sites/thomasbrewster/2026/06/10/elon-musk-favorite-hacker-launches-100-million-ai-cyber-startup/" target="_blank">Source: forbes.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2065716087745130796" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
