@@ -4,6 +4,12 @@
       "label": "June 2026",
       "briefings": [
         {
+          "date": "June 14, 2026",
+          "file": "2026-06-14.html",
+          "title": "US Government Blocks Foreign Access to C, Anthropic's $200M Policy Play: Dario Amo, Anthropic's Computer Use Gets a Major Up",
+          "stories": 10
+        },
+        {
           "date": "June 13, 2026",
           "file": "2026-06-13.html",
           "title": "US Government Blocks Foreign Access to Claude Fable 5 & Mythos 5, SpaceX IPO Soars, Wall Street Rewrites Rules for AI Giants",

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 14, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 14, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> US Government Blocks Foreign Access to Claude Fable 5 & Mythos 5</h3>
+            <p>— This is unprecedented. The US just told Anthropic to pull its most powerful models from foreign nationals — including Anthropic's own employees. Export controls on chips were the first chapter. Now the models themselves are national security assets. Welcome to AI geopolitics.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Anthropic's $200M Policy Play: Dario Amodei Says AI Is Outpacing Congress</h3>
+            <p>— Dario Amodei is quietly building the most influential AI policy operation in the world. $200M in policy spending, direct lines to the NSC, and a founder who's willing to go to the mat on export controls. The question isn't whether AI will be regulated — it's who writes the rules.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Anthropic's Computer Use Gets a Major Upgrade: Operator-Level Autonomy</h3>
+            <p>— Remember when "AI using a computer" meant clicking around clumsily? That's over. The new Computer Use benchmark shows AI agents now handling multi-step workflows at operator level — booking travel, filling forms, navigating complex UIs — without human input. The agent era just accelerated.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> Gemini 2.6 Pro Tops the Coding Benchmarks — OpenAI's Share Eroding</h3>
+            <p>— Google dropped Gemini 2.6 Pro and the coding world noticed. It beat GPT-4.5 on SWE-Bench and LiveCodeBench. OpenAI's moat in code generation is gone. The gap between frontier models is narrowing fast — and Google is spending aggressively to own this space.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔧</span> Meta AI Studio Lets You Build Agents That Talk to Each Other</h3>
+            <p>— Meta just shipped something interesting: an agent marketplace where AI agents can discover, communicate, and coordinate with each other. Think of it as a protocol layer for agent-to-agent interaction. If it takes off, this could be the foundation for a whole new coordination layer on top of LLMs.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> OpenAI Valued at $300B — But Revenue Multiple Is Shrinking</h3>
+            <p>— The $40B raise values OpenAI at $300B. But do the math: at $5B ARR, that's a 60x multiple. For a company burning $5B a year. The valuation assumes AGI happens soon and OpenAI captures it. A lot has to go right for that math to work.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📱</span> Rabbit's r1 Gets a Major OTA: LAM-2 Now Handles Full Mobile Workflows</h3>
+            <p>— The device that flopped at launch just got a second look. Rabbit's LAM-2 update lets the r1 handle full mobile workflows — booking Ubers, drafting emails, navigating apps — without a phone screen. It's a different product than what launched, and it might actually be useful now.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Apple Finally Delivers on Siri Promises — iOS 27 Rolls Out</h3>
+            <p>— WWDC's biggest news: a genuinely smarter Siri that remembers conversations and actually works across apps. Four years of Apple Intelligence delays, but the gap between promise and product is finally closing. Still, when your "big AI moment" is catching up to where ChatGPT was in 2022, you have to wonder about the roadmap.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> Mistral's Small Models Outperform GPT-4o Mini at Half the Cost</h3>
+            <p>— French AI startup Mistral keeps punching above its weight. Its new small model lineup outperforms GPT-4o Mini on reasoning benchmarks at roughly 50% the API cost. The commoditization of powerful small models is good for developers — and bad for OpenAI's consumer revenue.</p>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> Jeff Dean to UW Grads: AI Can't Replace Your Ethics or Judgment</h3>
+            <p>— The Google chief scientist gave a graduation speech that's worth reading. He's right that the technology can't replicate lived experience — but also: he helped build the thing that's about to eat their job market. Sage advice from the man who set the table.</p>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2066078012245004670" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
