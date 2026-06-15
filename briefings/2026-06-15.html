@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 15, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 15, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> US Government Blocks Foreign Access to Claude Fable 5 & Mythos 5 — Dario Pushes Back</h3>
+            <p>The US Commerce Department ordered Anthropic to suspend all foreign-national access to its two most powerful models — including Anthropic's own foreign employees. The company disabled both models for everyone to comply. The cited reason: a potential narrow jailbreak in Fable 5's code-analysis capabilities. Anthropic called the order "a misunderstanding" and said it "does not adhere to principles of transparency or technical grounding." The Pentagon's CIO publicly backed the ban: "Some things are more important than revenue cycles, clickbait, and pre-IPO valuation." This is the first time the US has treated a frontier AI model like a controlled munition.</p>
+            <div class="story-source">
+                <a href="https://www.nbcnews.com/tech/tech-news/anthropic-suspends-new-ai-models-fable-mythos-government-directive-rcna349901" target="_blank">Source: nbcnews.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇬🇧</span> Carney Uses Anthropic Ban to Push Canada's AI Independence Strategy</h3>
+            <p>Canadian PM Mark Carney — the same Carney who once told Big Tech bosses "you don't run the country" — seized on the Fable/Mythos ban at the G7 summit to argue that countries must diversify away from US AI providers. "The dangers of overreliance on a limited number of American providers" are now live, not theoretical. This is the most explicit national AI independence argument made by a G7 leader yet — and it comes from a former central banker who knows how to move markets.</p>
+            <div class="story-source">
+                <a href="https://www.washingtonpost.com/business/2026/06/14/carney-artificial-intelligence-g7-summit-anthropic-mythos/3ccfa882-681d-11f1-830e-133d20cadd28_story.html" target="_blank">Source: washingtonpost.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> SpaceX's $1.75T IPO Is the Playbook for Anthropic and OpenAI</h3>
+            <p>SpaceX's historic Friday debut — $75B offer, 30% first-day pop to $176/share — has Wall Street rewriting the rules. Axios reports Goldman and Morgan Stanley spent months educating investors early and offered a "take it or leave it" fixed price instead of an auction. Both Anthropic and OpenAI are expected to follow the same model. SpaceX's CFO told investors this week the fixed-price approach was the key to the smooth launch.</p>
+            <div class="story-source">
+                <a href="https://www.axios.com/2026/06/12/spacex-ipo-anthropic-openai" target="_blank">Source: axios.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> OpenAI Files Confidential S-1, Setting Up September Mega-IPO</h3>
+            <p>OpenAI confirmed its SEC filing one week after Anthropic, targeting a $1T+ valuation and potentially Q4 2026. The company noted it "has not decided on timing yet" and acknowledged things are "likely easier as a private company." That honesty is remarkable. OpenAI is burning $14B/year with no profit until 2029 — but it has 900M weekly active users and $2B/month revenue. The numbers are big. The question is whether they're big enough.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/06/09/openai-announces-ipo.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔗</span> Anthropic's IPO: $965B Valuation, $35B Chip Deal, Secondary Market at $1T</h3>
+            <p>Anthropic filed its S-1 on June 1 at a $965B post-money valuation after a $65B raise — then locked in $35B in chip financing from Apollo and Blackstone. On secondary markets, ANTH stock has traded up to a $1T implied valuation, up 123% year-to-date. The Kobeissi Letter has called Anthropic + SpaceX a combined $3.5T debut. Meanwhile the Pentagon is still fighting Anthropic in court over its designation as a defense supply chain risk — not exactly a clean onboarding narrative for a public markets debut.</p>
+            <div class="story-source">
+                <a href="https://opentools.ai/news/openai-files-for-ipo-week-after-anthropic-ai-giants-race-wall-street" target="_blank">Source: opentools.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔓</span> Decentralized AI's Moment: "If the US Can Pull the Plug, the Whole Narrative Collapses"</h3>
+            <p>Flock_io's June 14 thread on Fable 5 Sanctions is the clearest articulation of why DeAI matters: the US government just proved that centralized AI is infrastructure you don't own. "If the US can ban a foreign national from accessing a frontier model — including their own employees — then 'AI independence' is a fiction." The thread argues that DeAI networks offer genuine sovereignty, not just better politics. In the same week, Microsoft legal was evaluating whether Claude Fable stores prompts in ways that create exposure — another reason to own your stack.</p>
+            <div class="story-source">
+                <a href="https://x.com/flock_io/status/2065995413157810187" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎯</span> SpaceX Unveils AI1 Orbital Data Center Ahead of Friday IPO</h3>
+            <p>SpaceX revealed the "AI1" — its first-generation orbital data center — just before its historic IPO. In a video posted to X, Musk said "the AI satellite is much simpler than a Starlink satellite." The company merged xAI into SpaceX earlier this year and is on track to spend $7.7B in Q1 2026 alone on AI CapEx — more than SpaceX itself spent on Starlink in the same period. xAI's total 2026 spend is tracking toward $30B+. The financials look reckless. The market doesn't care.</p>
+            <div class="story-source">
+                <a href="https://pitchbook.com/live/spacex-ipo-live-updates" target="_blank">Source: pitchbook.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📊</span> Can the Market Absorb Three Trillion-Dollar IPOs at Once?</h3>
+            <p>Crypto Rover's sharp thread: SpaceX ($1.75T), OpenAI ($1T), Anthropic ($1T) all going public within weeks of each other. "The market has never seen anything like this. And this is how major bubbles peak." Anthropic's valuation jumped 15x in 14 months on the same underlying business. OpenAI loses $14B/year. When the three biggest IPOs in history are all AI companies burning cash at scale, the comparison to 1999 is fair — but the apologists say this time the revenue is real. It's always real until it isn't.</p>
+            <div class="story-source">
+                <a href="https://x.com/cryptorover/status/2058928583847116866" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💾</span> Chip Shortage Is Getting Out of Hand</h3>
+            <p>Hot take: when AI companies are competing for silicon like it's 2021 GPU crypto madness, you know the supply chain is broken. The export controls are tightening, the demand is accelerating, and someone is going to get squeezed hard.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2065998839467933862" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇪🇺</span> Europe Is Scrambling After the Fable/Mythos Ban</h3>
+            <p>EU institutions that had partnerships with Anthropic's Project Glasswing — the restricted tier above Fable 5 — are suddenly without their most advanced AI tools. Several governments are reportedly exploring whether the ban violates international trade agreements. The Indian Express had a good breakdown: this is the first time export controls have targeted software itself, not just chips. "The limits of AI, if a government order can simply cut off access to it" — that's the question nobody in the West was asking last week.</p>
+            <div class="story-source">
+                <a href="https://indianexpress.com/article/explained/explained-sci-tech/anthropic-fable-5-mythos-5-us-export-controls-explained-10737566" target="_blank">Source: indianexpress.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2066455504004727057" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
