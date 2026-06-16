@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 16, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 16, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> Apple Rebuilt Siri on Google Gemini and Nvidia Chips at WWDC 2026</h3>
+            <p>Apple unveiled a three-tier AI architecture at WWDC, routing Siri queries through on-device models, Private Cloud Compute, and — for the most demanding tasks — a custom 1.2-trillion-parameter model built on Google's Gemini technology, hosted on Nvidia Blackwell B200 GPUs in Google Cloud. Craig Federighi stressed that no data is stored and Google cannot train on it. Apple Intelligence ships this fall.</p>
+            <div class="story-source">
+                <a href="https://thenextweb.com/news/apple-siri-google-gemini-nvidia-privacy-wwdc" target="_blank">Source: thenextweb.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> US Government Blocks Foreign Access to Claude Fable 5 & Mythos 5</h3>
+            <p>The Trump administration ordered Anthropic to cut off non-US access to its most advanced models, Fable 5 and Mythos 5, citing national security. The order marks the first time the US has imposed export controls on a frontier AI model. Anthropic complied immediately and pushed back publicly, calling the restriction excessive.</p>
+            <div class="story-source">
+                <a href="https://www.dw.com/en/anthropics-mythos-fable-blocked-after-us-bans-foreign-use/video-77543276" target="_blank">Source: dw.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇪🇺</span> Europe Is Starting to Break Up with US Big Tech</h3>
+            <p>The European Commission published its digital sovereignty package, aiming to reduce the EU's reliance on American technology — currently over 80% of its tech and 70% of cloud computing. Writing in The Guardian, Max von Thun argues the proposals are welcome but lack critical vision, including misguided plans to weaken EU data privacy and AI safety rules.</p>
+            <div class="story-source">
+                <a href="https://www.theguardian.com/commentisfree/2026/jun/15/europe-us-big-tech-silicon-valley-european-commission" target="_blank">Source: theguardian.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌍</span> UN Launches Inaugural Global Dialogue on AI Governance in Geneva</h3>
+            <p>The UN's first platform for governments to discuss international AI cooperation convenes July 6–7 at Palexpo, with 40 scientists — co-chaired by Yoshua Bengio and Maria Ressa — presenting a preliminary report. The annual panel will feed into global AI governance efforts as nations grapple with safety, security, and standards.</p>
+            <div class="story-source">
+                <a href="https://www.un.org/en/delegate-delegate-gva-delegate-nyc/inaugural-global-dialogue-ai-governance-convenes-geneva" target="_blank">Source: un.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> Global AI Market to Grow from $540B to $3.5T by 2033</h3>
+            <p>The worldwide AI market was valued at $390.9B in 2025 and is projected to reach $539.5B in 2026, growing to $3.5 trillion by 2033. The surge is driven by enterprise AI adoption, agentic AI tools, and inference infrastructure buildout — though PwC reports 80% of companies still aren't capturing full value from AI investments.</p>
+            <div class="story-source">
+                <a href="https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-market" target="_blank">Source: grandviewresearch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> Mac Studio Supply Chain Crisis: "We Don't Even Know How to Make These Anymore"</h3>
+            <p>Apple developer steipete reports being unable to buy a new Mac Studio for the San Francisco office — manufacturing capacity simply isn't there. The thread highlights lingering post-pandemic supply chain disruptions affecting Apple's professional workstation lineup.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2066471737068232835" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Anthropic's @clawsweeper: AI That Reviews Issues and Auto-Creates PRs</h3>
+            <p>The clawsweeper bot automatically reviews GitHub issues posted to Anthropic's open source projects — if an issue fits the VISION.md roadmap, it creates the code and opens a self-reviewing pull request. A glimpse at AI agents moving from assistants to active contributors in open source workflows.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2066457262571360396" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> Text-to-Speech Model Achieves Sub-300ms Time-to-First-Token</h3>
+            <p>Developers celebrated a voice AI breakthrough: a text-to-speech model achieving median TTFT below 300ms, considered the threshold for natural conversational feel. The achievement required solving both model inference and audio generation latency simultaneously.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2066610542509486162" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> Nvidia Blackwell GPU Cluster Powers Next Wave of AI Inference</h3>
+            <p>Nvidia highlighted its Blackwell B200 GPU infrastructure running large-scale AI inference in Google Cloud, powering Apple's new Siri cloud models and frontier research. The posts underscore Nvidia's continued centrality to the AI industry's compute strategy even as competition from custom chips intensifies.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2066543137900937686" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤝</span> Ex-OpenAI CTO Mira Muratai Welcomes Yue Yang to Allen AI</h3>
+            <p>Former OpenAI CTO Mira Muratai publicly welcomed AI researcher Yue Yang to the Allen AI Institute and thinky machines. The hire signals continued talent mobility between top AI labs and nonprofit research institutes focused on safety and open science.</p>
+            <div class="story-source">
+                <a href="https://x.com/miramurati/status/2066703522805268730" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2066804743461388530" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
