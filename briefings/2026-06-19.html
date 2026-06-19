@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 19, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 19, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🐕</span> Anthropic's Robodog Farmed Out 20x Faster Than Last Year's Best Human Team</h3>
+            <p>Opus 4.7, working on its own, was roughly 20x faster than last year's best human-aided team (Opus 4.1) at programming a robodog — the same task, same evaluation. The catch: the robot still couldn't fetch a beach ball. Depending on your tolerance for robot demos, that's either endearing or deeply embarrassing.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2067651699486200091" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Apple Hid Third-Party AI Extensions for Siri in iOS 27 Beta (And Won't Say Why)</h3>
+            <p>iOS 27's developer beta contains a dormant Extensions framework that would let users swap between ChatGPT, Claude, and Gemini directly inside Siri — complete with a settings panel and an App Store section. Apple has held entitlement discussions with all three providers but left the feature entirely out of its WWDC keynote. Likely reasons: an ongoing EU Digital Markets Act standoff, a possible OpenAI breach-of-contract notice over the existing Siri partnership, and a desire to let Siri AI stand on its own first.</p>
+            <div class="story-source">
+                <a href="https://letsdatascience.com/news/apple-hides-third-party-siri-extensions-in-ios-27-beta-ac421fbb" target="_blank">Source: letsdatascience.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Trump Admin Treats Anthropic Foreigner Ban as Negotiating Position, Not Final Policy</h3>
+            <p>The White House is working with Anthropic to find a resolution to the Fable/Mythos export controls — and UK Prime Minister Keir Starmer requested a carve-out for British companies at the G7 summit. A senior administration official called exemptions for allied nations "completely illogical" for now, but called the ban a starting point for negotiation rather than a permanent stance.</p>
+            <div class="story-source">
+                <a href="https://nypost.com/2026/06/16/us-news/trump-admin-open-to-talks-with-anthropic-over-foreigner-ban/" target="_blank">Source: nypost.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌅</span> Midjourney's Full 2026 Roadmap Was Hiding in Plain Sight the Whole Time</h3>
+            <p>The complete 2026 roadmap was publicly available the entire time — not hidden behind a paywall or NDA. For a company known for opacity, it was apparently there for anyone paying attention.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2067631455145177300" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> Andrew Ng Launches New Course: Adding Voice to AI Agents and Applications</h3>
+            <p>Ng's latest AI course, built with VocalBridge (an AI Fund portfolio company), teaches developers how to add high-quality voice capabilities to agents and apps. Historically, voice required a tradeoff: fast voice-to-voice models sacrificed quality; high-quality models introduced too much latency. The course walks through how to thread that needle.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2067653578945359898" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Replicate and Iterate on AI Papers Without Touching Your Own GPUs</h3>
+            <p>With a single URL change, developers can now replicate and iterate on AI papers without provisioning their own GPU infrastructure. The barrier to running and modifying cutting-edge research just dropped significantly.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2067637325467926724" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💬</span> "Everything's Either a Fast or Slow API Now"</h3>
+            <p>Developer steipete's deadpan observation cuts to something real: the current AI landscape is sorting itself into two buckets. Speed isn't just a performance metric anymore — it's becoming the primary identity signal.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2067821739556413651" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔄</span> Gemini CLI Quietly Transitions to Antigravity CLI for Individual Accounts</h3>
+            <p>Google AI's command-line interface has officially shifted to the new Antigravity CLI for individual accounts — covering former Google AI Pro, Google AI Ultra, and free tier users. Enterprise users with Gemini Code Assist licenses and API keys are unaffected.</p>
+            <div class="story-source">
+                <a href="https://x.com/geminicli/status/2067702889837953512" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎥</span> Watch: Anthropic's Robodogs in Action (Project Fetch Phase 2 Video)</h3>
+            <p>Anthropic released footage from Project Fetch Phase 2, where Opus 4.7 tackled the same robodog programming challenge as last year's human-assisted baseline. The results are in the Frontier Red Team blog, and the video is worth 90 seconds of your attention.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2067651700757086553" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛠️</span> Anthropic Ships Major Claude Design Overhaul with Design System Imports and Token Fix</h3>
+            <p>Anthropic's Claude Design — the "research preview" that hit one million users in its first week — just got a substantive update: design system imports, code round-trips, and a fix for the token-burning problem that was eating into enterprise budgets. In ten weeks, Anthropic has also launched Claude Opus 4.8, announced a DXC partnership embedding Claude in major banks and airlines, and published data showing Claude Code users now average 20 hours per week on the tool.</p>
+            <div class="story-source">
+                <a href="https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem" target="_blank">Source: venturebeat.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2067896537871728918" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
