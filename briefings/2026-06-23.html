@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 23, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 23, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> OpenAI Frees GPT-5.5-Cyber and Launches "Patch the Planet" for Defenders</h3>
+            <p>Sam Altman dropped the full version of GPT-5.5-Cyber — state of the art on CyberGym — alongside Patch the Planet, an open-source remediation initiative built with Trail of Bits. Codex Security gets an upgrade too. OpenAI isn't just shipping a model; it's trying to own the "AI for defenders" narrative before Anthropic's Mythos gains more ground. This is OpenAI going full cyber-offensive — finding AND fixing bugs at scale, not just finding them.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2069121360744550796" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌐</span> Patch the Planet: OpenAI Takes on 30+ Open-Source Projects to Patch Them at Scale</h3>
+            <p>Trail of Bits has engineers embedded full-time across 19 open-source projects using GPT-5.5-Cyber and Codex Security. Hundreds of issues found, dozens of patches already merged across cURL, Python, Go, and Sigstore — before Pwn2Own Berlin, no less. Mozilla patched CVE-2026-8390 two days before the competition. This is the first time an AI company has put real bodies on real patches at this scale. The cybersecurity industry should be paying attention.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/patch-the-planet" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> SpaceX Signs $6.3 Billion Compute Deal With Open-Source Startup Reflection AI</h3>
+            <p>Starting July 1, Reflection AI pays SpaceX $150 million per month for access to Nvidia GB300s at the Colossus 2 data center. The full deal runs $6.3 billion through 2029. Reflection joins a growing list of SpaceX AI customers that includes Anthropic, Google, and Cursor. SpaceX has quietly become a cloud provider — and a formidable one. The next time someone says "AWS, Azure, GCP," you might have to add "Colossus."</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🕵️</span> Five Eyes Intelligence Alliance Warns: Next-Gen AI Can Take Down Governments in Months</h3>
+            <p>In a rare joint statement, the Five Eyes alliance (US, UK, Canada, Australia, New Zealand) said frontier AI models are months — not years — away from enabling capabilities that could devastate critical infrastructure. The timing tracks with the US government blocking foreign nationals from Anthropic's Fable. The agencies are unusually direct: "AI is not a future consideration, it is already here." The same week OpenAI releases Patch the Planet, intelligence officials are ringing the alarm bell. Make of that what you will.</p>
+            <div class="story-source">
+                <a href="https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security" target="_blank">Source: theguardian.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔧</span> OpenAI Expands Daybreak: GPT-5.5-Cyber Ships to Defenders, Codex Security Goes Pro</h3>
+            <p>GPT-5.5-Cyber can now "sustain deeper analysis across large codebases," validate vulnerabilities, and develop and test patches — not just find problems. The Codex Security plugin speeds discovery AND prevention. This is the cybersecurity tooling stack getting rebuilt in real time. The question from Daybreak's announcement: can governance move as quickly as the vulnerabilities these models surface? If not, you have a serious mismatch between finding and fixing.</p>
+            <div class="story-source">
+                <a href="https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html?m=1" target="_blank">Source: thehackernews.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📸</span> NVIDIA Research's ArtiFixer Fills the Gaps Your 3D Scanner Can't See</h3>
+            <p>NVIDIA Research dropped ArtiFixer at SIGGRAPH 2026 — an open autoregressive model that reconstructs 3D geometry even in areas the camera never captured. If you've ever scanned a room and gotten a model with holes, you know why this matters. ArtiFixer closes the gap where photogrammetry fails. Open models + real research = the kind of tooling that compounds.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2069118220506628287" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> Open-Source AI Startup Reflection Bags $6.3B SpaceX Deal, Says Open Beats Closed</h3>
+            <p>When the US moved to block foreign nationals from closed AI providers, Reflection's spokesperson put out a statement: "Recent events highlight how important open source is." $150M/month buys compute runway to build the world's best open models at scale. Meanwhile, SpaceX's Colossus is emerging as the unexpected kingmaker of AI infrastructure — competitors are Anthropic, Google, and now an open-source upstart. The hyperscaler club has a new member.</p>
+            <div class="story-source">
+                <a href="https://finance.yahoo.com/technology/ai/articles/spacex-signs-6-3-billion-160024302.html" target="_blank">Source: finance.yahoo.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚠️</span> Five Eyes to Leaders: Act Now on AI Cyber Risk — Months, Not Years</h3>
+            <p>The Five Eyes Intelligence Oversight and Review Council (FIORC) published a three-page joint statement: frontier AI is about to "fundamentally transform" offensive and defensive cyber capabilities. They point to models like Anthropic's Mythos and OpenAI's GPT-5.5-Cyber as the catalyst. Australia's ABC reports the alliance is simultaneously arguing AI is the solution to the problem AI creates — combat AI with AI. Pick your side of that paradox.</p>
+            <div class="story-source">
+                <a href="https://www.abc.net.au/news/2026-06-23/five-eyes-security-agencies-say-act-swiftly-on-ai/106828686" target="_blank">Source: abc.net.au →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦊</span> ArtiFixer Is NVIDIA's Answer to Imperfect 3D Scans — and It's Open</h3>
+            <p>Open-source at SIGGRAPH 2026, ArtiFixer handles the occlusion problem that every 3D reconstruction practitioner knows: the camera can't see what it can't see. NVIDIA's open model fills missing geometry that leaves other methods broken. Code and demo are live. The practical impact: faster digital twin creation, better robotics training data, fewer manual cleanup hours. Not flashy, but the kind of tool that ends up in every production pipeline.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2069118220506628287" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> OpenAI's Daybreak Hits Scale: 19 Projects, Hundreds of Bugs, Patches Landing Fast</h3>
+            <p>OpenAI's security initiative is no longer a pilot — it's an operation. 19 open-source projects under active remediation, hundreds of security issues surfaced, dozens of patches merged. The CVE-2026-8390 catch in Firefox (patched two days before Pwn2Own Berlin) is the proof point. This is the most concrete operational output any AI company has produced in the security space. If you run open-source infrastructure, Patch the Planet should be on your radar.</p>
+            <div class="story-source">
+                <a href="https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/" target="_blank">Source: wired.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2069378373189796346" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
