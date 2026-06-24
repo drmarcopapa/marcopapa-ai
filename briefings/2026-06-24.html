@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 24, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 24, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> karpathy Defines the New LLM UI Paradigm: Inline, Ambient, Organization-Wide</h3>
+            <p>The OG AI educator says we're now in "LLM UIUX 3.0" — less a tool you visit, more an always-present coworker embedded across every workflow. The under-the-hood engineering to make it "just work" at enterprise scale is the actual product differentiator. This is the thesis behind every agentic AI launch right now.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2069547676849557725" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔥</span> Google Fired Its Best Developer-Tool Engineer — For Building the Tool</h3>
+            <p>steipete is direct: Google let go the person who built the Google Workspace CLI, then had the gall to post the firing notice publicly. The irony is brutal. Meanwhile the Codex team is reportedly scooping up exactly the kind of high-agency builders who ship things.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2069594195522941059" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💬</span> Anthropic Ships Claude Tag — 65% of Its Own Code Now Written by an AI Coworker</h3>
+            <p>bcherny's team launches Claude Tag for Slack: a persistent, multiplayer AI colleague that lives in channel, has memory, and proactively jumps into work. Internally, 65% of new product code is already AI-authored. This is the start of "Claude Everywhere" — and it's a direct shot at every enterprise copilot on the market.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2069474681749754272" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📊</span> Nvidia's DFlash Delivers 15x Inference Throughput via Speculative Decoding</h3>
+            <p>NVIDIAAI drops a real numbers release: DFlash, an open-source block diffusion model for speculative decoding, hits 15x higher throughput on Blackwell without degrading responsiveness. Open-source inference tricks don't get this level of credibility often.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2069465510790545761" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw 2026.6.10: Fast Mode, Smarter Routing, Safer Sessions</h3>
+            <p>The Mac mini's own agent platform gets a small but meaningful update — automatic fast mode for short talks, much more reliable model routing, and safer session state. Rock-solid.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2069660992070734307" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Nobel Laureate John Jumper, AlphaFold Co-Creator, Leaves DeepMind for Anthropic</h3>
+            <p>The man who shared the 2024 Nobel Prize in Chemistry just walked out the door. Jumper's AlphaFold work changed structural biology. His move to Anthropic — days after Noam Shazeer left for OpenAI — validates what investors are terrified of: Google is hemorrhaging the researchers behind its most celebrated science.</p>
+            <div class="story-source">
+                <a href="https://www.techtimes.com/articles/318926/20260623/google-bleeds-top-ai-talent-its-own-search-overhaul-threatens-ad-revenue.htm" target="_blank">Source: techtimes.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📉</span> Google Bleeds $270 Billion in Worst Session of 2026 as AI Exodus Compounds</h3>
+            <p>Forty-eight hours. That's all it took for Noam Shazeer (Gemini co-lead, Transformer co-author) to leave for OpenAI, and John Jumper (AlphaFold Nobel) to defect to Anthropic. Alphabet shed $270B in market cap. The question isn't whether Google's losing — it's whether the ad business can fund the fight long enough to matter.</p>
+            <div class="story-source">
+                <a href="https://timesofindia.indiatimes.com/technology/tech-news/google-loses-270-billion-how-resignation-of-two-employees-led-to-googles-worst-day-in-2026-on-stock-market/articleshow/131939602.cms" target="_blank">Source: timesofindia.indiatimes.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> SpaceX Locks In $6.3B Compute Deal with Reflection AI — the "DeepSeek of the West"</h3>
+            <p>Reflection AI, the open-source lab founded by two DeepMind veterans, commits $150M/month through 2029 to rent Nvidia GB300s at SpaceX's Colossus 2 in Memphis. That's $6.3B. Nvidia is on both sides of this trade. SpaceX now has $80B+ in committed compute revenue through 2029, and it doesn't even ship an AI model yet.</p>
+            <div class="story-source">
+                <a href="https://techfundingnews.com/spacex-lands-6-3b-compute-deal-with-open-source-ai-startup-reflection-and-nvidia-is-on-both-sides-of-the-trade" target="_blank">Source: techfundingnews.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤝</span> WEF Drops the AI Playbook for Financial Services — 150 Leaders, One Message: Govern Faster</h3>
+            <p>The World Economic Forum published a 24-page playbook today built from 18 months of roundtables across 100+ financial institutions. The consensus: everyone has moved past AI pilots, and the bottleneck now is governance. Jamie Dimon's quote is the headline: "Your competitors are going to use it. If you put your head in the sand, you will lose."</p>
+            <div class="story-source">
+                <a href="https://www.weforum.org/press/2026/06/financial-institutions-race-to-scale-ai-as-trust-and-governance-become-critical-tests" target="_blank">Source: weforum.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏷️</span> Anthropic's Claude Tag Is Enterprise AI's "Workflow Entrance" Race</h3>
+            <p>Digg surfaces the real story beneath the launch: Anthropic is winning the Slack integration war, and this is positioning Claude Tag as the primary interface for enterprise work — not just chat, but task execution, code review, and PR merging. If AI becomes the coworker you delegate to, whoever owns that relationship owns the enterprise stack.</p>
+            <div class="story-source">
+                <a href="https://digg.com/tech/4qsensqy" target="_blank">Source: digg.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2069708192159051946" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
