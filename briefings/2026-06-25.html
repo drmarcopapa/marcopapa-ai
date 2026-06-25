@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 25, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 25, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            7 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🕵️</span> Anthropic Says Alibaba Ran 29M Fraudulent Claude API Calls to Extract Model Know-How</h3>
+            <p>Anthropic caught what it calls the largest-ever scheme to piggyback on a US AI lab's work — operators linked to Alibaba's Qwen team allegedly created thousands of fake accounts to systematically probe Claude's capabilities, especially software engineering and agentic reasoning. The company wrote to US senators calling it out. Meanwhile, OpenAI shipped a comparable cyber model without a whisper of government pushback — the double standard is hard to ignore.</p>
+            <div class="story-source">
+                <a href="https://www.retailgazette.co.uk/blog/2026/06/anthropic-accuses-alibaba-of-industrial-scale-claude-ai-extraction-campaign/" target="_blank">Source: retailgazette.co.uk →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍳</span> OpenAI's First Custom Chip Is Here: "Jalapeño" Built With Broadcom</h3>
+            <p>OpenAI just dropped its first inference processor, designed alongside Broadcom and — quietly — built with help from OpenAI's own AI models. Early benchmarks show significantly better performance-per-watt than current alternatives. The message to Nvidia is clear: we're not just a customer anymore.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏷️</span> Anthropic Drops "Claude Tag" — Your Always-On AI Coworker Living in Slack</h3>
+            <p>Anthropic just turned Slack into an AI teammate habitat. Claude Tag follows channels, picks up organizational context, and can autonomously pull information from across the company when granted permission. This is the most natural-feeling enterprise AI integration since Teams Premium — and it's genuinely different from just DMing a bot.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🪪</span> Anthropic's New Privacy Policy: Claude May Ask for Your Government ID</h3>
+            <p>Coming July 8, Anthropic will sometimes ask users to upload ID to verify age or identity — ostensibly to let flagged users appeal bans rather than get hard-blocked. But the timing, right in the middle of the government's standoff over export controls on Fable and Mythos, makes it look like Anthropic is scrambling to show compliance. You be the judge.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🩹</span> OpenAI Launches "Patch the Planet" — Using AI to Fix Open-Source Bugs at Scale</h3>
+            <p>OpenAI dropped a cybersecurity blitz: a stronger GPT-5.5-Cyber, expanded government "trusted access" programs, and a partnership with Trail of Bits called Patch the Planet to offer free security help to open-source maintainers. It's a smart play — framing AI's hacking risk as something the industry can fix, not just fear.</p>
+            <div class="story-source">
+                <a href="https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/" target="_blank">Source: wired.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎮</span> NVIDIA Metropolis Blueprint Turns Video Streams Into Askable Data</h3>
+            <p>NVIDIA dropped 16 new agent skills for its Metropolis video search and summarization platform — you can now query massive live feeds or video archives with plain English and get back structured answers. If you've ever wanted your coding agent to "find all clips where someone was near the loading dock yesterday," the foundation just landed.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2069858097930121319" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> NVIDIA + HuggingFace Supercharge MoE Training as NeMo AutoModel Hits Transformers v5</h3>
+            <p>Mixture-of-Experts models have always been hell to train efficiently. NVIDIA and HuggingFace's new NeMo AutoModel integration — building on Transformers v5 — promises to change that, handling the distributed training headaches that have kept MoE out of reach for most teams. The infrastructure wars for the next generation of scale are heating up.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2069813582825418828" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2070067018674692234" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
