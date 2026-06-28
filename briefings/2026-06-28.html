@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 28, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 28, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> US Government Blocks Foreign Access to Claude Fable 5 & Mythos 5</h3>
+            <p>Trump's admin ordered a full export block on Anthropic's top models over "cybersecurity concerns" — then partially reversed five days later for "trusted partners." Europe, Asia, and academia are still locked out. History says access blockage rarely stops determined users. This is weaponized AI export controls, setting a dangerous industry precedent.</p>
+            <div class="story-source">
+                <a href="https://www.cnn.com/2026/06/26/tech/anthropic-mythos-release" target="_blank">Source: cnn.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> OpenAI's First Custom Chip: Jalapeño</h3>
+            <p>OpenAI and Broadcom unveiled their joint inference processor — nine months of tape-out, accelerated by OpenAI's own models. The target: enough chips to consume 10 gigawatts. That's millions of households' worth of power. OpenAI isn't just building models anymore; it's building the infrastructure layer on its own terms.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/openai-broadcom-jalapeno-inference-chip" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎬</span> ByteDance's Seedance 2.5 Breaks the 30-Second Video Barrier</h3>
+            <p>At its Volcano Engine FORCE conference, ByteDance announced native 30-second 4K video generation with up to 50 multimodal reference inputs. Doubles generation length over all previous models. China just cemented dominance in AI video — Sora, Veo, and Kling should be worried.</p>
+            <div class="story-source">
+                <a href="https://the-decoder.com/bytedances-seedance-2-5-breaks-the-30-second-barrier-for-ai-video-generation" target="_blank">Source: the-decoder.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">👓</span> Meta Smart Glasses Are a Privacy Nightmare for Women and Children</h3>
+            <p>DW News: next-gen glasses look normal, film unobtrusively, and a creepy trend of men recording women without consent has already emerged. Kylie Jenner just launched a collab. Privacy advocates are sounding the alarm. Meta's built-in recording light is a Band-Aid on a hemorrhage.</p>
+            <div class="story-source">
+                <a href="https://www.dw.com/en/meta-smart-glasses-apple-google-privacy-concerns-women-children/video-77670962" target="_blank">Source: dw.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> Apple Car After All?</h3>
+            <p>Peter Holderith (@steipete) dropped this with no context: "We getting Apple Car after all." No details, no confirmation — but this is the same person who broke iOS/macOS stories for years. Either Apple's been very quiet about a decade-long project, or someone's running a very convincing troll.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2071017970953052160" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚗</span> European Rental Cars Now Beep When You Speed</h3>
+            <p>New EU law mandates AI-powered Intelligent Speed Assist in rentals — beeps the moment you cross the limit by 1 km/h. One X user put it bluntly: "These people are never seeing Fable or 5.6." Between the export controls and this, Europe's relationship with frontier AI is going nowhere fast.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2070863658079371619" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔓</span> Trump Administration Partially Lifts Anthropic Export Ban</h3>
+            <p>Friday's reversal came after two weeks of meetings between Anthropic and White House officials. Fable 5 is still MIA for most of the world. This isn't a resolution — it's a temporary ceasefire with a lot of unanswered questions about what "trusted" actually means.</p>
+            <div class="story-source">
+                <a href="https://www.politico.com/news/2026/06/26/white-house-makes-peace-with-anthropic-for-now-00965675" target="_blank">Source: politico.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏢</span> Everyone's Building Their Own Chip</h3>
+            <p>OpenAI has Jalapeño. Google has TPU. Apple has M4. Amazon has Trainium. TechCrunch breaks down why every major AI player is escaping Nvidia's gravitational pull. The hyperscaler era of relying on Nvidia is ending — and that's the biggest infrastructure story of the year.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📉</span> Alphabet Stock Tumbles After AI Talent Departures</h3>
+            <p>BNN Bloomberg reports significant AI brain drain from Google — key researchers and engineers leaving for rivals and startups. Google's AI talent problem is becoming a market story. When the company known for AI can't keep its researchers, that's a signal.</p>
+            <div class="story-source">
+                <a href="https://www.bnnbloomberg.ca/video/shows/the-close/2026/06/22/alphabet-shares-tumbles-after-ai-talent-departures" target="_blank">Source: bnnbloomberg.ca →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎥</span> ByteDance: The Most Vertically Integrated AI Video Company</h3>
+            <p>Seedance 2.5 in CapCut, Doubao, and Dreamina gives ByteDance something no Western lab has: a closed loop from model to consumer app. That's a moat Sora and Veo don't have — yet.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2070869860314476977" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2071152190857850942" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
