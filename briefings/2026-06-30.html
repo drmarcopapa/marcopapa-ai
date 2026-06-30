@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — June 30, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">June 30, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📱</span> OpenClaw Lands on iOS and Android</h3>
+            <p>Agents moving from desktop dashboards into native mobile apps is the right pressure point: the real product is not “chat,” it is always-on delegation wherever the user is.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2071688039114342592" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧵</span> Claude Code Pushes Subagents Into the Background</h3>
+            <p>This is exactly where coding agents had to go: parallel workers that do useful work while the main conversation stays alive. The IDE is becoming a process manager with language on top.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2071647677591466098" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧯</span> Meta’s Core Product Strain Shows the AI Tradeoff</h3>
+            <p>If Trust & Safety breaks while leadership chases AI, users experience the cost immediately. AI ambition does not forgive operational decay; it exposes it.</p>
+            <div class="story-source">
+                <a href="https://x.com/deedydas/status/2071834196440670278" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧱</span> NVIDIA and LangChain Package Nemotron for Production Agents</h3>
+            <p>The interesting part is not another model name; it is the stack hardening around inference, orchestration, and customization. Agent infrastructure is becoming the sales wedge.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2071700368338059682" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎬</span> AI Video Keeps Winning the Attention Argument</h3>
+            <p>People can sneer at “slop,” but if a generated ad earns three voluntary minutes, the market will notice. Quality is uneven; distribution impact is not.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2071596514728710544" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💸</span> Enterprise AI Bills Are Forcing a Model Mix Reset</h3>
+            <p>The budget hangover is here: frontier models are not going away, but companies are learning that “use the best model for everything” is an expensive beginner mistake.</p>
+            <div class="story-source">
+                <a href="https://www.itnews.com.au/news/soaring-bills-reshape-how-businesses-choose-ai-models-627026" target="_blank">Source: itnews.com.au →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> Mirendil Makes the Case for Self-Improving AI</h3>
+            <p>Self-improvement is moving from sci-fi warning label to startup pitch deck. The serious question is not whether it sounds scary; it is who gets to measure when it actually works.</p>
+            <div class="story-source">
+                <a href="https://gizmodo.com/dont-be-afraid-of-self-improving-ai-says-a16z-backed-startup-mirendil-2000778973" target="_blank">Source: gizmodo.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧲</span> Anthropic Keeps Pulling Gemini Talent From Google</h3>
+            <p>Talent flow is the leaderboard nobody can spin. If core Gemini people keep walking to Claude, Google’s model momentum has a people problem behind the benchmark charts.</p>
+            <div class="story-source">
+                <a href="https://www.latimes.com/business/story/2026-06-29/google-poised-to-lose-two-more-senior-ai-staffers-to-anthropic" target="_blank">Source: latimes.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> OpenAI’s GPT-5.6 Sol Preview Shows Cyber AI Getting Gated</h3>
+            <p>Cyber-capable frontier models are becoming dual-use infrastructure, not just product launches. Limited access is the tell: governments now want a hand on the release valve.</p>
+            <div class="story-source">
+                <a href="https://www.infosecurity-magazine.com/news/openai-gpt-5-6-sol-limited-preview/" target="_blank">Source: infosecurity-magazine.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇰🇷</span> South Korea Goes Huge on AI Chips</h3>
+            <p>A $580B-scale chip push is industrial policy with a stopwatch running. The memory and accelerator supply chain is now national strategy, not just semiconductor capex.</p>
+            <div class="story-source">
+                <a href="https://www.pcgamer.com/hardware/south-koreas-president-declares-that-it-will-invest-over-usd580-billion-in-its-ai-chip-industry-with-samsung-and-sk-hynix-coughing-up-most-of-the-money/" target="_blank">Source: pcgamer.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2071876339947467101" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
