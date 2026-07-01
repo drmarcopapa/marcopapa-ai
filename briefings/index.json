@@ -1,6 +1,17 @@
 {
   "months": [
     {
+      "label": "July 2026",
+      "briefings": [
+        {
+          "date": "July 1, 2026",
+          "file": "2026-07-01.html",
+          "title": "Anthropic Gets Claude Fable 5 Back Throu, Claude Desktop Lands on Linux, Andrew Ng Puts a Name on Agent Iteration",
+          "stories": 10
+        }
+      ]
+    },
+    {
       "label": "June 2026",
       "briefings": [
         {

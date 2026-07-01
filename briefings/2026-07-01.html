@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 1, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 1, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Anthropic Gets Claude Fable 5 Back Through the Export-Control Gate</h3>
+            <p>The Commerce Department blinked, but Anthropic is not getting a free pass: this is frontier AI now operating like defense tech, with classifiers and access policy as part of the product roadmap.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2072106151890809341" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🐧</span> Claude Desktop Lands on Linux</h3>
+            <p>This looks small, but it matters: serious agent workflows live on developer machines, and Linux support is Anthropic admitting the power users are not all on shiny laptops.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2072000214634742243" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔁</span> Andrew Ng Puts a Name on Agent Iteration: Loop Engineering</h3>
+            <p>The phrase may be buzzwordy, but the idea is real: the next productivity jump is not one better prompt, it is systems that keep checking, fixing, and trying again without burning the house down.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2071988145667928442" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏦</span> Bridgewater Fine-Tunes With Tinker API</h3>
+            <p>This is the enterprise AI pattern worth watching: domain experts are not replacing analysts with generic chatbots, they are injecting institutional judgment into smaller, sharper models.</p>
+            <div class="story-source">
+                <a href="https://x.com/miramurati/status/2072050039317578236" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛠️</span> OpenClaw Ships a Reliability Release</h3>
+            <p>Boring releases are where agent platforms grow up. Replies going to the right place and sends not getting stuck matter more than another flashy demo thread.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2072137139937325558" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> OpenAI Introduces GeneBench-Pro for Scientific Judgment</h3>
+            <p>Benchmarks are finally moving beyond trivia and code golf. If AI agents are going to touch biology, measuring ambiguity handling and decision readiness is not optional homework.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/introducing-genebench-pro" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💸</span> Anthropic Pushes Sonnet 5 as Cheaper Agentic Muscle</h3>
+            <p>The frontier model race is becoming a margin race. Capability is nice, but the winner in agents may be whoever makes long autonomous runs cheap enough to use daily.</p>
+            <div class="story-source">
+                <a href="https://gizmodo.com/anthropic-wants-you-to-know-its-new-ai-model-is-definitely-not-too-dangerous-to-release-2000779800" target="_blank">Source: gizmodo.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> AI Security Hype Meets Practical Defense Reality</h3>
+            <p>Axios has the useful counterpoint: companies do not need mythical supermodels to start defending against AI-assisted attacks. The grown-up move is better security operations, not waiting for restricted frontier access.</p>
+            <div class="story-source">
+                <a href="https://www.axios.com/2026/06/30/ai-security-hacks-defense-mythos" target="_blank">Source: axios.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔎</span> Semrush Maps the New AI Visibility Game</h3>
+            <p>Search is splintering into model-specific reputation markets. Brands that think SEO plus a few blog posts will carry them through AI answers are about to learn an expensive lesson.</p>
+            <div class="story-source">
+                <a href="https://ppc.land/semrush-36-brands-win-ai-visibility-everywhere-1-200-vanish-on-one/" target="_blank">Source: ppc.land →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💬</span> LeapXpert Raises $180M as Governed Messaging Gets an AI Layer</h3>
+            <p>Enterprise communications are becoming training data, compliance evidence, and workflow fuel at the same time. That is why regulated messaging suddenly looks like AI infrastructure.</p>
+            <div class="story-source">
+                <a href="https://www.govtech.com/biz/communications-services-firm-leapxpert-raises-180m" target="_blank">Source: govtech.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2072246580422549765" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
