@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 3, 2026",
+          "file": "2026-07-03.html",
+          "title": "Anthropic Talks Custom AI Chip With Sams, OpenAI Floats A 5% U.S. Government Stake, Google Cloud Pushes AI Programs Across A",
+          "stories": 5
+        },
+        {
           "date": "July 2, 2026",
           "file": "2026-07-02.html",
           "title": "NVIDIA Splits a 30B Model Into Two Tower, NVIDIA Pushes TwoTower to Hugging Face, Thinking Machines\u2019 Tinker Rumored at Hug",
