@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 4, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 4, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎨</span> Imagegen Is Becoming the Frontend Designer’s Second Pass</h3>
+            <p>Steipete’s advice is blunt and useful: stop asking coding agents to “make it pretty” in text-only loops, and let image models generate the visual target first. The next design workflow is critique-by-render, then implementation.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2073277317464682723" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> Agents Need Their Own Computers, Not Just Sandboxes</h3>
+            <p>The serious agent teams are converging on the same point: end-to-end testing needs a real environment with browsers, files, auth, and state. Toy sandboxes are where demos look good and products quietly fail.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2073214429655883814" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎬</span> “Feels Like AI” Is Becoming a Compliment and an Insult</h3>
+            <p>A casual movie take says the quiet part out loud: people are starting to use “AI” as shorthand for too polished, too optimized, or weirdly competent. That cultural shift matters because taste is now part of the AI adoption curve.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2073042470594584746" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍉</span> Meta Claims Watermelon Has Caught GPT-5.5</h3>
+            <p>Alexandr Wang reportedly told Meta employees that its upcoming Watermelon model has matched OpenAI’s GPT-5.5 on key benchmarks. If true, this is the first credible sign that Meta’s talent-and-compute blitz may finally be turning into model performance, not just recruiting theater.</p>
+            <div class="story-source">
+                <a href="https://www.aol.com/articles/alexandr-wang-says-metas-coming-235204000.html" target="_blank">Source: aol.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Chinese LLMs Are Raising the Cybersecurity Stakes</h3>
+            <p>Dark Reading reports that Chinese models like GLM 5.2 are now competitive on vulnerability-discovery benchmarks at extremely low cost. The uncomfortable takeaway: defenders cannot assume frontier cyber capability stays inside a few U.S. labs.</p>
+            <div class="story-source">
+                <a href="https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders" target="_blank">Source: darkreading.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧭</span> Modelmaxxing Replaces Tokenmaxxing</h3>
+            <p>The AI budget hangover is here: teams are routing hard work to frontier models and pushing routine tasks to cheaper ones. That is not cost cutting; it is the beginning of real AI operations discipline.</p>
+            <div class="story-source">
+                <a href="https://www.businessinsider.com/ai-model-routing-modelmaxxing-efficient-token-use-2026-7" target="_blank">Source: businessinsider.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> ASPIRE Gives Robots a Reusable Skill Memory</h3>
+            <p>The ASPIRE robotics paper shows agents distilling failed attempts into reusable robot skills, with strong zero-shot gains on long-horizon tasks. This is the right mental model for physical AI: not one giant policy, but a growing library of executable fixes.</p>
+            <div class="story-source">
+                <a href="https://www.alphaxiv.org/abs/2607.00272" target="_blank">Source: alphaxiv.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚫</span> Godot Draws a Line Against AI Slop PRs</h3>
+            <p>Godot’s new policy against autonomous AI-agent contributions is a maintainer revolt, not nostalgia. Open source is discovering that the cost of generating code can go to zero while the cost of reviewing it explodes.</p>
+            <div class="story-source">
+                <a href="https://www.gamesindustry.biz/godot-bans-autonomous-ai-agent-use-or-vibe-coded-contributions" target="_blank">Source: gamesindustry.biz →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏗️</span> OpenAI’s Sydney Arrival Runs Into Data-Center Politics</h3>
+            <p>The Guardian’s report on OpenAI’s Sydney push shows the real AI battleground shifting to land, power, and local politics. Models are software, but the bottleneck is increasingly concrete, diesel, and permits.</p>
+            <div class="story-source">
+                <a href="https://www.theguardian.com/technology/2026/jul/03/nsw-government-openai-arrives-sydney-terminator-films" target="_blank">Source: theguardian.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎮</span> Tim Sweeney Bets AI Can Fix the Content Treadmill</h3>
+            <p>Epic’s CEO is arguing that AI could make live-service games like Destiny economically viable. The industry should listen, but carefully: AI can lower content costs, yet it will not automatically make repetitive design feel alive.</p>
+            <div class="story-source">
+                <a href="https://www.videogameschronicle.com/news/epic-games-ceo-argues-ai-couldve-made-destiny-profitable/" target="_blank">Source: videogameschronicle.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2073327679512920195" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
