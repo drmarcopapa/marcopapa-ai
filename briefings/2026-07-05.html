@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 5, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 5, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> OpenAI Narrows GPT-5.6 Preview to Trusted Partners</h3>
+            <p>Sol, Terra, and Luna are API/Codex-only for now, not ChatGPT. The interesting part is not the model names; it is the government-coordinated release pattern becoming normal for frontier systems.</p>
+            <div class="story-source">
+                <a href="https://help.openai.com/en/articles/20001325-a-preview-of-gpt-56-sol-terra-and-luna" target="_blank">Source: help.openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> OpenAI Pushes Scientific Reasoning With GeneBench-Pro</h3>
+            <p>GeneBench-Pro is aimed at the messy judgment layer of science, not textbook recall. That is exactly where frontier model evals need to move if they want to matter in labs.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/introducing-genebench-pro" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Anthropic Details Fable 5 Cyber Safeguards</h3>
+            <p>Anthropic is trying to draw a sharper line between defensive security work and model-assisted offense. Expect more friction here: cyber is where “useful model” and “dangerous model” collide hardest.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/news/fable-safeguards-jailbreak-framework" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇪🇺</span> Mistral Teases July Early Access for a New Open-Weight Model</h3>
+            <p>Mistral’s pitch is not just “European OpenAI.” It is sovereignty plus enterprise deployment, and the open-weight angle is the wedge against closed American labs.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧱</span> SambaNova Makes the Case for Heterogeneous AI Infrastructure</h3>
+            <p>The GPU-only story is wearing thin for production inference. Agent workloads are forcing teams to care about prefill, decode, power, and dollars instead of benchmark theater.</p>
+            <div class="story-source">
+                <a href="https://sambanova.ai/blog/what-is-heterogeneous-ai-infrastructure" target="_blank">Source: sambanova.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⏱️</span> AI Tooling Starts Surfacing Reset Windows</h3>
+            <p>Showing exactly when usage resets expire sounds small, but it is the productization of token scarcity. Developers are now managing AI quotas like cloud budgets.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2073482942513565713" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Hits 100,000 Issues and PRs in 222 Days</h3>
+            <p>A volunteer project moving that much coordination is a real signal. The agent tooling race is not just corporate labs; open communities are shipping at uncomfortable speed.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2073450631168426462" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌍</span> Karpathy Flags Models Building Rich Playable Worlds</h3>
+            <p>The notable bit is models fusing knowledge, code, and simulation into explorable Three.js environments. That is a preview of “content generation” turning into interactive software generation.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2073499112876761166" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> GLM 5.2 Runs 4-Bit on a Single M3 Ultra</h3>
+            <p>About 16 tokens per second locally is not a toy number. The local frontier keeps creeping upward, and that changes the privacy and cost math for serious users.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2073502277449486460" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Local AI Stack Drives Reachy Mini With Computer Use</h3>
+            <p>Hermes Agent, llamacpp, Gemma, multimodal input, and a robot body is the right kind of weird demo. The near future of agents is not just chat windows; it is tool loops with sensors and actuators.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2073442723936317846" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2073692252061475105" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
