@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 7, 2026",
+          "file": "2026-07-07.html",
+          "title": "Anthropic Finds a \u201cGlobal Workspace\u201d Ins, Claude Code\u2019s Origin Story Starts in Saf, OpenClaw Ships Mobile Fixes Across iOS a",
+          "stories": 10
+        },
+        {
           "date": "July 6, 2026",
           "file": "2026-07-06.html",
           "title": "Altman Teases GPT-5.6 Finding New Math, GLM 5.2 Runs Local Eval on M3 Ultra, AI Browsers Need a 100x Feature",
