@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 8, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 8, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> GPT-5.6 Launch Window Is Now Public</h3>
+            <p>Sam Altman says GPT-5.6 launches Thursday, which turns the policy drama around model access into a product countdown. The interesting part is not just the model; it is whether OpenAI can ship frontier capability without every release becoming a Washington negotiation.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2074709023807664454" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛠️</span> Fable Workflows Are Pulling Codex Into the Engine Room</h3>
+            <p>The developer move is clear: let Fable plan and steer, then make Codex do the heavy implementation work. That is probably where serious AI coding settles: fewer magical demos, more disciplined tool routing.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2074638582418231495" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Volition Beats Passive AI Consumption</h3>
+            <p>The best AI users are not relaxing while the machine thinks; they are wrestling with it, shaping the work, and building taste. That is the uncomfortable truth universities and companies both need to teach.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2074572085163381195" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📄</span> NVIDIA Keeps the Research Firehose Open</h3>
+            <p>NVIDIA is already teasing another ICML 2026 paper, and the cadence matters. The company is not just selling GPUs; it is making sure the research narrative keeps pointing back to its stack.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2074498837247582306" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🗂️</span> Second-Brain Agents Are Becoming a Real Workflow Pattern</h3>
+            <p>The Obsidian loop idea is not just productivity theater: persistent notes plus agents plus feedback loops are the beginning of personal operating systems. The weak spot is still governance; self-evolving memory can become self-evolving clutter fast.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2074606895701319913" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Washington Clears the Way for GPT-5.6</h3>
+            <p>Axios reports the Commerce Department has greenlit a broad GPT-5.6 launch after extra testing. This is the new frontier AI release process: ship the model, but only after the government gets a look under the hood.</p>
+            <div class="story-source">
+                <a href="https://www.axios.com/2026/07/08/openai-gpt-trump-ban-lifted" target="_blank">Source: axios.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎨</span> Meta Launches Muse Image</h3>
+            <p>Meta’s first Alexandr Wang-era image model is aimed straight at creators, advertisers, Instagram, WhatsApp, and eventually video. Translation: Meta is done renting the creative AI layer and wants the ad machine running on its own models.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/07/07/meta-ai-muse-image.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💸</span> Microsoft Starts Routing Around Expensive Frontier Models</h3>
+            <p>TechCrunch says Microsoft is pushing more Office prompts through its own MAI models instead of relying only on OpenAI and Anthropic. The cost war is here: enterprises love frontier models until the token bill becomes a board-level problem.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇨🇳</span> GLM-5.2 Turns AI Sticker Shock Into a China Story</h3>
+            <p>The Atlantic frames Z.ai’s GLM-5.2 as the cheap-agent threat U.S. labs did not want right now. If “good enough at a quarter of the price” holds, model routing will become procurement strategy, not just engineering taste.</p>
+            <div class="story-source">
+                <a href="https://www.theatlantic.com/technology/2026/07/glm-5-2-china-cheap-ai-agents/687828/" target="_blank">Source: theatlantic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> AI Benchmarks Are Aging Out in Real Time</h3>
+            <p>Axios reports that cyber benchmarks are being saturated almost as fast as they are built. Static tests are losing the plot; serious evaluation now has to look like production, with sandboxes, escalation paths, and real operational constraints.</p>
+            <div class="story-source">
+                <a href="https://www.axios.com/2026/07/07/ai-hacking-benchmarking-tests" target="_blank">Source: axios.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2074779496453185938" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
