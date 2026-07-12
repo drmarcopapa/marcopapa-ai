@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 12, 2026",
+          "file": "2026-07-12.html",
+          "title": "GPT-5.6 Is Now the Benchmark Fight, AI Datacenters Are Now Public-Market The, Qwen3.6-35B Gets a DGX Spark Push",
+          "stories": 10
+        },
+        {
           "date": "July 11, 2026",
           "file": "2026-07-11.html",
           "title": "GPT-5.6 Sol Gets the Sam Altman Soft Lau, AI Still Has a Mainstream Problem, Local Image Generation on Apple Silicon ",
