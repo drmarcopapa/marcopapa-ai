@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 13, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 13, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> OpenAI Turns GPT-5.6 Sol Into a Builder Bake-Off</h3>
+            <p>— Sam Altman is openly fishing for impressive Sol projects, which is the right move: benchmarks fade, weird real apps expose whether a model actually has taste and leverage.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2076398253332140410" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇨🇳</span> GLM-5.3 Is Already Being Teased</h3>
+            <p>— The Chinese frontier-model cadence is not slowing down. If GLM-5.2 is already pressuring Western pricing, 5.3 becomes a margin problem as much as a model problem.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2076310359053611505" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> GLM-5.2 Gets Strong Developer Praise, With a Token Burn Caveat</h3>
+            <p>— The signal from hands-on users is clear: quality is up, but token efficiency still decides whether a model wins in production instead of screenshots.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2076375244919488525" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🥊</span> OpenAI-Anthropic Pressure Keeps Moving Into Public Discourse</h3>
+            <p>— The industry is now fighting over policy, subscriptions, and model access in public. That is what happens when frontier AI stops being a lab race and becomes infrastructure politics.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2076351932785217656" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧊</span> Lossless Compression Could Make Huge Open Models Practical</h3>
+            <p>— Cutting a 753B GLM-5.2 deployment by 30% without changing the math is exactly the kind of boring systems win that changes who can actually run frontier-class models.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2076534731940737055" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> Codex Joins the ChatGPT Desktop App</h3>
+            <p>— OpenAI is collapsing chat, coding, PR review, and multi-repo work into one desktop surface. The strategy is obvious: make the agent workspace the default computer for builders.</p>
+            <div class="story-source">
+                <a href="https://developers.openai.com/codex/changelog" target="_blank">Source: developers.openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧭</span> Axios Calls Out ChatGPT’s Model-Choice Problem</h3>
+            <p>— GPT-5.6 Sol, Terra, Luna, reasoning levels, Work, Codex: powerful, yes, but the product now risks making normal users choose like cloud architects. The winner will hide the knobs without killing control.</p>
+            <div class="story-source">
+                <a href="https://www.axios.com/2026/07/12/openai-chatgpt-work-luna-terra-sol" target="_blank">Source: axios.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧯</span> Meta Kills an AI Image Feature After Privacy Backlash</h3>
+            <p>— Auto-opting public Instagram identity into image generation was always going to detonate. The lesson is simple: consent is not a settings menu scavenger hunt.</p>
+            <div class="story-source">
+                <a href="https://www.itnews.com.au/news/meta-scraps-ai-image-feature-days-after-launch-627312" target="_blank">Source: itnews.com.au →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> Apple Sues OpenAI Over Alleged Hardware Trade-Secret Theft</h3>
+            <p>— This is bigger than legal theater. Apple sees OpenAI moving from Siri partner to device rival, and the AI hardware war just got a courthouse front.</p>
+            <div class="story-source">
+                <a href="https://www.forbes.com.au/news/innovation/apple-claims-openai-stole-trade-secrets-in-new-lawsuit/" target="_blank">Source: forbes.com.au →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧱</span> Open-Model Advocates Warn Policy Could Freeze Chinese Models Out</h3>
+            <p>— Nathan Lambert’s argument is blunt: safety language can become regulatory capture fast. If open weights become a sanctioned second class, the whole startup inference economy gets squeezed.</p>
+            <div class="story-source">
+                <a href="https://www.interconnects.ai/p/6-months-to-live-for-open-models" target="_blank">Source: interconnects.ai →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2076595225007710621" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
