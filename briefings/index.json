@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 15, 2026",
+          "file": "2026-07-15.html",
+          "title": "Anthropic Puts $10M CAD Behind Canadian , NVIDIA Shows Agents Doing Their Own ML L, Muse Spark 1.1 Lands in OpenClaw",
+          "stories": 10
+        },
+        {
           "date": "July 14, 2026",
           "file": "2026-07-14.html",
           "title": "Anthropic Maps Claude's Values Across Mo, OpenClaw Ships v2026.7.1 With Mobile, We, NVIDIA Pushes AI Model Co-Design With Ha",
