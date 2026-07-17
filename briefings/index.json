@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 17, 2026",
+          "file": "2026-07-17.html",
+          "title": "Altman Teases OpenAI's Next 12 Months, ChatGPT Voice Crosses the Daily-Use Thre, Claude Adoption Hits the Org-Chart Wall",
+          "stories": 10
+        },
+        {
           "date": "July 16, 2026",
           "file": "2026-07-16.html",
           "title": "The Best Engineers Are Becoming Automati, Grok Build Gets a Privacy Inspection, Anthropic Keeps Stress-Testing Agent Mis",
