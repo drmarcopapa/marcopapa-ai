@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 18, 2026",
+          "file": "2026-07-18.html",
+          "title": "Builders Are Moving From Loops to Graphs, Terra High Gets the Speed Vote, Paid AI Subscriptions Are Still Tiny",
+          "stories": 10
+        },
+        {
           "date": "July 17, 2026",
           "file": "2026-07-17.html",
           "title": "Altman Teases OpenAI's Next 12 Months, ChatGPT Voice Crosses the Daily-Use Thre, Claude Adoption Hits the Org-Chart Wall",
