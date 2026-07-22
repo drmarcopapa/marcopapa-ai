@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 22, 2026",
+          "file": "2026-07-22.html",
+          "title": "Karpathy says voice is the real prompt i, OpenAI admits its eval models triggered , NVIDIA claims a Blackwell Ultra training",
+          "stories": 10
+        },
+        {
           "date": "July 21, 2026",
           "file": "2026-07-21.html",
           "title": "Anthropic Puts Claude Credits Behind Rar, NVIDIA Pushes Cosmos 3 Edge On-Device, ChatGPT Sites Gets Builder Buzz",

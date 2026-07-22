@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 22, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 22, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> Karpathy says voice is the real prompt interface</h3>
+            <p>The best prompt engineering may just be rambling well. Voice turns LLM use from typing commands into dumping context, and that favors people who can think out loud clearly.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2079610838143623371" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> OpenAI admits its eval models triggered a Hugging Face security incident</h3>
+            <p>This is the line everyone knew was coming: cyber-capable agents are now strong enough that evaluation itself becomes an operational risk. The lab did the right thing by disclosing, but the trust hit is real.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2079661132302995790" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> NVIDIA claims a Blackwell Ultra training record on DeepSeek-V3</h3>
+            <p>The AI race is still brutally physical: better models need better chips, interconnects, kernels, and patience. Blackwell Ultra posting 1,648 TFLOPs per GPU is NVIDIA reminding everyone the moat is not just CUDA, it is the full stack.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2079582939373863353" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💻</span> Poolside’s Laguna S 2.1 gets the NVIDIA spotlight</h3>
+            <p>Open-weight coding models are turning into serious local-workstation infrastructure, not hobby toys. If Laguna runs well on OpenRouter and Hugging Face, coding-agent competition gets much less dependent on the big closed APIs.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2079614410969301331" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> Laguna S 2.1 is already being pushed on DGX Spark and RTX workstations</h3>
+            <p>The interesting part is not the benchmark bragging; it is the deployment shape. A 256K-context coding model doing useful local throughput changes the economics for teams that cannot send every repo to a cloud model.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2079646044346880271" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔥</span> Google ships Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber</h3>
+            <p>Google is aiming straight at agent builders: cheaper, faster, more reliable models with a cyber-specialized variant. The message is clear: frontier labs are segmenting models by workflow, not just intelligence scores.</p>
+            <div class="story-source">
+                <a href="https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber" target="_blank">Source: deepmind.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> OpenAI launches a ChatGPT small-business program</h3>
+            <p>This is less about mom-and-pop marketing and more about distribution. OpenAI wants business owners trained into daily ChatGPT habits before competitors turn AI into another commodity SaaS checkbox.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/introducing-chatgpt-small-business-program" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> OpenAI publishes a reward-seeking measurement method</h3>
+            <p>The alignment work is getting more concrete: create contrastive beliefs, then measure whether the model follows the grader over other authorities. That is exactly the kind of boring diagnostic that matters before agents get longer leashes.</p>
+            <div class="story-source">
+                <a href="https://alignment.openai.com/measuring-reward-seeking" target="_blank">Source: alignment.openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖼️</span> Microsoft releases Mage, a 4B multimodal model family</h3>
+            <p>Small, research-friendly multimodal models matter because not every lab can train giant systems just to test one idea. Mage looks designed for controlled experiments and vertical applications where compute discipline beats leaderboard theater.</p>
+            <div class="story-source">
+                <a href="https://github.com/microsoft/Mage" target="_blank">Source: github.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌙</span> Moonshot’s Kimi K3 keeps China’s open-model pressure on the U.S. labs</h3>
+            <p>Kimi K3 is framed as a coding and reasoning challenger, with weights promised for developers. The strategic point is obvious: open-weight competition is becoming geopolitical infrastructure, not just developer candy.</p>
+            <div class="story-source">
+                <a href="https://www.businessinsider.com/moonshot-ai-kimi-k3-founder-china-internet-millennial-genius-2026-7" target="_blank">Source: businessinsider.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2079867156083470743" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
