@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 24, 2026",
+          "file": "2026-07-24.html",
+          "title": "Andrew Ng Unveils OpenWorker, NVIDIA Shows Cheap Hosted RL Gains, GLM-5.2 Runs on 3 DGX Sparks at Home",
+          "stories": 10
+        },
+        {
           "date": "July 23, 2026",
           "file": "2026-07-23.html",
           "title": "NVIDIA Makes Cosmos 3 Super 25x Faster, Cursor + Grok 4.5 Burns 214M Tokens in 2, GLM 5.2 Runs on Three DGX Sparks",
