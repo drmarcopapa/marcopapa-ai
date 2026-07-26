@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 26, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 26, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚖️</span> Open Weights Become the New AI Policy Fault Line</h3>
+            <p>Andrew Ng cuts through the noise: keeping your own code private is fine; trying to stop others from open sourcing is the problem. The real fight is no longer model quality, it is who gets to decide whether open weights stay legal and deployable.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2081103828859117908" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Codex Is Turning QA Into Parallel Agent Work</h3>
+            <p>Peter Steinberger says Codex is now good enough to run massive parallel QA and catch complex behavior bugs, which is exactly where coding agents move from demo candy to engineering leverage. The important bit: intent tracking across long runs is becoming the product.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2081169373784633552" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> OpenClaw Signs Microsoft’s Open-Weights Letter</h3>
+            <p>OpenClaw joined Microsoft’s open-weight push, arguing that users should be able to run, study, and build with AI on their own terms. That is a sharp positioning move: local control is becoming a product feature, not just an ideology.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2081173256451866860" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧨</span> The Open-Weights Coalition Is Forcing Everyone to Pick a Side</h3>
+            <p>Steinberger notes OpenAI signed the Microsoft letter while Anthropic stayed quiet. In AI politics, silence now reads like strategy; the open/proprietary split is hardening fast.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2081175795587072421" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🗣️</span> Anthropic’s Open-Weights Messaging Takes Public Fire</h3>
+            <p>Ivan Fioravanti calls out an Anthropic-linked post as something that may age badly. The subtext is bigger than one post: developers are watching whether frontier labs defend safety or defend market structure.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2080982557278019630" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Claude Opus 5 Ships With a Safety-First Pitch</h3>
+            <p>Anthropic launched Opus 5 as an agentic coding and long-horizon work upgrade, while stressing it does not push the riskiest dual-use frontier. That is the modern frontier-model dance: show capability, then immediately prove you are not scaring regulators.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/news/claude-opus-5" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📜</span> Microsoft Makes the Formal Case for Open Weights</h3>
+            <p>Microsoft’s open-weights letter argues that open models expand competition, sovereignty, and American AI leadership. This is not just policy theater; it gives companies political cover to keep shipping downloadable models.</p>
+            <div class="story-source">
+                <a href="https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight" target="_blank">Source: microsoft.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌕</span> Kimi K3 Pushes Open Models Into 3T-Class Territory</h3>
+            <p>Moonshot says Kimi K3 is a 2.8T-parameter open model with a 1M-token context window and full weights due by July 27. If the rollout holds, the open-model race just moved from “cheap alternative” to “frontier pressure.”</p>
+            <div class="story-source">
+                <a href="https://www.kimi.com/de/blog/kimi-k3" target="_blank">Source: kimi.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌏</span> Chinese AI Models Are Winning U.S. Developer Attention</h3>
+            <p>AP reports that cheaper Chinese models like Kimi are gaining traction with U.S. users and developers. The uncomfortable lesson for U.S. labs: price-performance plus openness can travel faster than brand trust.</p>
+            <div class="story-source">
+                <a href="https://apnews.com/article/china-ai-model-us-kimi-deepseek-a00bf637866fcd4d81f4fde28c9862ce" target="_blank">Source: apnews.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> Open-Weight Coding Agents Are Good Enough for Real Data Prep</h3>
+            <p>A new arXiv paper finds mid-size open models can perform strongly on longitudinal data-preparation tasks without cloud APIs. That matters because the next enterprise AI adoption wave may be local, boring, private, and very effective.</p>
+            <div class="story-source">
+                <a href="https://arxiv.org/abs/2607.21482" target="_blank">Source: arxiv.org →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2081302733831967142" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
