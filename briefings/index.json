@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 27, 2026",
+          "file": "2026-07-27.html",
+          "title": "ChatGPT Work Is Turning Prompts Into Act, Altman Wants a New Kind of Computer, Qwen Still Owns a Chunk of Local Coding",
+          "stories": 10
+        },
+        {
           "date": "July 26, 2026",
           "file": "2026-07-26.html",
           "title": "Open Weights Become the New AI Policy Fa, Codex Is Turning QA Into Parallel Agent , OpenClaw Signs Microsoft\u2019s Open-Weights ",
