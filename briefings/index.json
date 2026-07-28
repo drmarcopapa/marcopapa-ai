@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 28, 2026",
+          "file": "2026-07-28.html",
+          "title": "Anthropic Draws the Open-Weights Line, Andrew Ng Backs NVIDIA's Open AI Defense, OpenClaw Joins the Open Secure AI Allian",
+          "stories": 10
+        },
+        {
           "date": "July 27, 2026",
           "file": "2026-07-27.html",
           "title": "ChatGPT Work Is Turning Prompts Into Act, Altman Wants a New Kind of Computer, Qwen Still Owns a Chunk of Local Coding",

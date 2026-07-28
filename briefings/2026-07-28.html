@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 28, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 28, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧭</span> Anthropic Draws the Open-Weights Line</h3>
+            <p>Anthropic says it is not calling for an open-weights ban, but it wants chip controls, anti-distillation enforcement, and mandatory safety testing. That is the real policy fight: not open versus closed, but who gets frontier capability and who proves it is safe.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2081864750296658008" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Andrew Ng Backs NVIDIA's Open AI Defense Push</h3>
+            <p>Ng is saying the quiet part out loud: closed-model safety arguments are starting to look like regulatory capture when defenders need inspectable tools. The open-weight camp just got a very useful public validator.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2081787106062746002" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> OpenClaw Joins the Open Secure AI Alliance</h3>
+            <p>OpenClaw's post puts the emphasis where it belongs: agent security will be a team sport, not a vendor moat. The alliance matters because agent harnesses, logs, identity, and isolation are now first-class safety infrastructure.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2081791120858837465" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> NVIDIA Ships NOOA for Agent Harness Research</h3>
+            <p>NVIDIA is contributing open models, weights, data, and NOOA, an object-oriented agent harness research framework. The important bit is not the branding; it is that harness-level auditability is becoming the battlefield.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2081666750807171180" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💻</span> Agent-to-Agent Coding Gets Real Overnight</h3>
+            <p>Peter Steinberger's robobun example is small, but the signal is large: one agent found a bug, another fixed it, and humans woke up to the diff. This is what developer tooling looks like when agents stop being chat windows.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2081767828278170002" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📊</span> OpenAI Says AI Is Redrawing Job Boundaries</h3>
+            <p>OpenAI's new Work at the Frontier report finds a large chunk of occupation-specific ChatGPT use crosses into tasks from other jobs. That is the labor-market story to watch: AI is not just automating roles, it is scrambling them.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/how-ai-is-expanding-what-people-do-at-work" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> Baseten Brings Day-0 Kimi K3 APIs Online</h3>
+            <p>Baseten says Kimi K3 is a 2.8T-parameter open frontier model with vision input and a 1M-token context window. Open weights are one thing; having serious inference teams make them usable on day one is what turns them into market pressure.</p>
+            <div class="story-source">
+                <a href="https://www.baseten.co/blog/how-to-build-a-day-zero-api-for-kimi-k3" target="_blank">Source: baseten.co →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Microsoft Pushes Agentic Security With Project Perception</h3>
+            <p>Microsoft says its MAI-Cyber-1-Flash model inside MDASH hits roughly 96% on CyberGym while cutting cost about in half. Security is becoming the cleanest enterprise use case for multi-agent systems because the ROI is measurable and painful.</p>
+            <div class="story-source">
+                <a href="https://news.microsoft.com/source/asia/2026/07/28/rethinking-security-for-the-age-of-ai?lang=ko" target="_blank">Source: news.microsoft.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍🔬</span> Snorkel Dissects Claude Opus 5 on Coding Tasks</h3>
+            <p>Snorkel's error analysis says Opus 5 is near the top of Senior SWE-bench and especially strong on bug and performance investigation. The frontier coding race is shifting from demo polish to trajectory-level failure analysis, finally.</p>
+            <div class="story-source">
+                <a href="https://snorkel.ai/blog/opus-5-swe-bench-error-analysis" target="_blank">Source: snorkel.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌕</span> Kimi K3 Turns the Open-Weight Race Into an Infrastructure Race</h3>
+            <p>Moonshot's Kimi K3 open-weights release is forcing everyone to talk about kernels, MoE communication, serving stacks, and hallucination risk in the same breath. The model headline is big; the operational burden is bigger.</p>
+            <div class="story-source">
+                <a href="https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race" target="_blank">Source: the-decoder.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2082031101049262324" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
