@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 29, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 29, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Claude Is Now Finding Crypto Weaknesses</h3>
+            <p>Anthropic says Claude Mythos Preview helped researchers uncover weaknesses in cryptographic algorithms. This is the serious side of frontier models: not chat polish, but machine-speed pressure-testing of the mathematical plumbing.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2082153297670992134" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> Andrew Ng Pushes Past One-Size-Fits-All Learning</h3>
+            <p>Ng’s point is the education unlock everyone keeps circling: online courses changed access, but AI tutors can finally change the learning path itself. The winners will not be video libraries with chatbots stapled on top.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2082199333920027009" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛑</span> Anthropic Backs Pacing Tools For Frontier AI</h3>
+            <p>Anthropic publicly supported a petition calling for ways to pace frontier AI development, citing its own recursive self-improvement research. Translation: even the builders are now asking for brakes that work before the hill gets steep.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2082228994653696371" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> Kimi K3 Runs On A Single Mac Studio</h3>
+            <p>Kimi K3 running locally through MLX is another reminder that “frontier-ish” capability is leaking down into desktop hardware fast. Local inference keeps getting harder to dismiss as a hobbyist corner.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2082189065873477821" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> DeepSeek v4 Flash Still Has A Throughput Argument</h3>
+            <p>The model discourse today is not just “which model is smartest,” it is latency, concurrency, and what actually runs well on available hardware. That is where many production choices are really made.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2082061167208419547" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> OpenAI Shows Coding Agents Modernizing Scientific Software</h3>
+            <p>OpenAI’s field report argues that agents can help scientists repair and upgrade fragile research code in genomics and other data-heavy fields. This is exactly where coding agents matter: boring infrastructure work that blocks actual discovery.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/scientific-computing-agentic-ai" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧱</span> Agent Sandbox Escapes Put Old Security Back In Fashion</h3>
+            <p>Dark Reading’s takeaway from recent agent sandbox failures is blunt: isolate execution, limit permissions, and log everything. Agent security is not a vibes problem; it is least privilege with sharper teeth.</p>
+            <div class="story-source">
+                <a href="https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply" target="_blank">Source: darkreading.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> Wall Street Wants Trading Agents, Guardrails Included</h3>
+            <p>CNBC reports brokers, startups, and retail investors are moving toward AI agents that monitor and execute investing workflows. The obvious risk: people will automate confidence before they automate judgment.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/07/28/ai-agents-build-to-trade-24/7-the-future-of-wall-street.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> AI Security Startups Are Pulling Seed Money</h3>
+            <p>Crunchbase reports seed investors are piling into cybersecurity companies built around AI-era risks. That capital flow makes sense: every agent with tools is also a new permissions, identity, and audit problem.</p>
+            <div class="story-source">
+                <a href="https://news.crunchbase.com/cybersecurity/seed-trends-ai-security-startup-funding-2026" target="_blank">Source: news.crunchbase.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏢</span> EPAM Joins OpenAI’s Partner Network</h3>
+            <p>EPAM becoming an OpenAI Advanced Partner is another sign that enterprise AI is moving from demos into integration work, compliance, and process redesign. The money is shifting from model awe to implementation grind.</p>
+            <div class="story-source">
+                <a href="https://www.epam.com/about/newsroom/press-releases/2026/epam-and-openai-partner-to-help-enterprises-unlock-higher-value-through-applied-ai" target="_blank">Source: epam.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2082388938610950242" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
