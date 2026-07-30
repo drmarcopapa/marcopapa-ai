@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — July 30, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">July 30, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔬</span> Altman Points OpenAI Toward Scientific Discovery</h3>
+            <p>The signal is clear: frontier labs want the next legitimacy battle to be science, not chat UX. If models can genuinely accelerate research workflows, that is the story that survives the hype cycle.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2082628413769003269" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧮</span> 2-Bit Quantization Keeps Chasing FP8 Quality</h3>
+            <p>The hardware story keeps getting more interesting: if tiny-bit MoE quantization holds up in practice, the consumer-GPU crowd gets a serious tailwind. Frontier quality is still expensive, but inference efficiency is where the pressure is building.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2082449026998239364" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Kimi K3 Shows the Memory Wall Is the Real Wall</h3>
+            <p>A 1-bit-weight model that still weighs in around 594GB is a useful reminder: compression is magic until deployment physics sends the bill. The open-model race is increasingly about systems engineering, not just benchmarks.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2082465583337996416" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Perplexity Ships Numbat for Agent Security</h3>
+            <p>NVIDIA highlighting Numbat matters because agent security is moving from conference talk to tooling. Pre-execution controls and harness-level visibility are becoming table stakes for coding agents inside real companies.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2082542223628050907" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">👩‍💻</span> DeepLearningAI Turns AI Code Review Into Curriculum</h3>
+            <p>Code review is now the bottleneck in AI-assisted development, not code generation. Teaching people how to inspect agent-written PRs is exactly the unglamorous layer the market needs.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2082489004092506443" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> OpenAI Explains GPT-5.6 Efficiency Gains</h3>
+            <p>OpenAI is starting to talk less like a model lab and more like an infrastructure company. Load balancing, caching, kernels, context bloat, and harness design are where frontier economics get won.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> OpenAI Triples ARC-AGI-3 Scores With Agent Memory Settings</h3>
+            <p>The takeaway is not just a better benchmark number. It is that agents become materially stronger when they remember prior attempts, which should scare anyone still evaluating them as stateless chatbots.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌏</span> CNBC: China’s Cheaper AI Models Challenge U.S. Expansion in Asia</h3>
+            <p>The U.S. can promote premium AI abroad, but Asia is a price-sensitive market with strong Chinese alternatives. Model geopolitics is turning into distribution, cost, and local cloud relationships.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/07/30/us-wants-asia-to-use-its-ai-but-china-dominates-cheaper-models.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚨</span> Ruflo MCP Flaw Exposes Agent-Orchestration Risk</h3>
+            <p>This is the agent security warning shot: orchestration layers are becoming high-value attack surfaces. If an AI harness can run commands and carry memory, authentication mistakes become infrastructure incidents.</p>
+            <div class="story-source">
+                <a href="https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html" target="_blank">Source: thehackernews.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">☁️</span> Microsoft Rises as AI Demand Pushes Capex Higher</h3>
+            <p>Wall Street is still rewarding the AI buildout when revenue backs the spend. The interesting part is that Microsoft paired the capex story with a cost-efficient coding model, which is exactly where cloud demand compounds.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2082766687158546701" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
