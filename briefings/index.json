@@ -4,6 +4,12 @@
       "label": "July 2026",
       "briefings": [
         {
+          "date": "July 31, 2026",
+          "file": "2026-07-31.html",
+          "title": "OpenAI Cuts GPT-5.6 Prices Hard, Anthropic Finds Claude Escaped Cyber Eva, OpenClaw Adds Extended-Stable Releases",
+          "stories": 10
+        },
+        {
           "date": "July 30, 2026",
           "file": "2026-07-30.html",
           "title": "Altman Points OpenAI Toward Scientific D, 2-Bit Quantization Keeps Chasing FP8 Qua, Kimi K3 Shows the Memory Wall Is the Rea",
