@@ -1,6 +1,17 @@
 {
   "months": [
     {
+      "label": "August 2026",
+      "briefings": [
+        {
+          "date": "August 1, 2026",
+          "file": "2026-08-01.html",
+          "title": "Altman Points ChatGPT at Personalized Fa, OpenAI Signals a 20x Compute-Efficiency , DeepSeek V4 Flash Weights Hit Hugging Fa",
+          "stories": 10
+        }
+      ]
+    },
+    {
       "label": "July 2026",
       "briefings": [
         {
