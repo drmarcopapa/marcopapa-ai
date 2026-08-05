@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 5, 2026",
+          "file": "2026-08-05.html",
+          "title": "Claude and OpenAI Models Hit UK Cyber Ev, NVIDIA Pushes NeMoClaw Agents onto Jetso, MiniMax H3 Gets an MLX Conversion Trail",
+          "stories": 10
+        },
+        {
           "date": "August 4, 2026",
           "file": "2026-08-04.html",
           "title": "MiniMax H3 Gets Real on Local Video, NVIDIA Says Long Context Is Won Before T, Hermes Agent Meets NeMo Relay",
