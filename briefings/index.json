@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 7, 2026",
+          "file": "2026-08-07.html",
+          "title": "OpenAI Pushes 5.6 Sol to Free Chat, AI Video Ads Get Harder to Spot, Qwen3.8 27B Hype Starts Early",
+          "stories": 10
+        },
+        {
           "date": "August 6, 2026",
           "file": "2026-08-06.html",
           "title": "Discovery Loop Pulls Google\u2019s Old Guard , Local AI Is Becoming A Real Deployment P, Codex With A Remote KVM Is Where Agent T",
