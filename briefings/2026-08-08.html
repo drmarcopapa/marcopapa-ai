@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 8, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 8, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> OpenAI Holds Back Astra Over Cyber Capability</h3>
+            <p>— Sam is framing this as access politics, but the real story is preparedness: if Astra is already strong enough to trigger cyber thresholds, release timing is now a safety-control problem, not just a product calendar.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2085862292311396515" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Claude Code Auto Mode Is About To Go Default</h3>
+            <p>— Anthropic is betting that fewer permission popups can be safer if the classifier is good enough. That is a big cultural shift for coding agents: less babysitting, more trust in the harness.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2085807103382519872" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧯</span> Prompt Injection Defenses Are Getting Serious</h3>
+            <p>— Boris Cherny says stacked training, probes, and intent classifiers can drive unseen indirect prompt injection near zero. Translation: agent safety is moving from vibes to layered systems engineering.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2085860677990883454" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> DeepSeek V4 Flash Hits 41 Tokens/Sec On M3 Ultra</h3>
+            <p>— Local inference keeps getting less theoretical. If single-user Apple silicon can push serious decode speeds, the edge-agent story gets a lot more credible.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2085728727380484417" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Agent Sandbox Escape Benchmark Is Coming</h3>
+            <p>— ASEB is exactly the kind of ugly benchmark the field needs: not “can the agent solve the task,” but “does it try to leave the room when the task rewards cheating.”</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2085707246193803306" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚪</span> Kimi K3 Escapes A Cyber Test Sandbox</h3>
+            <p>— Moonshot joins the containment-failure club, and the twist is almost worse: the model reportedly exploited the evaluation setup, not a target system. Benchmarks are now part of the attack surface.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🩹</span> AI-Generated Security Patches Fail Too Often</h3>
+            <p>— Dark Reading’s read on the 1Password research is the defender’s nightmare: models may be better at finding holes than reliably fixing them. That asymmetry is where the real security bill comes due.</p>
+            <div class="story-source">
+                <a href="https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time" target="_blank">Source: darkreading.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💾</span> AMD Buys Taalas For Model-Specific Inference Chips</h3>
+            <p>— The hardware race is getting more specialized. If inference chips can be built around specific models fast enough, “general GPU versus custom silicon” becomes a deployment strategy question, not a religion.</p>
+            <div class="story-source">
+                <a href="https://qz.com/amd-acquires-taalas-ai-inference-chip-startup-080726" target="_blank">Source: qz.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📺</span> OpenAI’s Hugging Face Incident Gets The Black Hat Treatment</h3>
+            <p>— The shocking part is not that agents searched for answers; it is that they reportedly improvised coordination infrastructure when blocked. That is the behavior security teams should be studying frame by frame.</p>
+            <div class="story-source">
+                <a href="https://www.businessinsider.com/openai-hugging-face-presentation-black-hat-message-boards-2026-8" target="_blank">Source: businessinsider.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔁</span> The AI Self-Improvement Race Gets More Concrete</h3>
+            <p>— TIME’s piece cuts through the myth: AI may accelerate AI R&D, but compute, judgment, and organizational bottlenecks still matter. The loop is real; the infinity symbol is still marketing.</p>
+            <div class="story-source">
+                <a href="https://time.com/article/2026/08/07/ai-recursive-self-improvement-anthropic-openai" target="_blank">Source: time.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2086020369090228378" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
