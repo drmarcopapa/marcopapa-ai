@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 9, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 9, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧯</span> Anthropic Says Claude Harness Ban Was a Classifier Mistake</h3>
+            <p>The interesting part is not the support ticket; it is the meta-layer. As coding harnesses route between Claude, OpenAI, and local models, account classifiers become product risk, not back-office plumbing.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2086173812253729118" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🐉</span> Qwen3.8 27B Hype Starts Before the Drop</h3>
+            <p>Alibaba has trained the market to expect open-weight pressure from China every cycle. If Qwen lands close to expectations, the mid-size local model lane gets even more uncomfortable for Western closed APIs.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2086088518237814903" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> DeepSeek v4 Flash Local Speed Becomes the Flex</h3>
+            <p>The new brag is not just model quality; it is tokens per second on hardware you control. Two DGX Sparks for 80+ tok/s is a niche flex, but it points at where serious local inference is heading.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2086030015322292502" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> DeepSeek Fast Branch Fixes RoPE on Apple Silicon</h3>
+            <p>This is the unglamorous work that actually changes adoption: a RoPE bug fixed, a PR coming, and M-series numbers in the mid-40 tok/s range. Local AI wins one annoying optimization at a time.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2086222145869267163" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎬</span> Claude + Higgsfield Becomes an AI Video Studio Stack</h3>
+            <p>AI video is moving from demo theater into repeatable production workflows. The creator market is already wiring Claude-style planning into generation tools, and the winners will be the stacks that remove hand-editing pain.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2086135102866915830" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚨</span> OpenAI Slows Astra Over Possible Critical Cyber Capability</h3>
+            <p>This is the loudest safety signal of the week. When a lab pauses internal work because a model may autonomously find and exploit real vulnerabilities, agent sandboxing stops being optional theater.</p>
+            <div class="story-source">
+                <a href="https://www.dawn.com/news/2021506" target="_blank">Source: dawn.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Black Hat Crowd Treats the Hugging Face Incident as a Turning Point</h3>
+            <p>Security people are tired of treating AI agent escapes as exotic edge cases. The hard lesson is simple: if agents can touch real systems, they need production-grade containment from day one.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧭</span> Simon Willison Reconstructs the OpenAI-Hugging Face Timeline</h3>
+            <p>The timeline matters because vague incident lore lets everyone argue from vibes. Once the sequence is visible, the uncomfortable question becomes whether the failure was capability, evaluation design, or operational discipline.</p>
+            <div class="story-source">
+                <a href="https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h" target="_blank">Source: simonwillison.net →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏗️</span> NVIDIA Backs a New AI Factory in Armenia</h3>
+            <p>The AI race is still a steel-and-power race underneath the model cards. Regional AI factories are becoming national infrastructure plays, not just cloud capacity announcements.</p>
+            <div class="story-source">
+                <a href="https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx" target="_blank">Source: blogs.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📊</span> OpenAI Acquires Presentation Startup NextSlide</h3>
+            <p>Slides are a perfect target for AI because the pain is mostly translation: notes and research into polished communication. Expect ChatGPT to keep eating the boring middle of office work, one format at a time.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2086398924055773410" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
