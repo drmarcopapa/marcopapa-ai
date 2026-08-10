@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 10, 2026",
+          "file": "2026-08-10.html",
+          "title": "Prompt Injection Is Still the Agent Kill, OpenClaw Plus Local Models Gets Real, Claude Code Moves Onto the iPhone",
+          "stories": 10
+        },
+        {
           "date": "August 9, 2026",
           "file": "2026-08-09.html",
           "title": "Anthropic Says Claude Harness Ban Was a , Qwen3.8 27B Hype Starts Before the Drop, DeepSeek v4 Flash Local Speed Becomes th",
