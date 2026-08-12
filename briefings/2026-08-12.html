@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 12, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 12, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> NVIDIA Ships Nemotron 3.5 Lightning</h3>
+            <p>NVIDIA is pushing the agent stack toward smaller specialist models, not one giant brain doing everything. A 30B MoE with 3B active params is exactly the kind of cheap execution layer long-running agents need.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2087162151995629926" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💻</span> AI Coding Bugs Are Moving Up the Stack</h3>
+            <p>The boring bugs are getting squeezed out; the remaining failures are architecture, UX, and missing context. That is good news for syntax, bad news for teams pretending code review is optional now.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2087284684103537011" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> Unsloth Desktop Brings Local Training to Normal Machines</h3>
+            <p>Local model tooling keeps moving from “weekend pain project” toward usable desktop software. If this works cleanly, fine-tuning becomes less of a cloud ceremony and more of a lab exercise.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2087178147426935047" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> macOS VMs Get GPU Access</h3>
+            <p>Cua getting GPU access inside macOS VMs matters because agent sandboxes need real acceleration, not polite demos. The Mac agent stack just got more interesting.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2087278105517793341" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> MiniMax H3 Speed Claims Get Developers’ Attention</h3>
+            <p>The frontier race is not only quality now; latency is becoming product strategy. A model that feels 10x faster changes what builders are willing to put in the loop.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2087269773742616957" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> OpenAI Updates GPT-5.6 Safety and Capability Data</h3>
+            <p>OpenAI’s August GPT-5.6 update flags High capability in both cyber and bio/chem domains, which is the real headline under the benchmark tables. The model race is now inseparable from deployment governance.</p>
+            <div class="story-source">
+                <a href="https://deploymentsafety.openai.com/gpt-5-6-august-update" target="_blank">Source: deploymentsafety.openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> OpenAI Expands Daybreak for Cyber Defenders</h3>
+            <p>Daybreak is the uncomfortable but necessary move: stronger cyber models are too useful to keep bluntly locked down, but too dangerous to hand out casually. Expect access-control products to become as important as the models.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Meta Releases Muse Glimmer for Local Agents</h3>
+            <p>Meta’s 30B Apache-licensed local agent model is a direct shot at cloud-only AI workflows. The pitch is simple: agents that run near your files, tools, and privacy boundary are going to win real developer mindshare.</p>
+            <div class="story-source">
+                <a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model" target="_blank">Source: research.meta.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🕵️</span> Claude Adds Machine-Readable AI Marks</h3>
+            <p>Anthropic is turning AI provenance into infrastructure, not etiquette. Watermarking across Claude, API, Code, and cloud partners means disclosure is moving from social norm to platform behavior.</p>
+            <div class="story-source">
+                <a href="https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content" target="_blank">Source: support.claude.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> AI Agents Push Cybersecurity Spending Higher</h3>
+            <p>CNBC frames the obvious next budget fight: AI does not just automate defense, it accelerates offense. Security spend is going to ride the same wave as AI capex, because the models are now part of the threat surface.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/08/12/ai-agents-hacks-cybersecurity-spending-boom.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2087461850082586715" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
