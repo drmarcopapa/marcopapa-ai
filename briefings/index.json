@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 13, 2026",
+          "file": "2026-08-13.html",
+          "title": "Grok 4.6 Lands in OpenClaw, Coding Agents Move From CLI to Cloud Ses, NVIDIA Pushes Nemotron 3.5 Lightning Int",
+          "stories": 10
+        },
+        {
           "date": "August 12, 2026",
           "file": "2026-08-12.html",
           "title": "NVIDIA Ships Nemotron 3.5 Lightning, AI Coding Bugs Are Moving Up the Stack, Unsloth Desktop Brings Local Training to",
