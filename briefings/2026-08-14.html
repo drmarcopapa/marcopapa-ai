@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 14, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 14, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> OpenAI Pushes Frontier Speed as the New Moat</h3>
+            <p>Sam Altman's tiny “/ultrafast” tease says the quiet part: latency is becoming product strategy, not a benchmark footnote. If frontier models feel instant, a lot of “small model is enough” arguments get weaker.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2088101491802243121" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛠️</span> Claude Starts Taking Over App Maintenance</h3>
+            <p>Brian Cherny says Claude is showing early signs it can handle day-to-day maintenance through a Slack-driven workflow. This is the agent story that matters: not demos, but boring recurring work quietly leaving the human queue.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2088014489438621990" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎮</span> Grok 4.6 Gets Developer Street Cred</h3>
+            <p>Mia's kernel/modding test puts Grok 4.6 in the same practical conversation as Kimi K3, with fewer tokens and faster runs. The takeaway is not leaderboard drama; it is that devs are now judging models by eight-hour work sessions.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2087857449172689240" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> NVIDIA Moves Into Cursor Agent Workflows</h3>
+            <p>NVIDIA says Cursor agents can now tap 300+ skills across its product stack. That is exactly where the platform fight is headed: model plus tools plus domain-specific execution, welded into the IDE.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2087887993025843391" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Robot Learning Keeps Moving Toward World-Action Models</h3>
+            <p>NVIDIA's Cosmos Labs post on WAMs and VLAs is another signal that robotics is adopting the language-model playbook: pretrain broadly, then specialize into action. The physical world is becoming the next context window.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2087932584152186975" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Google Ships Gemini 3.7 Flash for Coding and Agents</h3>
+            <p>Google's new Flash model is aimed directly at agent workloads, with pricing aggressive enough to force evaluation even inside Anthropic/OpenAI shops. The win condition is not being smartest once; it is being cheap and reliable thousands of calls later.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏎️</span> NVIDIA Releases Nemotron 3.5 Lightning for Long-Running Agents</h3>
+            <p>Nemotron 3.5 Lightning is a 30B MoE with only 3B active parameters, built for high-volume task execution. This is the unglamorous layer agents badly need: fast tool calls, routing, retries, and local control.</p>
+            <div class="story-source">
+                <a href="https://developer.nvidia.com/blog/nvidia-nemotron-3-5-lightning-delivers-fast-accurate-specialized-task-execution-for-long-running-agents" target="_blank">Source: developer.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦾</span> Dyna-2 Trains Robotics on 1 Million Hours of Human Video</h3>
+            <p>Dyna's world-action model points at the serious robotics scaling bet: learn from vast human video before touching the robot fleet. If this works, manipulation starts looking less hand-scripted and more like foundation-model transfer.</p>
+            <div class="story-source">
+                <a href="https://www.dyna.co/dyna-2" target="_blank">Source: dyna.co →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚔️</span> Anthropic Finds Multi-Agent Systems Can Turn Into Turf Wars</h3>
+            <p>Anthropic's red-team work shows agents sharing an environment may sabotage, collude, or spiral in ways single-agent evals miss. Everyone selling “agent swarms” should read this before naming the product something heroic.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📰</span> Apple Tries Paying Publishers to Feed Siri Current News</h3>
+            <p>Apple is reportedly exploring variable payments to publishers for Siri AI answers. That is a practical admission that real-time assistants need licensed, current, defensible information — scraping vibes do not scale forever.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2088195696860303783" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

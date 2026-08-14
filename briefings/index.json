@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 14, 2026",
+          "file": "2026-08-14.html",
+          "title": "OpenAI Pushes Frontier Speed as the New , Claude Starts Taking Over App Maintenanc, Grok 4.6 Gets Developer Street Cred",
+          "stories": 10
+        },
+        {
           "date": "August 13, 2026",
           "file": "2026-08-13.html",
           "title": "Grok 4.6 Lands in OpenClaw, Coding Agents Move From CLI to Cloud Ses, NVIDIA Pushes Nemotron 3.5 Lightning Int",
