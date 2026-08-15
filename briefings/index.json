@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 15, 2026",
+          "file": "2026-08-15.html",
+          "title": "Andrew Ng Maps AI Engineering Skills, Anthropic Explains Claude Text Watermark, Anthropic Publishes Its Second Risk Repo",
+          "stories": 10
+        },
+        {
           "date": "August 14, 2026",
           "file": "2026-08-14.html",
           "title": "OpenAI Pushes Frontier Speed as the New , Claude Starts Taking Over App Maintenanc, Grok 4.6 Gets Developer Street Cred",
