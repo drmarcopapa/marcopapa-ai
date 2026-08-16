@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 16, 2026",
+          "file": "2026-08-16.html",
+          "title": "Qwen3.8 27B Gets Real DGX Spark Numbers, MLX Local AI Still Has a Coordination Pr, MLX Fast Targets Qwen3.8 27B Speedups",
+          "stories": 10
+        },
+        {
           "date": "August 15, 2026",
           "file": "2026-08-15.html",
           "title": "Andrew Ng Maps AI Engineering Skills, Anthropic Explains Claude Text Watermark, Anthropic Publishes Its Second Risk Repo",

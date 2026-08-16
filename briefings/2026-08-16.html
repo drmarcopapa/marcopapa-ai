@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 16, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 16, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Qwen3.8 27B Gets Real DGX Spark Numbers</h3>
+            <p>Local inference is moving from hobby demo to workstation economics: SGLang on DGX Spark is showing 1M-context Qwen3.8 27B with roughly 33-35 tok/s single-stream and close to 200 tok/s under concurrency. The important bit is not the benchmark brag; it is that serious context length is becoming local and usable.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2088579343156924888" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> MLX Local AI Still Has a Coordination Problem</h3>
+            <p>Ivan Fioravanti nails the Mac-local AI mess: duplicated quantizations, competing repos, too many engines, not enough comparable benchmarks. The ecosystem is rich, but without leaders and shared evals, users are mostly speed-shopping in fog.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2088705282222456944" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> MLX Fast Targets Qwen3.8 27B Speedups</h3>
+            <p>MLX Fast moving onto Qwen3.8 27B is exactly the kind of pressure Apple Silicon inference needs. If it gets near the claimed 300% zone, local Mac AI stops being a consolation prize and starts becoming a serious deployment target.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2088734572364079571" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Agent Architecture Is Becoming the New Literacy Test</h3>
+            <p>The useful agent discourse is shifting from magic prompts to architecture: model, tools, memory, orchestration, deployment. Good; the next wave of builders will not be separated by who can prompt, but by who can design control loops that do not fall apart.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2088717387109663122" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> Skills Are Becoming Agent Infrastructure</h3>
+            <p>The “installable skills” framing keeps showing up because it solves a real problem: turning one-off prompts into repeatable workflows. This is the boring layer that matters; agents get useful when their capabilities are packaged, versioned, and reused.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2088807971975516270" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🕵️</span> Anthropic Details Claude Watermarking</h3>
+            <p>Claude watermarking is moving from policy checkbox to implementation detail, including SynthID-style detection and different behavior for code. The insider read: provenance is becoming infrastructure, but it will be uneven, contested, and easy to oversell.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎮</span> Twitch Content Becomes AI Training Surface Area</h3>
+            <p>Amazon letting Twitch content feed AI unless creators opt out is another reminder that “platform data” means “training corpus” by default. Creators are learning the same lesson developers learned with code: if the policy changed quietly, the dataset already won.</p>
+            <div class="story-source">
+                <a href="https://www.wired.com/story/amazon-uses-your-twitch-content-to-train-its-ai-how-to-opt-out" target="_blank">Source: wired.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Rogue Agent Testing Is Now a Policy Problem</h3>
+            <p>POLITICO’s safety-testing piece captures the new anxiety: evals for cyber-capable agents can themselves become live security incidents. The industry wanted realistic testing; now it needs rules for when the test starts touching the real internet.</p>
+            <div class="story-source">
+                <a href="https://www.politico.com/news/2026/08/15/ai-safety-testing-wild-west-01038817" target="_blank">Source: politico.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🪝</span> Flue 2 Brings React-Style Hooks to Agents</h3>
+            <p>Flue 2’s “agent hooks” are a strong signal that agent frameworks are becoming runtime harnesses, not just SDK wrappers. The React analogy is useful: agents need predictable lifecycle points before every model call, or debugging becomes theater.</p>
+            <div class="story-source">
+                <a href="https://www.latent.space/p/flue-2" target="_blank">Source: latent.space →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏢</span> Paperclip Pushes the Agent Company Metaphor</h3>
+            <p>Paperclip’s product framing is blunt: stop managing prompts, start managing agent org charts against business goals. It may be early, but the direction is right; multi-agent work needs ownership, budgets, approvals, and accountability, not another chat box.</p>
+            <div class="story-source">
+                <a href="https://paperclip.ing" target="_blank">Source: paperclip.ing →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2088932196677730400" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
