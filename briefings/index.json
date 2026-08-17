@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 17, 2026",
+          "file": "2026-08-17.html",
+          "title": "Qwen3.8 27B Burns 36K Tokens Before Writ, Apple MLX to NVIDIA CUDA Bridge Gets Dev, DGX Spark C1 Hits 75 Tokens/Second in Ea",
+          "stories": 10
+        },
+        {
           "date": "August 16, 2026",
           "file": "2026-08-16.html",
           "title": "Qwen3.8 27B Gets Real DGX Spark Numbers, MLX Local AI Still Has a Coordination Pr, MLX Fast Targets Qwen3.8 27B Speedups",
