@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 19, 2026",
+          "file": "2026-08-19.html",
+          "title": "OpenAI Pauses Frontier RL Training, Claude Starts Doing Real Protein Binder , NVIDIA Shrinks the Path From Hugging Fac",
+          "stories": 10
+        },
+        {
           "date": "August 18, 2026",
           "file": "2026-08-18.html",
           "title": "Qwen3.8-27B Pushes Laptop-Class Frontier, Running Qwen3.8-27B Is Becoming a Hardwa, Qwen, DeepSeek, and Kimi Are Now the Ben",

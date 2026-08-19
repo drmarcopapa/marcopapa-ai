@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 19, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 19, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛑</span> OpenAI Pauses Frontier RL Training</h3>
+            <p>Sam Altman says OpenAI paused some frontier reinforcement-learning runs to raise alignment, security, and monitoring standards. That is not a PR footnote; it is a signal that cyber-capable models are now moving faster than the safety wrapper.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2089787807611195475" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> Claude Starts Doing Real Protein Binder Work</h3>
+            <p>Anthropic says Claude designed binders that succeeded above the usual field hit rate. The important part is not "AI discovers drugs" hype; it is that agents are beginning to run useful wet-lab-adjacent workflows end to end.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2089842387845804246" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> NVIDIA Shrinks the Path From Hugging Face to TensorRT</h3>
+            <p>TensorRT Model Connect promises end-to-end TensorRT inference from supported Hugging Face models in two commands. This is NVIDIA doing what it always does well: turning model chaos into deployable GPU plumbing.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2089750360869233059" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> GLM-5.3 Keeps the Open-Model Pressure On</h3>
+            <p>A strong claim is circulating that GLM-5.3 matches Kimi K3 while being much smaller. Whether the benchmark survives scrutiny or not, the direction is obvious: frontier-ish capability is getting cheaper and harder to gate.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2089828211865567657" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> AI Desktop Apps Are Fighting Startup Latency Now</h3>
+            <p>Brian Cherny points to ongoing startup-speed work on Desktop. That sounds small, but daily AI tools win or lose on friction; the next battleground is not just model quality, it is whether the app feels instant.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2089924199804711410" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> OpenAI Partners With CodeAI for Student AI Literacy</h3>
+            <p>OpenAI is framing teen AI use around judgment, critical evaluation, and responsible practice. Good: the classroom problem is no longer access to AI, it is whether students learn to challenge it instead of outsourcing thought to it.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/partnering-with-codeai" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧭</span> Gemini in Chrome Gets Agentic Browsing on Android</h3>
+            <p>Google is rolling out Gemini in Chrome for Android with page Q&A, summaries, app connections, and auto-browse for AI Pro and Ultra users in the U.S. This is the browser becoming the agent shell, which is exactly where the leverage is.</p>
+            <div class="story-source">
+                <a href="https://blog.google/products-and-platforms/products/chrome/gemini-in-chrome-android-auto-browse" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎨</span> Anthropic Launches Claude Design</h3>
+            <p>Claude Design turns Claude into a collaborative design, slide, prototype, and handoff surface. The interesting move is the Claude Code handoff: design tools are becoming agent front-ends, not just prettier canvases.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/news/claude-design-anthropic-labs" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> CoSnitch Shows Copilot’s Real Security Problem</h3>
+            <p>Varonis disclosed a one-click Microsoft Copilot Personal attack chain that could silently exfiltrate connected data before Microsoft patched it. The lesson is blunt: agents with broad permissions turn prompt injection into access-control failure.</p>
+            <div class="story-source">
+                <a href="https://www.varonis.com/blog/cosnitch" target="_blank">Source: varonis.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📣</span> ChatGPT Ads Expand Across Europe</h3>
+            <p>OpenAI is taking ChatGPT Ads into 31 European markets after its U.S. test. The business model is now becoming explicit: if chat is where decisions happen, ads will follow the intent stream.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/chatgpt-ads-expands-across-europe" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2090003829815406639" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
