@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 20, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 20, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔒</span> OpenAI Pushes Business Privacy Harder</h3>
+            <p>Sam Altman is pointing at enterprise privacy because that is where the next API budget fight lives. If frontier models cannot handle regulated data cleanly, the enterprise agent story stays stuck in demos.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2090163991234453611" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> NVIDIA Says Skills Make Agents Actually Work</h3>
+            <p>NVIDIA benchmarked 300+ verified skills and claims big jumps in correctness and effectiveness. The takeaway is simple: agent performance is becoming an ops problem, not just a model leaderboard problem.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2090113635683340622" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧾</span> OpenClaw Calls for Skills With Receipts</h3>
+            <p>The vibe shift is real: reusable agent skills now need evidence, benchmarks, and provenance. “Trust me bro” is not a deployment strategy.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2090185671856279924" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Tiny-GPU Qwen Builds Keep Improving</h3>
+            <p>Better 1-3 bit GGUFs for Qwen3.8-27B matter because local inference keeps creeping into serious workflows. The quiet story is not hobbyists saving money; it is model optionality moving back to the edge.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2090104371581177885" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> Apple Neural Engine Gets Unlocked for Developers</h3>
+            <p>If developers can really tap the ANE more directly, Apple suddenly has a much better on-device AI story. The hardware was never the weak link; access was.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2090139633786953894" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> OpenAI Offers Zero Data Retention for Frontier Models</h3>
+            <p>OpenAI is trying to square stronger safety processing with enterprise zero-retention demands. That is the right battlefield: privacy guarantees are becoming product features, not legal footnotes.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/offering-zero-data-retention-for-frontier-models" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> TrueFoundry Launches Open-Source Agent Harness TrueForge</h3>
+            <p>TrueForge is a direct shot at managed agent stacks: cheaper runs, more control, and MIT licensing. Enterprises will like the word “self-hosted” almost as much as they like the word “discount.”</p>
+            <div class="story-source">
+                <a href="https://venturebeat.com/orchestration/truefoundrys-open-source-ai-agent-harness-trueforge-boasts-30-75-cheaper-task-completion-than-claude-managed-agents" target="_blank">Source: venturebeat.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> OpenViking Open-Sources Context Infrastructure for Agents</h3>
+            <p>Volcengine’s OpenViking is another sign that memory and context are becoming infrastructure layers. The next agent winners will not just call tools; they will remember what matters without dragging the whole haystack around.</p>
+            <div class="story-source">
+                <a href="https://github.com/volcengine/OpenViking" target="_blank">Source: github.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💳</span> Stripe Agrees to Buy OpenRouter</h3>
+            <p>Stripe buying OpenRouter would put model routing much closer to payments, billing, and developer distribution. That is not a side quest; it is the monetization layer moving into the model layer.</p>
+            <div class="story-source">
+                <a href="https://www.bloomberg.com/news/articles/2026-08-19/stripe-agrees-to-buy-ai-firm-openrouter-no-terms-disclosed" target="_blank">Source: bloomberg.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Harness Ships AI Agents for Vulnerability Response</h3>
+            <p>Harness is betting that security teams need agents to triage and patch faster than attackers can exploit. Sensible direction, but the approval loop still matters; nobody wants autonomous security theater in production.</p>
+            <div class="story-source">
+                <a href="https://www.harness.io/press-and-news/harness-launches-ai-agents-for-machine-speed-vulnerability-response" target="_blank">Source: harness.io →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2090360902524809715" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
