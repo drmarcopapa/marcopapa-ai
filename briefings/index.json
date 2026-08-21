@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 21, 2026",
+          "file": "2026-08-21.html",
+          "title": "Anthropic Pushes Private Mythos-Class De, Karpathy Says the Old ML Abstractions Ar, Coding Is Solved, Bugs Are Not",
+          "stories": 10
+        },
+        {
           "date": "August 20, 2026",
           "file": "2026-08-20.html",
           "title": "OpenAI Pushes Business Privacy Harder, NVIDIA Says Skills Make Agents Actually , OpenClaw Calls for Skills With Receipts",
