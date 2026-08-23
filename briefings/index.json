@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 23, 2026",
+          "file": "2026-08-23.html",
+          "title": "Ox Alpha Is Not the Next Gemini, Opus as the Optimization Worker, Local Small Models Keep Getting Less Toy",
+          "stories": 10
+        },
+        {
           "date": "August 22, 2026",
           "file": "2026-08-22.html",
           "title": "NVIDIA AVO Hits 100% on ARC-AGI-3, Andrew Ng\u2019s AI App Skills List Gets Very, \u201cNo Doors for Agents\u201d Becomes the Interf",
