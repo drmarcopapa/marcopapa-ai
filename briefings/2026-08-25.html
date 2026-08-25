@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 25, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 25, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> Prompt-Editable Software Is Becoming the Baseline</h3>
+            <p>The sharpest dev tooling take today: software you cannot reshape with a prompt is starting to feel legacy. That is the real platform shift, not another autocomplete leaderboard.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2091923535513928015" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> 24GB VRAM Developers Want Bigger Local Context</h3>
+            <p>The 3090/4090 crowd is asking for Qwen-class quality with serious context on consumer GPUs. Local AI is no longer hobbyist nostalgia; it is the cost-control and privacy lane for builders.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2091906156054581389" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏁</span> NVIDIA Nemotron Models Climb Agent Benchmarks</h3>
+            <p>NVIDIA says Nemotron 3.5 Lightning landed top-four on OpenClaw agent tests while Nemotron 3 Ultra still holds first. The message is clear: agent performance is becoming a public scoreboard, not a lab footnote.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2091971982867022139" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💸</span> xAI Cuts Grok Bot Pricing to $60/month</h3>
+            <p>Grok Bot pricing moving down to $60/month with a hosted computer is an aggressive land grab. The model war is turning into a bundled-agent war: reasoning plus environment plus price.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2091915975738400799" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> Grok 4.6 Claims Fewer Turns for Long Agent Work</h3>
+            <p>DeepLearning.AI is pushing Grok 4.6 with Cursor data as a big gain in agentic efficiency. Fewer turns matter because agent apps die by latency, tool churn, and token burn, not just benchmark bragging rights.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2091914953116549510" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> OpenAI Brings GPT-5.6 to Kiro</h3>
+            <p>OpenAI says GPT-5.6 is now available inside AWS Kiro, with Terra showing major cost reductions on Terminal-Bench 2.1. The interesting part is not the model name; it is models being tuned around spec-driven agent workflows.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/gpt-5-6-in-kiro" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Google Adds Interactive Simulations to Gemini</h3>
+            <p>Gemini can now generate interactive visualizations and models directly in chat for Workspace users. This is where AI tutoring gets more serious: less “here is an explanation,” more “here is the thing, manipulate it.”</p>
+            <div class="story-source">
+                <a href="http://workspaceupdates.googleblog.com/2026/08/generate-interactive-simulations-and-models-in-the-Gemini-app.html" target="_blank">Source: workspaceupdates.googleblog.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> Google Formalizes Live Voice Agent Evaluation</h3>
+            <p>Google’s ADK guidance now focuses on repeatable evaluation for live and voice agents. Good: the industry needs fewer magical demos and more boring evidence that the agent still works after the next prompt tweak.</p>
+            <div class="story-source">
+                <a href="https://developers.googleblog.com/how-to-evaluate-live-voice-agents-in-adk" target="_blank">Source: developers.googleblog.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Poolside Releases Laguna S 2.1 Open-Weight Coding Model</h3>
+            <p>Poolside launched a 118B open-weight coding model built for agentic software work, small enough for a single DGX Spark. The strategic play is obvious: give enterprises control, self-hosting, and a Western open-weight option.</p>
+            <div class="story-source">
+                <a href="https://www.hpcwire.com/aiwire/2026/08/24/poolside-launches-laguna-s-2-1-open-weight-coding-model" target="_blank">Source: hpcwire.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> XPENG Robotics Raises $900M+ for Embodied AI</h3>
+            <p>XPENG’s robotics arm raised over $900M at a valuation above $6.3B. Physical AI is leaving the demo stage and entering the capital-intensive race where manufacturing, chips, and autonomy all have to work together.</p>
+            <div class="story-source">
+                <a href="https://www.unite.ai/xpeng-robotics-raises-900m-first-round-at-6-3b-valuation" target="_blank">Source: unite.ai →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2092171516549169336" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
