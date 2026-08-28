@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 28, 2026",
+          "file": "2026-08-28.html",
+          "title": "Altman Sounds the AI Cyber Alarm, Anthropic Pushes Agents Into Lab Hardwar, GLM-5.3 Flash Gets Real Developer Buzz",
+          "stories": 10
+        },
+        {
           "date": "August 27, 2026",
           "file": "2026-08-27.html",
           "title": "Anthropic Opens Privacy-Preserved Claude, Codex Visualization Is Becoming a Real D, Qwen3.8-Flash-Next Runs on Dual DGX Spar",

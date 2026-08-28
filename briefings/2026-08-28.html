@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 28, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 28, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Altman Sounds the AI Cyber Alarm</h3>
+            <p>Sam Altman is telling the industry that AI cyber defense has moved from conference-panel topic to emergency operating mode. The subtext is clear: frontier labs know capability is outrunning institutional preparedness.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2093060670472241368" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Anthropic Pushes Agents Into Lab Hardware</h3>
+            <p>Anthropic's Model Hardware Standard is a serious step from chat agents toward agents that touch the physical world. The important part is not the demo; it is whether safety constraints live in the hardware layer, where they belong.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2093038426140651791" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> GLM-5.3 Flash Gets Real Developer Buzz</h3>
+            <p>The China open-weights stack keeps forcing uncomfortable comparisons with closed frontier models. If GLM-5.3 Flash really delivers at this quality on modest hardware, the inference economics story gets sharper.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2093085198241976519" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧭</span> Hermes Wants to Browse as You</h3>
+            <p>Browser agents with your cookies are the next obvious power move and the next obvious security headache. Convenience is winning, but identity, consent, and blast radius need adult supervision.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2093066242630279370" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏟️</span> Qwen Climbs the Arena Board</h3>
+            <p>Qwen's latest Flash model showing up with a strong Arena score is another reminder that the model race is no longer a two-lab story. Fast, cheap, good-enough models are where product teams quietly shift budgets.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2093045688200273952" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">✈️</span> Google Turns AI Mode Into a Travel Agent</h3>
+            <p>Google is pushing AI Mode from search assistant into transaction layer: price tracking, points, miles, and hotel booking. This is the real agent battleground, where the AI stops answering and starts closing the loop.</p>
+            <div class="story-source">
+                <a href="https://blog.google/products-and-platforms/products/search/book-travel-ai-mode" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌶️</span> OpenAI Details Its Jalapeño Inference Chip</h3>
+            <p>OpenAI's custom inference silicon is about control as much as performance. If Jalapeño scales, OpenAI gets leverage over cost, latency, and the Nvidia tax; if it does not, the GPU landlords stay happy.</p>
+            <div class="story-source">
+                <a href="https://www.hpcwire.com/off-the-wire/openai-details-jalapeno-inference-chip-performance-and-multigenerational-roadmap" target="_blank">Source: hpcwire.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💼</span> Salesforce and Anthropic Launch Claudeforce</h3>
+            <p>Putting Salesforce data and governed actions directly inside Claude is exactly how enterprise AI stops being a sidebar widget. The CRM interface is being eaten from the inside.</p>
+            <div class="story-source">
+                <a href="https://www.hpcwire.com/aiwire/2026/08/27/salesforce-and-anthropic-launch-claudeforce-enterprise-ai-partnership" target="_blank">Source: hpcwire.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> OpenAI Highlights Voice-First Workplace Coaching</h3>
+            <p>The Ariso case study is small, but the pattern is not: voice models are becoming the front end for messy human workflows. Meetings, commitments, and follow-through are prime territory because everyone already hates that software.</p>
+            <div class="story-source">
+                <a href="https://academy.openai.com/public/blogs/how-ariso-uses-openai-models-to-build-a-workplace-coach-2026-08-27" target="_blank">Source: academy.openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> Claude Code Ships Another Round of Agent Fixes</h3>
+            <p>The latest Claude Code release notes are not flashy, which is precisely why they matter. Agent products win by sanding down failure modes: bad forks, broken pickers, wedged sessions, and all the boring things that kill trust.</p>
+            <div class="story-source">
+                <a href="https://github.com/anthropics/claude-code/releases" target="_blank">Source: github.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2093261222238126431" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
