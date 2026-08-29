@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — August 29, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">August 29, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧭</span> Andrew Ng Maps the New Software Fundamentals</h3>
+            <p>Agentic coding is making old-school engineering discipline more valuable, not less. The winning teams will know latency, reliability, tests, and cost, then let agents move faster inside those rails.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2093388974194872781" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Anthropic Lets Claude Try Alignment Research</h3>
+            <p>Claude got 48 hours and a GPU to improve smaller models on alignment failures. This is the recursive-AI story to watch: useful if controlled, very spicy if labs get careless.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2093386528668172373" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> NVIDIA Warp Hits 10M Downloads</h3>
+            <p>GPU-native Python for physics and simulation is quietly becoming infrastructure. The AI stack is not just models; it is the tooling that makes synthetic worlds cheap enough to matter.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2093360947608113363" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚦</span> NVIDIA Positions Dynamo Around vLLM, SGLang, and TensorRT-LLM</h3>
+            <p>Inference orchestration is now a product category, not a footnote. Once everyone has a good model, the money moves to routing, batching, caching, and keeping GPUs busy.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2093444391797158049" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛠️</span> ChatGPT Computer Use Optimizes Local MLX Kernels</h3>
+            <p>This is the kind of demo that looks small until you realize the loop: agent opens Xcode, debugs Metal, improves inference. Developer tools are becoming coworkers with hands on the keyboard.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2093294573833400529" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">✂️</span> OpenAI Moves to Cut Cursor Off After SpaceX Acquisition</h3>
+            <p>OpenAI says it plans to wind down model access to Cursor by November 12 after SpaceX took control. The lesson is blunt: distribution partnerships are now strategic chokepoints, not neutral pipes.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏢</span> Cisco Rolls MyAgent to 90,000 Employees</h3>
+            <p>Cisco is pushing beyond chat into supervised autonomous execution across enterprise systems. This is where agents get real: not cute demos, but identity, data access, governance, and accountability at company scale.</p>
+            <div class="story-source">
+                <a href="https://blogs.cisco.com/news/my-agent-and-the-rise-of-ambient-intelligence-ciscos-next-step-in-enterprise-ai" target="_blank">Source: blogs.cisco.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> Anthropic Tests Whether Models Can Judge Safety Research</h3>
+            <p>Anthropic’s TASTE benchmark asks whether models can evaluate AI safety proposals like experienced researchers. That matters because automated research is only as good as the taste function steering it.</p>
+            <div class="story-source">
+                <a href="https://alignment.anthropic.com/2026/taste" target="_blank">Source: alignment.anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💸</span> GLM-5.3 Lands on Bitdeer for Coding and Cyber Workloads</h3>
+            <p>Z.ai’s open-weight model is being packaged for serverless enterprise inference, with gains concentrated in long-horizon coding and security tasks. Open models are turning price pressure into a strategic weapon.</p>
+            <div class="story-source">
+                <a href="https://www.bitdeer.ai/en/blog/glm-5-3-bitdeer-ai-model-studio" target="_blank">Source: bitdeer.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📚</span> WikiSkill Pushes Persistent Skills for AI Agents</h3>
+            <p>A new arXiv paper frames reusable filesystem skills as a way for agents to carry procedural knowledge across tasks without retraining. That is exactly the boring layer agents need before they become dependable.</p>
+            <div class="story-source">
+                <a href="https://arxiv.org/html/2608.27454" target="_blank">Source: arxiv.org →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2093621518400110856" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

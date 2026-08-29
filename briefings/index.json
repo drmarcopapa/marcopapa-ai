@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 29, 2026",
+          "file": "2026-08-29.html",
+          "title": "Andrew Ng Maps the New Software Fundamen, Anthropic Lets Claude Try Alignment Rese, NVIDIA Warp Hits 10M Downloads",
+          "stories": 10
+        },
+        {
           "date": "August 28, 2026",
           "file": "2026-08-28.html",
           "title": "Altman Sounds the AI Cyber Alarm, Anthropic Pushes Agents Into Lab Hardwar, GLM-5.3 Flash Gets Real Developer Buzz",
