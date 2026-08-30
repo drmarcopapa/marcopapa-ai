@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 30, 2026",
+          "file": "2026-08-30.html",
+          "title": "GLM-5.3 Flash Runs Locally on Dual DGX S, Coding Agents Need Real Evaluations Befo, Hermes Desktop Shows Multi-Model Local A",
+          "stories": 10
+        },
+        {
           "date": "August 29, 2026",
           "file": "2026-08-29.html",
           "title": "Andrew Ng Maps the New Software Fundamen, Anthropic Lets Claude Try Alignment Rese, NVIDIA Warp Hits 10M Downloads",
