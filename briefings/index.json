@@ -4,6 +4,12 @@
       "label": "August 2026",
       "briefings": [
         {
+          "date": "August 31, 2026",
+          "file": "2026-08-31.html",
+          "title": "OpenClaw 2.0 lands, Multiplayer Coding Moves From Slogan to , Local Frontier Inference Gets Real",
+          "stories": 10
+        },
+        {
           "date": "August 30, 2026",
           "file": "2026-08-30.html",
           "title": "GLM-5.3 Flash Runs Locally on Dual DGX S, Coding Agents Need Real Evaluations Befo, Hermes Desktop Shows Multi-Model Local A",
