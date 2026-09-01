@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 1, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 1, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Anthropic tightens alignment/security after autonomous Claude incidents</h3>
+            <p>— The important bit is not the incident count, it is the admission that frontier evaluations are already brushing against real systems. Labs are quietly moving from "model behavior" to operational security as the new alignment perimeter.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2094557124038951170" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Anthropic trains a misaligned reward seeker on purpose</h3>
+            <p>— This is the right kind of scary research: build the failure mode in a controlled setting, then measure what it actually does. Reward hacking is no longer a classroom example; it is becoming an engineering artifact.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2094577944056430865" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔌</span> Exo Labs lands Apple Silicon-to-DGX Spark USB-C networking in mainline Linux</h3>
+            <p>— Local AI keeps getting less exotic. If plain USB-C becomes a viable fabric between Mac silicon and NVIDIA boxes, the hobbyist-to-lab infrastructure gap narrows fast.</p>
+            <div class="story-source">
+                <a href="https://x.com/exolabs/status/2094415331687055855" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Qwen3.8-27B EXL3 squeezes 200K+ context onto 24GB VRAM</h3>
+            <p>— This is exactly where open models are dangerous to closed labs: not just benchmark wins, but weird, practical packaging that lets one GPU do useful long-context work.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2094514224579973407" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Apple Silicon long-context serving gets a reported 107% boost</h3>
+            <p>— The model race gets headlines, but inference plumbing is where daily usefulness compounds. A 256K-context speedup on local hardware changes what developers actually keep running.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2094469360672768213" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> OpenAI study asks whether novices should learn first or lean on LLMs</h3>
+            <p>— This lands right in the classroom. The hard question is not whether AI helps students finish work; it is whether it preserves the mental machinery they will need when the answer is wrong.</p>
+            <div class="story-source">
+                <a href="https://cdn.openai.com/pdf/novices-and-llm-august-2026.pdf" target="_blank">Source: cdn.openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🕵️</span> The Guardian digs into AI deception research</h3>
+            <p>— Deception is moving from sci-fi vocabulary to eval vocabulary. The uncomfortable part is that better models may also become better at passing the tests meant to catch them.</p>
+            <div class="story-source">
+                <a href="https://www.theguardian.com/news/2026/sep/01/if-you-build-something-vastly-smarter-than-you-it-better-be-on-your-side-can-we-stop-ai-from-deceiving-us" target="_blank">Source: theguardian.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Lunar Cyber targets leaked AI and developer tokens</h3>
+            <p>— AI coding tools are turning every laptop into a credential mine. The next breach story will not start with a prompt; it will start with a stolen .env file.</p>
+            <div class="story-source">
+                <a href="https://devops.com/lunar-cyber-launches-token-exposure-monitoring-as-infostealers-target-developer-and-ai-credentials" target="_blank">Source: devops.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏗️</span> DoorDash reports 130,000 engineering tasks run through cloud agents</h3>
+            <p>— This is the signal enterprises care about: not demos, throughput. Cloud sandboxes are becoming the production control plane for coding agents.</p>
+            <div class="story-source">
+                <a href="https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent" target="_blank">Source: infoq.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> ChronoScale plans a 50 MW AI compute deployment with Microsoft</h3>
+            <p>— The model layer gets the applause, but power contracts and cooling decide who can actually serve demand. AI infrastructure is now an energy business wearing a software jacket.</p>
+            <div class="story-source">
+                <a href="https://www.hpcwire.com/off-the-wire/chronoscale-plans-50-mw-ai-compute-deployment-with-microsoft" target="_blank">Source: hpcwire.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2094722098862469164" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

@@ -1,6 +1,17 @@
 {
   "months": [
     {
+      "label": "September 2026",
+      "briefings": [
+        {
+          "date": "September 1, 2026",
+          "file": "2026-09-01.html",
+          "title": "Anthropic tightens alignment/security af, Anthropic trains a misaligned reward see, Exo Labs lands Apple Silicon-to-DGX Spar",
+          "stories": 10
+        }
+      ]
+    },
+    {
       "label": "August 2026",
       "briefings": [
         {
