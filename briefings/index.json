@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 2, 2026",
+          "file": "2026-09-02.html",
+          "title": "OpenAI says the next model is close, but, Claude Fable 5.1 is being sold as the lo, OpenClaw ships v2026.8.2 to clean up upd",
+          "stories": 10
+        },
+        {
           "date": "September 1, 2026",
           "file": "2026-09-01.html",
           "title": "Anthropic tightens alignment/security af, Anthropic trains a misaligned reward see, Exo Labs lands Apple Silicon-to-DGX Spar",

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 2, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 2, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧯</span> OpenAI says the next model is close, but safety is now the headline</h3>
+            <p>— Sam is framing the launch around safeguards before specs, which tells you where the pressure is. The frontier race has moved from pure capability theater to "prove you can ship without losing control."</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2094934592062959832" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Claude Fable 5.1 is being sold as the long-running agent workhorse</h3>
+            <p>— The pitch is not just better coding; it is coding, computer use, design, presentations, and extended agentic work in one model. That is Anthropic aiming straight at the professional workflow stack.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2094864060609376748" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛠️</span> OpenClaw ships v2026.8.2 to clean up update-breaking bugs</h3>
+            <p>— Not glamorous, but this is the real agent platform work: reliability after the shiny release. The agent layer only matters if updates stop breaking the people using it daily.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2094843171931127998" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌐</span> OpenClaw Nodes push agents closer to real device control</h3>
+            <p>— Agents reaching devices anywhere is the quiet infrastructure story behind the demos. Once tools cross machine boundaries cleanly, personal agents stop being browser toys.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2094911616441876729" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📦</span> Tencent-style Sherry quantization claims huge compression with little benchmark damage</h3>
+            <p>— Cutting a 1.5TB model to 214GB while keeping scores close is exactly the kind of systems work that changes who can run frontier-ish models. Capability is only half the story; deployability is the other half.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2094748718008307744" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏥</span> OpenAI connects EHR and healthcare data sources into ChatGPT</h3>
+            <p>— This is OpenAI walking into the messy enterprise data swamp, not another chat demo. Healthcare AI will be won by governed access to real records, not prettier bedside summaries.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎥</span> Google DeepMind adds agentic video understanding to Gemini</h3>
+            <p>— Cutting video-analysis tokens by up to 88% is a big deal because video is where context gets expensive fast. The winner here is whoever makes long media cheap enough to use routinely.</p>
+            <div class="story-source">
+                <a href="https://deepmind.google/blog/introducing-agentic-video-in-gemini" target="_blank">Source: deepmind.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Anthropic launches Claude Fable 5.1 and restricted Mythos 5.1</h3>
+            <p>— The split model strategy is the new normal: broad productivity model for everyone, sharper cyber and bio capability behind verified access. That is a product launch and a policy compromise in the same box.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/claude-fable-and-mythos-5-1" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Microsoft Entra adds an MCP Firewall for agent traffic</h3>
+            <p>— This is the enterprise immune system forming around agents: discover tools, enforce policy, and watch runtime behavior. MCP is becoming important enough that security teams now need a choke point for it.</p>
+            <div class="story-source">
+                <a href="https://techcommunity.microsoft.com/blog/microsoft-entra-blog/what%E2%80%99s-new-in-microsoft-entra-september-2026/4545179" target="_blank">Source: techcommunity.microsoft.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> AIR raises $50M to police the supply chain around AI agents</h3>
+            <p>— Skills, plugins, MCP servers, and agent add-ons are becoming the new software supply chain. Security money showing up here means agent adoption is real enough to create its own attack surface.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2095071389736968301" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
