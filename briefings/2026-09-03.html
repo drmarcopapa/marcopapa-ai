@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 3, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 3, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Qwen on 16GB GPUs Gets Interesting</h3>
+            <p>If Qwen3.8-27B can run comfortably with large context and MTP on ordinary 16GB RTX cards, the local-AI story shifts from hobbyist demos to real developer utility. The moat keeps moving from model access to packaging and inference discipline.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2095195073931575580" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> Claude Tag Moves Toward Real Workflows</h3>
+            <p>Fable 5.1 plus Claude Tag in Slack is the enterprise agent pitch in miniature: read the messy spreadsheet, cross-check the vendor report, and flag the contradiction. This is where agents become useful: boring coordination work with receipts.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2095276133214491086" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Open Secure AI Alliance Heads to Linux Foundation</h3>
+            <p>NVIDIA says the Open Secure AI Alliance is moving into its next chapter under the Linux Foundation. That matters because AI security needs boring shared infrastructure, not another vendor PDF with a padlock icon.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2095217259610550730" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw 2.0 Shows the Agent OS Direction</h3>
+            <p>OpenClaw is talking rebuilt Control UI, multiplayer collaboration, dashboards, memory, skills, and worker nodes. The interesting part is not the shell; it is the stack around agents turning from demo glue into operational software.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2095349641005170953" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> Perplexity Goes Local on DGX Spark</h3>
+            <p>NVIDIA's DGX Spark Live segment with Perplexity points at a near future where serious AI work is not always a round trip to a hyperscaler. Local inference is becoming a product strategy, not just a privacy talking point.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2095232821912912328" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Google Ships Gemini 3.8 Flash and Flash Cyber</h3>
+            <p>Google's Flash cadence is getting aggressive: better coding, agentic workflows, and a cyber-tuned variant for trusted testers. The signal is clear: the fight is shifting to cheaper workhorse models that can still reason and use tools.</p>
+            <div class="story-source">
+                <a href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber" target="_blank">Source: deepmind.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Google Opens Fairwind for AI Cyber Defense</h3>
+            <p>Fairwind gives governments and trusted partners early access to advanced cyber-defense capabilities. This is the right place for restricted rollout: powerful security models need controlled deployment before they become everyone's favorite dual-use toy.</p>
+            <div class="story-source">
+                <a href="https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises" target="_blank">Source: deepmind.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> HiddenLayer Raises $100M for AI Security</h3>
+            <p>HiddenLayer's Series B is a market tell: enterprises are realizing agent security is not the same thing as model safety. Once agents write code and touch tools, runtime monitoring becomes table stakes.</p>
+            <div class="story-source">
+                <a href="https://www.hiddenlayer.com/news/hiddenlayer-100m-series-b-ai-security" target="_blank">Source: hiddenlayer.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🩺</span> Vara Gets CE Mark for Autonomous Breast Screening Triage</h3>
+            <p>Vara's certification lets AI report clearly normal mammograms without radiologist review in defined screening workflows. This is the healthcare AI line to watch: narrow autonomy, continuous monitoring, and regulation doing actual work.</p>
+            <div class="story-source">
+                <a href="https://www.mpo-mag.com/breaking-news/vara-wins-world-first-ce-mark-for-autonomous-ai-in-breast-screening" target="_blank">Source: mpo-mag.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> IBM Says K-12 AI Adoption Is Outrunning Readiness</h3>
+            <p>IBM's new study and fellowship land right as schools are discovering that AI policy is harder than AI access. The gap is predictable: students and teachers move fast; institutions write guidance like it is still 2019.</p>
+            <div class="story-source">
+                <a href="https://newsroom.ibm.com/2026-09-02-new-ibm-study-finds-ai-adoption-is-outpacing-k-12-readiness" target="_blank">Source: newsroom.ibm.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2095432787809743132" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

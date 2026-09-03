@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 3, 2026",
+          "file": "2026-09-03.html",
+          "title": "Qwen on 16GB GPUs Gets Interesting, Claude Tag Moves Toward Real Workflows, Open Secure AI Alliance Heads to Linux F",
+          "stories": 10
+        },
+        {
           "date": "September 2, 2026",
           "file": "2026-09-02.html",
           "title": "OpenAI says the next model is close, but, Claude Fable 5.1 is being sold as the lo, OpenClaw ships v2026.8.2 to clean up upd",
