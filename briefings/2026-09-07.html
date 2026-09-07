@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 7, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 7, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> OpenAI Chief Scientist Warns: AI Is Now Building Smarter AI</h3>
+            <p>Jakub Pachocki says recursive self-improvement has arrived — machines actively designing their own successors. The industry's "move fast" culture has no guardrails for this. Voluntary slowdowns are the only brake we have.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2096647371983880383" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Qwen3.8-Flash Matches GPT-6 Astra and Claude Fable 5.1 in Web Dev — At a Fraction of the Cost</h3>
+            <p>Alibaba's flash model ties the flagships on coding benchmarks while costing ~13x less. The price/performance moat for closed models just evaporated for everyday web work.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2096701820878114926" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> Qwen3.8-Flash-Next on a Single DGX Spark: 25% Faster Prefill, 47 tok/s Decode</h3>
+            <p>Local inference just got serious. A $3K desktop box now runs a model that competes with API flagships. The "you need a cluster" narrative is dead for anything under 1M context.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2096601527456592223" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎯</span> Andrew Ng: Stop Letting Coding Agents Run Autonomously for Hours</h3>
+            <p>The real workflow is skilled human judgment + highly iterative planning + frequent verification. Autonomy theater burns compute and produces garbage. The best practitioners treat agents like junior devs — constant supervision.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2096618904445468673" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛠</span> Qwen 3.8 Flash Next Now Runs in DwarfStar — 262K Prefill, 65 tok/s on M3 Ultra</h3>
+            <p>Open-source inference engine catches up to proprietary stacks. Apple Silicon just became a first-class platform for frontier local models. No NVIDIA tax required.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2096531373460791490" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📱</span> Google Launches Gemini 3.8 Flash: 1M Context, 64K Output, $0.75/$3.75 per 1M Tokens</h3>
+            <p>Third Flash release in six weeks. Google is iterating at a pace that makes OpenAI's annual cadence look glacial. The Flash tier is now the smart default for 90% of production workloads.</p>
+            <div class="story-source">
+                <a href="https://9to5google.com/2026/09/06/googlebook-macbook-neo-competitors" target="_blank">Source: 9to5google.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡</span> Google's Fairwind Program: 650+ Partners Get Gemini 3.8 Flash Cyber for Autonomous Vulnerability Patching</h3>
+            <p>CodeMender harness + Flash Cyber = automated find-and-fix at scale. This is the first real "AI secures AI" product, not a demo. NIST and CISA are watching closely.</p>
+            <div class="story-source">
+                <a href="https://www.barchart.com/story/news/4467718/google-unveils-gemini-3-8-flash-and-fairwind-program-how-to-play-googl-stock-here" target="_blank">Source: barchart.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏆</span> OpenAI Launches GPT-6 Astra: "Critical" Cyber Rating, Computer-Use Agent Focus, $10/$50 per 1M</h3>
+            <p>First model gated behind OpenAI's Daybreak cybersecurity program. Claims lead over Claude Fable 5.1 on coding/reasoning. Rollout messy — paying users left waiting. The "AGI is here" marketing says more about pressure than capability.</p>
+            <div class="story-source">
+                <a href="https://www.freepressjournal.in/tech/openai-launches-gpt-6-astra-claims-lead-over-claude-fable-51-in-coding-reasoning" target="_blank">Source: freepressjournal.in →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤝</span> US and China Planning Dialogue on AI Cyberattack Risks to Critical Infrastructure</h3>
+            <p>Over 100 firms (OpenAI, Anthropic, Google, Microsoft, AWS) warned hospitals and water systems face AI-powered attacks within months. The same labs selling the threat are selling the defense. Geopolitics finally catching up to reality.</p>
+            <div class="story-source">
+                <a href="https://www.chosun.com/english/industry-en/2026/09/07/CHGLRYORJJF6BCJKDCRE466TTY" target="_blank">Source: chosun.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> Anthropic Confidentially Files for IPO: $965B Valuation, $44B Annualized Revenue, Targeting October 2026</h3>
+            <p>Surpassed OpenAI's $852B valuation. Enterprise share at 34.4% vs OpenAI's 32.3%. Profitability projected 2028. The AI lab bubble now has a public-markets test — governance structure will be the fight.</p>
+            <div class="story-source">
+                <a href="https://www.tradingkey.com/analysis/stocks/us-stocks/261951081-anthropic-ipo-claude-ai-tradingkey" target="_blank">Source: tradingkey.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2096892279789404429" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
