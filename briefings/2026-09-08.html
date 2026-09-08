@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 8, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 8, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔄</span> Agentic Code Review Is Becoming Prompt Ping-Pong</h3>
+            <p>— Peter Steinberger calls out the absurdity of humans relaying tiny review changes between coding agents. The next real productivity jump is agents negotiating and validating fixes directly, with humans setting policy instead of forwarding prompts.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2097091456234111377" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> GLM 5.3 Flash Gets a Serious DGX Spark Speedup</h3>
+            <p>— New CUDA kernels reportedly lift prefill by 37–45% and cut time-to-first-token by 27–30%, while pushing KV cache to 1M tokens. Local inference is increasingly a kernel-engineering contest, not just a model contest.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2096954749757084139" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔓</span> Qwen 3.8 Flash Next Gets an Optional “Abliterated” Build</h3>
+            <p>— The uncensored weights are gated and disabled by default, but a simple flag exposes them. Open-weight ecosystems keep turning alignment into a user-configurable layer—powerful, messy, and impossible for closed labs to replicate.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2097052834038501693" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> DwarfStar Squeezes Qwen Experts for Longer Context</h3>
+            <p>— A Q2_K compression experiment aims to free 5GB on 64GB machines for larger contexts. This is the unglamorous work that makes frontier-ish local models practical on hardware people can actually own.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2096906244330283054" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🐝</span> Hermes Turns One Prompt Into a Multi-Agent Swarm</h3>
+            <p>— Dozens of subagents can split work before a boss agent synthesizes the result. The demo is easy; the hard part is proving that coordination overhead and duplicated mistakes do not erase the parallelism gains.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2097082521016291410" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌌</span> OpenAI Launches GPT-6 Astra</h3>
+            <p>— Astra arrives with stronger computer use, API access, and premium fast-mode pricing. The strategic signal is bigger than the benchmark chart: OpenAI is selling autonomous execution as the product, not merely better chat.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/gpt-6-astra" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📱</span> Arm Builds Mobile Silicon for Agentic AI</h3>
+            <p>— Arm CSS for Mobile 2 combines new C2 CPUs, SME2 units, and a neural-accelerated Mali GPU. If useful agents are going to be ambient, private, and cheap, much of their inference has to leave the cloud.</p>
+            <div class="story-source">
+                <a href="https://newsroom.arm.com/news/arm-css-for-mobile-2-agentic-ai-mobile-graphics" target="_blank">Source: newsroom.arm.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> AI-Designed Drug Shows a Possible Aging Signal</h3>
+            <p>— Insilico says its IPF candidate rentosertib showed potential biological-age effects across six proteomic clocks and has entered Phase III development in China. This is where AI drug discovery must graduate from compelling pipelines to clinical evidence.</p>
+            <div class="story-source">
+                <a href="https://insilico.com/news/rnt0709261-rentosertib-proteomic-aging-clocks" target="_blank">Source: insilico.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> Google Expands Its AI Educator Series to Korea</h3>
+            <p>— The free program gives teachers short, localized modules for using Gemini in lesson design, feedback, administration, and AI ethics. Adoption will be won through teacher workflow and trust—not another flashy classroom chatbot.</p>
+            <div class="story-source">
+                <a href="https://blog.google/intl/ko-kr/company-news/kr-ai-educator-series" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📐</span> A Research Repo Replaces Source Code With Design Docs</h3>
+            <p>— SMART stores a DAG of natural-language specifications and has coding agents regenerate the implementation. If the results hold, documentation stops trailing code and becomes the durable source artifact—a genuinely provocative inversion of software maintenance.</p>
+            <div class="story-source">
+                <a href="https://arxiv.org/abs/2609.05364" target="_blank">Source: arxiv.org →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2097249350552531231" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
