@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 9, 2026",
+          "file": "2026-09-09.html",
+          "title": "OpenAI Ships Images 2.5, Frontier Labs Converge on Prompt-Injecti, OpenClaw 2026.9.3 Lands",
+          "stories": 10
+        },
+        {
           "date": "September 8, 2026",
           "file": "2026-09-08.html",
           "title": "Agentic Code Review Is Becoming Prompt P, GLM 5.3 Flash Gets a Serious DGX Spark S, Qwen 3.8 Flash Next Gets an Optional \u201cAb",
