@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 11, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 11, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔍</span> Anthropic Publishes Detailed Threat Intelligence Report</h3>
+            <p>— They disrupted every misuse operation from cyberattacks to bio-weapons. Transparency like this should be the industry standard, not the exception.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2098097512544444447" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> DeepSeek v4.1 Flash Runs on 3–4 DGX Sparks</h3>
+            <p>— 348-512GB unified memory with Engram SSD offloading. The flash models are already too big for 256GB M5 Ultra. Memory wall is the new compute wall.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2098042592914993243" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> Real-Time Voice AI Finally Performant Without Full Infra Stack</h3>
+            <p>— First truly usable real-time voice option for consumer builders. This unlocks entirely new app categories — expect a wave of voice-first products.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2098162729710490037" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Skild AI Hits $100M Run-Rate With Robot Brain That Learns From One Video</h3>
+            <p>— S1 model at 96% on seen tasks, 66% on unseen. Ten months to $100M ARR signals robotics crossing from demos to deployments. EU Machinery Regulation looms Jan 2027.</p>
+            <div class="story-source">
+                <a href="https://thenextweb.com/news/skild-ai-100m-run-rate-eu-rules" target="_blank">Source: thenextweb.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌙</span> IBM and NASA Release Open-Source Lunar Foundation Model</h3>
+            <p>— Trained on 30+ data layers from 4 NASA missions. Identifies ice deposits and maps craters 23% better than existing methods. Space exploration just got an AI upgrade.</p>
+            <div class="story-source">
+                <a href="https://www.itnews.com.au/news/ibm-nasa-launch-ai-model-628842" target="_blank">Source: itnews.com.au →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚫</span> OpenAI Blocks Competitor Ads on ChatGPT</h3>
+            <p>— Unannounced policy change rejects standalone image/voice generation campaigns. The moat deepens — they're not just building models, they're locking down distribution.</p>
+            <div class="story-source">
+                <a href="https://www.mediapost.com/publications/article/417778/openai-will-no-longer-take-competitive-ads-on-chat.html?edition=143780" target="_blank">Source: mediapost.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Top AI Researcher Andrew Tulloch Leaves Meta for Anthropic</h3>
+            <p>— After OpenAI → Thinking Machines Lab → Meta, he's now at Anthropic working on inference/performance. The talent wars are a revolving door at $1.5B offer levels.</p>
+            <div class="story-source">
+                <a href="https://www.businessinsider.com/andrew-tulloch-ditches-meta-for-training-and-inference-at-anthropic-2026-9" target="_blank">Source: businessinsider.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚠️</span> OpenAI and Anthropic Researchers Ramp Up Calls for AI Slowdown</h3>
+            <p>— Paul Christiano joins OpenAI Foundation board warning of "meaningful risk of catastrophic loss of control." 1,400 researchers signed July letter urging paced development. The insiders are scared.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/09/10/openai-anthropic-ai-safety-slowdown-extinction.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏆</span> NVIDIA Nemotron 3 Embed 8B Ranks #1 on Q2D-Web Benchmark</h3>
+            <p>— Tested across 190M documents, 70K queries, 10 languages. Perplexity validated. Embedding models are the quiet infrastructure powering every RAG system.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2098167118806372669" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛒</span> a16z Leads Highstock Series A — AI Marketplace for $1T Excess Inventory Problem</h3>
+            <p>— $1B+ product listed from 100+ major brands. AI matching vetted buyers to overstock. Boring problem, massive market, perfect for AI.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2098072600316649855" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2098336656365625586" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
