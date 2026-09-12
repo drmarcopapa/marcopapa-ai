@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 12, 2026",
+          "file": "2026-09-12.html",
+          "title": "OpenClaw v2026.9.4 Lands, Andrew Ng Redefines AI Engineering, Astra Plays Doom Through Computer Use",
+          "stories": 10
+        },
+        {
           "date": "September 11, 2026",
           "file": "2026-09-11.html",
           "title": "Anthropic Publishes Detailed Threat Inte, DeepSeek v4.1 Flash Runs on 3\u20134 DGX Spar, Real-Time Voice AI Finally Performant Wi",
