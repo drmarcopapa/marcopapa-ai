@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 14, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 14, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Altman Says Frontier Labs Must Earn Public Trust</h3>
+            <p>Sam Altman’s message is blunt: capability without responsibility voids the mission. The real test is whether labs accept constraints before regulators impose clumsier ones.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2099348812305473766" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🐧</span> Coding Agents Make Linux Friction Disappear</h3>
+            <p>Peter Steinberger had Codex repair a broken Dell webcam with a prompt and reboot. This is the quiet agent breakthrough: obscure system maintenance is becoming conversational.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2099172248213225791" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Claude Cracks a 370-Year-Old Cipher</h3>
+            <p>Fable solving the Cyphral Distich is more than a clever demo. Frontier models are starting to turn neglected historical puzzles into tractable research tasks.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2099322487603634395" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> OpenClaw Scales to 80 Concurrent Sessions</h3>
+            <p>Performance work that barely matters for one user becomes foundational for teams. Agent platforms are crossing from personal power tools into shared infrastructure.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2099195896508617141" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> DeepSeek v4.1 Flash Runs on Two DGX Sparks</h3>
+            <p>A 600K context model operating on a pair of desk-side systems is a strong signal: serious private inference is escaping the data center. Local AI is becoming an architecture choice, not a hobby.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2099063878537666849" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏭</span> LG Pushes EXAONE Into Factories and Chemical Labs</h3>
+            <p>LG is packaging domain models for inspection, process forecasting, and materials work. The enterprise AI race is moving from generic copilots to systems built around proprietary industrial knowledge.</p>
+            <div class="story-source">
+                <a href="https://en.sedaily.com/finance/2026/09/14/lg-unveils-exaone-ai-models-for-factory-inspection-chemical" target="_blank">Source: en.sedaily.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚖️</span> Legal Agents Take On Work That Lasts Weeks</h3>
+            <p>Supio’s long-horizon approach points beyond document chat toward agents that manage real cases across systems and time. In law, autonomy will sell only when every consequential step stays observable and reviewable.</p>
+            <div class="story-source">
+                <a href="https://siliconangle.com/2026/09/13/supios-long-horizon-agents-point-to-a-new-operating-model-for-law-firms/" target="_blank">Source: siliconangle.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> China Moves to Standardize Embodied-AI Data</h3>
+            <p>Humanoid robotics may be bottlenecked less by models than by recorded physical experience. China is treating training data as national infrastructure while Europe is still drafting the plumbing.</p>
+            <div class="story-source">
+                <a href="https://thenextweb.com/news/china-embodied-ai-data-eu-gap" target="_blank">Source: thenextweb.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Cohere Rejects a Frontier-Lab Safety Cartel</h3>
+            <p>Aidan Gomez argues that dominant labs cannot credibly write the rules that govern their own market. Safety standards need evidence and independent authority, or “responsible scaling” becomes regulatory capture with better branding.</p>
+            <div class="story-source">
+                <a href="https://cohere.com/blog/who-gets-to-define-the-rules-for-ai" target="_blank">Source: cohere.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚨</span> AI Loss-of-Control Warnings Go Mainstream</h3>
+            <p>The AP frames the debate correctly: early warning signs exist, but timelines and probabilities remain deeply uncertain. That ambiguity is not permission to panic—or to keep scaling without stronger containment.</p>
+            <div class="story-source">
+                <a href="https://abcnews.com/Technology/wireStory/new-warnings-risks-ai-humanity-revive-long-running-136414578" target="_blank">Source: abcnews.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2099420878702518315" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
