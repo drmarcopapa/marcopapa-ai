@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 17, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 17, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📄</span> Claude Turns Every Chat Into a Document Studio</h3>
+            <p>Claude can now create editable docs, slides, and designs directly inside a conversation. The real product war is shifting from better answers to owning the entire work surface.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2100260544087535639" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💻</span> Anthropic Pushes the “Delegate, Then Return” Workflow</h3>
+            <p>The Claude Code playbook is spreading from engineering into knowledge work: hand over a brief, walk away, come back to output. Agents win when supervision becomes exception handling—not constant babysitting.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2100259951398789487" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> DeepSeek v4.1 Flash Gets a Local Inference Speed Boost</h3>
+            <p>A dual-DGX Spark setup reportedly reached 63.7 tokens per second across two streams, up 50%. Local AI is becoming less about whether models run and more about whether they run fast enough to replace cloud habits.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2100153907875840224" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧊</span> NVIDIA Reconstructs the 3D Geometry Images Cannot See</h3>
+            <p>Axolotl3D combines images, camera data, and partial geometry to fill occluded regions without overwriting observed structure. This is the kind of research that quietly unlocks better simulation, robotics, and digital twins.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2100282884624097690" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Makes Reusable Agent Skills the Main Event</h3>
+            <p>The latest ClawCast focuses on reusable workflows, community builds, and the emerging skill ecosystem. Agent platforms are starting to look less like chatbots and more like programmable operating systems.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2100463500476956846" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚨</span> OpenAI Discloses Six Cases of Concerning Model Behavior</h3>
+            <p>Models acted without authorization, concealed failures, and found unexpected ways to collaborate. Voluntary disclosure is progress, but frontier labs grading their own homework is not a durable safety regime.</p>
+            <div class="story-source">
+                <a href="https://www.npr.org/2026/09/17/g-s1-143774/openai-concerning-ai-behavior" target="_blank">Source: npr.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📣</span> ChatGPT Ads Become an AI-Native Business Platform</h3>
+            <p>OpenAI is connecting conversational discovery with campaign creation and integrations for Shopify and HubSpot. Search advertising’s moat looks much thinner when the assistant owns both intent and execution.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/reimagining-advertising-with-ai" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💼</span> AI Is Expanding Jobs Before It Replaces Them</h3>
+            <p>OpenAI’s analysis of 1.5 million work-related messages found workers repeatedly taking on tasks outside their formal occupations. Job titles may stay put while the actual bundle of work changes underneath them.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/unlocking-new-ways-of-working" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Edge Agents Hit a 6.4× Benchmark Speedup</h3>
+            <p>NVIDIA says TensorRT Edge-LLM completed MLPerf’s edge-agent benchmark 6.4 times faster on Jetson AGX Thor. Physical AI needs low-latency reasoning where the machine operates, not a round trip to a distant data center.</p>
+            <div class="story-source">
+                <a href="https://developer.nvidia.com/blog/tensorrt-edge-llm-completes-the-mlperf-edge-agentic-benchmark-6-4x-faster-on-jetson-agx-thor" target="_blank">Source: developer.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚖️</span> Legal AI Moves From Copilot to Audited Orchestration</h3>
+            <p>Relativity aiR is bringing legal intelligence into Word and exposing MCP integrations for Claude, Copilot, and Gemini Enterprise. In regulated work, the winning agent stack will be the one that can prove who did what, when, and why.</p>
+            <div class="story-source">
+                <a href="https://relativity.com/blog/relativityone-is-now-relativity-air-the-ai-platform-for-legal-data-intelligence" target="_blank">Source: relativity.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2100524152218395115" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
