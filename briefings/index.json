@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 18, 2026",
+          "file": "2026-09-18.html",
+          "title": "OpenAI Ships Major OC Improvements, GPT Live 1 Release Imminent, OpenAI Launches Astra for Law",
+          "stories": 10
+        },
+        {
           "date": "September 17, 2026",
           "file": "2026-09-17.html",
           "title": "Claude Turns Every Chat Into a Document , Anthropic Pushes the \u201cDelegate, Then Ret, DeepSeek v4.1 Flash Gets a Local Inferen",
