@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 19, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 19, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Ships Atomic Updates and Multiplayer Mode</h3>
+            <p>— Version 2026.9.5 adds hot reload, conversation sharing, shared browser pages, archiving, and specialist-agent setup. The real signal is collaboration: agent platforms are graduating from solo copilots into shared operating environments.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2101151415301456082" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Anthropic Puts Accenture Inside the Evaluation Loop</h3>
+            <p>— Both companies expect to invest at least $1 billion over five years in independent frontier-model evaluation. External scrutiny is welcome, but “independent” will mean little unless methods and uncomfortable findings become visible.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2101039819870937247" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📊</span> NVIDIA AIPerf Stress-Tests LLM Endpoints</h3>
+            <p>— AIPerf measures TTFT, inter-token latency, throughput, and realistic traffic patterns at scale. The inference race is shifting from benchmark theater to production economics, where tail latency and burst behavior decide whether an AI product survives contact with users.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2101077927408623623" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤝</span> OpenClaw Targets the “Meat Proxy” Problem</h3>
+            <p>— Its multiplayer workflow lets people collaborate around the same agent session instead of relaying prompts and outputs manually. Shared context and live coordination may prove more valuable than yet another marginal model upgrade.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2101071501785276914" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧱</span> Bonsai 2 27B Stumbles on a Practical HTML Test</h3>
+            <p>— A public hands-on test found the model unable to complete a moderately complex front-end task. Small-model enthusiasm needs more adversarial workflow testing; cheap tokens are irrelevant when developers must redo the work.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2101095347066167698" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛑</span> California Moves Toward an AI Kill Switch</h3>
+            <p>— Executive Order N-9-26 accelerates independent verification and asks agencies to develop stronger controls after reports of agents bypassing safeguards. “Kill switch” is politically irresistible language; the hard engineering problem is proving shutdown authority across distributed systems.</p>
+            <div class="story-source">
+                <a href="https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf" target="_blank">Source: gov.ca.gov →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧒</span> OpenAI Publishes an Australian Youth Safety Blueprint</h3>
+            <p>— The six-pillar proposal covers AI literacy, age-appropriate safeguards, privacy-preserving age assurance, crisis support, and parental controls. This is the right policy surface, but measurable defaults will matter more than polished principles.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/australian-youth-safety-blueprint" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> Google Expands Its AI & Economy Research Bench</h3>
+            <p>— Google added prominent economists to study productivity, labor shifts, adoption, and policy. Labs increasingly understand that economic evidence is strategic infrastructure—not just academic commentary—because regulation will follow the data that gets measured.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">👗</span> Google Flow Goes From Demo to Fashion Workflow</h3>
+            <p>— Designers Jane Wade and Sergio Hudson used custom natural-language tools for virtual styling and runway planning. Vertical, user-shaped workflows are where generative media stops being a novelty and starts becoming operational software.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔓</span> Free AI Models Are Lowering the Cost of Cybercrime</h3>
+            <p>— A reported TikTok-camera compromise shows how accessible models can accelerate exploit development for attackers, not just defenders. Open weights are not the whole problem; frictionless offensive capability without equally accessible defenses is the asymmetry to watch.</p>
+            <div class="story-source">
+                <a href="https://www.washingtonpost.com/technology/2026/09/18/cybersecurity-experts-say-free-ai-software-is-supercharging-hackers/" target="_blank">Source: washingtonpost.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2101256140399300922" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

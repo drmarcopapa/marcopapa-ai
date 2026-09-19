@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 19, 2026",
+          "file": "2026-09-19.html",
+          "title": "OpenClaw Ships Atomic Updates and Multip, Anthropic Puts Accenture Inside the Eval, NVIDIA AIPerf Stress-Tests LLM Endpoints",
+          "stories": 10
+        },
+        {
           "date": "September 18, 2026",
           "file": "2026-09-18.html",
           "title": "OpenAI Ships Major OC Improvements, GPT Live 1 Release Imminent, OpenAI Launches Astra for Law",
