@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 20, 2026",
+          "file": "2026-09-20.html",
+          "title": "GLM-5.3-Flash Beats DeepSeek-V4.1-Flash , Qwen3.8-Flash Hits 180 Tokens/Second on , Qwen-Image-2.1 Runs Locally on Apple Sil",
+          "stories": 10
+        },
+        {
           "date": "September 19, 2026",
           "file": "2026-09-19.html",
           "title": "OpenClaw Ships Atomic Updates and Multip, Anthropic Puts Accenture Inside the Eval, NVIDIA AIPerf Stress-Tests LLM Endpoints",
