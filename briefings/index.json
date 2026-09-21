@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 21, 2026",
+          "file": "2026-09-21.html",
+          "title": "A New AI Benchmark Just Landed, Your Claw Can Now FaceTime You, Local AI\u2019s Real Advantage Is Privacy",
+          "stories": 10
+        },
+        {
           "date": "September 20, 2026",
           "file": "2026-09-20.html",
           "title": "GLM-5.3-Flash Beats DeepSeek-V4.1-Flash , Qwen3.8-Flash Hits 180 Tokens/Second on , Qwen-Image-2.1 Runs Locally on Apple Sil",
