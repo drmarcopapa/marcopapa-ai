@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 22, 2026",
+          "file": "2026-09-22.html",
+          "title": "Meta Built Its Own OpenClaw-Inspired Age, Karpathy Says Low-Latency Models Were Un, Self-Hosted Agents Resist Platform Locko",
+          "stories": 10
+        },
+        {
           "date": "September 21, 2026",
           "file": "2026-09-21.html",
           "title": "A New AI Benchmark Just Landed, Your Claw Can Now FaceTime You, Local AI\u2019s Real Advantage Is Privacy",
