@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 23, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 23, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">☀️</span> OpenAI Ships GPT-6 Sol and Luna</h3>
+            <p>Sam Altman says both models improve intelligence, coding, computer use, and alignment while cutting token prices in half. Capability gains now arrive with price cuts—the frontier race has become an efficiency war.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2102464672519815512" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Anthropic Launches Claude Opus 5.5</h3>
+            <p>Anthropic’s new flagship is live, immediately resetting the premium-model comparison. The important signal is not another benchmark crown; it is how quickly frontier performance is becoming cheaper and operationally useful.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2102435703535939725" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">✅</span> Opus 5.5 Formally Verifies the Claude Agent SDK</h3>
+            <p>Boris Cherny says a few prompts produced 16 bug- and race-condition-fixing PRs using Lean, with TLA+ also in the loop. Formal methods may finally escape the specialist niche because agents can absorb the tedious proof work.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2102543349102338309" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🐛</span> Astra Finds a 14-Year-Old libuv Bug</h3>
+            <p>After ChatGPT crashes appeared on macOS 27, Astra reportedly traced the problem to ancient infrastructure code. This is the real coding-agent milestone: finding bugs humans stopped seeing years ago, not generating another demo app.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2102501642176528743" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Adds Decision Models</h3>
+            <p>OpenClaw now supports decision models in core and plugins, pushing agent systems toward explicit, swappable judgment layers. That separation matters: orchestration should not be welded to one giant general-purpose model.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2102488199486656862" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> GPT-6 Gets Better Prompt Caching</h3>
+            <p>OpenAI added explicit cache breakpoints and lets agents change reasoning effort without invalidating cached context. Persistent agents live or die on latency and token economics; this plumbing may matter more than another benchmark point.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/better-prompt-caching-for-gpt-6" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔍</span> OpenAI Calls for Serious Third-Party Model Assessments</h3>
+            <p>OpenAI published priorities and principles for outside evaluations of advanced systems. Independent testing only matters if assessors get meaningful access early enough to influence deployment—not a ceremonial audit after launch.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/priorities-principles-third-party-assessments" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Cisco Talos Discloses Autonomous Multi-Model Malware</h3>
+            <p>CLOSEDQUORUM delegates command-and-control decisions to a panel of commercial LLMs, though Talos has not confirmed live deployment. Attackers are adopting the same ensemble architecture as legitimate agents; defenders cannot secure this with blocklists alone.</p>
+            <div class="story-source">
+                <a href="https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant" target="_blank">Source: blog.talosintelligence.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Unit 42 Turns Frontier Models Into Continuous Red Teams</h3>
+            <p>Palo Alto Networks is launching always-on security testing with Claude Mythos 5, GPT-5.6-Cyber, and open models. Periodic penetration tests look increasingly obsolete when both software and attackers change continuously.</p>
+            <div class="story-source">
+                <a href="https://thenextweb.com/news/palo-alto-networks-unit-42" target="_blank">Source: thenextweb.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> Snorkel AI Raises $350M at a $3.5B Valuation</h3>
+            <p>Snorkel is scaling an agentic data factory for frontier-model training and evaluation. Models are commoditizing faster than expert data and environments, so the scarce layer of the stack is moving upstream.</p>
+            <div class="story-source">
+                <a href="https://snorkel.ai/blog/data-2-0-and-the-research-era-of-ai-data" target="_blank">Source: snorkel.ai →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2102695681802830189" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
