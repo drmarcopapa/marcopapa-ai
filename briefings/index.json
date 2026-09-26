@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 26, 2026",
+          "file": "2026-09-26.html",
+          "title": "OpenAI Expands Its Agent Internet-Access, Claude Cracks a Nine-Loop Physics Proble, Microsoft Builds an Always-On Agent on O",
+          "stories": 10
+        },
+        {
           "date": "September 25, 2026",
           "file": "2026-09-25.html",
           "title": "OpenClaw Deletes 400K Lines of Low-Value, AI Recipes Are Becoming One-Click Infras, Opus 5.5 Triggers a \u201cCan Do Anything\u201d Mo",

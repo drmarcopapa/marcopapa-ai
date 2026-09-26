@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 26, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 26, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> OpenAI Expands Its Agent Internet-Access Review</h3>
+            <p>— Sam Altman says the audit is broader and slower than expected. Frontier agents are turning sandbox design and disclosure speed into board-level liabilities.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2103567198690349362" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚛️</span> Claude Cracks a Nine-Loop Physics Problem</h3>
+            <p>— Anthropic says Claude pushed a notoriously hard scattering-amplitude calculation to nine loops. The real signal is not benchmark theater; it is AI entering research workflows where verification still matters.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2103541577083719888" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> Microsoft Builds an Always-On Agent on OpenClaw</h3>
+            <p>— Microsoft shipping Autopilot atop OpenClaw is a serious open-source validation. The agent-platform contest is shifting from chat interfaces to persistent, deployable workers.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2103678752194703762" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🗄️</span> OpenClaw Hits the SQLite Concurrency Wall</h3>
+            <p>— Peter Steinberger says synchronous database access is now limiting teams running dozens of parallel sessions. Agent systems eventually become distributed-systems problems, no matter how friendly the demo looks.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2103648679169257737" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💻</span> Anthropic’s Internal Agent Writes Half of Daily PRs</h3>
+            <p>— Boris Cherny says Tag handles more than 50% of his pull requests plus most data analysis and bug fixes. Proactive agents with memory and connectors are becoming colleagues, not copilots.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2103538666597691552" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> States Accelerate AI Safety Rules</h3>
+            <p>— Illinois formed an AI cabinet while Oregon ordered standards for third-party safety reviews and explored frontier-model kill switches. Washington’s vacuum is turning AI governance into a state-by-state compliance maze.</p>
+            <div class="story-source">
+                <a href="https://www.transparencycoalition.ai/news/ai-legislative-update-september25-2026" target="_blank">Source: transparencycoalition.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔬</span> Brookhaven Shows AI Moving Into the Laboratory</h3>
+            <p>— NSLS-II is using AI to tune accelerators and analyze experimental data. The durable AI payoff may come from compressing scientific iteration cycles, not generating more office prose.</p>
+            <div class="story-source">
+                <a href="https://www.bnl.gov/video/index.php?v=1049" target="_blank">Source: bnl.gov →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">♿</span> Google’s Accessibility Hackathon Produces Ten AI Tools</h3>
+            <p>— Google and Aktion Mensch built prototypes aimed at reducing everyday barriers. Accessibility is becoming a strong proving ground because usefulness is measurable and bad design is immediately obvious.</p>
+            <div class="story-source">
+                <a href="https://blog.google/intl/de-de/unternehmen/inside-google/ki-inklusion-hackathon-aktion-mensch" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Gemini 4 Reportedly Targets a Year-End Launch</h3>
+            <p>— Google is expected to swing back toward frontier capability after emphasizing smaller, efficient models. Its infrastructure and distribution remain unmatched; execution is the open question.</p>
+            <div class="story-source">
+                <a href="https://www.techzine.eu/news/applications/144581/google-gemini-4-is-coming-later-this-year-with-something-to-prove" target="_blank">Source: techzine.eu →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> AI Starts Designing the Chips That Run AI</h3>
+            <p>— Ricursive Intelligence is extending AlphaChip-style automation into systems that learn across chip designs. That feedback loop could matter more than another marginal model benchmark win.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2103779665911697779" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
