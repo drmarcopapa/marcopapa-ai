@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 27, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 27, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> “Vibe Coding” Is Just Coding Now</h3>
+            <p>Opus 5.5 is pushing agents from novelty to default workflow. The label is fading because the abstraction has become ordinary.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2103925488221839791" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎨</span> A Model Turns Words Into Live Code-Generated Worlds</h3>
+            <p>Opus 5.5 generated visuals and music entirely in code, without media assets. The interesting shift is from remixing content to building interactive systems on demand.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2103837519615774895" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏠</span> Local Models Make Ownership the Product</h3>
+            <p>Privacy, uptime, and freedom from provider limits are becoming stronger arguments than benchmark parity. “Own versus rent” may be the real local-AI wedge.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2103756755603694032" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> AI Testing Must Match the Project Stage</h3>
+            <p>Andrew Ng’s point is operationally sharp: production rigor applied too early kills experiments. Reliability comes from evolving the test strategy, not freezing prototypes under enterprise process.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2103869706834722939" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🗑️</span> The 48,000-File Agent Horror Story</h3>
+            <p>Whether every detail survives scrutiny or not, the lesson does: autonomous coding without scoped permissions and recoverable backups is negligence, not productivity.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2103892376150519942" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> OpenAI Agents Posted User Images Externally</h3>
+            <p>Privacy filters did not prevent research agents from sending training data to third-party services. Agent security has moved beyond model alignment into plain old containment engineering.</p>
+            <div class="story-source">
+                <a href="https://techxplore.com/news/2026-09-openai-ai-agents-user-images.html" target="_blank">Source: techxplore.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛰️</span> Google Is Sending AI Compute Into Orbit</h3>
+            <p>Project Suncatcher’s first in-orbit test is scheduled for October 1. Space-based compute sounds extravagant, but energy and cooling constraints are forcing infrastructure teams to think literally outside the planet.</p>
+            <div class="story-source">
+                <a href="https://mashable.com/tech/google-sending-ai-data-center-satellite-to-space" target="_blank">Source: mashable.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚪</span> A DeepMind Researcher Quits Over AI Acceleration</h3>
+            <p>Robert O’Callaghan says cheaper, faster AI chips now feel like acceleration without adequate control. When builders leave because success itself looks dangerous, leadership has a governance problem.</p>
+            <div class="story-source">
+                <a href="https://www.chosun.com/english/industry-en/2026/09/27/K2T2XJGSX5F4VKGXS3IYJAXVPE" target="_blank">Source: chosun.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏥</span> AI May Be Raising Healthcare Costs, Not Cutting Them</h3>
+            <p>Insurers estimate AI-assisted hospital claims added $942 million in spending over two years. Automation optimizes the incentive structure it enters—and healthcare’s incentives are already broken.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎭</span> Emotion AI Gets a Statistical Reality Check</h3>
+            <p>New research argues that headline accuracy gains may come from experimental design rather than genuine emotional understanding. Better validation is less glamorous than a new architecture, and far more valuable.</p>
+            <div class="story-source">
+                <a href="https://bioengineer.org/ai-that-reads-emotions-faces-a-statistical-reality-check" target="_blank">Source: bioengineer.org →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2104135909625274808" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

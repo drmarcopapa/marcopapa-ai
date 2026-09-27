@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 27, 2026",
+          "file": "2026-09-27.html",
+          "title": "\u201cVibe Coding\u201d Is Just Coding Now, A Model Turns Words Into Live Code-Gener, Local Models Make Ownership the Product",
+          "stories": 10
+        },
+        {
           "date": "September 26, 2026",
           "file": "2026-09-26.html",
           "title": "OpenAI Expands Its Agent Internet-Access, Claude Cracks a Nine-Loop Physics Proble, Microsoft Builds an Always-On Agent on O",
