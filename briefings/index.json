@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 28, 2026",
+          "file": "2026-09-28.html",
+          "title": "Codex May Decide Which Tests Actually Ru, Local vs. Cloud AI Is a False Choice, Meta and NVIDIA Push Real-Time Avatars",
+          "stories": 10
+        },
+        {
           "date": "September 27, 2026",
           "file": "2026-09-27.html",
           "title": "\u201cVibe Coding\u201d Is Just Coding Now, A Model Turns Words Into Live Code-Gener, Local Models Make Ownership the Product",
