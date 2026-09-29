@@ -4,6 +4,12 @@
       "label": "September 2026",
       "briefings": [
         {
+          "date": "September 29, 2026",
+          "file": "2026-09-29.html",
+          "title": "OpenAI Teases a \u201cNew Thing\u201d for DevDay, Anthropic Ships Claude Sonnet 5.5, Sonnet 5.5 Cuts Claude Code Time and Usa",
+          "stories": 10
+        },
+        {
           "date": "September 28, 2026",
           "file": "2026-09-28.html",
           "title": "Codex May Decide Which Tests Actually Ru, Local vs. Cloud AI Is a False Choice, Meta and NVIDIA Push Real-Time Avatars",

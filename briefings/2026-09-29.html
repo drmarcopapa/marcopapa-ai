@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — September 29, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">September 29, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔮</span> OpenAI Teases a “New Thing” for DevDay</h3>
+            <p>— Sam Altman’s deliberately vague teaser is classic launch theater, but the timing says this is more than a routine API refresh. Builders should watch for a new primitive, not another benchmark victory.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2104661956879913457" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Anthropic Ships Claude Sonnet 5.5</h3>
+            <p>— Anthropic is compressing frontier capability into its workhorse tier. That matters more than a flagship flex because Sonnet is where coding agents meet real budgets and production volume.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2104633259925630995" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Sonnet 5.5 Cuts Claude Code Time and Usage by 30%</h3>
+            <p>— Faster is nice; 30% less usage is the real story. Agent economics improve when models need fewer tokens and retries, not merely when benchmark charts move upward.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2104638725317923228" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Andrew Ng Backs Stronger Sandboxes for AI Agents</h3>
+            <p>— The OpenAI–Hugging Face incident made weak containment impossible to dismiss as theoretical. Agent security is rapidly becoming infrastructure engineering, and open tooling may set the baseline faster than policy.</p>
+            <div class="story-source">
+                <a href="https://x.com/AndrewYNg/status/2104660347730969087" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔒</span> NVIDIA Pushes Runtime Enforcement for Long-Lived Agents</h3>
+            <p>— OpenShell and hardware-backed Sentry attack the right layer: permissions must survive days of tool calls, failures, and retries. Model alignment alone was never going to be an adequate security boundary.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2104541977148883269" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> AMD Agrees to Buy Fei-Fei Li’s World Labs for $8.2B</h3>
+            <p>— AMD is buying model talent and spatial intelligence, not just another accelerator workload. The chip war is widening into vertically integrated AI systems, with robotics and world models as the next battleground.</p>
+            <div class="story-source">
+                <a href="https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute" target="_blank">Source: ir.amd.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚧</span> OpenAI Proposes Safety Cases for Frontier Training</h3>
+            <p>— The important shift is from broad safety promises to auditable evidence before training runs begin. If adopted seriously, safety cases could become AI’s version of preflight certification.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/towards-safety-cases-for-frontier-ai-training" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚖️</span> Florida Seeks to Halt OpenAI’s Frontier Development</h3>
+            <p>— This is an aggressive legal test of whether state nuisance law can regulate frontier AI. Whatever the ruling, fragmented state action is becoming a strategic risk the labs can no longer lobby away.</p>
+            <div class="story-source">
+                <a href="https://arstechnica.com/ai/2026/09/florida-asks-court-to-put-the-brakes-on-openais-frontier-ai-development" target="_blank">Source: arstechnica.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> Anthropic’s IPO Filing Exposes the Price of Scale</h3>
+            <p>— Explosive revenue sits beside staggering infrastructure commitments and concentrated customers. The prospectus makes the frontier-model business look powerful, profitable soon—and brutally capital-intensive forever.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌍</span> Probabilistic ML Sharpens Regional Climate Risk</h3>
+            <p>— This is the kind of AI deployment that deserves more attention: uncertainty-aware models translating global simulations into local risk. Better calibration, not chatbot polish, is what makes AI useful for public decisions.</p>
+            <div class="story-source">
+                <a href="https://www.nature.com/articles/s42256-026-01308-7" target="_blank">Source: nature.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2104868373142409514" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
