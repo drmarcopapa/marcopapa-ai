@@ -1,6 +1,17 @@
 {
   "months": [
     {
+      "label": "October 2026",
+      "briefings": [
+        {
+          "date": "October 1, 2026",
+          "file": "2026-10-01.html",
+          "title": "OpenClaw v2026.9.7 Lands, NVIDIA Traces the Hidden Cost of Agent S, Open Models Trigger a Strategic Backlash",
+          "stories": 10
+        }
+      ]
+    },
+    {
       "label": "September 2026",
       "briefings": [
         {
