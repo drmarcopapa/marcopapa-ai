@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 2, 2026",
+          "file": "2026-10-02.html",
+          "title": "Karpathy\u2019s New Prompting Trick: Force Cl, GPT-6.1 Sol\u2019s Capacity Crunch Is Easing, OpenAI Wants AI Subscriptions to Travel ",
+          "stories": 10
+        },
+        {
           "date": "October 1, 2026",
           "file": "2026-10-01.html",
           "title": "OpenClaw v2026.9.7 Lands, NVIDIA Traces the Hidden Cost of Agent S, Open Models Trigger a Strategic Backlash",
