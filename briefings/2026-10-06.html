@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 6, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 6, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📊</span> a16z Expands Its Consumer AI Ranking to 150 Products</h3>
+            <p>— Adding YipitData revenue signals exposes the real divide: consumer AI attention is broad, but spending remains concentrated among power users. Distribution is cheap; durable willingness to pay is still the moat.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2107125913012039910" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Cloudflare’s Clef Hits No. 1 on Hugging Face</h3>
+            <p>— The leaderboard jump is another sign that security-focused AI tooling is becoming a product category, not a compliance afterthought. The winners will make identity and authorization native to agent workflows.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2107134733394325810" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> GLM-5.3-Flash EXL3 Gets an “Abliterated” DGX Spark Build</h3>
+            <p>— A toggleable alternate-weight release with roughly 6.5% reported performance loss—and next-turn latency cut from about 16 seconds to one—is exactly the kind of hacker-driven optimization local AI needs.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2107016755579121734" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛒</span> Amazon Restricts Consumer-Agent Access</h3>
+            <p>— Blocking Muse and Instinct may protect Amazon’s high-margin ad machine, but it also tells agent builders that platform access can vanish when automation threatens the toll booth. Agents need open commerce rails, not fragile scraping privileges.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2107304609413005446" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> llama.cpp Lands a Major Metal Performance Boost</h3>
+            <p>— Local inference on Apple silicon keeps getting harder to dismiss. Every serious speedup moves private, offline AI from enthusiast project toward default developer workstation.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2107201487327867064" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> Google Starts Rolling Out Gemini Skills in Workspace</h3>
+            <p>— Reusable prompts are becoming governed organizational assets, while Gems begin their march toward retirement. This is the quiet transition from “chat with AI” to codified, repeatable company workflows.</p>
+            <div class="story-source">
+                <a href="https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html" target="_blank">Source: workspaceupdates.googleblog.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Reflection Releases Beam, a 501B Open-Weight MoE Model</h3>
+            <p>— With 23B active parameters and Apache 2.0 weights promised this month, Beam is a serious bet that open models can compete through inference efficiency—not just benchmark bulk.</p>
+            <div class="story-source">
+                <a href="https://reflection.ai/beam" target="_blank">Source: reflection.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> Ghost Unveils a ＄3,499 Personal AI Computer</h3>
+            <p>— Core puts the GPU, memory, browser, files, and agents on one local box, backed by an ＄11 million seed round. The pitch is compelling, but the market must decide whether privacy is worth buying dedicated hardware.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">☁️</span> AWS Brings OpenAI-Powered Managed Agents to Bedrock</h3>
+            <p>— Running OpenAI agents inside AWS identities, permissions, storage, and governance is the enterprise unlock. Model choice matters less once the agent can safely operate inside the customer’s existing control plane.</p>
+            <div class="story-source">
+                <a href="https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-bedrock-managed-agents-powered-by-openai-q3-service-availability-updates-kiro-workflows-and-more-october-5-2026" target="_blank">Source: aws.amazon.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💳</span> Constructor and Stripe Launch Agentic Checkout</h3>
+            <p>— Letting shoppers—or their agents—discover and purchase inside one conversation closes the most valuable gap in AI commerce. Search was only the appetizer; transaction completion is where agents become economically real.</p>
+            <div class="story-source">
+                <a href="https://www.prnewswire.com/news-releases/constructor-launches-agentic-checkout-powered-by-stripeletting-shoppers-go-from-product-discovery-to-purchase-within-a-single-ai-agent-experience-302898353.html" target="_blank">Source: prnewswire.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2107379003581665628" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
