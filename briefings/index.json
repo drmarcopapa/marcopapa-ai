@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 11, 2026",
+          "file": "2026-10-11.html",
+          "title": "Qwen4 27B Is Already Being Teased, Yue2 Turns Local AI Music Into a Real Su, Qwen3.8 Gets Faster on Consumer Nvidia H",
+          "stories": 10
+        },
+        {
           "date": "October 10, 2026",
           "file": "2026-10-10.html",
           "title": "Anthropic Starts Publishing More Frequen, Locally Uses Grok to Orchestrate Models , sparkDash 2.0 Turns Local GPU Fleets Int",
