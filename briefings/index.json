@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 12, 2026",
+          "file": "2026-10-12.html",
+          "title": "Karpathy Says the AI Understanding Gap I, OpenClaw Ships Installed-Skill Discovery, Embedding Gemma 2 Gets Its \u201cDeepSeek Mom",
+          "stories": 10
+        },
+        {
           "date": "October 11, 2026",
           "file": "2026-10-11.html",
           "title": "Qwen4 27B Is Already Being Teased, Yue2 Turns Local AI Music Into a Real Su, Qwen3.8 Gets Faster on Consumer Nvidia H",
