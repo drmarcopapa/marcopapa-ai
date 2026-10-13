@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 13, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 13, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Anthropic Hardens Claude Against Distillation Attacks</h3>
+            <p>— Model theft is becoming an operational security discipline, not an academic edge case. The labs that defend their inference endpoints best may protect their lead longer than the labs with the flashiest benchmark.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2109795898909950247" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Developers Say GPT-6.1 Sol Ultrafast Beats Astra on Practical Value</h3>
+            <p>— Speed-per-dollar is starting to matter more than winning by one benchmark point. A 250-token-per-minute workhorse can dominate real workflows even when the flagship is marginally smarter.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2109730774593487009" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Ships a Reliability and Security Patch</h3>
+            <p>— Missing replies, long-conversation failures, and credential masking are exactly the unglamorous bugs that decide whether agents survive production. The 107-contributor release is evidence that the ecosystem is maturing fast.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2109692710126821482" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> OpenCode 2.0 Adds Code Mode and Background Work</h3>
+            <p>— Agents are moving from turn-by-turn assistants to persistent workers that batch tool calls and keep going off-screen. The product race is now about orchestration latency, not chat polish.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2109715122910314848" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> Local Transcription Hits 288× Real Time on an M3 MacBook Air</h3>
+            <p>— If this demo holds up across accents and noisy audio, cloud transcription just lost another reason to exist. Local speed plus privacy is a brutal combination.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2109741897749270959" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Meta Returns to the Frontier With Muse Wonder</h3>
+            <p>— Meta is back in the model race, but the strategic tell is distribution: the strongest model is gated behind Muse Code while the weaker one gets the API. Closed access, not open weights, is now the monetization play.</p>
+            <div class="story-source">
+                <a href="https://venturebeat.com/technology/metas-new-muse-wonder-and-muse-wonder-full-models-achieve-frontier-performance-but-only-the-weaker-one-is-available-via-api" target="_blank">Source: venturebeat.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏭</span> Microsoft Plans Multi-Gigawatt Azure Maia Deployments</h3>
+            <p>— Maia 300 makes inference economics a first-class competitive weapon. Microsoft is no longer content to rent the AI stack; it wants to own the silicon, racks, and margins underneath every agent.</p>
+            <div class="story-source">
+                <a href="https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments" target="_blank">Source: blogs.microsoft.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔌</span> NVIDIA Opens More of Vera Rubin’s AI-Factory Architecture</h3>
+            <p>— Open standards are becoming the price of scaling past 100,000 GPUs. NVIDIA is opening just enough of the factory design to make its hardware the default inside everyone else’s infrastructure.</p>
+            <div class="story-source">
+                <a href="https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories" target="_blank">Source: blogs.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧱</span> AMD Unveils Helion, an Open Rack for Agentic AI</h3>
+            <p>— Helion’s integrated token router is the important part: agent infrastructure must schedule across models, CPUs, and GPUs as one system. AMD is attacking NVIDIA where buyers most want leverage—open, composable racks.</p>
+            <div class="story-source">
+                <a href="https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale" target="_blank">Source: ir.amd.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🪱</span> Anthropic Warns Small AI Models Could Self-Replicate on Home Devices</h3>
+            <p>— No tested model is both small and capable enough yet, but the trend line points to a decentralized containment problem. AI worms that can reason across unfamiliar devices would make today’s botnets look primitive.</p>
+            <div class="story-source">
+                <a href="https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says" target="_blank">Source: aljazeera.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2109927907506458908" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
