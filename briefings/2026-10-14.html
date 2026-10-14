@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 14, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 14, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏗️</span> Anthropic Built Source Control for Agent Scale</h3>
+            <p>— Jumping from 2,500 to 30,000 daily code changes broke infrastructure designed around human throughput. This is the clearest signal yet that AI coding’s real bottleneck is shifting from generation to coordination.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2110047081414987957" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💻</span> A 12B Local Model Wants to Humanize AI Text</h3>
+            <p>— Humanizer reaching No. 2 on Hugging Face shows demand is moving from better generation to less detectable generation. Useful product, uncomfortable incentive.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2110005894435987636" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔎</span> A 2B Model Claims It Can Cut Claude Usage 34%</h3>
+            <p>— ColGrep-Agent-2B searches code locally and sends Claude only the relevant lines. Small specialist models may become the cost-control layer around frontier agents.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2110034753755705569" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Ships v2026.10.3</h3>
+            <p>— Muse Wonder support, Mac fixes, conversation recovery, and 97 contributors make this a reliability release, not a vanity launch. Agent platforms win by surviving daily use.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2110112109187256761" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> NVIDIA Targets Vertical Voice Agents</h3>
+            <p>— Fine-tuning both speech recognition and the LLM is the practical path beyond generic voice demos. Domain vocabulary and workflow context are where enterprise voice agents either work or die.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2110053012903518630" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Gemini 4 Argon Opens to Developers</h3>
+            <p>— Google is positioning Argon for long-horizon coding, knowledge work, and cyber defense rather than chatbot theater. The battleground is now sustained execution under real constraints.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎬</span> Higgsfield Pushes AI Video Past 10 Minutes</h3>
+            <p>— GPT-6 Astra is helping creative agents maintain consistency across longer productions. The jump from clips to coherent sequences is what turns generation into an actual filmmaking workflow.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/higgsfield-longer-videos-voice" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📺</span> Apple Brings Conversational Siri AI to the TV</h3>
+            <p>— Far-field microphones, personal context, and on-device or private-cloud processing turn Apple TV into a living-room agent. Distribution through hardware remains Apple’s most underrated AI advantage.</p>
+            <div class="story-source">
+                <a href="https://www.apple.com/newsroom/2026/10/apple-unveils-the-new-apple-tv-4k" target="_blank">Source: apple.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">➗</span> NeurIPS Work Gives Transformers Exact Arithmetic</h3>
+            <p>— Arithmetic residual blocks let models compute instead of merely predict answers. Architectures that delegate deterministic work may beat endlessly scaling probabilistic reasoning.</p>
+            <div class="story-source">
+                <a href="https://www.cs.umd.edu/article/2026/10/cs-major-present-ai-research-neurips-2026" target="_blank">Source: cs.umd.edu →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🕵️</span> Deleted Local AI Chats Can Leave Recoverable Traces</h3>
+            <p>— Georgia Tech’s ORISA can reconstruct conversations from Android memory. “Runs locally” is not the same as “leaves no forensic residue.”</p>
+            <div class="story-source">
+                <a href="https://www.cc.gatech.edu/news/deleted-ai-chats-may-leave-clues-behind" target="_blank">Source: cc.gatech.edu →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2110318233790398895" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

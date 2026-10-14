@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 14, 2026",
+          "file": "2026-10-14.html",
+          "title": "Anthropic Built Source Control for Agent, A 12B Local Model Wants to Humanize AI T, A 2B Model Claims It Can Cut Claude Usag",
+          "stories": 10
+        },
+        {
           "date": "October 13, 2026",
           "file": "2026-10-13.html",
           "title": "Anthropic Hardens Claude Against Distill, Developers Say GPT-6.1 Sol Ultrafast Bea, OpenClaw Ships a Reliability and Securit",
