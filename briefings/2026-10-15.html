@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 15, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 15, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌏</span> Anthropic Plants a Flag in Singapore</h3>
+            <p>— A fifth APAC office plus a government AI-safety MOU shows the frontier labs are treating Southeast Asia as a strategic market, not a satellite territory.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2110289695888511368" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⏳</span> NVIDIA Teases Another Model Launch</h3>
+            <p>— NVIDIA knows a cryptic teaser now moves the developer market like a product announcement. The real question is whether this model expands its software moat or merely feeds its hardware flywheel.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2110468004609950057" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎮</span> Epic Games Says It Vibe-Coded Its Launcher</h3>
+            <p>— Vibe coding has escaped the prototype sandbox and entered production software at a major platform company. That is bullish for speed—and a live-fire test for maintenance debt.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2110381705454637223" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> GLM-5.3-Flash Wins Open-Model Goodwill</h3>
+            <p>— Developers paying for Z.ai plans simply to reward an open release is the clearest signal that openness can still create commercial loyalty. Distribution is becoming a community game, not just a benchmark race.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2110340593427849475" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💳</span> Prosumer AI Is Where Consumers Actually Spend</h3>
+            <p>— The biggest AI wallets are buying tools to build, create, and work—not novelty chat. The consumer winners will monetize ambition before they monetize entertainment.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2110390815843627367" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Block Turns OpenAI Into a Security Force Multiplier</h3>
+            <p>— Block reports proposed patches in 18 minutes and roughly 1,100 analyst-hours of investigation per quarter. This is the enterprise AI story that matters: measurable throughput, not another copilot demo.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/block-ai-powered-security" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏭</span> NVIDIA Pushes AI Deeper Into Chip Fabs</h3>
+            <p>— New CUDA-X tooling, including cuPotential for atom-level simulation agents, moves NVIDIA upstream into the design and manufacturing process. Owning the factory workflow is an even stronger moat than owning the training cluster.</p>
+            <div class="story-source">
+                <a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Semiconductor-Leaders-Advance-AI-Across-Chip-Design-and-Manufacturing-for-AI-Defined-Fabs/default.aspx" target="_blank">Source: investor.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🗳️</span> Anthropic Stress-Tests Claude for the US Midterms</h3>
+            <p>— Claude reportedly rejects obvious election abuse but can miss coordinated campaigns decomposed into innocent-looking tasks. Agent safety will be won at the workflow level, not the single-prompt level.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/news/2026-us-midterms" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇪🇺</span> European Businesses Move From AI Curiosity to Adoption</h3>
+            <p>— A new EU survey says most businesses already use AI or automated systems, or plan to. Europe’s bottleneck is shifting from interest to deployment discipline, worker trust, and measurable productivity.</p>
+            <div class="story-source">
+                <a href="https://employment-social-affairs.ec.europa.eu/news/growing-use-ai-european-companies-2026-10-14_en" target="_blank">Source: employment-social-affairs.ec.europa.eu →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Washington Creates a “Super Intelligence Force”</h3>
+            <p>— The new task force gets 120 days to examine civil liberties, cybersecurity, model standards, and overregulation. The compressed timetable says policy is finally chasing frontier-model speed—years late, but no longer asleep.</p>
+            <div class="story-source">
+                <a href="https://www.dw.com/en/trumps-us-super-intelligence-force-and-ai-czar-jay-clayton/a-79598001" target="_blank">Source: dw.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2110660382872539159" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

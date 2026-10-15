@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 15, 2026",
+          "file": "2026-10-15.html",
+          "title": "Anthropic Plants a Flag in Singapore, NVIDIA Teases Another Model Launch, Epic Games Says It Vibe-Coded Its Launch",
+          "stories": 10
+        },
+        {
           "date": "October 14, 2026",
           "file": "2026-10-14.html",
           "title": "Anthropic Built Source Control for Agent, A 12B Local Model Wants to Humanize AI T, A 2B Model Claims It Can Cut Claude Usag",
