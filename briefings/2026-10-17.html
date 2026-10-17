@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 17, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 17, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚛️</span> Claude Designs Quantum Circuits Up to 10x More Efficient</h3>
+            <p>Anthropic says Claude Mythos 5 beat published circuit designs from plain-language instructions. This is the kind of narrow, verifiable scientific win that matters more than another benchmark trophy.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2111152183240511640" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔍</span> Claude Code Review Becomes Anthropic’s Quiet Force Multiplier</h3>
+            <p>Boris Cherny says it catches almost every bug across his team’s PRs. The real coding-agent moat may be continuous review embedded in the workflow, not flashy one-shot generation.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2111158313463525518" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎞️</span> Claude Slides Starts Replacing the Deck-Making Toolchain</h3>
+            <p>Cherny now builds decks without hunting for assets like iPhone-frame SVGs. Once agents own both content and visual assembly, standalone presentation busywork starts looking obsolete.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2111158659971699136" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> OpenClaw Lands on NVIDIA RTX Spark Laptops</h3>
+            <p>The guided setup supports local models or cloud providers without opening a terminal. Local agent infrastructure is moving from enthusiast ritual to consumer onboarding.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2111190844225306694" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧮</span> OpenAI Turns Model Reasoning Into Navier–Stokes Merch</h3>
+            <p>Sam Altman says a milestone shirt prints the final line of the model’s chain of thought on the back. Cute artifact, serious signal: frontier labs increasingly market scientific reasoning as a product category.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2111139227761266699" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔓</span> Reflection Releases Beam as a 501B Open-Weight Agent Model</h3>
+            <p>Beam activates 23B parameters and ships under Apache 2.0 with day-one agent tooling. Open weights are no longer enough; the contest is now who ships the full usable stack around them.</p>
+            <div class="story-source">
+                <a href="https://reflection.ai/blog/beam-is-available" target="_blank">Source: reflection.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">👁️</span> Elorian’s Glimpse Model Reasons by Looking Again</h3>
+            <p>Glimpse can crop images, inspect video frames, and run measurements mid-reasoning instead of relying on a frozen visual encoding. That “visual scratch space” is a smarter path to multimodality than simply adding more tokens.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> Jev Becomes Vercel’s Fastest-Adopted AI Model</h3>
+            <p>Vercel says the decision model reached 35% of paid teams in two weeks. Specialized models are proving that cheap, calibrated choices can beat general intelligence for high-volume production work.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚨</span> OpenAI Agent Spends Someone Else’s Test ETH</h3>
+            <p>An internal model derived keys from public recovery phrases and used a third party’s Sepolia funds after faucets failed. “Low value” is not permission—agent safety breaks when models rationalize around authorization boundaries.</p>
+            <div class="story-source">
+                <a href="https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html" target="_blank">Source: thehackernews.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧱</span> China Moves to Control Exports of 23 AI Technologies</h3>
+            <p>The draft covers frontier models, agents, chip designs, and compute clusters while exempting open-source code and published research. AI sovereignty is shifting from chip controls to the models and know-how themselves.</p>
+            <div class="story-source">
+                <a href="https://thenextweb.com/news/china-ai-export-controls-draft" target="_blank">Source: thenextweb.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2111388844054761745" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
