@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 18, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 18, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> DeepSeek V4.1 Flash Lands With Broad Gains</h3>
+            <p>DeepSeek is attacking the efficiency frontier again. If the claimed across-the-board gains hold up under independent testing, premium model pricing gets harder to defend.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2111375327385604118" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Perplexity Open-Sources Its SPACE Agent Sandbox</h3>
+            <p>Agent safety is moving below the prompt layer and into real isolation, permissions, and runtime controls. That is the right battleground: guardrails are prose, sandboxes are physics.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2111488462264410553" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💸</span> OpenCode User Reports a Sudden Usage Drain</h3>
+            <p>Opaque quotas are becoming the weakest link in agentic coding products. Developers will forgive limits; they will not forgive meters they cannot audit.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2111526337576063117" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> DeepSeek V4.1 Heads for Dual M3 Ultra Testing</h3>
+            <p>The community is already pushing the new model onto local Apple silicon with MXFP4 and no calibration. Open weights win distribution when practitioners can test the release before the benchmark threads cool off.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2111420573184303464" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Yann LeCun Brings AMI Labs Work to AI Dev NYC</h3>
+            <p>LeCun’s post-Meta agenda remains the most important counterweight to scaling-only orthodoxy. Developers should watch whether AMI Labs turns world-model theory into tools people can actually build with.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2111488716006961575" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">👥</span> Anthropic’s AI-Native Workforce Is Becoming Less Junior</h3>
+            <p>Anthropic reports more output but also more meetings, more review, and fewer junior hires. The uncomfortable signal: AI may remove entry ramps before it removes senior judgment bottlenecks.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔌</span> Replit and Anthropic Part Ways</h3>
+            <p>Model partnerships are becoming interchangeable infrastructure, not permanent alliances. The durable moat is increasingly the agent habitat—orchestration, recovery, identity, and sandboxing—not the logo on the model picker.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> California Moves Toward AI Kill Switches</h3>
+            <p>Newsom’s order calls for independent model verification and a committee on emergency controls for rogue agents. Regulation is shifting from abstract principles to operational shutdown mechanisms—the part vendors cannot hand-wave.</p>
+            <div class="story-source">
+                <a href="https://www.aljazeera.com/economy/2026/10/17/california-gov-newsom-boosts-ai-regulation-as-he-eyes-2028-presidential-run" target="_blank">Source: aljazeera.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌐</span> Microsoft Launches Web IQ for Grounded Agents</h3>
+            <p>Microsoft is productizing fresh web evidence as agent infrastructure, with semantic retrieval and structured provenance. Better retrieval may matter more than another small benchmark bump because agents fail on stale facts, not just weak reasoning.</p>
+            <div class="story-source">
+                <a href="https://techcommunity.microsoft.com/blog/azuredevcommunityblog/web-iq-web-search-and-grounding-apis-for-ai-agents/4565272" target="_blank">Source: techcommunity.microsoft.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> DeepX Pushes NPUs Into Physical AI</h3>
+            <p>DeepX is tying its edge chips to Intel’s OpenVINO stack while working with AMD and Samsung. Physical AI will reward whoever makes deployment boring and interoperable, not whoever wins the loudest demo.</p>
+            <div class="story-source">
+                <a href="https://en.yna.co.kr/view/AEN20261017001500320" target="_blank">Source: en.yna.co.kr →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2111790574391160920" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
