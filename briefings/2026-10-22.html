@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 22, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 22, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> GPT-5.6 Sol Found a Critical PHP Vulnerability</h3>
+            <p>— AI-assisted security research has crossed from demo territory into internet-scale incident response. The uncomfortable lesson: models now lower the cost of finding catastrophic bugs for defenders and attackers alike.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2112913060709228764" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> Anthropic Adds Christopher Stubbs to Its Long-Term Benefit Trust</h3>
+            <p>— Putting a physicist with national-security experience into Anthropic’s governance structure signals that frontier-model oversight is becoming institution-building, not just policy theater.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2112946750264676743" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📜</span> Anthropic Publishes Its Annual Public Benefit Report</h3>
+            <p>— The useful test is no longer whether AI companies publish principles; it is whether those principles constrain profitable behavior when pressure arrives. Transparency is the entry fee, not the finish line.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2112966949273801086" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> NVIDIA Flare Targets Local Agent Inference</h3>
+            <p>— A Rust server, up-front memory planning, and FP8 KV cache show where the stack is heading: long-running agents optimized as systems, not chat demos wrapped around Python.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2112812782508794105" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Invites Builders Into Its Maintainer Workflow</h3>
+            <p>— Open-source agent platforms win by converting users into contributors faster than closed vendors can ship roadmaps. Community velocity is becoming a real product moat.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2113024625311686852" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">☁️</span> OpenAI Models Are Coming to Google Cloud</h3>
+            <p>— OpenAI is reducing dependence on a single distribution channel while Google turns model choice into a cloud feature. The hyperscaler war is shifting from exclusive models to enterprise routing and governance.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/openai-models-google-cloud" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> Thousands of AI Agents Mine Biological Data in 32 Minutes</h3>
+            <p>— OpenAI, PerturbAI, and Scripps used distributed agents to analyze millions of brain cells and surface testable leads. This is the agent story that matters: parallel scientific reasoning with measurable expert preference.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/scaling-ai-research-for-complex-biological-data" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🩺</span> Google AI Brings Ultrasound Analysis to Frontline Care</h3>
+            <p>— A prospective study showed novice operators using low-cost probes could support expert-level gestational-age assessment. Medical AI earns trust when it generalizes in real clinics, not when it tops a benchmark.</p>
+            <div class="story-source">
+                <a href="https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound" target="_blank">Source: research.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📉</span> Stanford Tracks AI’s Labor-Market Impact in Real Time</h3>
+            <p>— Employment for young workers in highly exposed roles is flashing early warning signs, while the broader economy still lacks an obvious productivity boom. The disruption may arrive job by job before it appears in GDP.</p>
+            <div class="story-source">
+                <a href="https://hai.stanford.edu/news/tracking-ais-real-time-footprint-on-the-labor-market" target="_blank">Source: hai.stanford.edu →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💶</span> Nebius Opens Live Spot Pricing for GPU Compute</h3>
+            <p>— Transparent, preemptible GPU pricing makes AI infrastructure look more like a real commodity market. As model differentiation narrows, compute economics will decide which startups survive.</p>
+            <div class="story-source">
+                <a href="https://nebius.com/newsroom/nebius-brings-compute-pricing-into-the-open-as-europe-s-ai-builders-scale-on-its-cloud" target="_blank">Source: nebius.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2113190770056507611" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
