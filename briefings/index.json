@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 23, 2026",
+          "file": "2026-10-23.html",
+          "title": "Claude Pushes Formal Verification Into R, Anthropic Donates Agent Skills to the AA, DeepSeek V4.1 Flash Lands in OpenClaw",
+          "stories": 10
+        },
+        {
           "date": "October 22, 2026",
           "file": "2026-10-22.html",
           "title": "GPT-5.6 Sol Found a Critical PHP Vulnera, Anthropic Adds Christopher Stubbs to Its, Anthropic Publishes Its Annual Public Be",
