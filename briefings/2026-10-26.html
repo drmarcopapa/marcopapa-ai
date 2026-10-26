@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 26, 2026** | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 26, 2026**</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔒</span> OpenAI Moves Frontier-Model Training Into an Offline Web</h3>
+            <p>OpenAI says it has removed live internet access for all frontier models during training. The company built a cached version of the web instead, tightening control over what models can reach while researchers test increasingly capable systems.</p>
+            <div class="story-source">
+                <a href="https://x.com/OpenAI/status/2113718797505036665" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">✅</span> Anthropic Uses Claude to Scale Formal Software Verification</h3>
+            <p>Anthropic says Claude is helping formally verify software at a scale that historically demanded small codebases or extensive expert time. The work points toward AI-assisted proofs that code is free of specific classes of bugs.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2113390212911083894" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> NVIDIA Ships a 4GB Open Model for Local Robots and Assistants</h3>
+            <p>Nemotron 3.5 Bolt E4B 4GB is now available for local assistants, interactive characters, and robots. NVIDIA demonstrated the small open model handling conversation and tool use while controlling a Reachy Mini.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2113657112408785153" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw 2026.10.7 Lands With Faster, More Reliable Agent Workflows</h3>
+            <p>OpenClaw’s latest release moves update checks earlier and fixes Claude CLI context handling, macOS Talk replies, and Bun startup behavior. The release combines 61 pull requests from 54 contributors.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2114590330276442521" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">☁️</span> OpenAI Models and Codex Workflows Are Coming to Google Cloud</h3>
+            <p>OpenAI is bringing its frontier models and Codex agentic workflows to Google Cloud’s Model Garden. Enterprises will be able to use the technology inside the cloud environment where they already build and govern applications.</p>
+            <div class="story-source">
+                <a href="https://x.com/OpenAI/status/2112988118471295323" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎼</span> Anthropic Opens the Claude Duet Research Preview</h3>
+            <p>Anthropic has opened Claude Duet to Pro and Max subscribers as a research preview. The new app positions Claude as a proactive agent rather than a system that only waits for prompts.</p>
+            <div class="story-source">
+                <a href="https://docs.anthropic.com/en/release-notes/claude-apps" target="_blank">Source: docs.anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔥</span> Google Open-Sources TorchTPU for Native PyTorch on TPUs</h3>
+            <p>Google has released TorchTPU on GitHub, making TPUs a native PyTorch target alongside GPUs and CPUs. The stack supports familiar tools including vLLM, SGLang, TorchTitan, Ray, Hugging Face, and LiteRT.</p>
+            <div class="story-source">
+                <a href="https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus" target="_blank">Source: cloud.google.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> OpenAI Acquires Orchestra Bio to Expand AI Drug Development</h3>
+            <p>OpenAI is acquiring Orchestra Bio, a platform for coordinating the operational complexity of drug development. The company plans to combine it with Rosalind so AI can support more of the path from scientific ideas and experiments to promising treatments.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/openai-to-acquire-orchestra-bio" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Microsoft Says Enterprises Must Treat AI Agents as Insiders</h3>
+            <p>Microsoft argues that agent security must cover identity, permissions, data, endpoints, networks, clouds, and runtimes. It says Project Perception can impose deterministic controls on nondeterministic agents using coordinated red, blue, and green security agents.</p>
+            <div class="story-source">
+                <a href="https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider" target="_blank">Source: blogs.microsoft.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌍</span> NVIDIA Expands Open Models Across Europe’s AI Stack</h3>
+            <p>NVIDIA introduced open model families spanning language, retrieval, structured data, biology, robotics, autonomous driving, and quantum computing. The releases are designed to let European developers build specialized systems on infrastructure and data they control.</p>
+            <div class="story-source">
+                <a href="https://blogs.nvidia.com/blog/open-models-europe-industry" target="_blank">Source: blogs.nvidia.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2114647756103115046" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

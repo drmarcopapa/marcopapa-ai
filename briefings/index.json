@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 26, 2026**",
+          "file": "2026-10-26.html",
+          "title": "OpenAI Moves Frontier-Model Training Int, Anthropic Uses Claude to Scale Formal So, NVIDIA Ships a 4GB Open Model for Local ",
+          "stories": 10
+        },
+        {
           "date": "October 25, 2026",
           "file": "2026-10-25.html",
           "title": "DeepSeek V4.1 Flash Hits No. 1 on Huggin, Kimi K3.1 Pro Struggles With a Gummy-Bea, Block Trains Dessa on a Single GB200 NVL",
