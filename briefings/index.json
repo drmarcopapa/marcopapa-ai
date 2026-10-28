@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 28, 2026",
+          "file": "2026-10-28.html",
+          "title": "Claude Moves Into Drug Discovery, Anthropic Discounts Claude Across Govern, OpenClaw Ships a Reliability Patch",
+          "stories": 10
+        },
+        {
           "date": "October 27, 2026",
           "file": "2026-10-27.html",
           "title": "Anthropic Files for an IPO, GPT-6.1 Terra Arrives With Computer Use , Bun\u2019s AOT Compiler Shows 2\u20133\u00d7 Performanc",
