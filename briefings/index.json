@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 29, 2026",
+          "file": "2026-10-29.html",
+          "title": "NVIDIA Packs Speech AI Into One Open Mod, Utah\u2019s Claude Code Pilot Posts Real Prod, OpenClaw\u2019s Web UI Goes Offline-First",
+          "stories": 10
+        },
+        {
           "date": "October 28, 2026",
           "file": "2026-10-28.html",
           "title": "Claude Moves Into Drug Discovery, Anthropic Discounts Claude Across Govern, OpenClaw Ships a Reliability Patch",
