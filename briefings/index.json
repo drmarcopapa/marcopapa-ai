@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 30, 2026",
+          "file": "2026-10-30.html",
+          "title": "Claude Starts Auditing Its Own Conversat, Anthropic Expands AI for Science Beyond , NVIDIA Gives Mistral\u2019s 1T-Parameter Le C",
+          "stories": 10
+        },
+        {
           "date": "October 29, 2026",
           "file": "2026-10-29.html",
           "title": "NVIDIA Packs Speech AI Into One Open Mod, Utah\u2019s Claude Code Pilot Posts Real Prod, OpenClaw\u2019s Web UI Goes Offline-First",

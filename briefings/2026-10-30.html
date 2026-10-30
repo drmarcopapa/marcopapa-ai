@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 30, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 30, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Claude Starts Auditing Its Own Conversations</h3>
+            <p>— Anthropic’s post-response self-assessment turns the model into an early-warning sensor for misuse. Smart defense-in-depth, but the real test is whether self-policing catches what external monitors miss without drowning teams in false positives.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2115871889549865429" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔬</span> Anthropic Expands AI for Science Beyond Individual Labs</h3>
+            <p>— Claude is moving from researcher-by-researcher adoption into institutional infrastructure. That is where AI-for-science stops being a demo category and starts changing how research organizations allocate time and compute.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2115825653539025142" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🐘</span> NVIDIA Gives Mistral’s 1T-Parameter Le Chonk Day-Zero Support</h3>
+            <p>— A 1T MoE multimodal model trained on 3,800 Grace Blackwell GPUs is a reminder that “open weights” still rests on an industrial-scale hardware stack. NVFP4 and Dynamo support make deployment—not just release—the competitive battleground.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2115817617911157099" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw 2026.10.9 Prioritizes Recovery Over Flash</h3>
+            <p>— Rollback fixes, archive repairs, and project-aware editor sessions are unglamorous but exactly what agent platforms need. Reliability is becoming a product feature, not cleanup work.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2115913639236665715" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> Mac vs. DGX Spark Exposes the Local-Inference Tradeoff</h3>
+            <p>— The interesting question is no longer raw memory bandwidth; it is throughput under long context and concurrent users. Local AI buyers should benchmark their actual serving pattern, not shop from spec sheets.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2115708080012800002" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> Deepgram Acquires Daily and Pipecat</h3>
+            <p>— Deepgram is assembling speech models, real-time transport, and an open voice-agent framework into one production stack. Keeping Pipecat open and vendor-neutral is the move that makes this strategically important rather than just another tuck-in acquisition.</p>
+            <div class="story-source">
+                <a href="https://deepgram.com/blog/daily-pipecat-deepgram" target="_blank">Source: deepgram.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛒</span> Alexa for Shopping Adds 100+ Agentic Actions</h3>
+            <p>— Managing lists, subscriptions, payments, and account tasks pushes shopping agents from recommendation into execution. Amazon’s advantage is not the chat interface; it is privileged access to the transaction layer.</p>
+            <div class="story-source">
+                <a href="https://www.aboutamazon.com/news/retail/alexa-for-shopping-new-capabilities" target="_blank">Source: aboutamazon.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇨🇦</span> Canada Backs Cohere as Sovereign AI Infrastructure</h3>
+            <p>— Government support for Cohere signals that model capacity is now treated like strategic national infrastructure. The sovereign-AI race is becoming an industrial-policy contest, not merely a benchmark contest.</p>
+            <div class="story-source">
+                <a href="https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai" target="_blank">Source: pm.gc.ca →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Traditional EDR Has an Agent Blind Spot</h3>
+            <p>— Endpoint tools can see processes, but not necessarily prompts, MCP connections, skills, or tool-call intent. As agents gain permissions, security teams need AI-native provenance or they will investigate incidents with half the timeline missing.</p>
+            <div class="story-source">
+                <a href="https://www.backslash.security/blog/edr-vs-ai-agent-security" target="_blank">Source: backslash.security →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏛️</span> New York Proposes Tougher AI Safety and Transparency Rules</h3>
+            <p>— The proposal pushes independent model assessments and catastrophic-risk controls into the policy mainstream. The hard part will be writing thresholds that catch frontier risk without freezing smaller builders out.</p>
+            <div class="story-source">
+                <a href="https://www.nysenate.gov/newsroom/press-releases/2026/andrew-gounardes/sen-gounardes-proposes-major-new-ai-safety-and" target="_blank">Source: nysenate.gov →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2116080678278459903" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
