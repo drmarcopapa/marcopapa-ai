@@ -4,6 +4,12 @@
       "label": "October 2026",
       "briefings": [
         {
+          "date": "October 31, 2026",
+          "file": "2026-10-31.html",
+          "title": "Anthropic Automates the Hunt for Emergen, NVIDIA Shrinks Speech Cleanup to 9.6 Mil, DeepSeek v4.1 Flash Gets an 81 GB NVFP4 ",
+          "stories": 10
+        },
+        {
           "date": "October 30, 2026",
           "file": "2026-10-30.html",
           "title": "Claude Starts Auditing Its Own Conversat, Anthropic Expands AI for Science Beyond , NVIDIA Gives Mistral\u2019s 1T-Parameter Le C",

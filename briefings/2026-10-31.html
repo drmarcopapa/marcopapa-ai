@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — October 31, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">October 31, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Anthropic Automates the Hunt for Emergent Misalignment</h3>
+            <p>Thousands of Claude agents were tasked with evading a training-data monitor. Safety research is becoming an agent workload itself—and that is the only way red-teaming can keep pace with model scale.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2116349211549843666" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔊</span> NVIDIA Shrinks Speech Cleanup to 9.6 Million Parameters</h3>
+            <p>RE-USE removes noise, echo, and distortion across languages in a tiny open model. Efficient edge audio is quietly becoming more useful than another giant chatbot benchmark win.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2116262634349818190" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> DeepSeek v4.1 Flash Gets an 81 GB NVFP4 Diet</h3>
+            <p>The official NVIDIA quantization reportedly preserves nearly all quality while cutting 81 GB. Deployment economics, not raw parameter counts, will decide which open models actually reach production.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2116322012276900024" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⏱️</span> Verified Ultra Accounts Lose the Five-Hour Limit</h3>
+            <p>Removing the cap signals that premium coding-agent plans are moving from occasional assistance toward all-day infrastructure. Flat-rate access keeps winning—until inference bills force the next pricing reset.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2116222842413142111" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> Own Your Agent Harness—or Rent the Vendor’s Rules</h3>
+            <p>The warning is blunt: hosted harnesses can change permissions and workflows overnight. Teams treating agents as core infrastructure need portable prompts, tools, memory, and evals.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2116153238563242385" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🕸️</span> OpenAI Backs One Shared Signal for AI Training Preferences</h3>
+            <p>OpenAI says it will honor a common robots.txt signal alongside existing crawler controls. A cross-provider standard is overdue; publisher consent should not require maintaining a zoo of bot names.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/helping-websites-express-ai-training-preferences" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚖️</span> OpenAI Turns Fair Use Into an Industry Coalition</h3>
+            <p>Creators, academics, accessibility advocates, and business leaders are being assembled behind AI training rights. This is not just legal positioning—copyright doctrine is now a strategic moat.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/fair-use-benefits-everyone" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏢</span> SAP Pushes Agent Governance Into Enterprise Architecture</h3>
+            <p>SAP is tying Joule agents to LeanIX context, sovereign LLM access, and existing business controls. Enterprise agents will scale through governance plumbing, not flashy demos.</p>
+            <div class="story-source">
+                <a href="https://news.sap.com/2026/10/sap-teched-shows-how-to-lead-with-ai-governance" target="_blank">Source: news.sap.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💼</span> Brookings Proposes Transition Insurance for the AI Labor Shock</h3>
+            <p>The policy debate is finally moving beyond vague reskilling slogans toward an actual worker-safety mechanism. If displacement accelerates, credible transition support becomes infrastructure for adoption.</p>
+            <div class="story-source">
+                <a href="https://www.brookings.edu/articles/a-detailed-affordable-plan-for-transition-insurance-in-the-ai-era" target="_blank">Source: brookings.edu →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏗️</span> NVIDIA May Backstop Billions for an Anthropic Data Center</h3>
+            <p>NVIDIA is reportedly considering guarantees for Nscale’s West Virginia project, where Anthropic has committed ＄44.6 billion to the first building. When chip suppliers finance the buyers, AI demand and financial engineering become hard to separate.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2116494111079555144" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
