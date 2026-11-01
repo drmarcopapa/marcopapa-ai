@@ -1,6 +1,17 @@
 {
   "months": [
     {
+      "label": "November 2026",
+      "briefings": [
+        {
+          "date": "November 1, 2026",
+          "file": "2026-11-01.html",
+          "title": "GLM 5.5 May Arrive in Three Sizes, GLM 5.3 Flash Beats DeepSeek V4.1 Flash , AI Agents Are Steering the Allen Telesco",
+          "stories": 10
+        }
+      ]
+    },
+    {
       "label": "October 2026",
       "briefings": [
         {
