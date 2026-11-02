@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 2, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 2, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📺</span> Karpathy Built a Better YouTube in Two Hours</h3>
+            <p>Claude filtered 43 million Hacker News comments into 6,454 repeatedly recommended videos. This is the clearest signal yet that agentic software can replace an algorithmic feed with a personal editorial layer.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2116957135661945283" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔓</span> DeepSeek Harness Adds Keyless Remote Access</h3>
+            <p>DSH Open Access promises one-install browser entry across LAN and Tailscale. Useful, but the warning matters more: convenience without authentication turns an agent harness into remote control for anyone who reaches the port.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2116916636942790842" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎛️</span> MiniMax’s Model Stack Gets a Real-World Demo</h3>
+            <p>H3, Yue 2 and M5U working together shows where the market is heading: specialized models composed into a workflow, not one giant model pretending to do everything.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2116825807234486522" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📱</span> Local-First AI Bots Are Becoming the Missing Product</h3>
+            <p>Developers like Grok Bot’s usability but increasingly reject cloud-only execution. The winner in personal agents may be whoever delivers mobile-grade polish without surrendering prompts, context and tools to a remote service.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2116953164545224824" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> Claude’s Plugin Ecosystem Is Exploding</h3>
+            <p>A curated list of 30 Claude plugins is less about the ranking than the platform shift. Once users assemble repeatable toolchains around a model, switching costs move from model quality to workflow compatibility.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2117074227367145576" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💻</span> DeepSeek Open-Sources a Proactive Coding Agent</h3>
+            <p>Super-Agent monitors developer conversations, spots coding problems and proposes fixes without waiting for a prompt. That is a genuine step beyond autocomplete—but proactive agents will be judged on interruption quality, not demo autonomy.</p>
+            <div class="story-source">
+                <a href="https://www.digitaltrends.com/computing/deepseek-wants-to-steal-claude-code-and-codexs-lunch-with-an-ai-agent-that-does-not-wait-around" target="_blank">Source: digitaltrends.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Agent Security Moves Beyond Sandboxes</h3>
+            <p>VentureBeat argues that an agent can stay inside every technical boundary and still exceed the authority humans intended. Runtime authorization must track principal, task, resource and delegation lineage; a valid token is not informed consent.</p>
+            <div class="story-source">
+                <a href="https://venturebeat.com/security/ai-agents-dont-have-to-break-security-controls-to-go-rogue-heres-how-to-keep-them-in-check" target="_blank">Source: venturebeat.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Anthropic Opens a Residency for Technical Leaders</h3>
+            <p>The paid program targets professors, founders and staff engineers—even without prior ML experience—for alignment, interpretability, red-teaming and frontier systems work. Labs are now recruiting judgment and execution range, not just publication counts.</p>
+            <div class="story-source">
+                <a href="https://alignment.anthropic.com/2026/anthropic-residency" target="_blank">Source: alignment.anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚫</span> AI Labs Back One robots.txt Training Opt-Out</h3>
+            <p>Google, Microsoft, OpenAI and Anthropic are converging on a shared signal for publishers. It is overdue plumbing, not a settlement: adoption dates differ, and robots.txt remains a request rather than enforcement.</p>
+            <div class="story-source">
+                <a href="https://www.how2shout.com/ai/shared-robots-txt-ai-training-opt-out-google-openai-microsoft-anthropic.html" target="_blank">Source: how2shout.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🫥</span> Grok Plans Invisible Watermarks for API Text</h3>
+            <p>Watermarking generated text may help with EU transparency rules, but proprietary detectors risk creating incompatible proof systems. If provenance cannot travel across vendors, compliance becomes another platform moat.</p>
+            <div class="story-source">
+                <a href="https://maccus.fr/en/grok-text-watermark" target="_blank">Source: maccus.fr →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2117184419840786929" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
