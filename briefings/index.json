@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 3, 2026",
+          "file": "2026-11-03.html",
+          "title": "Anthropic Opens Its Residency Beyond ML , Claude Code Builds a Personal Browser Ex, Local GLM 5.3 Flash Beats Frontier Model",
+          "stories": 10
+        },
+        {
           "date": "November 2, 2026",
           "file": "2026-11-02.html",
           "title": "Karpathy Built a Better YouTube in Two H, DeepSeek Harness Adds Keyless Remote Acc, MiniMax\u2019s Model Stack Gets a Real-World ",

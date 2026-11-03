@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 3, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 3, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Anthropic Opens Its Residency Beyond ML Insiders</h3>
+            <p>No ML background required is the tell: frontier labs now prize systems judgment and domain depth, not just benchmark credentials.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2117343929960112486" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> Claude Code Builds a Personal Browser Extension on Demand</h3>
+            <p>Karpathy’s example shows where coding agents are heading: disposable software tailored to one user, built faster than an app-store search.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2117431189074330032" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏠</span> Local GLM 5.3 Flash Beats Frontier Models in a Three-Model Test</h3>
+            <p>One anecdote is not a benchmark, but strong local reasoning is becoming credible enough to challenge expensive cloud defaults.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2117392041751495094" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏢</span> OpenClaw Enterprise Starts Biweekly Agent Office Hours</h3>
+            <p>Enterprise agents are moving from demos to operating practice; recurring office hours signal that deployment friction, not model access, is now the bottleneck.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2117300313078337812" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚗</span> NVIDIA Cosmos Generates Counterfactual Worlds for Robots</h3>
+            <p>Preserving geometry and trajectories while changing weather and lighting turns synthetic data into a serious policy-testing layer, not visual decoration.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2117332456768717244" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> Anthropic’s Amended S-1 Exposes the Economics of Frontier AI</h3>
+            <p>The filing makes the trade explicit: explosive growth is being purchased with infrastructure commitments so large that compute strategy is now corporate destiny.</p>
+            <div class="story-source">
+                <a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026068676/0001628280-26-068676-index.htm" target="_blank">Source: sec.gov →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> UK Cyber Chief Warns AI-Powered Ransomware Will Hit Critical Infrastructure</h3>
+            <p>The scary part is not magical malware; it is automation scaling old vulnerabilities faster than defenders can patch decades of technical debt.</p>
+            <div class="story-source">
+                <a href="https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years" target="_blank">Source: ncsc.gov.uk →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Goodfire Reopens the Debate on Whether Models Are Easier to Interpret Than Expected</h3>
+            <p>If useful internal structure is simpler than assumed, mechanistic interpretability could shift from academic archaeology to an engineering control surface.</p>
+            <div class="story-source">
+                <a href="https://www.ibm.com/think/news/is-ai-easier-to-understand-than-scientists-thought-goodfire-essay" target="_blank">Source: ibm.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> MIT Researchers Use GPT-6 Astra to Edit Qwen’s Weights Directly</h3>
+            <p>Models modifying other models is the real recursive-improvement story: not self-aware AI, but automated intervention in the machinery itself.</p>
+            <div class="story-source">
+                <a href="https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance" target="_blank">Source: venturebeat.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💊</span> Anthropic Buys a One-Person Biotech Built Around Claude</h3>
+            <p>One founder coordinating 11 labs with an agent is a preview of companies becoming orchestration graphs rather than traditional headcount pyramids.</p>
+            <div class="story-source">
+                <a href="https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-buys-one-person-biotech-to-prove-claude-can-make-drugs" target="_blank">Source: pymnts.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2117542395088970079" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
