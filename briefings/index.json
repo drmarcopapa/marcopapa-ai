@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 4, 2026",
+          "file": "2026-11-04.html",
+          "title": "Altman Draws a Line on Human Control, Anthropic Unveils FlashProve for Verifia, Claude Plugins Get Automatic Enterprise ",
+          "stories": 10
+        },
+        {
           "date": "November 3, 2026",
           "file": "2026-11-03.html",
           "title": "Anthropic Opens Its Residency Beyond ML , Claude Code Builds a Personal Browser Ex, Local GLM 5.3 Flash Beats Frontier Model",
