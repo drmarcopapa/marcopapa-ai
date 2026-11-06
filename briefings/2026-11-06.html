@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 6, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 6, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> GPT-6 Cyber Moves AI From Bug Finding to Exploit Development</h3>
+            <p>— OpenAI says the model uncovered 81 previously unknown high-severity Firefox flaws and built working exploits for 948 Linux-kernel vulnerabilities. This is the point where frontier cyber models stop being assistants and become force multipliers—access control now matters as much as benchmark performance.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/introducing-gpt-6-cyber" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Ships a Patch for Messaging and Gateway Failures</h3>
+            <p>— v2026.11.1 fixes false Telegram and Discord refusals, misleading Doctor results, and stuck Gateway settings. Boring reliability patches are what turn agent infrastructure from a demo into something teams can actually trust.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2118416574004744245" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏗️</span> OpenAI Tries to Defuse the Data-Center Backlash</h3>
+            <p>— Its new infrastructure commitments promise community input and accountability at company-owned campuses. Compute expansion is becoming a political product problem, not just an engineering one, and the labs that ignore local consent will lose deployment speed.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/setting-new-standard-responsible-ai-infrastructure" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> A Pruned Kimi Model Tests How Much MoE Capacity We Really Need</h3>
+            <p>— A vLLM-published Kimi K3.1 Pro variant reportedly removes 75% of its experts, shrinking the model from 2.8T parameters to roughly 700–750B. If quality survives aggressive pruning, inference economics—not raw parameter counts—become the competitive story.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2118393343839285491" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">✅</span> Microsoft Brings Formal Verification to Agent-Written Apps</h3>
+            <p>— PDD Kit turns intent into a formal specification, proves behavior where possible, and uses tests where proofs cannot reach. Agents can generate code faster than humans can review it; executable specifications are the credible way out of that bottleneck.</p>
+            <div class="story-source">
+                <a href="https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit" target="_blank">Source: microsoft.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">👥</span> OpenClaw Multiplayer Pushes Shared Context Across Teams</h3>
+            <p>— The pitch is one shared agent for Engineering, Product, and Marketing instead of three isolated copilots. The real enterprise moat may be organizational memory and permissioned context, not another model wrapper.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2118404891911864536" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌐</span> Sierra Buys Anon to Put Agents Behind Website Logins</h3>
+            <p>— Anon brings browser automation, authentication, MFA handling, and recovery for long-running tasks into Sierra. APIs remain the clean path, but reliable browser use is how agents reach the enormous amount of enterprise work trapped in human-only interfaces.</p>
+            <div class="story-source">
+                <a href="https://sierra.ai/blog/sierra-acquires-anon" target="_blank">Source: sierra.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> Tiny vLLM Turns Apple Silicon Into an Inference Classroom</h3>
+            <p>— A hands-on project that rebuilds a small vLLM-style stack with Qwen is exactly the kind of systems education AI needs. Developers who understand schedulers, KV caches, and memory pressure will outperform those who only know how to call an endpoint.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2118272105947037880" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧊</span> NVIDIA Shows Agents Building Physical Simulations in Omniverse</h3>
+            <p>— Developers are using frontier models to assemble scenes, connect physics, and iterate through natural language while humans review the results. This is a stronger agent pattern than blind autonomy: high-speed construction inside a constrained, inspectable world.</p>
+            <div class="story-source">
+                <a href="https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents" target="_blank">Source: blogs.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💾</span> AI Memory Optimization Is Becoming a Full-System Discipline</h3>
+            <p>— NVIDIA highlights five techniques spanning smaller weights and context reuse across servers. The next inference wins will come from coordinated architecture work, because clever memory movement can beat another round of brute-force hardware spending.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2118373611408945493" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2118634657617248735" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
