@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 7, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 7, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Claude Learns to “Dream” Over Its Memories</h3>
+            <p>Anthropic is treating memory as an active reasoning system, not a bigger transcript buffer. If models can reorganize experience and correct past mistakes offline, persistent agents become far more credible.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2118814753154064501" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔬</span> AI Starts Rewriting Scientific Modeling</h3>
+            <p>Anthropic’s researchers show AI moving from literature assistant to model-building collaborator across fields from neuroscience to astrophysics. The real prize is not faster papers—it is new hypotheses humans would not formulate alone.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2118792930211107115" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> Local AI Needs an Appliance Moment</h3>
+            <p>The winning local-inference product will bundle hardware, OS and model runtime into something normal people can operate. Raw GPU boxes are not a market; zero-friction private AI systems could be.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2118698436245491720" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌐</span> NVIDIA Turns One Image Into an Explorable 3D World</h3>
+            <p>Lyra 2.0 combines video generation with 3D reconstruction while correcting visual drift along a chosen camera path. World models are escaping benchmark demos and becoming practical scene-building engines.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2118800021013643269" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Decouples New Models From New Releases</h3>
+            <p>Dynamic model catalogs and account-based discovery attack a quiet agent-platform bottleneck: model velocity is now faster than software release cycles. Platforms that hard-code providers will age in dog years.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2118767484144857342" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> OpenAI Brings Hacktron Inside the Security Perimeter</h3>
+            <p>OpenAI and Hacktron will jointly probe high-priority systems and third-party integrations, with expanded frontier-model access through Daybreak Red. Serious AI security increasingly looks like continuous adversarial collaboration, not a pre-launch checklist.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/partnering-with-hacktron" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> Anthropic Opens a Residency for Senior Technical Leaders</h3>
+            <p>The six-week-to-six-month program targets professors, founders and staff engineers—even without ML backgrounds. Frontier labs are now recruiting transferable technical judgment, not merely people who already speak transformer.</p>
+            <div class="story-source">
+                <a href="https://alignment.anthropic.com/2026/anthropic-residency" target="_blank">Source: alignment.anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> Meta Lets Users Build Custom Spaces Inside Muse</h3>
+            <p>Muse can now turn a prompt into a persistent personalized space such as a tracker, game or planning board. This is the app-layer shift to watch: users describe software, then keep reshaping it through conversation.</p>
+            <div class="story-source">
+                <a href="https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app" target="_blank">Source: about.fb.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Microsoft Adds Lifecycle Controls for Agent Identities</h3>
+            <p>Entra’s preview policies can reconfirm, monitor and disable stale agent identities. Enterprises will not scale agents until nonhuman access gets the same governance discipline as employee accounts.</p>
+            <div class="story-source">
+                <a href="https://techcommunity.microsoft.com/blog/microsoft-entra-blog/what%E2%80%99s-new-in-microsoft-entra-november-2026/4556457" target="_blank">Source: techcommunity.microsoft.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📡</span> NVIDIA Pushes AI Into the 6G Stack</h3>
+            <p>NVIDIA’s open tools are helping researchers build learned receivers, adaptive networks and low-latency semantic links for robots. The next AI infrastructure layer is not just compute—it is communication designed around machine perception and action.</p>
+            <div class="story-source">
+                <a href="https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks" target="_blank">Source: blogs.nvidia.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2118991208794194096" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 7, 2026",
+          "file": "2026-11-07.html",
+          "title": "Claude Learns to \u201cDream\u201d Over Its Memori, AI Starts Rewriting Scientific Modeling, Local AI Needs an Appliance Moment",
+          "stories": 10
+        },
+        {
           "date": "November 6, 2026",
           "file": "2026-11-06.html",
           "title": "GPT-6 Cyber Moves AI From Bug Finding to, OpenClaw Ships a Patch for Messaging and, OpenAI Tries to Defuse the Data-Center B",
