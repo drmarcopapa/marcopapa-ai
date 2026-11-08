@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 8, 2026",
+          "file": "2026-11-08.html",
+          "title": "Karpathy Turns a Curated YouTube List In, T3 Code Makes Local and Remote Projects , A DGX Spark Becomes a Local Image and Vi",
+          "stories": 10
+        },
+        {
           "date": "November 7, 2026",
           "file": "2026-11-07.html",
           "title": "Claude Learns to \u201cDream\u201d Over Its Memori, AI Starts Rewriting Scientific Modeling, Local AI Needs an Appliance Moment",

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 8, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 8, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📺</span> Karpathy Turns a Curated YouTube List Into TristanTube</h3>
+            <p>One prompt, three minutes, 47,000 technical videos: this is what software creation looks like when curation meets coding agents. The moat is shifting from implementation to taste.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2119114537442189652" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📁</span> T3 Code Makes Local and Remote Projects One Click Away</h3>
+            <p>Mia’s fork unifies local folders, SSH hosts and cloning behind one project picker. Agent IDEs win when infrastructure disappears from the workflow.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2119208270304883032" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎨</span> A DGX Spark Becomes a Local Image and Video Studio</h3>
+            <p>The notable claim is not another generation demo—it is replacing cloud image tools with one desktop box. Local multimodal inference is becoming a product choice, not a hobbyist compromise.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2119138536460783664" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏯</span> DeepSeek v4.1 Drives Blender Through MCP</h3>
+            <p>A locally running model built and animated a detailed pagoda through Blender MCP. MCP is quietly becoming the control plane that turns models from chatbots into operators.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2119187271932940656" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> Apple’s Missing AI Advantage Is the Operating System</h3>
+            <p>Browser agents are boxed out of app-first services, while Apple already owns the device-level context and permissions. If Apple executes, OS-native agents could leapfrog today’s browser automation stack.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2119289961296154783" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> OpenAI Reportedly Closes $11 Billion at a $1.25 Trillion Valuation</h3>
+            <p>The round came in below earlier ambitions, but the number still says capital markets expect frontier AI to absorb nation-scale investment. The harder question is whether revenue can catch the valuation before infrastructure bills do.</p>
+            <div class="story-source">
+                <a href="https://theaiinsider.tech/2026/11/07/openai-secures-11b-at-1-25t-valuation-as-funding-round-falls-short-of-earlier-target" target="_blank">Source: theaiinsider.tech →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚛️</span> An Unreleased Anthropic Model Helps Crack a Quantum Conjecture</h3>
+            <p>The Aaronson–Ambainis proof is machine-checked and potentially limits where exponential quantum speedups can appear. This is the AI-for-science story that matters: models producing proofs experts can verify.</p>
+            <div class="story-source">
+                <a href="https://mlq.ai/news/unreleased-anthropic-model-found-a-proof-of-the-aaronson-ambainis-conjecture-open-since-2008" target="_blank">Source: mlq.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏗️</span> Google Acquires Crusoe’s Wyoming Data Center Site</h3>
+            <p>The AI race is now a land, power and construction race as much as a model race. Whoever controls energized sites controls how quickly research turns into deployed capacity.</p>
+            <div class="story-source">
+                <a href="https://kingy.ai/news/google-wyoming-data-center-crusoe-acquisition" target="_blank">Source: kingy.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">❤️</span> AI Plaque Analysis Beats Standard Cardiac Care</h3>
+            <p>The PARAMOUNT trial reports that AI-quantified coronary CT improved diagnostic certainty and accelerated treatment. Clinical AI becomes real when it changes decisions, not when it merely matches a benchmark.</p>
+            <div class="story-source">
+                <a href="https://www.hcplive.com/view/ai-driven-quantification-of-coronary-plaque-outperforms-standard-care-in-suspected-cad" target="_blank">Source: hcplive.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> OpenAI Tests Agents on Everyday Wet-Lab Science</h3>
+            <p>The new benchmark asks whether agents can handle practical laboratory work rather than textbook questions. Science agents need operational competence—the messy middle between knowing a protocol and running one.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2119352933393616918" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
