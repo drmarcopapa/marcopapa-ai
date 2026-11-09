@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 9, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 9, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> A Popular AI Harness Is Going Open Source</h3>
+            <p>— MiaAI_lab says its harness will be released this week. The real leverage in coding agents is shifting from the model to the orchestration layer—and open harnesses accelerate that shift.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2119403478133211431" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌏</span> NVIDIA AI Day Seoul Puts Korea’s Open Models on Stage</h3>
+            <p>— More than 2,000 developers, startups, and researchers are gathering around agents, robotics, and sovereign models. Korea is treating open AI as industrial infrastructure, not a side project.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2119656485420708034" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📱</span> DeepSeek Harness Runs Remotely From an iPad</h3>
+            <p>— A Tailscale-powered setup shows coding agents becoming location-independent control planes. The laptop is no longer the workstation; it is just one possible terminal.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2119411119181771117" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Patch Fixes Reminders and Chat Duplication</h3>
+            <p>— Version 2026.11.2 lands with 113 PRs from 64 contributors. Agent platforms are maturing through boring reliability work—the part demos skip and users actually feel.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2119654699284779170" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> Princeton Gives Students ChatGPT Plus—and Gets Pushback</h3>
+            <p>— Free access does not automatically create trust or good pedagogy. Universities now need clear AI policy, literacy, and choice, not merely licenses.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2119493474420760977" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> FLEX Lets Robots Generalize From Human Corrections</h3>
+            <p>— MIT and NYU’s system turns conversational feedback into broader motion-planning rules. Physical AI gets useful when “don’t hit my mug” becomes a transferable preference, not a one-off patch.</p>
+            <div class="story-source">
+                <a href="https://news.mit.edu/2026/ai-assisted-learning-platform-helps-robots-reason-beyond-literal-commands-1109" target="_blank">Source: news.mit.edu →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏠</span> Amazon Is Taking Another Shot at the Home Robot</h3>
+            <p>— Job postings reveal a “new-to-world” robot effort after Astro’s limited run, reinforced by the Fauna Robotics acquisition. The next battle is not intelligence in a lab—it is dependable usefulness in a messy living room.</p>
+            <div class="story-source">
+                <a href="https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html" target="_blank">Source: cnbc.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🇰🇷</span> NVIDIA and Korea Expand Their Sovereign AI Stack</h3>
+            <p>— The partnership spans chips, data centers, startups, models, agents, security, and training. Sovereign AI is becoming a full supply-chain strategy, not a branding exercise.</p>
+            <div class="story-source">
+                <a href="https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration" target="_blank">Source: blogs.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Korea Pushes Secure Enterprise Agents With OpenShell</h3>
+            <p>— Hyundai and AIM Intelligence are exploring NVIDIA’s agent runtime while LG opens K-EXAONE-2.5 API access. Security is finally moving into the agent architecture instead of being bolted on after deployment.</p>
+            <div class="story-source">
+                <a href="https://blogs.nvidia.com/blog/korea-secure-agentic-ai" target="_blank">Source: blogs.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦾</span> OmniMind Claims the Top RoboColiseum Ranking</h3>
+            <p>— Faraday Future says its embodied-AI model leads the simulation benchmark and is advancing integrator sales. Interesting signal, but company-reported leaderboard wins still need real-world deployment proof.</p>
+            <div class="story-source">
+                <a href="https://www.prnewswire.com/news-releases/ff-eai-robotics-ecosystem-inc-ffr-and-faraday-future-announce-ff-omnimind-and-its-model-achieve-no-1-in-robocoliseum-embodied-ai-model-ranking-advance-sales-with-several-leading-us-integrators-of-security-and-inspection-rob-302932828.html" target="_blank">Source: prnewswire.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2119714209311457435" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
