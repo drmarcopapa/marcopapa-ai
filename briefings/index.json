@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 11, 2026",
+          "file": "2026-11-11.html",
+          "title": "Anthropic Starts Its IPO Roadshow, GPT-6 Astra Reportedly Finds 35,000 More, Qwen3.8-27B Hits 700 Tokens per Second o",
+          "stories": 10
+        },
+        {
           "date": "November 10, 2026",
           "file": "2026-11-10.html",
           "title": "Anthropic Ships Claude Fable 5.2 and Myt, Claude Rewards Its Longest-Paying Users , Fable 5.2\u2019s Coding Gains Face a Price Re",

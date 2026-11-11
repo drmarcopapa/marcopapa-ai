@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 11, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 11, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> Anthropic Starts Its IPO Roadshow</h3>
+            <p>Anthropic is moving from frontier lab to public-market company. The scrutiny now shifts from benchmark wins to margins, capital intensity, and whether enterprise demand can justify the valuation.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2120117722230968385" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> GPT-6 Astra Reportedly Finds 35,000 More Vulnerabilities</h3>
+            <p>A second scan allegedly uncovered roughly three times as many flaws as the first diagnostic pass. If validated, cyber defense is becoming one of the clearest cases where stronger models immediately expand the problem surface—not just productivity.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2120228665946710248" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Qwen3.8-27B Hits 700 Tokens per Second on an RTX 5090</h3>
+            <p>Local inference is crossing from “impressive demo” into genuinely interactive infrastructure. A 27B model at this speed makes private, low-latency agents practical on a single enthusiast GPU.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2120294641597567268" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Ships a Reliability and Credential-Safety Patch</h3>
+            <p>Interrupted-update recovery, slower-storage backup fixes, and tighter credential handling are unglamorous—and exactly what agent platforms need. The next phase of agents will be won on operational trust, not another flashy demo.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2120368851846381911" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> NVIDIA’s OpenShell Joins the Cloud Native Computing Foundation</h3>
+            <p>Agent access to data, credentials, and code execution is becoming a cloud-native governance problem. Moving OpenShell under the CNCF gives the ecosystem a neutral place to standardize the dangerous plumbing.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2120258334079263059" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Google DeepMind Launches Gemini Robotics 2.5</h3>
+            <p>The model learns broader physical skills faster and targets the messy environments that break lab demos. Physical AI is shifting from scripted motion toward models that can diagnose failures, simulate fixes, and generalize.</p>
+            <div class="story-source">
+                <a href="https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence" target="_blank">Source: deepmind.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💼</span> OpenAI and Upwork Map AI’s Impact on Freelance Work</h3>
+            <p>Demand is not simply disappearing—it is recombining around AI skills and larger project budgets. The labor-market signal is clear: workers who pair domain expertise with AI execution are capturing the upside first.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/ai-effect-on-freelance-work" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Gemini 4 Carbon Goes Live</h3>
+            <p>Google is positioning Carbon for long-horizon coding, cybersecurity, scientific reasoning, and high-precision knowledge work. The real competitive lever is sustained agent execution at an aggressive price, not a leaderboard screenshot.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔬</span> Lila Argues Scaling Alone Will Not Produce Creative AI</h3>
+            <p>Four new preprints frame open-endedness as the missing machinery for generating, judging, and building on novel ideas. That is the right research question if autonomous science is supposed to discover rather than merely retrieve.</p>
+            <div class="story-source">
+                <a href="https://www.lila.ai/news/a-new-synthesis-for-the-field-of-open-endedness" target="_blank">Source: lila.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚛️</span> AI Designs Leaner Quantum Circuits</h3>
+            <p>Harvard, Anthropic, and QuEra report up to a 39-fold reduction in a combined gate-and-qubit resource metric. This is the useful version of AI-for-science: converting model search into hardware savings that could pull practical quantum workloads closer.</p>
+            <div class="story-source">
+                <a href="https://www.prnewswire.com/news-releases/harvard-anthropic-and-quera-breakthrough-research-uniquely-shows-ai-can-reduce-the-resources-quantum-applications-need-significantly-accelerating-the-era-of-useful-quantum-computing-302934155.html" target="_blank">Source: prnewswire.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2120440035451494795" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
