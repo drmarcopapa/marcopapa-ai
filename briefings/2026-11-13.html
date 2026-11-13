@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 13, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 13, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> Anthropic Files for Its IPO</h3>
+            <p>— The frontier-lab race just acquired a public-market scoreboard. Anthropic now has to balance safety rhetoric, capital hunger, and quarterly scrutiny in full view.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2120841731302154708" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> Agents Are Becoming the New UI Developers</h3>
+            <p>— Vercel’s pitch is blunt: humans may not need to learn the interface primitives if agents can compose them. The real skill shifts from hand-coding screens to specifying behavior and judging output.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2120974913679040680" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💾</span> Local-AI Builders Rush to Preserve Model Weights</h3>
+            <p>— The download-now warning shows how fragile “open” AI still feels to its own community. If access can disappear overnight, local weights are infrastructure, not collectibles.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2120955205495971843" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛍️</span> Consumer Agents Become a Distribution War</h3>
+            <p>— The a16z market map matters less as a taxonomy than as a signal: agent features are converging, so distribution and retention will decide the winners. “Agent” itself may soon stop being a useful category.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2120943470345150484" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> OpenClaw Details Security for Persistent Agents</h3>
+            <p>— Always-on agents need controls designed for autonomy, not chatbot-era permissions. OpenAI’s internal deployment is a useful proof point that persistent agents can be governed without neutering them.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2120979006250213651" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Google Launches Gemini 4 Hydrogen</h3>
+            <p>— Google is attacking the high-volume middle: fast coding and agentic work without frontier-model latency or cost. The winning stack will route work across models, not worship one giant model.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧒</span> OpenAI Pledges $2 Million for Children’s AI Safety Research</h3>
+            <p>— The money is modest by lab standards, but shared measurement could matter more than another policy statement. Youth safety needs evidence and enforceable defaults, not vibes.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/children-first-declaration" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎨</span> Adobe Pushes Generative AI Toward Directable Creation</h3>
+            <p>— Relight in Photoshop and timeline-native audio tools in Premiere show the right direction: creators want controllable instruments, not prompt lotteries. AI disappears into the workflow when it earns trust.</p>
+            <div class="story-source">
+                <a href="https://research.adobe.com/news/adobe-max-2026-adobe-research-puts-more-control-in-creators-hands-with-new-ai-tools" target="_blank">Source: research.adobe.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Google Tests Agent Anomaly Detection on Outside Benchmarks</h3>
+            <p>— Testing on benchmarks you did not write is the minimum credible security posture. As agents touch email, travel, and money, indirect prompt injection becomes an operational risk, not a demo trick.</p>
+            <div class="story-source">
+                <a href="https://developers.googleblog.com/how-agent-anomaly-detection-scores-on-benchmarks-we-didnt-write" target="_blank">Source: developers.googleblog.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏢</span> Microsoft Finds the AI ROI Gap Is Really an Operating-Model Gap</h3>
+            <p>— The strongest adopters deploy agents broadly, govern them early, and train the organization around them. Buying Copilot licenses was never the transformation.</p>
+            <div class="story-source">
+                <a href="https://blogs.microsoft.com/blog/2026/11/12/scaling-ai-value-without-losing-control-lessons-from-frontier-firms" target="_blank">Source: blogs.microsoft.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2121169776802492436" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
