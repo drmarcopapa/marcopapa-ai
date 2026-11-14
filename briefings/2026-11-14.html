@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 14, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 14, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Anthropic Publishes a Better Playbook for Model Safety Evals</h3>
+            <p>— Ten recommendations on designing, running, and reporting evaluations signal a welcome shift from safety theater to reproducible engineering. If labs cannot explain how an eval was built, the score is marketing.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2121317227618340990" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Inkling 2 Small Trains 594B Parameters in 68 Hours</h3>
+            <p>— Thinking Machines used NVIDIA NVFP4 and GB300 NVL72 racks to make extreme-scale pretraining look almost routine. The real story is not model size; it is how quickly low-precision training is compressing the frontier cycle.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2121382664720863533" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> Qwen3.8-Flash-Next Heads to Two DGX Sparks</h3>
+            <p>— Community work is pushing serious local inference onto compact hardware instead of waiting for cloud vendors. Local AI wins when recipes and pull requests matter as much as benchmark charts.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2121247652113166710" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💾</span> DeepSeek v4.1 Flash Runs on a 32GB Mac via SSD Streaming</h3>
+            <p>— SSD-backed inference is slower than keeping weights in memory, but it breaks the RAM wall for developers. “Too large to run locally” is becoming an optimization problem, not a final verdict.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2121264325130338417" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧰</span> SGLang’s Open-Source Inference Stack Keeps Expanding</h3>
+            <p>— NVIDIA says its collaboration with SGLang spans five hardware generations and more than 100 day-zero model launches. Inference software is now strategic infrastructure, and no chip vendor can afford to treat the open-source layer as an afterthought.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2121288164530897240" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> LangChain Raises $300M at a $3B Valuation</h3>
+            <p>— CapitalG led the round as LangChain doubles down on agents and LangSmith. The funding says observability, evaluation, and orchestration—not another chatbot wrapper—are where enterprise AI value is consolidating.</p>
+            <div class="story-source">
+                <a href="https://www.langchain.com/blog/series-c" target="_blank">Source: langchain.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔁</span> Self-Improving Agents Need Production Discipline</h3>
+            <p>— Monte Carlo reports that 52% of agent builders discover failures from customer complaints. An agent that can change itself without traces, regression evals, approval gates, and rollback is not autonomous; it is ungoverned.</p>
+            <div class="story-source">
+                <a href="https://montecarlo.ai/blog-ship-self-improving-agents" target="_blank">Source: montecarlo.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📞</span> Your Next Customer May Be an AI Agent</h3>
+            <p>— Genesys expects personal agents to negotiate directly with business systems and escalate only when human approval is needed. Companies still optimizing exclusively for human clicks are designing for yesterday’s customer.</p>
+            <div class="story-source">
+                <a href="https://www.genesys.com/blog/post/your-next-customer-may-be-an-ai-agent" target="_blank">Source: genesys.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🗺️</span> Real-World Agents Need Computation, Not Confident Guessing</h3>
+            <p>— HERE argues that routing, distance, traffic, and time belong in deterministic execution layers, not language-model intuition. The durable agent architecture is LLM for intent, authoritative tools for facts.</p>
+            <div class="story-source">
+                <a href="https://www.here.com/learn/blog/how-location-reasoning-helps-ai-agents" target="_blank">Source: here.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Circle Makes Fake Agent Reputation Expensive</h3>
+            <p>— Circle’s Anduin ranks providers through payment graphs and was about 23 times costlier to manipulate in its tested attack. Agent marketplaces will need economic trust signals; star ratings are laughably easy for bots to game.</p>
+            <div class="story-source">
+                <a href="https://www.circle.com/blog/sybil-resistance-in-reputations-for-agentic-marketplaces" target="_blank">Source: circle.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2121581808458568094" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
