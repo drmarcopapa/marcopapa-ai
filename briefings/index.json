@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 15, 2026",
+          "file": "2026-11-15.html",
+          "title": "GLM 5.3 May Be Local AI\u2019s Sweet Spot, Inkling 2 Small Exposes the Benchmark Bl, NVIDIA Pushes AI From Chatbots Into City",
+          "stories": 10
+        },
+        {
           "date": "November 14, 2026",
           "file": "2026-11-14.html",
           "title": "Anthropic Publishes a Better Playbook fo, Inkling 2 Small Trains 594B Parameters i, Qwen3.8-Flash-Next Heads to Two DGX Spar",

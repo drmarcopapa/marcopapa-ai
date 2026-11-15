@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 15, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 15, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> GLM 5.3 May Be Local AI’s Sweet Spot</h3>
+            <p>— Rumors put GLM 5.5 near 2–3T parameters, so builders are already treating 5.3 quants as the practical high-water mark. Bigger frontier models are useless to local teams if nobody can run them.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2121537898092577149" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔬</span> Inkling 2 Small Exposes the Benchmark Blind Spot</h3>
+            <p>— Serious model analysis is moving toward architecture, quantization and inference behavior—not leaderboard screenshots. Small models with unusual internals deserve more attention than another marginal frontier-model win.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2121589717095399659" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏙️</span> NVIDIA Pushes AI From Chatbots Into City Infrastructure</h3>
+            <p>— Its Smart City Expo showcase focused on public services, transportation and infrastructure. The next enterprise AI budget wave will be physical and operational, not another copilot license.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2121662773721792563" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛠️</span> Production Agents Need Browsers and Voice</h3>
+            <p>— DeepLearning.AI’s NYC workshops center on replayable web workflows and real-time voice agents. That curriculum shift says it plainly: chat is the demo; reliable action is the product.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2121635520857907265" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💸</span> “AI Money Machines” Are Becoming Their Own Product Category</h3>
+            <p>— A Grok Bot plus Fable 5.2 guide promises a shortcut to revenue. Treat the hype as a market signal, not a business plan: agent monetization is arriving faster than agent reliability.</p>
+            <div class="story-source">
+                <a href="https://x.com/aiedge_/status/2121558787169693897" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💳</span> OpenAI Gives Agents a Wallet</h3>
+            <p>— ChatGPT Wallet lets dots complete purchases using tokenized card details and per-transaction biometric approval. This is the real agentic-commerce threshold: moving money safely, not merely recommending what to buy.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/introducing-chatgpt-wallet" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦙</span> llama.cpp 1.0 Makes Local AI Infrastructure Grown-Up</h3>
+            <p>— Semantic versioning now gives downstream developers explicit API and ABI stability boundaries. Local inference is no longer a hobbyist sidecar; it is becoming dependable infrastructure.</p>
+            <div class="story-source">
+                <a href="https://huggingface.co/blog/ggml-org/llama-cpp-v1" target="_blank">Source: huggingface.co →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Google Builds a Model That Decides Instead of Talks</h3>
+            <p>— Gemini Decision 1 scores up to 1,000 bounded multimodal questions in one pass with probabilities and confidence. Cheap, calibrated routing may matter more to production agents than another eloquent general model.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Claude Managed Agents Move Inside the Enterprise Perimeter</h3>
+            <p>— Anthropic’s private beta lets companies self-host the harness, sandboxes, credentials and session history. Sovereignty is becoming a deployment feature, not a compliance footnote.</p>
+            <div class="story-source">
+                <a href="https://www.helpnetsecurity.com/2026/11/12/anthropic-self-hosted-claude-managed-agents" target="_blank">Source: helpnetsecurity.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🤖</span> Runway Turns Video Pretraining Into Robot Control</h3>
+            <p>— Praxis-1 ships open weights and commercial-friendly code for adapting a world-action model to real hardware. Video labs are quietly becoming robotics labs because understanding motion is already half the job.</p>
+            <div class="story-source">
+                <a href="https://runwayml.com/product/robotics" target="_blank">Source: runwayml.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2121903737438605353" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
