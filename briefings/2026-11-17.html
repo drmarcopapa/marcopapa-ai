@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 17, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 17, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🍎</span> macOS 27.3 Adds More Warnings for Full AI Control</h3>
+            <p>Apple is tightening the consent loop just as local agents need fewer interruptions. Security theater that trains users to click through alerts is not the same as real agent isolation.</p>
+            <div class="story-source">
+                <a href="https://x.com/steipete/status/2122463466304971068" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Cuts CI Usage 95.5%</h3>
+            <p>Agent-heavy development can quietly turn CI into the new cloud-bill monster. This teardown matters because operational discipline—not model quality—is increasingly what separates scalable agent projects from expensive demos.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2122451216093573217" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔬</span> NVIDIA Launches Nemotron for Science</h3>
+            <p>Open models, datasets and post-training recipes turn scientific agents from a slide-deck concept into an actual developer stack. NVIDIA is positioning CUDA-era infrastructure as the substrate for autonomous discovery.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2122479807858680178" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛟</span> OpenClaw 2026.11.4 Hardens Messaging and Memory</h3>
+            <p>Fixes for skipped Signal messages, WhatsApp reply loss and damaged memory backups are unglamorous—and essential. Personal agents only become infrastructure when recovery and delivery are boringly reliable.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2122379635434607039" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌌</span> NVIDIA Cosmos Passes 20 Million Downloads</h3>
+            <p>World models are escaping the research niche and becoming a shared layer for robotics, autonomy and vision agents. Twenty million downloads says embodied AI developers want open building blocks, not another closed demo.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2122410568607035403" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> OpenAI Expands Free ChatGPT Access to 200,000 Researchers</h3>
+            <p>Giving frontier tools to researchers is a distribution play disguised as philanthropy—and a smart one. The lab that becomes academia's default interface gets feedback, workflows and loyalty before competitors can.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/expanding-chatgpt-for-academic-researchers" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> NVIDIA Unveils Rubin HPC for Scientific Agents</h3>
+            <p>With more than 50,000 CUDA cores and arrival targeted for 2028, Rubin HPC is built for agents that call simulations inside their reasoning loops. The real race is no longer just faster inference; it is faster hypothesis-to-result cycles.</p>
+            <div class="story-source">
+                <a href="https://blogs.nvidia.com/blog/rubin-hpc" target="_blank">Source: blogs.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">❄️</span> Snowflake Makes Cortex AI Function Studio Generally Available</h3>
+            <p>Automated prompt, model and benchmark optimization moves enterprise AI from artisanal tweaking toward managed engineering. The platform that owns evaluation can quietly become the control plane for model choice.</p>
+            <div class="story-source">
+                <a href="https://docs.snowflake.com/en/release-notes/2026/other/2026-11-16-cortex-ai-function-studio-ga" target="_blank">Source: docs.snowflake.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎯</span> Liquid AI Releases Omnimodal d1.2 Decision Models</h3>
+            <p>These models return structured values with probabilities instead of prose, now across text, images and audio. That is far more useful than eloquence for production routing, extraction and human-escalation systems.</p>
+            <div class="story-source">
+                <a href="https://cellcog.ai/blog/liquid-d1-2-decision-models" target="_blank">Source: cellcog.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚕</span> Pony.ai and Toyota Launch Driverless bZ4X Robotaxi Service</h3>
+            <p>The Gen-7 vehicle entering commercial service in Guangzhou is the signal: autonomy is shifting from benchmark theater to fleet operations. Deployment density and reliability will now matter more than flashy one-off drives.</p>
+            <div class="story-source">
+                <a href="https://ir.pony.ai/zh-hans/node/8791/pdf" target="_blank">Source: ir.pony.ai →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2122633032922480843" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
