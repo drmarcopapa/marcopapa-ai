@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 18, 2026",
+          "file": "2026-11-18.html",
+          "title": "OpenAI Ships GPT-6.2 Astra and Sol, OpenClaw Opens ChatGPT Sign-In to Everyo, Microsoft Autopilot Is Built on OpenClaw",
+          "stories": 10
+        },
+        {
           "date": "November 17, 2026",
           "file": "2026-11-17.html",
           "title": "macOS 27.3 Adds More Warnings for Full A, OpenClaw Cuts CI Usage 95.5%, NVIDIA Launches Nemotron for Science",

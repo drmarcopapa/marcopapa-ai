@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 18, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 18, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚀</span> OpenAI Ships GPT-6.2 Astra and Sol</h3>
+            <p>— The real story is efficiency: better frontier capability matters, but lower cost per useful token is what turns demos into default infrastructure. Sol ultrafast could be the sleeper hit for latency-sensitive agents.</p>
+            <div class="story-source">
+                <a href="https://x.com/sama/status/2122798039899263456" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> OpenClaw Opens ChatGPT Sign-In to Everyone</h3>
+            <p>— Moving ChatGPT authentication out of beta removes a major adoption speed bump, especially for Business users. Agent platforms win when users can bring an existing plan instead of negotiating another API bill.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2122809472271958517" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> Microsoft Autopilot Is Built on OpenClaw</h3>
+            <p>— A Frontier preview is a serious enterprise validation for open agent infrastructure. Even more important: upstream contributions mean the platform can compound instead of becoming another closed Microsoft fork.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2122877394331811874" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🖥️</span> NVIDIA Enables Four DGX Sparks Without a Switch</h3>
+            <p>— Small local clusters are becoming credible AI workstations, not science projects. Switchless scaling lowers the friction for labs and developers who want private inference without a rack-sized commitment.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2122630978292093075" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎙️</span> NVIDIA Pushes Transcription Beyond Plain Text</h3>
+            <p>— Nemotron 3.5 Transcribe signals that speech models are moving from word capture toward richer understanding. The next moat is not lower word error rate; it is extracting structure, intent, and usable context.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2122751579312787909" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💼</span> OpenAI Launches ChatGPT for Sales</h3>
+            <p>— With a native Sales plugin and 30-plus partner integrations, OpenAI is attacking the workflow layer above CRM systems. The winner will be whoever owns the context between prospect research, the call, and the follow-up.</p>
+            <div class="story-source">
+                <a href="https://openai.com/index/introducing-chatgpt-for-sales" target="_blank">Source: openai.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> Microsoft’s MAI Code 2 Lands in GitHub Copilot</h3>
+            <p>— Code 2 targets deep debugging and repository-scale work while Flash handles cheap, rapid edits. That two-tier strategy is where coding agents are headed: expensive reasoning only when the task earns it.</p>
+            <div class="story-source">
+                <a href="https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot" target="_blank">Source: github.blog →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> Google Unifies Multimodal Search With EmbeddingGemma 2</h3>
+            <p>— One compact embedding space for text, images, audio, and video makes multimodal retrieval far easier to deploy. This is less flashy than a chatbot launch and potentially more foundational for real products.</p>
+            <div class="story-source">
+                <a href="https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2-technical-report" target="_blank">Source: blog.google →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> NVIDIA Posts $115.8 Billion Quarterly Revenue</h3>
+            <p>— Revenue doubling year over year says the AI infrastructure buildout is still accelerating, not plateauing. Vera Rubin momentum matters because the market is now betting on NVIDIA’s roadmap cadence as much as today’s chips.</p>
+            <div class="story-source">
+                <a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027" target="_blank">Source: investor.nvidia.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎧</span> Genesys Takes AI Agents Beyond Its Own Cloud</h3>
+            <p>— Standalone agents, prebuilt kits, and effort-based pricing attack the three blockers enterprises actually feel: migration risk, deployment time, and unpredictable consumption. Agent pricing is finally starting to reflect completed work, not token exhaust.</p>
+            <div class="story-source">
+                <a href="https://www.genesys.com/company/newsroom/announcements/genesys-launches-standalone-ai-agents-and-genesys-arena-for-faster-agentic-ai-deployment" target="_blank">Source: genesys.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2122976371601444991" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
