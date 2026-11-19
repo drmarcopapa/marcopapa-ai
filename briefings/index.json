@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 19, 2026",
+          "file": "2026-11-19.html",
+          "title": "Anthropic Prices Its IPO at $83, NVIDIA Tests Parallel Token Generation, NVIDIA Industrializes Synthetic Training",
+          "stories": 10
+        },
+        {
           "date": "November 18, 2026",
           "file": "2026-11-18.html",
           "title": "OpenAI Ships GPT-6.2 Astra and Sol, OpenClaw Opens ChatGPT Sign-In to Everyo, Microsoft Autopilot Is Built on OpenClaw",
