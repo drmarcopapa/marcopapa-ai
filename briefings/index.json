@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 20, 2026",
+          "file": "2026-11-20.html",
+          "title": "Anthropic Rings the Bell on the Frontier, Gemini 4 Neon Lands in OpenClaw, NVIDIA Dynamo Targets the RL Post-Traini",
+          "stories": 10
+        },
+        {
           "date": "November 19, 2026",
           "file": "2026-11-19.html",
           "title": "Anthropic Prices Its IPO at $83, NVIDIA Tests Parallel Token Generation, NVIDIA Industrializes Synthetic Training",

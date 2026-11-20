@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 20, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 20, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📈</span> Anthropic Rings the Bell on the Frontier-AI IPO Era</h3>
+            <p>Anthropic’s market debut turns frontier-model economics into a public quarterly exam. The safety mission now has Wall Street watching the burn rate.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2123461658890686863" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💻</span> Gemini 4 Neon Lands in OpenClaw</h3>
+            <p>Neon’s pitch is ruthless: hard coding jobs at lower cost per task than Carbon. Coding-model competition is shifting from benchmark theater to agent economics.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2123640619931484511" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> NVIDIA Dynamo Targets the RL Post-Training Bottleneck</h3>
+            <p>Dynamo attacks repeated compute, weight-update overhead and worker disruption in rollout inference. The next model advantage may come from systems engineering, not another parameter-count flex.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2123530225741078969" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Ships Back-to-Back Stability Releases</h3>
+            <p>Versions 2026.11.5 and 2026.11.6 focus on chat, messaging, plugins, updates and native apps. Mature agent platforms win by making the boring plumbing boringly reliable.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2123660366140014721" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧬</span> Training-Ready Vision Datasets in Two Prompts</h3>
+            <p>NVIDIA’s Encord and Voxel51 workflow compresses dataset construction into a conversational loop. Data operations are becoming agent work, and that will matter more than another flashy demo.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2123491860685480432" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> California Pushes Enforceable Frontier-AI Oversight</h3>
+            <p>Newsom’s framework calls for independent oversight, enforceable standards and emergency shutdown authority. “Trust us” is finally losing ground to “prove it.”</p>
+            <div class="story-source">
+                <a href="https://www.gov.ca.gov/2026/11/19/what-they-are-saying-leaders-from-across-the-country-celebrate-governor-newsoms-nation-leading-ai-framework" target="_blank">Source: gov.ca.gov →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🏗️</span> New York Breaks Ground on Permanent Empire AI Center</h3>
+            <p>The SUNY Buffalo facility expands academic access to serious compute while emphasizing energy efficiency. Public-interest AI needs public infrastructure, not leftover cloud credits.</p>
+            <div class="story-source">
+                <a href="https://www.suny.edu/suny-news/press-releases/11-26/11-19-26-2/empire-ai.html" target="_blank">Source: suny.edu →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔬</span> Illumina’s CellularAI Wins the Virtual Cell Challenge</h3>
+            <p>CellularAI pairs the Billion Cell Atlas with prediction across untested cell types. Biology is becoming a model-and-experiment flywheel, not merely another text-generation vertical.</p>
+            <div class="story-source">
+                <a href="https://www.illumina.com/company/news-center/press-releases/press-release-details.html?newsid=29411" target="_blank">Source: illumina.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💰</span> The Fed Dissects How Hyperscalers Finance the AI Boom</h3>
+            <p>St. Louis Fed researchers track cash, debt and investment across ten tech giants. AI’s constraint is increasingly balance-sheet endurance, not access to ideas.</p>
+            <div class="story-source">
+                <a href="https://www.stlouisfed.org/on-the-economy/2026/nov/hyperscalers-financing-ai-investment-boom" target="_blank">Source: stlouisfed.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Simon Willison Makes the Case for Weirder Agent-Built Software</h3>
+            <p>Agents erase hours of implementation but leave humans with harder judgment calls. The real unlock is software for tiny audiences that economics previously made impossible.</p>
+            <div class="story-source">
+                <a href="https://www.turingpost.com/p/simon-willison-on-ai-agents-the-future-of-software-and-why-we-should-build-weirder-things" target="_blank">Source: turingpost.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2123710805694923222" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
