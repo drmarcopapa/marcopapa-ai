@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 21, 2026",
+          "file": "2026-11-21.html",
+          "title": "Anthropic\u2019s Founders Tell the Origin Sto, Inkling 2 Mini Hits 210 Tokens/Second on, Microsoft Teams Are Building on OpenClaw",
+          "stories": 10
+        },
+        {
           "date": "November 20, 2026",
           "file": "2026-11-20.html",
           "title": "Anthropic Rings the Bell on the Frontier, Gemini 4 Neon Lands in OpenClaw, NVIDIA Dynamo Targets the RL Post-Traini",
