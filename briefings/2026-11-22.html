@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 22, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 22, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💳</span> Agentic Commerce Is Reaccelerating</h3>
+            <p>Agent-driven spending reportedly doubled over the last month after a fall plateau, with travel leading the rebound. The real agent benchmark is no longer demos—it is whether users trust software to transact.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2124257522903314807" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Local AI Training Moves Closer to the Desktop</h3>
+            <p>A new local “training/dreaming” engine is drawing developer attention. Inference went local first; lightweight adaptation is the next moat for private, personalized AI.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2124145929569649129" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚙️</span> Astra 6.2 Shows Its Strength on Metal Kernels</h3>
+            <p>One developer reports Astra 6.2 beating Fable 5.2 by 15% on prefill in a complex Apple-silicon workload. Leaderboards are useful, but systems-level optimization is where model differences become product economics.</p>
+            <div class="story-source">
+                <a href="https://x.com/ivanfioravanti/status/2124126005464056097" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> Autopilot Drafts 40 Teams Replies While Its User Is Away</h3>
+            <p>OpenClaw says an Autopilot prioritized and drafted 40 Teams responses during an absence. This is the agent wedge that matters: asynchronous work with a review queue, not another chat window.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2124155892543217970" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> AI Is Becoming Its Own Performance Engineer</h3>
+            <p>Together AI’s Simran Arora is framing AI optimization as a shift from hand-tuned GPU kernels toward models improving kernels and architectures themselves. The compounding loop—AI optimizing the infrastructure that runs AI—is the real acceleration curve.</p>
+            <div class="story-source">
+                <a href="https://x.com/DeepLearningAI/status/2124165188383314085" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Together AI Discloses Prompt Leakage After an Agent Exposed a Credential</h3>
+            <p>Together AI says an AI coding agent committed a credential that enabled unauthorized access to stored prompt samples. This is the warning label for autonomous development: agents need least privilege, secret scanning and zero-retention defaults before they get speed.</p>
+            <div class="story-source">
+                <a href="https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026" target="_blank">Source: together.ai →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📦</span> AWS Quick Packages Agents, Skills and Connectors as Plugins</h3>
+            <p>AWS Quick can now bundle agents, skills, connectors and flows into one installable plugin, with more than 100 options available. The agent platform battle is becoming a distribution and packaging battle—not a prompt battle.</p>
+            <div class="story-source">
+                <a href="https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-plugins-bundle-agents-skills-connectors-flows" target="_blank">Source: aws.amazon.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🌐</span> AWS Quick Brings Persistent Agents to the Web</h3>
+            <p>Quick’s new web experience keeps scheduled agents running after the browser closes and synchronizes work across web, desktop and mobile. Persistence plus cross-surface handoff is how agents graduate from features into operating systems for work.</p>
+            <div class="story-source">
+                <a href="https://aws.amazon.com/about-aws/whats-new/2026/11/aws-quick-launches-new-web-experience-updated-browser-extension-microsoft-365-add-ins" target="_blank">Source: aws.amazon.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Researchers Propose Four Patterns for Safer AI Evaluation</h3>
+            <p>A new paper treats agent evaluation as an active optimization process and proposes diverse supervisors, independent verification, silent monitoring and coordinated shutdown. Sandboxing alone is not a safety architecture when the system can re-plan and delegate.</p>
+            <div class="story-source">
+                <a href="https://arxiv.org/pdf/2611.24987" target="_blank">Source: arxiv.org →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎓</span> UC Signs a Systemwide OpenAI Deal Despite Faculty Pushback</h3>
+            <p>The University of California will pay $1.2 million annually for ChatGPT and coding tools across all 10 campuses while faculty leaders urge caution. Higher education is standardizing AI access faster than it is standardizing governance.</p>
+            <div class="story-source">
+                <a href="https://www.latimes.com/california/story/2026-11-21/uc-openai-chatgpt-deal" target="_blank">Source: latimes.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2124438959468187689" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
