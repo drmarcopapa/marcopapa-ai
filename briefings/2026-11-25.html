@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 25, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 25, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧩</span> MCP Servers Can Now Ship Their Own Skills</h3>
+            <p>MCP is moving from “connect the tool” to “teach the agent how to use it.” Bundling operational knowledge with the server is the kind of boring infrastructure upgrade that quietly makes agents far more reliable.</p>
+            <div class="story-source">
+                <a href="https://x.com/bcherny/status/2125292098165612585" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Anthropic Returns to Neurons for Interpretability</h3>
+            <p>The field’s abstractions have gotten sophisticated, but safety still depends on understanding what individual model components are doing. Going back to neurons is not regression—it is a bet that the simplest unit may still expose the clearest signal.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2125365268381929637" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🚨</span> Siren Tests Whether Agents Will Escape Weak Sandboxes</h3>
+            <p>Anthropic put Claude through 1,700-plus scenarios where useful resources sat outside intentionally weakened sandboxes. This is the right safety question: not whether an agent can escape, but whether task pressure makes it choose to.</p>
+            <div class="story-source">
+                <a href="https://x.com/AnthropicAI/status/2125341904644763678" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🦞</span> OpenClaw Marks One Year of Open Agent Building</h3>
+            <p>The interesting milestone is not the birthday—it is that an open agent stack found real prosumer and enterprise traction. Community-built infrastructure is becoming a serious counterweight to vertically integrated assistants.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2125273417561850199" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📉</span> ShellBench Shows Agents Still Fail Four in Ten Everyday Tasks</h3>
+            <p>After 53,100 graded runs, the top score was only 62.5%, and just 48.8% passed all three attempts. The agent race is still less about dazzling demos and more about surviving mundane reality repeatedly.</p>
+            <div class="story-source">
+                <a href="https://x.com/openclaw/status/2125326970976366734" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💼</span> AI Is Slowing Hiring Before It Triggers Layoffs</h3>
+            <p>Anthropic’s interviews across 58 companies found few AI-driven domestic layoffs, but most firms reported hiring less and cutting contractors. The labor shock is arriving through missing openings, which makes it quieter—and easier to underestimate.</p>
+            <div class="story-source">
+                <a href="https://www.anthropic.com/research/working-with-ai" target="_blank">Source: anthropic.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> CrowdStrike’s $43.9B Zscaler Deal Targets Rogue Agents</h3>
+            <p>CrowdStrike wants one kill switch spanning endpoints, networks, and cloud-bound agent traffic. That framing matters: agent security is rapidly becoming an identity-and-control-plane problem, not another antivirus feature.</p>
+            <div class="story-source">
+                <a href="https://venturebeat.com/security/crowdstrikes-zscaler-deal-aims-to-give-security-teams-a-single-kill-switch-for-rogue-ai-agents" target="_blank">Source: venturebeat.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔐</span> Maple Raises $5.3M for Verifiable Private AI Agents</h3>
+            <p>Maple is combining open models, trusted execution environments, and open-source verification so its agents can work with sensitive data without the company seeing it. “Trust us” will not scale as agents gain access to files, browsers, and calendars.</p>
+            <div class="story-source">
+                <a href="https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself" target="_blank">Source: techcrunch.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">💸</span> Snowflake Turns AI Budget Overruns Into Product Discovery</h3>
+            <p>Instead of merely punishing employees who exceed token caps, Snowflake studies what they built and whether it should spread. Smart move: runaway inference is waste, but the unusual workflow behind it may be the actual innovation.</p>
+            <div class="story-source">
+                <a href="https://venturebeat.com/orchestration/after-token-leaderboards-and-spending-caps-snowflake-has-a-third-idea-keep-the-cap-then-learn-from-whoever-breaks-it" target="_blank">Source: venturebeat.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🐛</span> Researchers Map 87 Failure Types in AI-Generated Code</h3>
+            <p>A new empirical taxonomy goes well beyond functional bugs, drawing from repository histories, AI conversations, and developer interviews. Coding agents will not mature on pass rates alone; teams need a shared vocabulary for the failures humans must catch.</p>
+            <div class="story-source">
+                <a href="https://arxiv.org/html/2611.32676v1" target="_blank">Source: arxiv.org →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2125511496604307872" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>

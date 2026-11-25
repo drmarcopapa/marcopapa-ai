@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 25, 2026",
+          "file": "2026-11-25.html",
+          "title": "MCP Servers Can Now Ship Their Own Skill, Anthropic Returns to Neurons for Interpr, Siren Tests Whether Agents Will Escape W",
+          "stories": 10
+        },
+        {
           "date": "November 23, 2026",
           "file": "2026-11-23.html",
           "title": "OpenAI Wants a Shared Speed Limit for Fr, Model Ensembles Are Beating Brand Loyalt, MLX-Serve Adds Inkling 2 Mini Support",
