@@ -4,6 +4,12 @@
       "label": "November 2026",
       "briefings": [
         {
+          "date": "November 26, 2026",
+          "file": "2026-11-26.html",
+          "title": "Karpathy Turns Public Data Into a Civili, OpenAI Starts Testing Private Inference, Anthropic Rewrites Its Messages API From",
+          "stories": 10
+        },
+        {
           "date": "November 25, 2026",
           "file": "2026-11-25.html",
           "title": "MCP Servers Can Now Ship Their Own Skill, Anthropic Returns to Neurons for Interpr, Siren Tests Whether Agents Will Escape W",
