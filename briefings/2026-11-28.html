@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Briefing — November 28, 2026 | marcopapa.ai</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #121216;
+            --border: #2a2a32;
+            --text: #e8e8ec;
+            --text-dim: #8888a0;
+            --accent: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 0 2rem;
+            position: sticky;
+            top: 0;
+            background: rgba(10, 10, 12, 0.92);
+            backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .header-inner {
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .logo {
+            font-family: 'Space Mono', monospace;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .logo span { color: var(--accent); }
+        .back-link {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .back-link:hover { text-decoration: underline; }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .briefing-date {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 0.8rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        .briefing-meta {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-bottom: 2.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .briefing-meta a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .story {
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+        }
+        .story-emoji {
+            font-size: 1.3rem;
+            margin-right: 8px;
+        }
+        .story h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.6rem;
+            display: inline;
+        }
+        .story p {
+            color: var(--text-dim);
+            line-height: 1.7;
+            margin-top: 0.6rem;
+        }
+        .story-source {
+            margin-top: 0.8rem;
+        }
+        .story-source a {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--accent);
+            text-decoration: none;
+            word-break: break-all;
+        }
+        .story-source a:hover { text-decoration: underline; }
+        .x-post-link {
+            display: inline-block;
+            margin-top: 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.85rem;
+            color: var(--text);
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .x-post-link:hover {
+            border-color: var(--accent);
+        }
+        footer {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+        footer p {
+            font-size: 0.8rem;
+            color: var(--text-dim);
+            font-family: 'Space Mono', monospace;
+        }
+        footer a { color: var(--text-dim); text-decoration: none; }
+        footer a:hover { color: var(--accent); }
+        @media (max-width: 640px) {
+            h1 { font-size: 1.5rem; }
+            .story { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <a href="../" class="logo">marcopapa<span>.ai</span></a>
+            <a href="../#briefings" class="back-link">← All Briefings</a>
+        </div>
+    </header>
+    <main>
+        <div class="briefing-date">November 28, 2026</div>
+        <h1>🤖 AI Briefing</h1>
+        <div class="briefing-meta">
+            10 stories · By <a href="https://x.com/marcopapa99" target="_blank">@marcopapa99</a> · CS Faculty building with AI daily
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧠</span> Karpathy Wants Digital Twins of Entire Countries</h3>
+            <p>— The leap from factory twins to national-scale simulations is where AI stops being a chatbot story and becomes infrastructure. The upside is serious planning leverage; the danger is mistaking an elegant model for reality.</p>
+            <div class="story-source">
+                <a href="https://x.com/karpathy/status/2126347015198302437" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🔓</span> Open Weights Becomes a Loyalty Test</h3>
+            <p>— The rhetoric around open models is hardening because access is now a geopolitical and developer-power issue, not a licensing footnote. Expect every major lab to be judged by what it actually releases, not what it calls “open.”</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2126322056036000081" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">⚡</span> Neon’s 15-Minute Demo Fuels the Claude-Switching Wars</h3>
+            <p>— One flashy build does not settle a platform comparison, but it shows how quickly switching costs collapse when agentic tools can reproduce useful work in minutes. Model loyalty is becoming a monthly subscription decision.</p>
+            <div class="story-source">
+                <a href="https://x.com/MiaAI_lab/status/2126466803329081562" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🎥</span> NVIDIA Research Bakes Multi-Photo Scenes at Test Time</h3>
+            <p>— A compact network can preserve view quality while accelerating rendering, pushing neural graphics closer to practical interactive use. The real race is no longer just fidelity; it is fidelity that ships at usable latency.</p>
+            <div class="story-source">
+                <a href="https://x.com/NVIDIAAI/status/2126390108555489431" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛍️</span> AI Agents Build a Black Friday Gift Guide</h3>
+            <p>— Thirteen consumer agents selecting more than 100 products is a clean preview of shopping moving from search boxes to delegated judgment. Retailers should worry less about SEO rankings and more about whether agents can understand and trust their catalog data.</p>
+            <div class="story-source">
+                <a href="https://x.com/omooretweets/status/2126369633905311883" target="_blank">Source: x.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧑‍💻</span> VS Code Turns Agents Into Persistent Development Workers</h3>
+            <p>— VS Code 1.148 adds remote hosts, isolated containers, reusable sandboxes, worktree cleanup, and faster chat startup. Microsoft is assembling the operating layer for agents that keep working after the editor window is gone.</p>
+            <div class="story-source">
+                <a href="https://code.visualstudio.com/updates/v1_148" target="_blank">Source: code.visualstudio.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🛡️</span> Matters.AI Raises to Police Agent Data Access</h3>
+            <p>— The important security gap is not whether an identity has permission; it is whether a human or autonomous agent is exercising it, and why. Agent adoption will force data lineage and intent detection into the core security stack.</p>
+            <div class="story-source">
+                <a href="https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks" target="_blank">Source: darkreading.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">🧪</span> Coding Agents Beat Dedicated Prompt Optimizers</h3>
+            <p>— Microsoft researchers report that a general coding agent can distill past trajectories into stronger system prompts with fewer costly rollouts. The strategic asset is shifting from hand-written prompts to high-quality execution traces.</p>
+            <div class="story-source">
+                <a href="https://cryptobriefing.com/microsoft-coding-agents-prompt-optimizers" target="_blank">Source: cryptobriefing.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📚</span> D&D Publisher Passes Anthropic Settlement Money to Authors</h3>
+            <p>— Wizards of the Coast is routing its share of the $1.5 billion settlement to writers, turning abstract training-data litigation into actual checks. The precedent that matters is economic: copyrighted corpora are acquiring a measurable training price.</p>
+            <div class="story-source">
+                <a href="https://www.spokesman.com/stories/2026/nov/26/dungeons-dragons-maker-will-pass-ai-settlement-mon" target="_blank">Source: spokesman.com →</a>
+            </div>
+        </div>
+
+        <div class="story">
+            <h3><span class="story-emoji">📉</span> Investor Skepticism Starts Cleaning Up the AI Market</h3>
+            <p>— Cooling enthusiasm is healthy if it kills license-buying theater and forces teams to show workflow-level returns. The next winners will sell measurable operational improvement, not another generic copilot demo.</p>
+            <div class="story-source">
+                <a href="https://www.newsweek.com/investor-skepticism-will-not-end-the-artificial-intelligence-era-it-will-fix-it-12772879" target="_blank">Source: newsweek.com →</a>
+            </div>
+        </div>
+
+
+        <a href="https://x.com/marcopapa99/status/2126620387173974161" target="_blank" class="x-post-link">
+            View original post on X →
+        </a>
+    </main>
+    <footer>
+        <p>© 2026 <a href="../">marcopapa.ai</a></p>
+    </footer>
+</body>
+</html>
